@@ -1,0 +1,125 @@
+--- 
+title: "Trajectoires de biodiversité en forêt tropicale exploitée"
+author: "Ariane Mirabel"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+description: "Thesis manuscript"
+PhD-HDR:
+  DocType: PhD
+  ED: UG
+  Ets: UG
+  DIS: ST
+  speciality: Écologie
+  defence-date: 1er janvier 2018
+  lab:  Écologie des Forêts de Guyane
+  njudge: 7
+  jury1:
+    category: judge
+    name: Prénom NomJury1
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury2:
+    category: judge
+    name: Prénom NomJury2
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury3:
+    category: judge
+    name: Prénom NomJury3
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury4:
+    category: judge
+    name: Prénom NomJury4
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury5:
+    category: judge
+    name: Prénom NomJury5
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury6:
+    category: judge
+    name: Prénom NomJury6
+    status: Professeur d'Université
+    other: Membre du Jury
+  jury7:
+    category: judge
+    name: Prénom NomJury7
+    status: Professeur d'Université
+    other: Membre du Jury
+documentclass: memoir
+classoption:
+  - extrafontsizes
+  - onecolumn
+  - openright
+papersize: A4
+fontsize: 11pt
+toc-depth: 3
+lang: fr
+otherlangs: [en-US, en-GB, fr]
+bibliography: [MyBook.bib, packages.bib, introduction.bib]
+biblio-style: authoryear-ibid
+cite-style: verbose-inote
+biblatexoptions:
+  - backend=bibtex
+  - citestyle=verbose-inote
+  - pageref=true
+  - isbn=false
+  - backref=true
+  - giveninits=true
+  - uniquename=init
+  - maxcitenames=2
+  - maxbibnames=150
+  - sorting=nyt
+  - sortcites=false
+link-citations: yes
+colorlinks: yes
+graphics: yes
+fig_crop: yes
+resume: |
+  A venir
+mots-cles:
+  - Biodiversité
+  - Forêts Néotropicales
+  - Perturbation
+  - Ecologie des Communautés
+  - Dynamique
+abstract: |
+  To be coming
+keywords:
+  - Biodiversity
+  - Neotropical forests
+  - Perturbation
+  - Communities Ecology
+  - Dynamic
+fourthpagefontsize: normalsize
+---
+
+<!-- knitr and R options (packages, ...) --> 
+```{r Options, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(cache=F, warning=FALSE, fig.env='SCfigure', out.width='80%', fig.asp=.75, fig.align='center')
+# Installation of packages if necessary and loading
+Library <- function(Packages) {
+  InstallAndLoad <- function(Package) {
+    if (!Package %in% installed.packages()[, 1]) {install.packages(Package)}
+    require(Package, character.only = TRUE)
+  }
+  invisible(sapply(Packages, InstallAndLoad))
+}
+# Add necessary packages here
+Packages <- c("bookdown", "knitr", "rmarkdown")
+
+# Install them and create packages.bib file to reference them as @R-package
+Library(Packages)
+knitr::write_bib(Packages, file="packages.bib")
+```
+
+```{r eval=FALSE, echo=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+\mainmatter
+ 
