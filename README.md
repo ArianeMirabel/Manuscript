@@ -1,5 +1,3 @@
-# BookTemplate
+# My thesis Manuscript
 
-![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
-
-Customized Bookdown Template
+Frame of my thesis
