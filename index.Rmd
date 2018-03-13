@@ -108,7 +108,7 @@ Library <- function(Packages) {
   invisible(sapply(Packages, InstallAndLoad))
 }
 # Add necessary packages here
-Packages <- c("bookdown", "knitr", "rmarkdown")
+Packages <- c("bookdown", "knitr", "rmarkdown", "kableExtra")
 
 # Install them and create packages.bib file to reference them as @R-package
 Library(Packages)
