@@ -1,4 +1,4 @@
 book_filename: "MyBook"
-repo: "https://github.com/ArianeMirabel/Manuscript.git"
+repo: "https://github.com/ArianeMirabel/Manuscript"
 output_dir: "docs"
 delete_merged_file: true
