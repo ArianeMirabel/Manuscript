@@ -1,6 +1,8 @@
-# Les forêts tropicales humides, au coeur de l'avenir planétaire
+# Introduction générale
 
-## Les écosystèmes forestiers, aujourd'hui incontournables
+## Les forêts tropicales humides, au coeur de l'avenir planétaire
+
+### Les écosystèmes forestiers, aujourd'hui incontournables
 
 Les forêts représentent 30% de la surface du globe et sont attachée à des valeurs historique, culturelle et patrimoniale fortes et ont leur place au coeur des programmes politiques, de recherche et de développement. 
 Elles maintiennent notre environnement naturel, du climat, de la diversité biologique et de la qualité de l'eau, de l'air et des sols.
@@ -16,7 +18,7 @@ Enfin, les forêts interconnectées depuis toujours aux populations humaines rep
 A l'échelle globale la subsistance de 500 millions de personnes dépend directement des forêts qui sont une source de biens allant de la nourriture (via la chasse et la collecte de produits forestiers non ligneux comestibles), à l'eau, aux matériaux de construction, et à l'énergie (vie l'utilisation du bois pour le chauffage et la cuisson des aliments). 
 L'exploitation forestière quant à elle représentait ~ 1% du PIB mondial et une part importante de l'emploi en 2011 et la dendroénergie reste l'une des principales sources d'énergie [@CBDdiversity2011; @FAO2014].
 
-## Des écosystèmes menacés, en particulier sous les tropiques
+### Des écosystèmes menacés, en particulier sous les tropiques
 
 Malgré leur caractère irremplaçable et les multiples biens et services qu'ils rendent, les écosystèmes forestiers subissent une dégradation croissante, ayant abouti à une perte de 3% de leur surface globale entre 2013 et 2015 [@FAO2009].
 Les forêts sont en effet soumises à de fortes pressions anthropiques, telles que changements d’usage des terres, introduction d’espèces invasives et exploitation du bois et de la chasse; et aux changements globaux qui provoquent des modifications climatiques et atmosphériques et augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
@@ -29,10 +31,10 @@ Ces régions de forêt tropicale, historiquement peu peuplées, connaissent une 
 
 Dans la logique de préservation des écosystèmes forestiers, une attention particulière doit ainsi être portée aux zones tropicales et promouvoir une meilleure compréhension de leurs dynamiques et de leur fonctionnement. 
 
-## La biodiversité: clé du fonctionnement des forêts tropicales
+### La biodiversité: clé du fonctionnement des forêts tropicales
 
 Le fonctionnement des écosystèmes forestiers repose largement sur leur biodiversité, *i.e* la diversité biologique des plantes, animaux, champignons et microorganismes qui les constituent, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages en commmunautés.
-Cette biodiversité n'est pas épargnée par les pressions exercées sur les ecosystèmes forestiers: une part significative de la diversité des écosystèmes, des gènes et des espèces a déjà été anéantie et continue de disparaitre irréversiblement, si bien que cette érosion de la biodiversité est déjà qualifiée de sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2010]. 
+Cette biodiversité n'est pas épargnée par les pressions exercées sur les ecosystèmes forestiers: une part significative de la diversité des écosystèmes, des gènes et des espèces a déjà été anéantie et continue de disparaitre irréversiblement, si bien que cette érosion de la biodiversité est déjà qualifiée de sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012]. 
 
 Dans ce contexte, la littérature des 25 dernières années s'est largement intéressée au rôle de la biodiversité et à son érosion, dont l'impact sur le fonctionnement, les biens et les services des écosystèmes est déjà prouvé [@Sterner2002; @Cardinale2012; @Tilman2014].
 D'une part la disparition d'espèces en elle-mêmes représente une dégradation du patrimoine naturel mondial.
@@ -46,13 +48,13 @@ Elle permet également la restauration de l'état avant perturbation et augment 
 
 Comprendre le fonctionnement des forêts et appréhender leur avenir dans le contexte des perturbations actuelles nécessite la compréhension des patrons de diversité, de leurs réponses aux perturbations et de smécanismes sous-jacents.
 
-# Comment mesurer la diversité biologique ?
+## Comment mesurer la diversité biologique ?
 
 La notion de biodiversité correspond à la diversité des espèces vivantes, de leurs gènes et leur phénotype, des interactions écologiques qu'elles ont entre elles et avec leur environnement, et de leurs assemblages [@Loreau2005].
 La biodiversité est donc la somme de la variabilité biologique, des gènes jusqu'aux assemblages d'écosystèmes.
 Sa mesure permet d'appréhender les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
 
-## Assemblage et structure des communautés {#AbundanceDistribution}
+### Assemblage et structure des communautés {#AbundanceDistribution}
 
 Nous nous intéressons ici aux écosystèms forestiers dont les arbres sont les éléments essentiels: la diversité des forêts sera évaluée au travers de la diversité en essences forestières.
 Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces représentées par des effectifs différents.
@@ -77,7 +79,7 @@ La distribution d'abondance cependant n'est pas la représentation la plus aisé
 Les modèles développés et de nombreuses mesures permettent en revanche de mesurer la forme, le nombre d'espèce ou encore l'homonegeité des abondances d'une distribution.
 Ces indicateurs sont les indices de diversité, qui résument de façon quantifiable les caractéristiques des distributions d'abondance.
 
-## Les composantes de la diversité
+### Les composantes de la diversité
 
 La biodiversité d'une communauté est souvent assimilée à sa richesse en espèces. 
 Nous avons cependant vu que l'abondance des différentes espèces est essentiel pour décrire une communauté \@ref(ref:AbundanceDistribution). 
@@ -112,7 +114,7 @@ Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transforma
 
 Les mesures de diversité choisies sont donc la traduction intelligible en nombre équivalent d'espèces d'une déclinaison d'indices combinant richesse et équitabilité de différentes façons et qui capte toute la structure de diversité.
 
-## Résolution du biais d'échantillonnage
+### Résolution du biais d'échantillonnage
 
 En pratique aucun inventaire n'est exhaustif, et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous estiment la richesse et faussent l'abondance des espèces.
 Ce biais doit être corrigé en estimant les abondances réelles à partir des observations et des relations mathématiques qu'il existe entre les abondances des différentes espèces.
@@ -128,7 +130,7 @@ Les singletons (espèces observées une seule fois) et les doubletons (espèces 
 Cette relation de base a été précisée selon de nombreuses méthodes, en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire réel et permet de savoir quelle proportion de la communauté a pu être échantillonnée [@Dauby2012].
 Ces développements fournissent des méthodes adaptées à l acorraction des biais d'échantillonnage pour tous types d'inventaires réels selon la formule la plus appropriée [@Chao2015; @Marcon2015b].
 
-## Diversité fonctionnelle
+### Diversité fonctionnelle
 
 Les mesures de diversité décrites précédemment considèrent toutes les espèces de la même façon: la richesse compte le nombre d'espèces distinctes, que celles-ci aient ou non les mêmes caractéristiques fonctionnelles ou qu'elles soient proches phylogénétiquement ou non. 
 Ces mesures de diversité, dites neutres car elles ne tiennent pas compte des caractéristiques de chaque espèce, peuvent être étendues pour intégrer la similarité entre espèces au sein d'une communauté.
@@ -161,16 +163,16 @@ L'engouement récent de l'écologie pour l'approche fonctionnelle a permis la cr
 [^1] http://www.ecofog.gf/Bridge/
 
 
-# La Guyane Française et l'exemple de la station de Paracou
+## La Guyane Française et l'exemple de la station de Paracou
 
 Le bassin Amazonien est la plus riche des trois principales régions de forêt tropicale humide [@Gentry1988].
 La Guyane française en est une région française de 83 846 km^2, au Nord-Est du continent sud-américain entre le Surinam et le Brésil, recouverte à 95% par la forêt tropicale humide.
 
-## Le contexte Guyanais
+### Le contexte Guyanais
 
 La région appartient au bouclier des Guyanes qui s'étend de l'Amapa au Brésil jusqu'au delta de l'Orénoque au Venezuela.
 Formé il y a plus de 2 milliards d'années, le bouclier des Guyanes correspond aujourd'hui à un assemblage d'unités géomorphologiques façonnées par une succession d'épisodes géologiques, climatiques et marins.
-Ces unités intègrent des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015c, cf Toto].
+Ces unités intègrent des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015, cf Toto].
 
 Le relief Guyanais est constitué d'une alternance de collines, jusqu'à 50m d'altitude, et de bas-fonds humides et correspond à une forte variabilité de la pente et du sol.
 La profondeur et la composition des sols et leur capacité de rétention et de drainage de l'eau est ausi très hétérogène [@Ferry2010; @Robert2003;  ref dans thèse Toto].
@@ -184,9 +186,9 @@ La forêt Guyanaise est une forêt équatoriale sempervirente ombrophile de plai
 D'une richesse incroyable, elle accueille plus de 7 000 espèces végétales (hors champignons) dont 1 500 espèces d'arbres et une richesse faunistique toute aussi incroyable. [@deNoter2008, to be found].
 La composition spécifique des arbres connait également une importante variabilité spatiale.
 Plusieurs patrons de composition on été mis en évidence selon un gradient du nord-ouest, où dominent les familles botaniques des *Lecythidaceae* et *Cesalpinaceae*, au sud-est, où dominent *Burseraceae* et *Mimosaceae*.
-Ces patrons ont montré être déterminés en particulier par une combinaison de la topographie et de la pédologie [@Sabatier1990; @Sabatier1997 cf Toto; @Guitet2015c].
+Ces patrons ont montré être déterminés en particulier par une combinaison de la topographie et de la pédologie [@Sabatier1990; @Sabatier1997 cf Toto; @Guitet2015].
 
-## Paracou, plus de 30 de suivi de la forêt Amazonienne
+### Paracou, plus de 30 de suivi de la forêt Amazonienne
 
 Le dispositif de Paracou, installé entre les communes de Kourou et Sinnamary (5°18'N and 52°53'W), a été mis en place en 1984 pour étudier l'impact de l'exploitation forestière sélective sur les peuplements.
 Le dispositif correspond à l'origine à 12 parcelles de 6.25 ha ayant subi en 1984 un gradient de trois intensités d'abattage, d'éclairices et de coupe de bois de chauffage.
@@ -211,7 +213,7 @@ knitr::include_graphics("ExternalFig/Paracou.jpg")
 Sur l'ensemble du dispositif sont recensées 591 espèces d'arbres appartenant à 223 genre et 64 familles botaniques, principalement les *Fabaceae*, les *Chrisobalanaceae*, les *Lecythidaceae* et les *Sapotaceae*.
 Les températures annuelles atteignent 26°C et les précipitations 2 980 mm.an^-1^ de mi-août à mi-novembre, avec une saison sèche d'un mois en mars [@Wagner2011].
 
-## Méthodes d'inventaires
+### Méthodes d'inventaires
 
 Depuis la mise en place du dispositif en 1984 toutes les parcelles sont inventoriées chaque année à la saison sèche à partir de mi-juillet.
 Tous les arbres de plus de 10 cm de diamètre à 1.30 m (diamètre à hauteur de poitrine, *DBH* en anglais) sont identifiés, marqués d'un numéro et cartographiés.
@@ -227,7 +229,7 @@ L'histoire des inventaires botaniques s'étant construite petit à petit au gré
 Ceci génère des incertitudes taxonomiques significatives notamment au regard des arbres n'ayant pu être identifiés qu'au niveau vernaculaire, lorsque l'individu est mort avant d'avoir pu être identifié au cours d'une campagne botanique.
 Les noms vernaculaires eux-mêmes génèrent de l'incertitude taxonomique: un nom vernaculaire correspond souvent à plusieurs nom botanique et inversement un nom botanique peut correspondre à plusieurs noms vernaculaires [@Oldeman1968].
 
-# Problématique et plan de la thèse
+## Problématique et plan de la thèse
 
 La thèse présentée ici vise à identifier la réponse aux perturbations d'une forêt tropicale naturelle en termes de diversité taxonomique et fonctionnelle et à en interpréter les mécanismes sous-jacents.
 Le document s'articule en trois chapitres qui prennent la forme d'articles en cours de rédaction (pour le moment!).
