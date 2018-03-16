@@ -23,44 +23,45 @@ L'exploitation forestière quant à elle représentait ~ 1% du PIB mondial et un
 Malgré leur caractère irremplaçable et les multiples biens et services qu'ils rendent, les écosystèmes forestiers subissent une dégradation croissante, ayant abouti à une perte de 3% de leur surface globale entre 2013 et 2015 [@FAO2009].
 Les forêts sont en effet soumises à de fortes pressions anthropiques, telles que changements d’usage des terres, introduction d’espèces invasives et exploitation du bois et de la chasse; et aux changements globaux qui provoquent des modifications climatiques et atmosphériques et augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
 Une prise de conscience globale, entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992, a motivé de nombreuses politiques de surveillance , de conservation de la biodiversité et de préservation du fonctionnement des forêts.
-Malgré tout les pressions exercées sur les forêts et leurs biens et services écosystémiques restent croissantes [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Malgré tout, les pressions exercées sur les forêts restent croissantes et mettent en jeu les biens et services qu'elles rendent [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
 
-Ce contexte concerne en particulier les forêts tropicales, où les menaces anthropiques pèsent d'autant plus lourdement que leur rôle est déterminant au niveau mondial [@Dirzo2003a; @Hansen2013]. 
-Les bassins forestiers tropicaux, qui représentent 1.3 million d'hectares, sont les milieux où la diversité biologique est la plus élevée au monde et ils accueillent les plus grandes surfaces de forêts "primaires", au sens de forêts anciennes n'ayant pas connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
-Ces régions de forêt tropicale, historiquement peu peuplées, connaissent une croissance démographique moyenne de près de 1,4% par an qui entraîne des pressions croissantes de chasse, d'exploitation du bois, de conversion en terres agricoles et de dégradation en forêts secondaires [@Asner2009].
+Ce contexte concerne en particulier les forêts tropicales, où les menaces anthropiques pèsent d'autant plus gravement que leur rôle est déterminant au niveau mondial [@Dirzo2003a; @Hansen2013]. 
+Les bassins forestiers tropicaux, qui représentent 1.3 million d'hectares, accueillent la diversité biologique la plus élevée au monde.
+Ils correspondent également aux plus grandes surfaces de forêts anciennes "primaires", qui n'ont pas connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
+Ces régions de forêt tropicale, historiquement peu peuplées, connaissent aujourd'hui une croissance démographique moyenne de près de 1,4% par an entraînant des pressions croissantes de chasse, d'exploitation du bois, de conversion en terres agricoles et de dégradation en forêts secondaires [@Asner2009].
 
-Dans la logique de préservation des écosystèmes forestiers, une attention particulière doit ainsi être portée aux zones tropicales et promouvoir une meilleure compréhension de leurs dynamiques et de leur fonctionnement. 
+Dans la logique de préservation des écosystèmes forestiers, une attention particulière doit ainsi être portée aux zones tropicales et aller vers une meilleure compréhension de leurs dynamiques et de leur fonctionnement. 
 
 ### La biodiversité: clé du fonctionnement des forêts tropicales
 
-Le fonctionnement des écosystèmes forestiers repose largement sur leur biodiversité, *i.e* la diversité biologique des plantes, animaux, champignons et microorganismes qui les constituent, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages en commmunautés.
-Cette biodiversité n'est pas épargnée par les pressions exercées sur les ecosystèmes forestiers: une part significative de la diversité des écosystèmes, des gènes et des espèces a déjà été anéantie et continue de disparaitre irréversiblement, si bien que cette érosion de la biodiversité est déjà qualifiée de sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012]. 
+Le fonctionnement des écosystèmes forestiers repose largement sur leur biodiversité, *i.e* la diversité biologique des plantes, animaux, champignons et microorganismes qui les constituent, de leur variabilité génétique et phénotypique, et de la variabilité de leur assemblage en commmunautés.
+Les pressions exercées sur les forêts n'épargnent pas leur diversité d'écosystèmes, de gènes et d'espèces dont une part significative a déjà été anéantie et continue de disparaitre irréversiblement.
+Cette érosion de la biodiversité est déjà qualifiée de sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012]. 
 
-Dans ce contexte, la littérature des 25 dernières années s'est largement intéressée au rôle de la biodiversité et à son érosion, dont l'impact sur le fonctionnement, les biens et les services des écosystèmes est déjà prouvé [@Sterner2002; @Cardinale2012; @Tilman2014].
-D'une part la disparition d'espèces en elle-mêmes représente une dégradation du patrimoine naturel mondial.
-Selon l'originalité biologique des espèces et l'existence d'autres biologiquement proches, leur disparition peut signifier la perte de leur rôle dans l'écosystème et avoir des conséquences importantes et inattendues, comme ce peut être le cas d'espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
-D'autre part, la diversité biologique implique une complémentarité entre individus optimisant l'utilisation et la transformation des resources naturelles qui détermine les flux de nutriments, d'eau et de carbone et la producivité des écosystèmes.
-Ces flux de matière et d'énergie sont la base des processus écosystémiques s'opèrant entre l'environnement et les organismes, le long de chaînes trophiques ou dans l'espace et le temps via des migrations et du stockage. 
-Ces processus dépendent des stratégies spécifiques d'utilisation des ressources et dépendent donc de la composition et de la diversité en espèces des communautés [@Begon2006].
+Dans ce contexte, la littérature s'est largement intéressée au rôle de la biodiversité et à son érosion, dont l'impact sur le fonctionnement, les biens et les services des écosystèmes est déjà prouvé [@Sterner2002; @Cardinale2012; @Tilman2014].
+La disparition d'espèces en elle-même, d'une part, représente une dégradation du patrimoine naturel mondial.
+D'autre part, selon l'originalité biologique des espèces et l'existence d'autres espèces biologiquement proches leur disparition peut signifier la perte de leur rôle dans l'écosystème et avoir des conséquences importantes et inattendues, comme ce peut être le cas pour des espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
+Par ailleurs, la diversité biologique implique une complémentarité entre individus permettant d'optimiser l'utilisation et la transformation des resources naturelles.
+Elle détermine donc la productivité des écosystèmes et les flux de nutriments, d'eau et de carbone à la base des processus écosystémiques.
+Ces processus entre l'environnement et les organismes, comme les chaînes trophiques, les migrations ou le stockage stockage, dépendent des stratégies spécifiques d'utilisation des ressources et donc de la composition et de la diversité en espèces des communautés [@Begon2006].
 Enfin, la diversité des communautés détermine la stabilité des écosystèmes.
-Une diversité importante limite l'impact des perturbations, comme les maladies, les espèces invasives ou les variations environnementales, et améliore ainsi la résistance des écosystèmes.
-Elle permet également la restauration de l'état avant perturbation et augment donc la résilience de l'écosystème de départ [@Elmqvist2003].
+Une diversité importante limite d'une part l'impact des maladies, des espèces invasives, des variations environnementales, etc et augmente la résistance des écosystèmes et facilite d'autre part la restauration de l'état avant perturbation et augmente la résilience de l'écosystème[@Elmqvist2003].
 
-Comprendre le fonctionnement des forêts et appréhender leur avenir dans le contexte des perturbations actuelles nécessite la compréhension des patrons de diversité, de leurs réponses aux perturbations et de smécanismes sous-jacents.
+Le rôle de la biodiversité et l'impact de son érosion ont déjà été prouvé, mais l'impact des perturbations actuelles sur les trajectoires de composition et de diversité des écosystèmes demeurent parfois imprécis.
+Il est nécessaire de mieux expliciter la réponse des communautés en termes de composition et de diversité pour en anticiper l'impact sur le fonctionnement et l'évenir des forêts.
 
 ## Comment mesurer la diversité biologique ?
 
-La notion de biodiversité correspond à la diversité des espèces vivantes, de leurs gènes et leur phénotype, des interactions écologiques qu'elles ont entre elles et avec leur environnement, et de leurs assemblages [@Loreau2005].
-La biodiversité est donc la somme de la variabilité biologique, des gènes jusqu'aux assemblages d'écosystèmes.
-Sa mesure permet d'appréhender les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+La notion de biodiversité correspond à la diversité des espèces vivantes, de leurs gènes et de leur phénotype, des interactions écologiques qu'elles ont entre elles et avec leur environnement, et de leurs assemblages en communautés [@Loreau2005].
+La biodiversité est donc la somme de la variabilité biologique, des gènes jusquà l'assemblages de sespèces en écosystèmes.
+Mesurer la biodiversité permet donc d'appréhender les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
 
 ### Assemblage et structure des communautés {#AbundanceDistribution}
 
-Nous nous intéressons ici aux écosystèms forestiers dont les arbres sont les éléments essentiels: la diversité des forêts sera évaluée au travers de la diversité en essences forestières.
-Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces représentées par des effectifs différents.
-Certaines espèces snt très abondantes, d'autres moyennement communes et d'autres encore, souvent la majorité, sont rares.
-La façon la plus simple et immédiate de décrire une communauté est de donner la distribution d'abondance de ses espèces, qui résume les proportions entres espèces abondantes et espèces communes ou rares.
-Cette distribution varie d'une communauté à l'autre, mais elle est régie par des lois écologiques qui lui donnent invariablement une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
+Nous nous intéressons ici aux écosystèms forestiers dont les arbres sont les éléments essentiels, mesurer la diversité des forêts reviendra ici à mesurer leur diversité en essences forestières.
+Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces dont les effectifs sont différents: certaines seront très abondantes, d'autres moyennement communes et d'autres encore, souvent la majorité, rares.
+La façon la plus simple et immédiate de décrire une communauté est de donner la distribution d'abondance de ses espèces, qui représente les proportions d'espèces abondantes rapport aux espèces communes ou rares.
+Cette distribution bien que variable d'une communauté à l'autre, est régie par des lois écologiques lui donnant invariablement une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
 
 ```{r AbdDist, out.width='60%', fig.cap="Exemple de distribution d'abondance pour une communauté d'arbres en forêt tropicale humide"}
 knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
@@ -69,24 +70,23 @@ knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
 Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
 Ces modèles reflètent le lien entre l'importance d'une espèce et la quantité de resources qu'elle mobilise dans l'environnement pour son développement: plus une espèce sera comptétitive, plus elle sera abondante.
 Ce lien s'établit vis à vis de la ressource la plus limitante: il peut s'agir de la lumière atteignant le sol en forêt tropicale, de l'eau dans les milieux arides, de l'espace, etc [@findref; @Johns1996 dans Asner2004spatial-and-temporal]. 
-Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espècesdes la communauté.
-De nombreux modèles prédictifs ont été proposés, ce sont des modèles statistiques qui divisent aléatoirement la ressource en supposant une loi de propabilité qui détermine les effectifs de chaque espèce, ou des modèles mécanistes qui divisent les resources selon une formule prédéterminée, par exemple en divisant successivement la ressource selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
+Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espèces de la communauté.
+De nombreux modèles prédictifs ont été proposés, des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité qui détermine les effectifs de chaque espèce, ou des modèles mécanistes divisant la resource selon une formule prédéterminée, par exemple en la divisant successivement selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
 
-Ces modèles éprouvés pour de nombreuses communautés ont montré une bonne représentation des communautés réelles.
-Ils révèlent ainsi les règles écologiques qui régissent les communautés, et permettent de comparer les communautés et d'en interpréter les différences.
-
-La distribution d'abondance cependant n'est pas la représentation la plus aisée à manipuler et ne permet pas de quantifier les différences entre communautés.
-Les modèles développés et de nombreuses mesures permettent en revanche de mesurer la forme, le nombre d'espèce ou encore l'homonegeité des abondances d'une distribution.
-Ces indicateurs sont les indices de diversité, qui résument de façon quantifiable les caractéristiques des distributions d'abondance.
+Ces modèles, éprouvés pour de nombreuses communautés, ont montré une bonne représentation des communautés réelles et révèlent ainsi les règles écologiques qui en régissent l'assemblage.
+Ce sont donc des outils adéquats pour comparer les communautés et d'en interpréter les différences.
+Manipuler une distribution d'abondance n'est cependant pas le plus aisé et ne permet pas de quantifier les différences entre communautés.
+A partir de ces distribution et des modèle proposés pour les représeter, en revanche, de nombreuses mesures permettent de quantifier le nombre d'espèces, la forme des distribution, ou encore l'homogénéité des abondances sépcifiques.
+Ces indicateurs sont les indices de diversité, résumant de façon quantifiable les caractéristiques des distributions d'abondance.
 
 ### Les composantes de la diversité
 
 La biodiversité d'une communauté est souvent assimilée à sa richesse en espèces. 
-Nous avons cependant vu que l'abondance des différentes espèces est essentiel pour décrire une communauté \@ref(ref:AbundanceDistribution). 
-Une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare: une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais des abondances équivalentes.
+L'abondance des différentes espèces est cepedant essentiel pour décrire une communauté \@ref(ref:AbundanceDistribution). 
+Une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare: une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais aux abondances équivalentes.
 En plus de refléter les règles fondamentales d'assemblage des communautés, l'équitabilité d'une communauté peut être bien plus révélatrice du fonctionnement des écosystèmes que leur richesse ou leur composition.
 Cette idée est illustrée par l'hypothèse du ratio de biomasse selon laquelle les espèces dominantes caractérisent bien plus les écosystèmes que les espèces rares.
-Les espèces peu communes n'ont en effet qu'une influence à long terme, en tant que potentielles futures espèces dominantes en cas de perturbation de l'environnement, ou pas d'influence, si elles ne sont que transitoires et ne persistent pas dans l'écosystème [@Grime1998].
+Les espèces peu communes n'ont en effet qu'une influence à long terme en tant que potentielles futures espèces dominantes s'il s'opère un changement de l'environnement, ou pas d'influence si elles ne sont que transitoires et ne persistent pas dans l'écosystème [@Grime1998].
 
 La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la régularité de distribution d'abondance des espèces, sont donc les deux composantes à prendre en compte pour mesurer la diversité d'une communauté \@ref(fig:RichEqu) [@Whittaker1965; @Magurran2004].
 
@@ -94,30 +94,28 @@ La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la
 knitr::include_graphics("ExternalFig/Fig_RichnessEquitability.jpg")
 ```
 
-Il n'existe pas une mesure unique résumant correctement la diversité d'une communauté.
-Il faut pour cela utiliser et comparer un panel d'indices de diversité combinant différemment les composantes de la diversité.
-Des familles d'indices de diversité ont ainsi été proposées pour mesurer la diversité d'une communauté à partir d'une même formule modulable selon le poids accordé aux différentes composantes de la diversité.
-La famille des indices de diversité de Réyni, judicieuse dans le cas de figure d'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) qui intègre un paramètre *q* appelé "ordre de diversité" et qui correspond à l'importance donnée aux espèces rares par rapport aux espèces abondantes [@Mendes2008].
+Aucune mesure unique ne mesure pleinement la diversité, mais plutôt un panel d'indices combinant différemment les composantes de la diversité.
+Des familles d'indices ont été développées et regroupent les indices mesurés selon une même formule modulable selon le poids accordé aux différentes composantes de la diversité.
+La famille des indices de diversité de Réyni, judicieuse pour l'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) modulée par un paramètre *q* appelé "ordre de diversité" correspond au poids des espèces rares par rapport aux espèces abondantes [@Mendes2008].
+Plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes.
 
 \begin{equation}
 ^{q}H=\frac{1}{q-1}\Bigg(1-\displaystyle\sum_{s=1}^{S}p^q_s\Bigg) }
 (\#eq:formHCDT)
 \end{equation}
 
-
-Plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes.
-Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés: la richesse correspond à l'ordre 0 où chaque espèce contribue de la même façon à la mesure de diversité, l'indice de Shannon correspond à l'ordre 1 où richesse et équitabilité sont également pris en compte, et l'indice de Simpson (parfois appelé "diversité en espèces abondantes") correspond à l'ordre 2 pour lequel les espèces rares sont presque négligées dans la mesure de la diversité [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
+Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés: l'ordre 0 où chaque espèce contribue de la même façon correspond à la richesse spécifique, l'ordre 1 où richesse et équitabilité sont également pris en compte correspond à l'indice de Shannon, et l'ordre 2 pour lequel les espèces rares sont presque négligées correspond à l'indice de Simpson (parfois appelé "diversité en espèces abondantes") [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
 
 Ces indices, s'ils sont corrects et représentatifs des différentes composantes de la diversité, ne correspondent pas directement à un nombre intelligible et ne permettent pas de comparer facilement des communautés de tailles différentes.
-On se rapporte donc à un *nombre équivalent d'espèces* correspondant au nombre d'espèce qu'aurait la communauté étudiée si toutes les abondances étaient égales.
+On se rapporte donc à un *nombre équivalent d'espèces* correspondant au nombre d'espèces qu'aurait la communauté étudiée si toutes les abondances étaient égales.
 Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transformation des valeurs obtenues par une exponentielle à base q [@Hill1973].
 
 Les mesures de diversité choisies sont donc la traduction intelligible en nombre équivalent d'espèces d'une déclinaison d'indices combinant richesse et équitabilité de différentes façons et qui capte toute la structure de diversité.
 
 ### Résolution du biais d'échantillonnage
 
-En pratique aucun inventaire n'est exhaustif, et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous estiment la richesse et faussent l'abondance des espèces.
-Ce biais doit être corrigé en estimant les abondances réelles à partir des observations et des relations mathématiques qu'il existe entre les abondances des différentes espèces.
+En pratique aucun inventaire n'est exhaustif, et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous-estiment la richesse et faussent l'abondance des espèces.
+La correction de ce biais nécessite l'estimation des abondances réelles à partir des observations et des relations mathématiques qu'il existe entre les abondances des différentes espèces.
 La première application de cette méthode correspond à l'adaptation de la formule des fréquences de Turing [@Good1953] où l'abondance réelle *\alpha_v* d'une espèce observée *v* fois dans un échantillonnage de *n* individus est reliée au rapport entre le nombre d'autres espèces observées également *v* fois et de celles observées *v+1* fois \@ref{eq=formGoodTuring}:
 
 \begin{equation}
@@ -128,11 +126,11 @@ La première application de cette méthode correspond à l'adaptation de la form
 Les singletons (espèces observées une seule fois) et les doubletons (espèces observées deux fois) sont particulièrement intéressants car il permettent d'estimer le nombre *s^n_0* d'espèces manquées (observées zéro fois) et donc de corriger le biais d'échantillonnage de la richesse, sachant que $s^n_0=\frac{s^n_1}{n}$.
 
 Cette relation de base a été précisée selon de nombreuses méthodes, en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire réel et permet de savoir quelle proportion de la communauté a pu être échantillonnée [@Dauby2012].
-Ces développements fournissent des méthodes adaptées à l acorraction des biais d'échantillonnage pour tous types d'inventaires réels selon la formule la plus appropriée [@Chao2015; @Marcon2015b].
+Pour chaque inventaire, des méthodes permettant de choisir la correction la plus adéquate ont de plus été développés et éprouvés [@Chao2015; @Marcon2015b].
 
 ### Diversité fonctionnelle
 
-Les mesures de diversité décrites précédemment considèrent toutes les espèces de la même façon: la richesse compte le nombre d'espèces distinctes, que celles-ci aient ou non les mêmes caractéristiques fonctionnelles ou qu'elles soient proches phylogénétiquement ou non. 
+Les mesures de diversité décrites précédemment considèrent toutes les espèces de la même façon: la richesse compte le nombre d'espèces distinctes, que celles-ci aient ou non les mêmes caractéristiques fonctionnelles ou phylogénétiques. 
 Ces mesures de diversité, dites neutres car elles ne tiennent pas compte des caractéristiques de chaque espèce, peuvent être étendues pour intégrer la similarité entre espèces au sein d'une communauté.
 Plus les espèces d'une communauté sont différentes plus la diversité sera élevée: dans le cas des communautés végétales la similarité entre espèces peut être phylogénétique, en considérant leur distance au sein d'un arbre phylogénétique, ou fontionnelle, en considérant leurs différences morphologiques ou physiologiques \@ref(fig:RichEquSim).
 
@@ -152,13 +150,13 @@ Le filtrage environnemental sera traduit par une aggrégation des traits et une 
 L'approche fonctionnelle nécessite de choisir judicieusement les traits intégrés aux indices de diversité.
 Une vaste littérature a permis d'identifier les traits clés représentatifs de l'écologie et de la croissance des espèces et de leur influence sur le fonctionnement de l'écosystème [@Reich2014].
 Les traits foliaires tout d'abord, représentatifs de la stratégie d'acquisition et d'allocation des resources, ont permis de définir un "spectre économique foliaire" opposant les espèces à larges feuilles fines ayant une forte capacité photosynthétique correspondant à une acquisition rapide des resources, aux espèces à petites feuilles coriaces et résistantes.
-Ces stratégies d'acquisition des resources déterminent la stratégie de croissance des espèces: les espèces "acquisitives" auront une croissance rapide et une courte durée de vie tandis que les espèces "conservatives" auront une coirssance plus lente mais une meilleure résistance aux conditions evitronnementales éprouvantes [@Reich1997; @Wright2004].
+Ces stratégies d'acquisition des resources déterminent la stratégie de croissance des espèces: les espèces "acquisitives" auront une croissance rapide et une courte durée de vie tandis que les espèces "conservatives" auront une croissance plus lente mais une meilleure résistance aux conditions environnementales éprouvantes [@Reich1997; @Wright2004].
 Un gradient similaire s'applique aux traits racinaires et aux propriétés du bois, opposant les espèces aux tissus légers à courte durée de vie permettant une croissance rapide à celles aux tissus denses plus résistants et mobilisant plus de ressources [@Chave2009; @Valverde-Barrantes2017].
-Ces traits fonctionnels mesurables à l'échelle de l'individus en déterminent la performance et la stratégie écologique et sont associés à des *traits d'histoire de vie* mesurables à l'échelle de l'espèce.
-Parmi ce straits d'histoire de vie la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte ont montré être particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
+Ces traits fonctionnels mesurables à l'échelle de l'individus déterminent sa stratégie écologique et sa performance et sont associés à des *traits d'histoire de vie* mesurables à l'échelle de l'espèce.
+Parmi ces traits d'histoire de vie la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte ont montré être particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
 
-La combinaison des trais fonctionnels foliaires, racinaire et du bois et des traits d'histoire de vie permet d'appréhender précisément la stratégie fonctionnelle des espèces, leurs préférences écologiques et leur performance de croissance et de survie.
-L'engouement récent de l'écologie pour l'approche fonctionnelle a permis la création de bases de données fonctionnelles conséquentes et standardisées qui rendent possibles l'approche fonctionnelle à l'échelle des communautés [@Kattge2011; @Perez-Harguindeguy2013; [^1]]
+La combinaison de l'ensemble de ces traits spécifique, foliaires, racinaires et du bois permet d'appréhender précisément la stratégie fonctionnelle des espèces, leurs préférences écologiques et leur performance de croissance et de survie.
+L'engouement récent de l'écologie pour l'approche fonctionnelle a de plus permis la création de bases de données fonctionnelles conséquentes et standardisées qui rendent possibles l'approche fonctionnelle à l'échelle des communautés [@Kattge2011; @Perez-Harguindeguy2013; [^1]]
 
 [^1] http://www.ecofog.gf/Bridge/
 
@@ -172,21 +170,21 @@ La Guyane française en est une région française de 83 846 km^2, au Nord-Est d
 
 La région appartient au bouclier des Guyanes qui s'étend de l'Amapa au Brésil jusqu'au delta de l'Orénoque au Venezuela.
 Formé il y a plus de 2 milliards d'années, le bouclier des Guyanes correspond aujourd'hui à un assemblage d'unités géomorphologiques façonnées par une succession d'épisodes géologiques, climatiques et marins.
-Ces unités intègrent des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015, cf Toto].
+Ces unités intègrent des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015].
 
-Le relief Guyanais est constitué d'une alternance de collines, jusqu'à 50m d'altitude, et de bas-fonds humides et correspond à une forte variabilité de la pente et du sol.
-La profondeur et la composition des sols et leur capacité de rétention et de drainage de l'eau est ausi très hétérogène [@Ferry2010; @Robert2003;  ref dans thèse Toto].
-Les sols sont des Acrisols recouvrant une couche de saprolite transformée peu perméable entraînant un drainage latéral des précipitations.
+Le relief Guyanais est une alternance de collines, jusqu'à 50m d'altitude, et de bas-fonds humides qui correspond à une forte variabilité de la pente et du sol.
+La profondeur et la composition des sols et leur capacité de rétention et de drainage de l'eau sont ainsi très hétérogène [@Ferry2010; @Robert2003].
+Les sols sont des Acrisols recouvrant une couche de saprolite transformée peu perméable qui entraîne un drainage latéral des précipitations.
 
 Le climat est un climat tropical humide, davantage marqué par le régime des précipitations que par celui des températures. 
 La température moyenne est 26°C et reste constante au cours de l'année tandis les précipitations moyennes annuelles varient de 2 000 à 4 000 mm.an^-1^ et montrent une grande variabilité spatiale et temporelle.
-Les précitation suivent un gradient décroissant marqué d'est en ouest et une forte variabilité au cours de l'année, avec une saison humide entre novembre et avril et une saison sèche d'avril à mi-juillet durant laquelle les précipitations sont inférieures à 50 mm [@Wagner2011].
+Les précitations suivent un gradient décroissant marqué d'est en ouest et une forte variabilité au cours de l'année, avec une saison humide entre novembre et avril et une saison sèche d'avril à mi-juillet durant laquelle les précipitations sont inférieures à 50 mm [@Wagner2011].
 
 La forêt Guyanaise est une forêt équatoriale sempervirente ombrophile de plaine. 
-D'une richesse incroyable, elle accueille plus de 7 000 espèces végétales (hors champignons) dont 1 500 espèces d'arbres et une richesse faunistique toute aussi incroyable. [@deNoter2008, to be found].
+D'une richesse incroyable, elle accueille plus de 7 000 espèces végétales (hors champignons) dont 1 500 espèces d'arbres et une richesse faunistique toute aussi incroyable [@DeNoter2008].
 La composition spécifique des arbres connait également une importante variabilité spatiale.
 Plusieurs patrons de composition on été mis en évidence selon un gradient du nord-ouest, où dominent les familles botaniques des *Lecythidaceae* et *Cesalpinaceae*, au sud-est, où dominent *Burseraceae* et *Mimosaceae*.
-Ces patrons ont montré être déterminés en particulier par une combinaison de la topographie et de la pédologie [@Sabatier1990; @Sabatier1997 cf Toto; @Guitet2015].
+Ces patrons ont montré être déterminés en particulier par une combinaison de la topographie et de la pédologie [@Sabatier1989; @Sabatier1997 cf Toto; @Guitet2015].
 
 ### Paracou, plus de 30 de suivi de la forêt Amazonienne
 
@@ -219,15 +217,15 @@ Depuis la mise en place du dispositif en 1984 toutes les parcelles sont inventor
 Tous les arbres de plus de 10 cm de diamètre à 1.30 m (diamètre à hauteur de poitrine, *DBH* en anglais) sont identifiés, marqués d'un numéro et cartographiés.
 Les arbres morts sont relevés chaque années et notés en précisant le type mort (mort sur pied, chablis primaire ou chablis secondaire).
 
-Lorsqu'un arbre atteint 10 cm il est *recruté* et rentre dans les inventaires.
-Il est alors identifié dans un premier temps par un nom *vernaculaire*, ou nom commun, attribué par l'équipe de terrain.
+Lorsqu'un arbre atteint 10 cm il est *recruté* et sera mesuré chaque année.
+Il est identifié dans un premier temps par un nom *vernaculaire*, ou nom commun, attribué par l'équipe de terrain.
 En 1984, 62 espèces commerciales étaient identifiées par un nom commun propre tandis que toutes les autres espèces étaient regroupées sous deux noms vernaculaires distinguant seulement les palmiers des espèces arborées.
 Cette première identification s'est précisée par la suite et aujourd'hui 235 noms vernaculaires différents sont recensés pour l'ensemble du dispositif sur les 30 ans de suivi.
 Des campagnes d'identification botanique au cours desquelles les arbres sont identifiés au niveau espèce ont été mises en place à partir de 2003 et se poursuivent tous les 5 à 6 ans.
 
 L'histoire des inventaires botaniques s'étant construite petit à petit au gré des nouveaux projets et des forces en présence, la précision et le taux d'identification botaniques sont variables au cours du temps et entre les parcelles.
-Ceci génère des incertitudes taxonomiques significatives notamment au regard des arbres n'ayant pu être identifiés qu'au niveau vernaculaire, lorsque l'individu est mort avant d'avoir pu être identifié au cours d'une campagne botanique.
-Les noms vernaculaires eux-mêmes génèrent de l'incertitude taxonomique: un nom vernaculaire correspond souvent à plusieurs nom botanique et inversement un nom botanique peut correspondre à plusieurs noms vernaculaires [@Oldeman1968].
+Ceci génère des incertitudes taxonomiques significatives notamment au regard des arbres n'ayant pu être identifiés qu'au niveau vernaculaire, par exemple lorsque l'individu est mort avant d'avoir pu être identifié au cours d'une campagne botanique.
+Les noms vernaculaires eux-mêmes génèrent de l'incertitude taxonomique: un nom vernaculaire correspond souvent à plusieurs noms botaniques et inversement, un nom botanique peut correspondre à plusieurs noms vernaculaires [@Oldeman1968].
 
 ## Problématique et plan de la thèse
 
