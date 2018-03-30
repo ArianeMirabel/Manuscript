@@ -15,3 +15,15 @@ Il résulte d'une suite d'événements biologiques depuis la production, la diss
 Ce seuil de recrutement correspond souvent à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel on considère l'individu assez développé pour avoir un rôle significatif au sein du peuplement.
 L'écologie des espèces détermine en effet les conditions nécessaires à la germination, la croissance et la survie des individus: filtres environnementaux et exclusions compétitives s'opèrent donc s'exercent donc principalement au cours du recrutement.
 Le recrutement est donc le deuxième élément essentiel régissant la composition et la diversité des communautés en forêt tropicale et permet de plus d'appréhender le futur des forêts tropicales en en définissant le peuplement en devenir [@Denslow1980 + cf biblio Elodie]. 
+
+## Méthodes spécifiques
+
+En plus des mesures de diversité et de composition déjà utilisées à l'échelle de l'ensemble de la communauté, nous nous sommes intéressés ici à la similarité de sarbres recrutés par rapport au peuplement initial inventorié avant exploitation.
+On essaie par là de déterminer si la communauté des recrutés correspond à un sous ensemble de la communauté initiale ou s'ils correspondent à des espèces différentes.
+Là encore de nombreuses mesure sont été développées, selon la façon de comptabiliser les espèces communes et leur abondance [@Podani2013a].
+Nous avons choisis ici de mesurer le taux de remplacement des abondances qui corresponda à la somme des abondances d'une commaunté remplacées par une espèce différente dans la seconde communauté, normalisée par la proportion l'abondance partagée entre les deux communautés \@ref(eq:formNestedness).
+
+\begin{equation}
+T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
+(\#eq:formNestedness)
+\end{equation}
