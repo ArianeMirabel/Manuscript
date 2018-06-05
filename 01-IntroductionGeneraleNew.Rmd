@@ -1,0 +1,265 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# Introduction générale
+
+## Les forêts tropicales humides, au coeur de l'avenir planétaire
+
+Les forêts couvrent 30% de la surface terrestre et les nombreux biens et services environnementaux, économiques et sociaux qu'elles assurent sont indispensables à l'équilibre planétaire.
+Elles régulent le climat, la qualité de l'eau, de l'air et des sols et abritent une diversité biologique exceptionnelle.
+Elles subviennent aux besoin alimentaires des populations et à leur développement économique en tant que sources de matières premières, de revenus et d'opportunités de développement.
+Enfin, indispensables au bien être des populations, elles représentent d'irremplaçables valeurs historiques, culturelles et patrimoniales [@FRA2015; @Tilman2014].
+Malgré leur importance les forêts restent extrêmement menacées aujourd'hui par les changements climatiques globaux, le traffic de bois illégal, la déforestation liée aux changements d'usage des terres et les dégradations et pollutions environnementales.
+
+### Des écosystèmes incontournables
+
+Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes et leur environnement définissant une unité fonctionnelle dont les arbre sont les composants essentiels, définie par [@FRA2000]. 
+Ces écosystèmes accueillent la diversité animale et végétale et les taux d'endémismes les plus importants du globe et sont les régions restées les moins anthropisées ce qui leur confère de forts enjeux de conservation [@Myers2000; @Mittermeier2003].
+
+En entretenant les cycles de l'eau et des nutriments (azote, phosphore, etc) via leur réseau racinaire, les forêts régulent la fertilité des sols et les températures et précipitations locales [@Malhi2008; @Isbell2017].
+Elles sont également des puits de carbone représentant 1.1 ± 0.8 PgC.yr^–1^ et jouent un rôle majeur dans la régulation des gaz à effet de serre (*GES*): elles d'une part stocker et compenser les émissions de GES dans l'atmosphère, mais également devenir une source de carbone lorsque leur dégradation libère le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
+
+A l'échelle globale la subsistance de 500 millions de personnes dépend directement des forêts qui sont une source de biens allant de la nourriture (par la chasse et la collecte de produits forestiers non ligneux comestibles), à l'eau, aux matériaux de construction, et à l'énergie (par l'utilisation du bois de chauffage et de cuisson des aliments). 
+L'exploitation forestière quant à elle représentait ~ 1% du PIB mondial, une part importante de l'emploi et l'une des principales sources d'énergie en 2011 [@CBDdiversity2011; @FAO2014].
+
+Enfin, les forêts interconnectées depuis toujours aux populations humaines sont indispensables à leur bien être et ont une dimension culturelle, spirituelle et patrimoniale importante. 
+
+
+### Des écosystèmes menacés, en particulier sous les tropiques
+
+Bien qu'indispensables et irremplaçables, les forêts disparaissent et sont dégradées à une vitesse croissante: entre 2013 et 2015 leur surface globale a ainsi diminué de 3% [@FAO2009].
+Les forêts sont soumises à de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
+Elels subissent de plus les changements globaux qui augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
+
+Malgré une prise de conscience globale, entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992, qui a motivé de nombreuses politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts, les pressions exercées sur les forêts demeurent [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+
+Ce contexte concerne en particulier les forêts tropicales, pour lesquelles les menaces sont d'autant plus graves que leur importance au niveau mondial est grande [@Dirzo2003a; @Hansen2013]. 
+Les bassins forestiers tropicaux qui représentent 1.3 million d'hectares sont plus grandes surfaces de forêts anciennes "primaires" n'ayant pas connu de forte perturbation anthropique et accueillent la diversité biologique la plus élevée au monde.
+[@Gentry1988; @FAO2011].
+Historiquement peu peuplées ces régions connaissent une croissance démographique moyenne de près de 1,4% par an qui entraîne des pressions croissantes de chasse, d'exploitation du bois, de conversion en terres agricoles et de dégradation en forêts secondaires [@Asner2009].
+
+Une attention particulière doit être portée aux zones tropicales pour mieux comprendre leurs dynamiques et leur fonctionnement, toujours partiellement méconnus aujourd'hui. 
+
+### La biodiversité: clé du fonctionnement des forêts tropicales
+
+La biodiversité n'est pas épargnée par les pressions globales actuelles et une fraction significative est déjà anéantie et continue de disparaître irréversiblement, si bien que l'on qualifie déjà cette érosion croissantede sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012]. 
+
+Le fonctionnement des écosystèmes forestiers dont les arbres sont les éléments essentiels repose largement sur leur diversité en essences forestières qui reflète celles des autres groupes [@Guitet2017].
+Individuellement, les espèces constituent le patrimoine naturel global et, selon leur charactéristiques biologiques, peuvent avoir un rôle clé dans leur communauté, comme c'est le cas pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
+Dans l'ensemble la diversité et la composition d'une communauté définit la complémentarité entre les individus et l'efficacité d'utilisation et de transformation des ressources: de la biodiversité dépendent la productivité des écosystèmes et les flux à la base des processus écosystémiques [@Begon2006].
+La biodiversité détermine de plus la stabilité et la résilience des écosystèmes en pallliant l'impact des maladies, des espèces invasives, des variations environnementales, etc [@Elmqvist2003].
+
+On sait aujourd'hui que l'érosion de la biodiversité impacte le fonctionnement des forêts mais les conséquences précises et la réponse des écosystèmes au contexte de changement globaux actuel restent mal connus.
+Pour avoir une vision réaliste du devenir des forêts et comprendre les mécanismes de réponses il est crucial d'appréhender tous les aspects de la biodiversité.
+
+## Comment mesurer la diversité biologique ?
+
+La biodiversité est cependant souvent réduite à celle de richesse en espèces, bien qu'en réalité elle tienne compte du nombre et de l'abondance des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
+La biodiversité est définie de l'échelle du gène à celle de l'écosystème et comprend de nombreux aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant.
+Appréhender les différents aspects de la biodiversité permet d''appréhender'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+
+### Assemblage et structure des communautés {#AbundanceDistribution}
+
+Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces aux effectifs différents: certaines sont très abondantes, d'autres moyennement communes et d'autres encore, souvent la majorité, sont rares.
+La façon la plus simple et immédiate de décrire une communauté est de donner la distribution d'abondance de ses espèces, qui représente les proportions d'espèces abondantes rapport aux espèces communes ou rares.
+Cette distribution bien que variable d'une communauté à l'autre, est régie par des lois écologiques lui donnant invariablement une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
+
+```{r AbdDist, fig.align ='center',out.width='60%', fig.cap="Exemple de distribution d'abondance pour une communauté d'arbres en forêt tropicale humide"}
+knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
+```
+
+Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
+Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de resources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
+Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, de l'eau disponible, de la fertilité du sol, de l'espace, etc [@Silvertown2004;@terSteege2006]. 
+Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espèces de la communauté.
+De nombreux modèles prédictifs ont été proposés, des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la resource selon une formule prédéterminée, par exemple en la divisant successivement selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
+
+Ces modèles testés pour de nombreuses communautés, ont montré représenter correctement les communautés réelles et révéler les règles écologiques qui en régissent l'assemblage.
+Ce sont des outils adéquats pour comparer les communautés et en interpréter les différences, mais manipuler une distribution d'abondance reste compliqué car il s'agit d'une repréentation en 2D et ne permet pas de quantifier les différences entre communautés.
+En revanche, les paramètres de ces distributions et des modèle proposés pour les représenter permettent de quantifier le nombre d'espèces, la forme des distribution, ou encore l'homogénéité des abondances.
+Ces indicateurs sont les indices de diversité, résumant de façon quantifiable les caractéristiques des distributions d'abondance.
+
+### Les composantes de la diversité
+
+Si la biodiversité d'une communauté est souvent assimilée à sa richesse en espèces, elle englobe en réalité du nombre, de l'abondance, de la composition et des interactions entre les espèces.
+L'abondance en particulier est essentielle: une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare.
+Ainsi une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais aux abondances équivalentes.
+L'homogeneité des abondances dans une population, ou *équitabilité*, peut être bien plus révélatrice du fonctionnement des écosystèmes que leur richesse ou leur composition.
+Cette idée est illustrée par l'hypothèse du ratio de biomasse selon laquelle les espèces dominantes sont bien plus déterminantes du fonctionnement des écosystèmes que les espèces rares.
+Les espèces peu communes n'ont une influence qu'à long terme, en tant que potentielles futures espèces dominantes si l'environnement change, ou pas d'influence si elles sont transitoires et ne persistent pas dans l'écosystème [@Grime1998].
+
+La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la régularité de distribution d'abondance des espèces, sont donc les deux composantes de la diversité taxonomique d'une communauté \@ref(fig:RichEqu) [@Whittaker1965; @Magurran2004].
+
+```{r RichEqu, out.width='60%', fig.cap="Les deux composantes de la diversité taxonomique: richesse (nombre d'espèces) et équitabilité (homogeneité de répartition)"}
+knitr::include_graphics("ExternalFig/Fig_RichnessEquitability.jpg")
+```
+
+Mesurer la diversité ne revient donc pas à une mesure unique mais plusieurs indices de diversité qui combinent différemment les composantes de la diversité.
+Plusieurs familles d'indices de diversité ont été développées et regroupent les indices mesurés selon une même formule dont les déclinaisons accordent un poids variables aux composantes de la diversité.
+La famille des indices de diversité de Réyni par exemple, judicieuse pour l'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) modulée par un paramètre *q* appelé "ordre de diversité" qui correspond au poids des espèces rares par rapport aux espèces abondantes [@Mendes2008].
+Plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes.
+
+\begin{equation}
+^{q}H=\frac{1}{q-1}\Bigg(1-\displaystyle\sum_{s=1}^{S}p^q_s\Bigg) }
+(\#eq:formHCDT)
+\end{equation}
+
+Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés dans la littérature: l'ordre 0 où chaque espèce contribue de la même façon correspond à la richesse spécifique, l'ordre 1 où richesse et équitabilité sont également prises en compte correspond à l'indice de Shannon, et l'ordre 2 pour lequel les espèces rares sont presque négligées correspond à l'indice de Simpson (parfois appelé "diversité en espèces abondantes") [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
+
+Ces indices, mathématiquement corrects et représentatifs des différentes composantes de la diversité, ne donnent cependant pas un nombre intelligible qui permettent de comparer facilement différentes communautés.
+Les indices de diversité doivent être traduits en *nombre équivalent d'espèces* qui correspond au nombre d'espèces qu'aurait la communauté étudiée si toutes les espèces avaient la même abondance.
+Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transformation des valeurs obtenues par une exponentielle à base q [@Hill1973].
+
+Les mesures de diversité choisies sont donc la traduction intelligible en nombre équivalent d'espèces d'une déclinaison d'indices combinant richesse et équitabilité de différentes façons pour capter toute structure de diversité.
+
+### Résolution du biais d'échantillonnage
+
+En pratique aucun inventaire n'est exhaustif et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous-estiment la richesse et faussent l'abondance des espèces.
+Corriger ce biais nécessite d'estimer les abondances réelles à partir des observations et des relations mathématiques reliant les abondances des différentes espèces.
+La première méthode développée correspond à la formule des fréquences de Turing [@Good1953] où l'abondance réelle *\alpha_v* d'une espèce observée *v* fois dans un échantillonnage de *n* individus dépend du nombre d'espèces observées également *v* fois et d'e celles'espèces observées *v+1* fois \@ref{eq=formGoodTuring}:
+
+\begin{equation}
+\alpha_v=\frac{\big(v+1\big)}{n}\fraq{s^n_{v+1}}{s^n_v}
+(\#eq:formGoodTuring)
+\end{equation}
+
+Les singletons (espèces observées une seule fois) et les doubletons (espèces observées deux fois) sont alors particulièrement intéressants car il permettent d'estimer le nombre *s^n_0* d'espèces observées zéro fois ($s^n_0=\frac{s^n_1}{n}$) qui ont été manquées dans l'inventaire et peuvent être ajoutées aux observation pour corriger le biais d'échantillonnage de la richesse.
+
+De nombreuses méthodes ont repris cette relation en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire réel et permet de savoir quelle proportion de la communauté est échantillonnée [@Dauby2012].
+La correction la plus adéquate a pu être déterminée selon le taux de couverture de l'inventaire et les estimateurs de la diversité sont aujourd'hui très fiables [@Chao2015; @Marcon2015b].
+
+### Diversité fonctionnelle
+
+Les mesures de diversité décrites précédemment considèrent toutes les espèces de la même façon: la richesse compte le nombre d'espèces distinctes, que celles-ci aient ou non les mêmes caractéristiques biologiques ou phylogénétiques. 
+Ces mesures de diversité sont dites neutres car elles ne tiennent pas compte des caractéristiques de chaque espèce, mais peuvent facilement intégrer les caractéristiques des espèces en mesurant leurs similarité au sein d'une communauté.
+Plus les espèces d'une communauté sont différentes les unes des autres, plus leur diversité est élevée.
+Pour des communautés végétales la similarité entre espèces peut être phylogénétique, lorsque l'on considère leur distance dans un arbre phylogénétique, ou fontionnelle, lorsque l'on considère leurs différences morphologiques ou physiologiques \@ref(fig:RichEquSim).
+
+```{r RichEquSim, out.width='60%', fig.cap="Troisième composante de la diversité: la similarité entre espèces basée sur des distances phylogénétiques ou taxonomiques"}
+knitr::include_graphics("ExternalFig/Fig_RichnessEquitabilitySimilarity.jpg")
+```
+
+Ces similarités sont ensuite intégrées aux indices de diversité, au même titre que les composantes de richesse et d'équitabilité, sous la forme d'une matrice de distances entre espèces calculée sur la base de leur phylogénie ou de leurs traits fonctionnels.
+
+Les traits fonctionnels sont les caractéristiques morphologiques, physiologiques et phénologiques des espèces, ils déterminent le fonctionnement des individus, leur performance de croissance et de survie, et leurs interaction avec l'environnement [@Violle2007b].
+L'approche fonctionnelle décrivant les espèces et les individus selon leurs caractéristiques biologiques a été largement adoptée en écologie.
+D'une part l'approche fonctionnelle permet de réduire la dimensionnalité des communautés, indispensable pour l'étude d'écosystèmes aussi riches que les forêts tropicales, et permet de comparer les communautés quelle que soit leur composition en espèces [@Begon2006; @Scheiter2013; @Mouillot2013a; @Sakschewski2016].
+D'autre part, composition et diversité fonctionnelle sont interprétables en termes d'utilisation des ressources et de flux de matière et d'énergie, et relient directement la diversité des communautés et leur fonctionnement.
+Les différents processus écologique d'assemblage et de dynamique des communautés laissent une signature fonctionnelle.
+Le filtrage environnemental sera traduit par une aggrégation des traits et une diversité fonctionnelle faible, traduisant le sélection de certains types fonctionnels, ou au contraire une limitation de similarité et une diversité fonctionnelle élevée, due à l'exclusion compétitive entre espèces [@McGill2006;@Kunstler2012].
+
+L'approche fonctionnelle nécessite de choisir judicieusement les traits intégrés aux indices de diversité.
+Une vaste littérature a permis d'identifier les traits clés représentatifs de l'écologie et de la croissance des espèces et de leur influence sur le fonctionnement de l'écosystème [@Reich2014].
+Les traits foliaires tout d'abord, qui déterminent la stratégie d'acquisition et d'allocation des resources lumineuses, définissent un "spectre économique foliaire" qui oppose les espèces à larges feuilles fines ayant une forte capacité photosynthétique permettant une acquisition rapide des resources, aux espèces à petites feuilles coriaces et résistantes.
+Un gradient similaire s'applique aux traits racinaires et aux propriétés du bois, opposant les espèces aux tissus légers à courte durée de vie permettant une croissance rapide à celles aux tissus denses plus résistants et mobilisant plus de ressources [@Chave2009; @Valverde-Barrantes2017].
+Les stratégies d'acquisition des resources déterminent la stratégie de croissance des espèces: les espèces "acquisitives" auront une croissance rapide et une courte durée de vie tandis que les espèces "conservatives" auront une croissance plus lente mais une meilleure résistance aux conditions environnementales éprouvantes [@Reich1997; @Wright2004].
+A ces traits fonctionnels mesurables à l'échelle de l'individus s'ajoutent des *traits d'histoire de vie* mesurables à l'échelle de l'espèce.
+Parmi ces traits la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte ont montré être particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
+
+La combinaison de l'ensemble de ces traits spécifique, foliaires, racinaires et du bois appréhende la stratégie fonctionnelle des espèces, leurs préférences écologiques et leur performance de croissance et de survie.
+L'engouement récent de l'écologie pour l'approche fonctionnelle a de plus permis la création de bases de données fonctionnelles conséquentes et standardisées qui rendent possibles l'approche fonctionnelle à l'échelle des communautés [@Kattge2011; @Perez-Harguindeguy2013; [^1]]
+
+[^1]: http://www.ecofog.gf/Bridge/
+
+
+## La Guyane Française et l'exemple de la station de Paracou
+
+Le bassin Amazonien est la plus riche des trois principales régions de forêt tropicale humide [@Gentry1988] et la Guyane française en est une région de 83 846 km^2 recouverte à 95% forestière au Nord-Est du continent sud-américain entre le Surinam et le Brésil.
+
+### Le contexte Guyanais
+
+La région appartient au bouclier des Guyanes qui s'étend de l'Amapa au Brésil jusqu'au delta de l'Orénoque au Venezuela.
+Formé il y a plus de 2 milliards d'années, le bouclier des Guyanes est un assemblage d'unités géomorphologiques façonnées par une succession d'épisodes géologiques, climatiques et marins.
+Ces unités correspondent à des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015].
+
+Le relief Guyanais est une grande diversité topographique qui alterne entre des collines allant jusqu'à 50m d'altitude, et des bas-fonds humides.
+Les sols sont des Acrisols recouvrant une couche de saprolite transformée peu perméable qui entraîne un drainage latéral des précipitations.
+La profondeur des sols, leur composition et leur capacité de rétention et de drainage de l'eau sont très hétérogènes [@Ferry2010; @Robert2003].
+
+Le climat est un climat tropical humide, davantage marqué par le régime des précipitations que par celui des températures. 
+La température moyenne est 26°C et reste constante au cours de l'année tandis les précipitations moyennes annuelles varient de 2 000 à 4 000 mm.an^-1^ et montrent une grande variabilité spatiale et temporelle.
+Les précitations suivent un gradient décroissant marqué d'est en ouest et une forte variabilité au cours de l'année, avec une saison humide entre novembre et avril et une saison sèche d'avril à mi-juillet durant laquelle les précipitations sont inférieures à 50 mm [@Wagner2011].
+
+La forêt Guyanaise est une forêt équatoriale sempervirente ombrophile de plaine. 
+D'une richesse incroyable, elle accueille plus de 7 000 espèces végétales (hors champignons) dont 1 500 espèces d'arbres et une richesse faunistique toute aussi incroyable [@DeNoter2008].
+La composition taxonomique des arbres est très variable sur le territoire.
+Plusieurs patrons de composition on été mis en évidence selon un gradient du nord-ouest où dominent les familles botaniques des *Lecythidaceae* et *Cesalpinaceae*, au sud-est où dominent *Burseraceae* et *Mimosaceae*.
+Ces patrons suivent en particulier par une combinaison de gradients topographique et pédologique [@Sabatier1989; @Sabatier1997 cf Toto; @Guitet2015].
+
+### Paracou, plus de 30 de suivi de la forêt Amazonienne
+
+Le dispositif de Paracou, installé entre les communes de Kourou et Sinnamary (5°18'N and 52°53'W), a été mis en place en 1984 pour étudier l'impact de l'exploitation forestière sélective sur les peuplements forestiers.
+Le dispositif correspond à l'origine à 12 parcelles de 6.25 ha ayant subi en 1984 un gradient de trois intensités d'abattage, d'éclairices et de coupe de bois de chauffage.
+Le traitement de perturbation a été attribué selon un dispositif aléatoire de trois réplications de 4 traitements: parcelles témoins sans intervention (*T0*), traitement 1 avec coupes d'abattage (*T1*), traitement 2 avec abattage et éclaircies par **poison girdling** (*T2*), traitement 3 avec abattage, éclaircies et coupe de bois de chauffage (*T3*) \@ref(tab:InterventionTable).
+
+```{r Tab1, echo=FALSE,as.is=T}
+Intervention <- data.frame(
+  Treatment=c("Control", "T1", "T2", "T3"),
+  Timber=c("", 
+           "DBH $\\geq$ 50 cm, commercial species, $\\approx$ 10 trees/ha", 
+           "DBH $\\geq$ 50 cm, commercial species, $\\approx$ 10 trees/ha",
+           "DBH $\\geq$ 50 cm, commercial species, $\\approx$ 10 trees/ha"),
+  Thinning=c("", 
+             "", 
+             "DBH $\\geq$ 40 cm, non-valuable species, $\\approx$ 30 trees/ha", 
+             "DBH $\\geq$ 50 cm, non-valuable species, $\\approx$ 15 trees/ha  "),
+  Fuelwood=c("", 
+             "", 
+             "", 
+             "40 cm $\\leq$ DBH $\\leq$ 50 cm, non-valuable species, $\\approx$ 15 trees/ha"),
+  AGBLost=c(0, "$[12\\%-33\\%]$", "$[33\\%-56\\%]$", "$[35\\%-56\\%]$")
+)
+names(Intervention)[5] <- "\\%AGB lost"
+knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = FALSE, booktabs = TRUE, escape = FALSE,format="latex") %>%
+  kableExtra::kable_styling(bootstrap_options = "striped", full_width = TRUE)
+```
+
+En 1990, trois parcelles de 6.25ha et une parcelle de 25ha (parcelles 13, 14, 15 et 16) ont été ajoutées au dispositif pour l'étude et le suivi de la diversité en forêt non perturbée \@ref(fig:ParacouDesign).
+
+```{r ParacouDesign, out.width='60%', fig.cap="Dispositif expérimental de Paracou, schéma des 16 parcelles de suivi des dynamiques forestières. La couleur des parcelles indique l'intensité de perturbation appliquée à 9 des parcelles en 1984 (voir le tableau 1."}
+knitr::include_graphics("ExternalFig/Paracou.jpg")
+```
+
+Sur l'ensemble du dispositif sont recensées 591 espèces d'arbres appartenant à 223 genre et 64 familles botaniques, principalement les *Fabaceae*, les *Chrisobalanaceae*, les *Lecythidaceae* et les *Sapotaceae*.
+Les températures annuelles atteignent 26°C et les précipitations 2 980 mm.an^-1^ de mi-août à mi-novembre, avec une saison sèche d'un mois en mars [@Wagner2011].
+
+### Méthodes d'inventaires
+
+Depuis la mise en place du dispositif en 1984 toutes les parcelles sont inventoriées chaque année à la saison sèche à partir de mi-juillet.
+Tous les arbres de plus de 10 cm de diamètre à 1.30 m (diamètre à hauteur de poitrine, *DBH* en anglais) sont identifiés, numérotés et cartographiés.
+Les arbres morts sont relevés chaque année et notés en précisant le type mort (mort sur pied, chablis primaire ou chablis secondaire).
+
+Lorsqu'un arbre atteint 10 cm il est *recruté* et sera mesuré chaque année.
+Il est identifié dans un premier temps par un nom *vernaculaire*, ou nom commun, attribué par l'équipe de terrain.
+En 1984, 62 espèces commerciales étaient identifiées par un nom commun propre tandis que toutes les autres espèces étaient regroupées sous deux noms vernaculaires distinguant les palmiers des espèces arborées.
+Cette identification en nom vernaculaire s'est précisée par la suite et aujourd'hui 235 noms vernaculaires différents sont recensés pour l'ensemble du dispositif sur les 30 ans de suivi.
+Des campagnes d'identification botanique au cours desquelles les arbres sont identifiés au niveau espèce botanique ont été mises en place à partir de 2003 et se poursuivent depuis tous les 5 à 6 ans.
+
+L'histoire des inventaires botaniques s'étant construite petit à petit au gré des nouveaux projets et des forces en présence, la précision et le taux d'identification botaniques sont variables au cours du temps et entre les parcelles.
+Ceci génère des incertitudes taxonomiques importantes, les noms vernaculaires correspondant souvent à plusieurs noms botaniques et inversement [@Oldeman1968].
+Le soucis vient alors des arbres n'ayant qu'un identification en nom vernaculair, lorsque l'individu est mort avant d'avoir pu être identifié au cours d'une campagne botanique par exemple.
+
+## Problématique et plan de la thèse
+
+La thèse présentée ici vise à déterminer la réponse aux perturbations d'une forêt tropicale naturelle en termes de diversité taxonomique et fonctionnelle, à en interpréter les mécanismes sous-jacents et à clarifier la résilience des forêts tropicales dans le contexte des changements actuel.
+Le document s'articule en trois chapitres qui prennent la forme d'articles en cours de rédaction (pour le moment!).
+
+* Le premier chapitre présente la méthode de propagation des incertitudes taxonomiques permettant de mesurer la diversité en tenant compte de l'hétérogéneité d'identification botanique. 
+Nous proposons l'application de cette méthode dans le cas d'inventaires forestiers, dans la perspective de valoriser les inventaires pré-exploitations pour le suivi de la diversité forestière.
+Nous présenterons ensuite l'adaptation de cette méthode au cas des dispositifs expérimentaux, aux contraintes d'identification différente, qui sera utilisée dans la suite de ce travail.
+
+* Dans le deuxième chapitre seront présentées les trajectoires de composition et de diversité taxonomique et fonctionnelle pour les parcelles de Paracou.
+Ces trajectoires montrent la réponse unimodale de la composition et de la diversité taxonomique et fonctionnelle des peuplements après exploitation. 
+La cinétique et le maximal de la divergence par rapport à l'état initial sont positivement corrélés à l'intensité d'exploitation.
+Les trajectoires de diversité valident la théorie des perturbations intermédiaires qui suppose une augmentation de la diversité après exploitation.
+Il existe cependant une décorrélation entr les trajectoires de diversité taxonomique et fonctionnelle suggérant une redondance fonctionelle des peuplements naturels qui n'est pas restaurée même 30 ans après exploitation.
+
+* Le troisième chapitre correspond à une analyse du processus de recrutement après exploitation. 
+Approcher les trajectoires de diversité sous l'angle des processus démographiques permet de préciser le filtrage environnemental déterminant une population des recrutés significativement différente du peuplement en place, confirmant ainsi la théorie des perturbations intermédiaires. 
+Cette approche permet de plus de délimiter trois phases de recrutement, qui mobilisent successivement les arbres adultes en place au moment de la perturbation, les semis ou les juvéniles, puis les graines de la banque du sol dans le cas des perturbations les plus intenses. 
+La comparaison du recrutement avec le peuplement initial avant exploitation confirme la restauration de l'état initial mais la mobilisation de la banque de graines interroge sur sa résilience après des perturbations les plus intenses.
+
+
+

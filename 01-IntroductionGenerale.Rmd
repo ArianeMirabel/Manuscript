@@ -6,7 +6,7 @@
 
 Les forêts représentent 30% de la surface du globe et sont attachée à des valeurs historique, culturelle et patrimoniale fortes et ont leur place au coeur des programmes politiques, de recherche et de développement. 
 Elles maintiennent notre environnement naturel, du climat, de la diversité biologique et de la qualité de l'eau, de l'air et des sols.
-Elles assurent aussi  le bien être des populations, la sécurité alimentaire et le développement de nos sociétés en tant que sources de revenus et d'opportunités de développement "vert" [@FRA2015; @Tilman2014].
+Elles assurent aussi le bien être des populations, la sécurité alimentaire et le développement de nos sociétés en tant que sources de revenus et d'opportunités de développement "vert" [@FRA2015; @Tilman2014].
 
 Par "forêt" ou "ecosystème forestier" on entend une unité fonctionnelle dont les arbre sont les composants essentiels définie par les assemblages de plantes, animaux et microorganismes et leur environnement définissant [@FRA2000]. 
 Ces écosystèmes accueillent la diversité animale et végétale et les taux d'endémismes les plus importants du globe et correspondent aux régions restées les moins anthropisées à forts enjeux de conservation [@Myers2000; @Mittermeier2003].
