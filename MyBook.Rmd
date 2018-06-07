@@ -1,3 +1,138 @@
+--- 
+title: "Trajectoires de biodiversitÃ© en forÃªt tropicale exploitÃ©e"
+author: "Ariane Mirabel"
+date: "`r Sys.Date()`"
+output: pdf_document
+biblio-style: authoryear-ibid
+bibliography:
+- packages.bib
+- 01ref-IntroG.bib
+- 02ref-chap2Incert.bib
+cite-style: verbose-inote
+classoption:
+- extrafontsizes
+- onecolumn
+- openright
+colorlinks: yes
+abstract: |
+  To be coming
+description: Thesis manuscript
+documentclass: memoir
+fig_crop: yes
+fontsize: 11pt
+fourthpagefontsize: normalsize
+graphics: yes
+keywords:
+- Biodiversity
+- Neotropical forests
+- Perturbation
+- Communities Ecology
+- Dynamic
+lang: fr
+link-citations: yes
+mots-cles:
+- BiodiversitÃ©
+- ForÃªts NÃ©otropicales
+- Perturbation
+- Ecologie des CommunautÃ©s
+- Dynamique
+otherlangs:
+- en-US
+- en-GB
+- fr
+biblatexoptions:
+- backend=bibtex
+- citestyle=verbose-inote
+- pageref=true
+- isbn=false
+- backref=true
+- giveninits=true
+- uniquename=init
+- maxcitenames=2
+- maxbibnames=150
+- sorting=nyt
+- sortcites=false
+papersize: A4
+resume: |
+  A venir
+site: bookdown::bookdown_site
+PhD-HDR:
+  DIS: ST
+  DocType: PhD
+  ED: UG
+  Ets: UG
+  defence-date: 1er janvier 2018
+  jury1:
+    category: judge
+    name: PrÃ©nom NomJury1
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury2:
+    category: judge
+    name: PrÃ©nom NomJury2
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury3:
+    category: judge
+    name: PrÃ©nom NomJury3
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury4:
+    category: judge
+    name: PrÃ©nom NomJury4
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury5:
+    category: judge
+    name: PrÃ©nom NomJury5
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury6:
+    category: judge
+    name: PrÃ©nom NomJury6
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  jury7:
+    category: judge
+    name: PrÃ©nom NomJury7
+    other: Membre du Jury
+    status: Professeur d'UniversitÃ©
+  lab: Ã‰cologie des ForÃªts de Guyane
+  njudge: 7
+  speciality: Ã‰cologie
+toc-depth: 3
+---
+
+<!-- knitr and R options (packages, ...) --> 
+```{r Options, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(cache=F, warning=FALSE, tidy=TRUE, fig.env='SCfigure', out.width='80%', fig.asp=.75, fig.align='center')
+# Installation of packages if necessary and loading
+Library <- function(Packages) {
+  InstallAndLoad <- function(Package) {
+    if (!Package %in% installed.packages()[, 1]) {install.packages(Package)}
+    require(Package, character.only = TRUE)
+  }
+  invisible(sapply(Packages, InstallAndLoad))
+}
+# Add necessary packages here
+Packages <- c("bookdown", "knitr", "rmarkdown", "kableExtra")
+
+# Install them and create packages.bib file to reference them as @R-package
+Library(Packages)
+knitr::write_bib(Packages, file="packages.bib")
+```
+
+```{r eval=FALSE, echo=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+\mainmatter
+ 
+
+<!--chapter:end:index.Rmd-->
+
 ---
 output:
   html_document: default
@@ -243,28 +378,166 @@ Le soucis vient alors des arbres n'ayant qu'un identification en nom vernaculair
 
 ## Problématique et plan de la thèse
 
-La thèse présentée ici cherche à déterminer la réponse aux perturbations d'une forêt tropicale naturelle en termes de diversité taxonomique et fonctionnelle, à en interpréter les mécanismes sous-jacents et à clarifier la résilience des forêts tropicales dans le contexte des changements actuel.
+La thèse présentée ici vise à déterminer la réponse aux perturbations d'une forêt tropicale naturelle en termes de diversité taxonomique et fonctionnelle, à en interpréter les mécanismes sous-jacents et à clarifier la résilience des forêts tropicales dans le contexte des changements actuel.
 Le document s'organise en trois chapitres correspondant à trois articles scientifiques en cours de rédaction (pour le moment!).
 
-* Le premier chapitre présente une méthode de propagation des incertitudes taxonomiques permettant d'estimer la diversité en tenant compte des indéterminations botaniques. 
-La méthode se base sur des inventaires théoriques complets reconstitués à partir des associations entre noms vernaculaires et botaniques.
-Ces associations peuvent être estimées à partir d'inventaires réels ou à partir de dires d'experts, correspondant à l'interview des équipes d'ouvriers forestiers réalisant les inventaires: les permiers développement permettent de tester la robustesse de la méthode en fonction de l'information considérée et de la calibrer de façon optimale.
+* Le premier chapitre présente la méthode de propagation des incertitudes taxonomiques permettant d'estimer la diversité en tenant compte des indéterminations botaniques. 
+Nous proposons l'application de cette méthode à des inventaires forestiers pour en améliorer la précision botanique et les valoriser pour suivre la diversité forestière  plus large échelle.
+Nous proposons ensuite l'application de cette méthode aux dispositifs expérimentaux, dont les contraintes d'identification sont différentes, qui sera utilisée dans la suite de ce travail.
 
-Nous proposons ensuite l'application de cette méthode à des inventaires forestiers réels.
-Ces inventaires, réalisés à large échelle dans le cadre de l'exploitation forestière permettraient d'élargir l'étude de la biodiversité forestière dans le temps et l'espace mais restent peu précis. 
-La méthode développée ici permet d'améliorer la précision botanique et de proposer une méthode dinventaire optimisée pour valorise rau mieux ces inventaires.
+* Dans le deuxième chapitre nous avons étudié les trajectoires de composition et de diversité taxonomique et fonctionnelle des parcelles de Paracou.
+Ces trajectoires ont mis en évidence la restoration des communautés initiales et le maintien de leurs différences en composition spécifique, mais avec un décalage entre caractéristiques taxonomiques et fonctionnelles. 
+Après perturbation les communautés ont suivi une trajectoire fonctionnelle commune, déterminée par l'intensité de la perturbation et concordant ainsi avec la théorie des perturbations intermédiaire qui prédit une diversité maximale à un niveau de perturbation moyen.
+Les trajectoires taxonomiques en revanche se sont avérées variables, dépendant plus de la composition initiale de la communauté que de la perturbation appliquée, et plus lente du fait de la difficile récupération des espèces rares inféodées aux peuplements matures et exclues par la compétition avec les espèces en place.
+Le décalage entre trajectoires fonctionnelle et taxonomique et la faible cohérence taxonomique de la théorie des perturbations intermédiaires s'expliquent par une réorganisation de la redondance fonctionnelle après perturbation.
+Cette redondance dans l'espace fonctionnel de la communauté initiale diminue après perturbation suite à la disparition d'arbres et d'espèces, mais l'espace est rapidement réinvestit par les espèces dominantes qui permettent une rapide restoration fonctionnelle. 
+La restoration est en revanche plus lente pour les espèces rares qui partagent les même caractéristiques fonctionnelles et sont donc en compétition pour les resources lumineuses.
+Les trajectoires des parcelles de Paracou démontrent donc une résilience rapide et commune en termes de fonctionnement mais plus lente en termes de taxonomie et dépendant de la communauté initiale.
+La lente restoration de la redondance fonctionnelle démontre un effet persistant des perturbations et interroge fortement la résilience suite à plusieurs perturbations.
 
-Nous proposons ensuite l'application de cette méthode aux dispositifs expérimentaux, dont les contraintes d'identification sont différentes, et qui sera utilisée dans la suite de ce travail.
-
-* Dans le deuxième chapitre nous allons étudier les trajectoires de composition et de diversité taxonomique et fonctionnelle des parcelles de Paracou.
-Nous verrons quelles sont les conséquences à long terme des perturbations sur le fonctionnement des communautés et pourrons identifier les processus écologiques régissant cette dynamique.
-En particulier nous testons la validité de la théorie des perturbations intermédiaires, qui prédit une diversité maximale lorsque des perturbations moyennes permettent un renouveau des espèces présentes mais ne permettent pas l'hyperdominance d'un nombre restreint d'espèces.
-Les trajectoires permettent de plus de discuter des différents aspect de la résilience des communautés et de développer des hypothèses concernant l'avenir des forêts.
-
-* Le troisième chapitre met l'accent sur les processus de recrutement et leur rôle pour la résilience des forêts tropicales.
-S'intéresser au recrutment revient à décrire la forêt mise en place à plus ou moins long terme après perturbation ainsi que les processus écologiques sous-jacents.
-Les trajectoires de recrutement on permet d'identifier la succession des phases de recrutement après exploitation et d'en décrire les différents processus écologiques de sélection qui régissent l'assemblage de la future forêt.
-Ces conclusions ont permis de discuter la résilience des processus eux-mêmes et d'anticiper la réponse à de nouvelles perturbations.
+* Le troisième chapitre correspond à une analyse du processus de recrutement après exploitation. 
+Approcher les trajectoires de diversité sous l'angle des processus démographiques permet de préciser le filtrage environnemental déterminant une population des recrutés significativement différente du peuplement en place, confirmant ainsi la théorie des perturbations intermédiaires. 
+Cette approche permet de plus de délimiter trois phases de recrutement, qui mobilisent successivement les arbres adultes en place au moment de la perturbation, les semis ou les juvéniles, puis les graines de la banque du sol dans le cas des perturbations les plus intenses. 
+La comparaison du recrutement avec le peuplement initial avant exploitation confirme la restauration de l'état initial mais la mobilisation de la banque de graines interroge sur sa résilience après des perturbations les plus intenses.
 
 
+
+
+<!--chapter:end:01-IntroductionGenerale.Rmd-->
+
+# Article 1 : Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude
+
+Malgré les enjeux liés aux forêts tropicales et l'urgence d'en préserver l'intégrité et le fonctionnement, seule une petite fraction de leur diversité est connue.
+Le nombre d'espèces inventoriées sous les tropiques ne correspondant qu'à une observation unique [@Feeley2011] présume de l'ampleur de notre méconnaissance et rend impossible toute supposition sur la distribution des espèces et leurs dynamiques.
+Il est essentiel d'améliorer notre connaissance du vivant, en fournissant un plus grand effort d'échantillonnage et en valorisant toute connaissance déjà disponible.
+
+Le coût des inventaires en temps, en main d'oeuvre et en moyens, d'autant plus important que le niveau de l'inventaire est précis, implique de travailler également à des méthodes pour valoriser tout type d'inventaires [@Baraloto2012].
+Dans le cas de l'étude des peuplements forestiers, les inventaires d'exploitation peu coûteux et couvrant des surfaces larges sont une source d'information incontournable [@terSteege2000;@Guitet2014].
+
+## Noms vernaculaires et propagation des incertitudes taxonomiques
+
+Ces inventaires ne sont cependant généralement pas réalisés en noms scientifiques mais noms vernaculaires, qui sont mieux connus, plus faciles à attribués car basés sur des critères morphologiques, culturels ou d'usage et qui ne nécessitent pas de vérification botanique ultérieure à partir d'herbiers.
+Cette simplicité se fait cependant au détriment de la fiabilité des noms vernaculaires, qui correspondent à plusieurs espèces botaniques et varient avec le temps et les équipes de terrain [@Oldeman1968].
+Pour valoriser ces inventaires il est donc nécessaire d'évaluer l'impact de l'incertitude taxonomique sur la fiabilité et la sensibilité des mesures de diversité.
+Nous proposons ici une méthode permettant de propager l'incertitude de détermination taxonomique des noms vernaculaires aux mesures de la diversité.
+
+Dans un premier temps nous appliquons cette méthode au contexte des inventaires d'exploitation en noms vernaculaires pour en estimer la fiabilité et la robustesse selon le degré d'indétermination botanique, et proposer un protocole d'inventaire standardisé.
+Dans ce cas les identifications botaniques fiables concernent quelques espèces cibles, emblématiques ou ayant une certaine valeur commerciale ou de conservation.
+Le degré d'indétermination botanique correspond alors au nombre d'espèces identifiées systématiquement par leur nom vernaculaire plutôt que botanique.
+Dans un deuxième temps nous adaptons la méthode au contexte des dispositifs expérimentaux pour pallier l'inévitable variabilité des pratiques d'inventaires.
+Dans ce cas les arbres identifiés uniquement par un nom vernaculaire sont les individus n'ayant pu être identifiés, que l'identification soit impossible ou qu'ils soient mort avant le passage du taxonomiste.
+Le degré d'indétermination correspond au nombre d'arbres sans identification botanique et concerne potentiellement toutes les espèces de la communauté. 
+
+## Article 1 _ Inescapable Taxonomists: Workable Biodiversity Management Must Base on a Minimum Field Work
+
+
+## La recherche et les suivis à long terme: application de la méthode de propagation aux inventaires de Paracou
+
+### Profils d'incertitude taxonomique
+
+A la différence des inventaire sd'exploitation, dans le cas des dispositifs expérimentaux le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés au niveau spécifique. 
+Sur le même principe que pour les inventaires d'exploitation, nous avons simulé un gradient d'indétermination taxonomique à partir d'inventaires complets en nom botanique complets évaluer l'impact de l'incertitude taxonomique pour les mesures de diversité \@ref(fig:FigTreesSp).
+
+```{r FigTreesSp, out.width='60%', fig.asp=1/2, fig.cap="Profil de biais pour les diversité de Richesse, Shannon et Simpson au niveau spécifique le long d'un gradient d'indétermination correspondant au pourcentage d'individus identifiés uniquement par leur nom vernaculaire. Les profils de biais représentent la moyenne et les quantiles 0.025 et 0.975 de la distribution des diversités obtenues pour 100 simulations de tirage aléatoire et de propagation des incertitudes."}
+load("ExternalFig/Uncertaintypropagation_Genus_noCorrection")
+
+par(mfrow=c(1,3),no.readonly=TRUE)
+invisible(lapply(Profile_Genus,function(ind){
+  plot(colnames(ind),ind["0.5",],type="n",ylim=c(0,max(ind)),xlab="",ylab="")
+  polygon(c(colnames(ind),rev(colnames(ind))),c(pmax(ind["0.025",]),pmin(rev(ind["0.975",]))),col="gray75")
+  lines(colnames(ind), ind["0.5",], col = "red",lty = 2)
+  points(colnames(ind), ind["0.5",], col = "black",pch = 3)
+  abline(h=ind["0.5",1],col="red",lty=2)
+}))
+mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
+mtext("Diversité équivalente (Espèces)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
+mtext("Richness",at=0.1,line=-1.5,outer=TRUE);mtext("Shannon",at=0.44,line=-1.5,outer=TRUE)
+mtext("Simpson",at=0.76,line=-1.5,outer=TRUE)
+
+```
+
+Le profil de biais obtenu montre un effet non négligeable du degré d'indétermination sur la mesure de la diversité.
+L'estimateur de la richesse reste peu biaisé tant que le degré d'indétermination ne dépasse pas 80%, ce qui signifique que toutes les espèces sont représentées par au moins un individu identifié au niveau botanique.
+En revanche les diversités de Shannon et Simpson, et donc l'équitabilité des communautés, sont significativement surestimées et ceci proportionellement au degré d'indétermination.
+
+La propagation des incertitudes tend donc à homogénéiser les abondances de la communauté: les individus indéterminés tirés aléatoirement ont plus de chances de orrespondre à une espèce abondante (par définition plus fréquente) et d'être réattribuée par la méthode de propagation à une espèce plus commune.
+Le biais semble donc difficile à formaliser car il dépend de la relation entre rareté et probabilité d'indétermination des espèces, qui est déterminée par la connaissances botaniques de l'équipe d'identification.
+
+Pour pallier ce biais nous avons choisis de nous rapporter au niveau taxonomique supérieur et d'étudier la diversité des communautés en genre botanique.
+Le biais de l'estimateur de diversité au niveau espèce est bien moins important, ne dépassant pas 10% de la diversité observée \@ref(fig:FigTreesGenus).
+Par ailleurs, les estimateurs sont peu variables et permettent de comparer correctement les communautés communautés, pourvu que leurs degrés d'indétermination soient similaires.
+
+```{r FigTreesGenus, out.width='60%', fig.asp=1/2, fig.cap="Profil de biais pour les diversité de Richesse, Shannon et Simpson au niveau genre le long d'un gradient d'indétermination correspondant au pourcentage d'individus identifiés uniquement par leur nom vernaculaire. Les profils de biais représentent la moyenne et les quantiles 0.025 et 0.975 de la distribution des diversités obtenues pour 100 simulations de tirage aléatoire et de propagation des incertitudes."}
+load("ExternalFig/Uncertaintypropagation_Species_noCorrection")
+
+par(mfrow=c(1,3),no.readonly=TRUE)
+invisible(lapply(Profile_Genus,function(ind){
+  plot(colnames(ind),ind["0.5",],type="n",ylim=c(0,max(ind)),xlab="",ylab="")
+  polygon(c(colnames(ind),rev(colnames(ind))),c(pmax(ind["0.025",]),pmin(rev(ind["0.975",]))),col="gray75")
+  lines(colnames(ind), ind["0.5",], col = "red",lty = 2)
+  points(colnames(ind), ind["0.5",], col = "black",pch = 3)
+  abline(h=ind["0.5",1],col="red",lty=2)
+}))
+mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
+mtext("Diversité équivalente (Genre)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
+mtext("Richness",at=0.1,line=-1.5,outer=TRUE);mtext("Shannon",at=0.44,line=-1.5,outer=TRUE)
+mtext("Simpson",at=0.76,line=-1.5,outer=TRUE)
+
+```
+
+
+### Cas particulier de Paracou
+
+L'histoire de détermination botanique des parcelles de Paracou implique une grande variabilité du degré d'indétermination au cours du temps et des différences significatives entres les parcelles.
+Aujourd'hui tandis que les parcelles contrôle et du traitement 3 sont bien déterminées, moins de 5% des arbres 'ne sont identifiés que par un nom vernaculaire'ont pas d'identification botanique, d'autres parcelles du traitement 1 ou 2 sont encore mal déterminées et pour certaines plus de 30% des arbres n'ont pas d'identification botanique.
+
+Jusqu'à présent le biais des estimateurs de diversité reste à resoudre, en revanche il est possible de pallier ces différences de détermination en considérant la compositon et la diversité des parcelles au niveau du genre plutôt qu'au niveau de l'espèce.
+
+
+<!--chapter:end:02-IncertitudeTaxonomique.Rmd-->
+
+# Article 2: trajectoires de diversité des parcelles
+
+
+<!--chapter:end:03-TrajectoiresDeDiversité.Rmd-->
+
+# Article 3: Dynamiques du recrutement
+
+## Recrutement et mortalité: supports de la dynamique forestière
+
+La dynamique des peuplement forestiers est la somme des processus démographiques de mortalité et de recrutement qui régissent l'apparition (recrutement) et la disparition (mort) des individus dans la communauté.
+
+La disparition d'un arbre, qui libère mécaniquement de l'espace et des resources, est un processus central de la dynamique forestière.
+En forêt tropicale humide en particulier, la mort d'un arbre crée un trou dans la canopée aux conditions abiotiques nouvelles.
+On observe alors une augmentation des radiations lumineuses arrivant au sol, de la disponibilité en eau et des les flux de chaleur, suivis d'une augmentation de la productivité du peuplement [@Pinard2000 in Asner 2004].
+Les trouées augmentent donc la croissance des individus environnants, des juvéniles ou des plantules de sous-bois et parfois parfois la germination de graines de la banque du sol.
+La mortalité est donc moteur principal de la dynamique forsetière, la restauration du peuplement après toute perturbation augmentant cette mortalité dépendra du nombre et de la taille des individus morts [@Denslow1980; @Schnitzer2001; @Asner2004].
+
+Le recrutement est le complémentaire de la mortalité pour la dynamique forestière.
+Il résulte d'une suite d'événements biologiques depuis la production, la dissémination et la germination des graines, à la survie et la croissance des plantule jusqu'au seuil de recrutement.
+Ce seuil de recrutement correspond souvent à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel on considère l'individu assez développé pour avoir un rôle significatif au sein du peuplement.
+L'écologie des espèces détermine en effet les conditions nécessaires à la germination, la croissance et la survie des individus: filtres environnementaux et exclusions compétitives s'opèrent donc s'exercent donc principalement au cours du recrutement.
+Le recrutement est donc le deuxième élément essentiel régissant la composition et la diversité des communautés en forêt tropicale et permet de plus d'appréhender le futur des forêts tropicales en en définissant le peuplement en devenir [@Denslow1980 + cf biblio Elodie]. 
+
+## Méthodes spécifiques
+
+En plus des mesures de diversité et de composition déjà utilisées à l'échelle de l'ensemble de la communauté, nous nous sommes intéressés ici à la similarité de sarbres recrutés par rapport au peuplement initial inventorié avant exploitation.
+On essaie par là de déterminer si la communauté des recrutés correspond à un sous ensemble de la communauté initiale ou s'ils correspondent à des espèces différentes.
+Là encore de nombreuses mesure sont été développées, selon la façon de comptabiliser les espèces communes et leur abondance [@Podani2013a].
+Nous avons choisis ici de mesurer le taux de remplacement des abondances qui corresponda à la somme des abondances d'une commaunté remplacées par une espèce différente dans la seconde communauté, normalisée par la proportion l'abondance partagée entre les deux communautés \@ref(eq:formNestedness).
+
+\begin{equation}
+T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
+(\#eq:formNestedness)
+\end{equation}
+
+<!--chapter:end:04-RecruitmentDynamics.Rmd-->
+
+# Conclusion et perspectives
+
+<!--chapter:end:05-ConclusionGenrale.Rmd-->
+
+`r if (knitr:::is_html_output()) '# References {-}'`
+
+<!--chapter:end:99-references.Rmd-->
 

@@ -1,2 +1,18 @@
 # Article 2: trajectoires de diversité des parcelles
 
+Les processus régissant la coexistence des espèces et le maintien de leurs assemblages sont largement débattus, d'autant plus dans le cas des forêts tropicales très diverses.
+En particulier le débat porte sur la consistance des processus déterministes tels que la théorie des perturbations intermédiaires, qui prédit une diversité maximum pour un régime moyen de perturbation, par rapport à des processus stochastiques impliquant l'installation aléatoire des espèces [@Hubbell1999].
+Les processus déterministes reposent sur un régime constant de perturbations, principalement les chablis, modifiant régulièrement les conditions biotique (interactions entre individus) et abiotique (ensoleillement, de température, de flux d'eau et de matière, etc) du milieu et permettent des espèces à l'écologie variée de s'installer lorsque les conditions leurs sont favorables [@Molino2001;@Kariuki2006a;@Berry2008a].
+Les processus déterministes impliquent les espèces en fonction de leur écologie et de leurs traits [@seeLaughlinInCarmona] et déterminent la composition, la diversité et la redondance fonctionnelle des communautés.
+Combiner l'étude des trajectoires taxonomiques et fonctionnelles permet d'identifier les processus définissant la réponse des communautés d'une part et de discuter les différents aspects de leur résilience.
+
+Dans ce chapitre nous proposons de tracer les trajectoires de diversité et de composition taxonomique et fonctionnelle des communautés pour comprendre les processus déterminant la réponse des communautés aux perturbations et clarifier les différents aspects de leur résilience.
+
+Ces trajectoires ont mis en évidence la restoration des communautés initiales et le maintien de leurs différences en composition spécifique, mais avec un décalage entre caractéristiques taxonomiques et fonctionnelles. 
+Après perturbation les communautés ont suivi une trajectoire fonctionnelle commune, déterminée par l'intensité de la perturbation et validant ainsi la théorie des perturbations intermédiaires.
+Les trajectoires taxonomiques en revanche ont prouver dépendre plus de la composition initiale de la communauté que de la perturbation, et ont montré une restoration plus lente du fait de la difficile récupération des espèces rares inféodées aux peuplements matures et exclues par la compétition avec les espèces en place.
+Le décalage entre trajectoires fonctionnelle et taxonomique et la faible cohérence taxonomique de la théorie des perturbations intermédiaires s'expliquent par une réorganisation de la redondance fonctionnelle après perturbation.
+Cette redondance dans l'espace fonctionnel de la communauté initiale diminue après perturbation suite à la disparition d'arbres et d'espèces, mais l'espace est rapidement réinvestit par les espèces dominantes qui permettent une rapide restoration fonctionnelle. 
+La restoration est en revanche plus lente pour les espèces rares qui partagent les même caractéristiques fonctionnelles et sont donc en compétition pour les resources lumineuses.
+Les trajectoires des parcelles de Paracou démontrent donc une résilience rapide et commune en termes de fonctionnement mais plus lente en termes de taxonomie et dépendant de la communauté initiale.
+La lente restoration de la redondance fonctionnelle démontre un effet persistant des perturbations et interroge fortement la résilience suite à plusieurs perturbations.

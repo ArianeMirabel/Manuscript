@@ -1,99 +1,106 @@
 --- 
-title: "Trajectoires de biodiversité en forêt tropicale exploitée"
+title: "Trajectoires de biodiversitÃ© en forÃªt tropicale exploitÃ©e"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
+output: pdf_document
+biblio-style: authoryear-ibid
+bibliography:
+- packages.bib
+- 01ref-IntroG.bib
+- 02ref-chap2Incert.bib
+cite-style: verbose-inote
+classoption:
+- extrafontsizes
+- onecolumn
+- openright
+colorlinks: yes
+abstract: |
+  To be coming
+description: Thesis manuscript
+documentclass: memoir
+fig_crop: yes
+fontsize: 11pt
+fourthpagefontsize: normalsize
+graphics: yes
+keywords:
+- Biodiversity
+- Neotropical forests
+- Perturbation
+- Communities Ecology
+- Dynamic
+lang: fr
+link-citations: yes
+mots-cles:
+- BiodiversitÃ©
+- ForÃªts NÃ©otropicales
+- Perturbation
+- Ecologie des CommunautÃ©s
+- Dynamique
+otherlangs:
+- en-US
+- en-GB
+- fr
+biblatexoptions:
+- backend=bibtex
+- citestyle=verbose-inote
+- pageref=true
+- isbn=false
+- backref=true
+- giveninits=true
+- uniquename=init
+- maxcitenames=2
+- maxbibnames=150
+- sorting=nyt
+- sortcites=false
+papersize: A4
+resume: |
+  A venir
 site: bookdown::bookdown_site
-description: "Thesis manuscript"
 PhD-HDR:
+  DIS: ST
   DocType: PhD
   ED: UG
   Ets: UG
-  DIS: ST
-  speciality: Écologie
   defence-date: 1er janvier 2018
-  lab:  Écologie des Forêts de Guyane
-  njudge: 7
   jury1:
     category: judge
-    name: Prénom NomJury1
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury1
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury2:
     category: judge
-    name: Prénom NomJury2
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury2
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury3:
     category: judge
-    name: Prénom NomJury3
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury3
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury4:
     category: judge
-    name: Prénom NomJury4
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury4
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury5:
     category: judge
-    name: Prénom NomJury5
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury5
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury6:
     category: judge
-    name: Prénom NomJury6
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury6
     other: Membre du Jury
+    status: Professeur d'UniversitÃ©
   jury7:
     category: judge
-    name: Prénom NomJury7
-    status: Professeur d'Université
+    name: PrÃ©nom NomJury7
     other: Membre du Jury
-documentclass: memoir
-classoption:
-  - extrafontsizes
-  - onecolumn
-  - openright
-papersize: A4
-fontsize: 11pt
+    status: Professeur d'UniversitÃ©
+  lab: Ã‰cologie des ForÃªts de Guyane
+  njudge: 7
+  speciality: Ã‰cologie
 toc-depth: 3
-lang: fr
-otherlangs: [en-US, en-GB, fr]
-bibliography: [packages.bib, 01ref-IntroG.bib, 02ref-chap2Incert.bib]
-biblio-style: authoryear-ibid
-cite-style: verbose-inote
-biblatexoptions:
-  - backend=bibtex
-  - citestyle=verbose-inote
-  - pageref=true
-  - isbn=false
-  - backref=true
-  - giveninits=true
-  - uniquename=init
-  - maxcitenames=2
-  - maxbibnames=150
-  - sorting=nyt
-  - sortcites=false
-link-citations: yes
-colorlinks: yes
-graphics: yes
-fig_crop: yes
-resume: |
-  A venir
-mots-cles:
-  - Biodiversité
-  - Forêts Néotropicales
-  - Perturbation
-  - Ecologie des Communautés
-  - Dynamique
-abstract: |
-  To be coming
-keywords:
-  - Biodiversity
-  - Neotropical forests
-  - Perturbation
-  - Communities Ecology
-  - Dynamic
-fourthpagefontsize: normalsize
 ---
 
 <!-- knitr and R options (packages, ...) --> 
