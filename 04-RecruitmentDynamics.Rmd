@@ -1,26 +1,17 @@
-# Article 3: Dynamiques du recrutement
+# Article 3: Dynamiques du recrutement,support de la trajectoire des communautés
 
-## Recrutement et mortalité: supports de la dynamique forestière
+La dynamique des peuplement forestiers est la somme des processus démographiques de mortalité et de recrutement qui régissent l'apparition (recrutement) et la disparition (mortalité) des individus dans la communauté.
 
-La dynamique des peuplement forestiers est la somme des processus démographiques de mortalité et de recrutement qui régissent l'apparition (recrutement) et la disparition (mort) des individus dans la communauté.
+Les forêts sont soumises à un régime constant de perturbations, principalement sous la forme de chablis, qui modifient l'environnement biotique et abiotique (ensoleillement, flux d'eau et de matière, etc) de la communauté et sa productivité [@Otani2018].
+Après perturbation la réponse de la communauté est déterminée par la croissance des juvéniles ou des plantules de sous-bois ou la germination de graines de la banque du sol [@Denslow1980; @Schnitzer2001; @Asner2004], ce qui fait du recrutemtn une composante majeure de la dynamique des communautés.
+Le recrutement correspond à une suite d'événements biologiques de la production, la dissémination et la germination des graines, à la survie et la croissance des plantule jusqu'au seuil de recrutement.
+Ce seuil de recrutement correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu es tconsidéré comme assez développé pour le fonctionnement de l'écosystème.
+La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étape de la résilience des communautés et d'appréhender la structure des communautés en devenir. 
 
-La disparition d'un arbre, qui libère mécaniquement de l'espace et des resources, est un processus central de la dynamique forestière.
-En forêt tropicale humide en particulier, la mort d'un arbre crée un trou dans la canopée aux conditions abiotiques nouvelles.
-On observe alors une augmentation des radiations lumineuses arrivant au sol, de la disponibilité en eau et des les flux de chaleur, suivis d'une augmentation de la productivité du peuplement [@Pinard2000 in Asner 2004].
-Les trouées augmentent donc la croissance des individus environnants, des juvéniles ou des plantules de sous-bois et parfois parfois la germination de graines de la banque du sol.
-La mortalité est donc moteur principal de la dynamique forsetière, la restauration du peuplement après toute perturbation augmentant cette mortalité dépendra du nombre et de la taille des individus morts [@Denslow1980; @Schnitzer2001; @Asner2004].
+## Similarité entre communautés
 
-Le recrutement est le complémentaire de la mortalité pour la dynamique forestière.
-Il résulte d'une suite d'événements biologiques depuis la production, la dissémination et la germination des graines, à la survie et la croissance des plantule jusqu'au seuil de recrutement.
-Ce seuil de recrutement correspond souvent à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel on considère l'individu assez développé pour avoir un rôle significatif au sein du peuplement.
-L'écologie des espèces détermine en effet les conditions nécessaires à la germination, la croissance et la survie des individus: filtres environnementaux et exclusions compétitives s'opèrent donc s'exercent donc principalement au cours du recrutement.
-Le recrutement est donc le deuxième élément essentiel régissant la composition et la diversité des communautés en forêt tropicale et permet de plus d'appréhender le futur des forêts tropicales en en définissant le peuplement en devenir [@Denslow1980 + cf biblio Elodie]. 
-
-## Méthodes spécifiques
-
-En plus des mesures de diversité et de composition déjà utilisées à l'échelle de l'ensemble de la communauté, nous nous sommes intéressés ici à la similarité de sarbres recrutés par rapport au peuplement initial inventorié avant exploitation.
-On essaie par là de déterminer si la communauté des recrutés correspond à un sous ensemble de la communauté initiale ou s'ils correspondent à des espèces différentes.
-Là encore de nombreuses mesure sont été développées, selon la façon de comptabiliser les espèces communes et leur abondance [@Podani2013a].
+Nous avons étudié ici la résilience des communautés plus en détail en suivant le turnover des espèces recrutées par rapport à la communauté initiale.
+De nombreuses mesures permettent d'estimer ce turnover, selon la prise en copte de l'abondance des espèces [@Podani2013a].
 Nous avons choisis ici de mesurer le taux de remplacement des abondances qui corresponda à la somme des abondances d'une commaunté remplacées par une espèce différente dans la seconde communauté, normalisée par la proportion l'abondance partagée entre les deux communautés \@ref(eq:formNestedness).
 
 \begin{equation}
