@@ -3,18 +3,10 @@
 La dynamique des peuplement forestiers est la somme des processus démographiques de mortalité et de recrutement qui régissent l'apparition (recrutement) et la disparition (mortalité) des individus dans la communauté.
 
 Les forêts sont soumises à un régime constant de perturbations, principalement sous la forme de chablis, qui modifient l'environnement biotique et abiotique (ensoleillement, flux d'eau et de matière, etc) de la communauté et sa productivité [@Otani2018].
-Après perturbation la réponse de la communauté est déterminée par la croissance des juvéniles ou des plantules de sous-bois ou la germination de graines de la banque du sol [@Denslow1980; @Schnitzer2001; @Asner2004], ce qui fait du recrutemtn une composante majeure de la dynamique des communautés.
-Le recrutement correspond à une suite d'événements biologiques de la production, la dissémination et la germination des graines, à la survie et la croissance des plantule jusqu'au seuil de recrutement.
-Ce seuil de recrutement correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu es tconsidéré comme assez développé pour le fonctionnement de l'écosystème.
-La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étape de la résilience des communautés et d'appréhender la structure des communautés en devenir. 
+Après perturbation la réponse de la communauté est déterminée par la croissance des juvéniles ou des plantules de sous-bois ou la germination de graines de la banque du sol [@Denslow1980; @Schnitzer2001; @Asner2004], ce qui fait du recrutement une composante majeure de la réponse des communautés.
+Le recrutement correspond à une suite d'événements biologiques allant de la production, la dissémination et la germination des graines, à la survie et la croissance des plantules jusqu'au seuil de recrutement.
+Ce seuil correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour le fonctionnement de l'écosystème.
+Identifier la succession des étapes du recrutement et les processus sous-jacents permet d'appréhender l'intégralité de la résilience des communautés 
+La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étape de la résilience et d'appréhender la structure des communautés en devenir. 
+Le processus de résilience peut de plus être affiné en suivant le turnover des espèces recrutées par rapport à la composition de la communauté initiale.
 
-## Similarité entre communautés
-
-Nous avons étudié ici la résilience des communautés plus en détail en suivant le turnover des espèces recrutées par rapport à la communauté initiale.
-De nombreuses mesures permettent d'estimer ce turnover, selon la prise en copte de l'abondance des espèces [@Podani2013a].
-Nous avons choisis ici de mesurer le taux de remplacement des abondances qui corresponda à la somme des abondances d'une commaunté remplacées par une espèce différente dans la seconde communauté, normalisée par la proportion l'abondance partagée entre les deux communautés \@ref(eq:formNestedness).
-
-\begin{equation}
-T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
-(\#eq:formNestedness)
-\end{equation}

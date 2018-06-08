@@ -56,9 +56,21 @@ Pour avoir une vision réaliste du devenir des forêts et comprendre les mécani
 
 ## Comment mesurer la diversité biologique ?
 
-La biodiversité est cependant souvent réduite à celle de richesse en espèces, bien qu'en réalité elle tienne compte du nombre et de l'abondance des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
-La biodiversité est définie de l'échelle du gène à celle de l'écosystème et comprend de nombreux aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant.
-Appréhender les différents aspects de la biodiversité permet d''appréhender'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+La biodiversité est définie de l'échelle du gène à celle de l'écosystème considère la diversité des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
+La biodiversité est souvent réduite à celle de richesse en espèces, mais tient compte en réalité des multiples aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant qui constituent les communautés.
+Appréhender les différents aspects de la biodiversité permet d'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+
+## Composition et dissimilarity entre communautés
+
+De nombreuses mesures permettent d'estimer ce turnover, qui prennent en compte ou non l'abondance des espèces [@Podani2013a].
+Nous avons choisis ici de mesurer le taux de remplacement d'abondance, ou similarité de Bary-Curtis, qui représente dans quelle mesure une communauté est le sous-ensemble d'une plus grande. 
+En pratique, si la communauté recrutée après exploitation répond aux mêmes lois que la communauté initiale elle sera équivalente à une communauté qui en aurait été tirée au hasard. La similarité de Bray-Curtis mesure la somme des abondances d'une commaunté remplacées par une espèce différente, normalisée par l'abondance totale partagée entre les deux communautés \@ref(eq:formNestedness).
+
+\begin{equation}
+T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
+(\#eq:formNestedness)
+\end{equation}
+
 
 ### Assemblage et structure des communautés {#AbundanceDistribution}
 
@@ -71,12 +83,12 @@ knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
 ```
 
 Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
-Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de resources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
-Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, de l'eau disponible, de la fertilité du sol, de l'espace, etc [@Silvertown2004;@terSteege2006]. 
+Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de ressources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
+Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau disponible, les nutriments du sol, l'espace, etc [@Silvertown2004;@terSteege2006]. 
 Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espèces de la communauté.
 De nombreux modèles prédictifs ont été proposés, des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la resource selon une formule prédéterminée, par exemple en la divisant successivement selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
 
-Ces modèles testés pour de nombreuses communautés, ont montré représenter correctement les communautés réelles et révéler les règles écologiques qui en régissent l'assemblage.
+Ces modèles testés pour de nombreuses communautés, ont démontré pouvoir représenter correctement les communautés réelles et révéler les règles écologiques qui en régissent l'assemblage.
 Ce sont des outils adéquats pour comparer les communautés et en interpréter les différences, mais manipuler une distribution d'abondance reste compliqué car il s'agit d'une repréentation en 2D et ne permet pas de quantifier les différences entre communautés.
 En revanche, les paramètres de ces distributions et des modèle proposés pour les représenter permettent de quantifier le nombre d'espèces, la forme des distribution, ou encore l'homogénéité des abondances.
 Ces indicateurs sont les indices de diversité, résumant de façon quantifiable les caractéristiques des distributions d'abondance.
