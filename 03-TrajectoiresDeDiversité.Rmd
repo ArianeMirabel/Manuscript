@@ -9,6 +9,7 @@ Identifier les processus déterminant l'assemblage des communautés permet non s
 La prépondérance des processus déterministes par exemple implique une correspondance unique entre un environnement et une communauté, quelle que soit son histoire la composition en espèce convergera toujours vers une certaine configuration.
 Une plus grand importance des processus stochastiques à l'inverse produira une divergence aléatoire des communautés et maintiendra des configurations différentes dans un environnement homogène.
 Les processus déterministes impliquent différemment les espèces et laissent ainsi une signature taxonomique et fonctionnelle dans la structure des communautés [@Funk2017] qui permet d'identifier les processus en jeu et leur importance.
+L'exclusion de certaines espèces non adaptées à l'environnement se traduira par une aggrégation des traits et diminution de la diversité fonctionnelle tandis qu'une exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une diversité fonctionnelle élevée [@McGill2006;@Kunstler2012].
 
 Nous proposons ici d'étudier les trajectoires de diversité et de composition taxonomique et fonctionnelle en forêt tropicale après perturbation pour identifier les processus écologiques déterminants la dynamique des communautés, en interrogeant spécifiquement la validité de la théorie des perturbations intermédiaires, et clarifier les différents aspects de leur résilience.
 
