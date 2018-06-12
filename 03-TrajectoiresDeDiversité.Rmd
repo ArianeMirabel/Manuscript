@@ -1,13 +1,6 @@
 # Article 2: trajectoires de diversité des parcelles
 
-L'un des fondements de l'écologie est est de comprendre les processus qui régissent l'assemblage et la coexistence des espèces en communautés, d'autant plus dans le cas des forêts tropicales pour lesquelles sont de plus débattus l'origine et le maintien de leur extrêmement diversité.
-Les hypothèses débattues aujourd'hui invoquent d'une part des processus déterministes, qui sélectionnent les espèces selon leur aptitude dans l'environnement considéré, et d'autre part des processus stochastiques, invoquant les contraintes historiques et de limitation de dispersion ou de croissance.
-Ce cadre conceptuel est matérialisé par le débat invoquant la prépondérance des processus stochastiques dans la construction des forêts tropicales [@Hubbell1999] opposé à la théorie des perturbations intermédiaires qui prédit une diversité maximal pour un régime moyen de perturbation par la prépondérence des processus déterministes d'exclusion compétitive et de filtrage des espèces[@Molino2001].
-Selon la théorie des perturbations intermédiaires un régime moyen de perturbations modifierait régulièrement mais non drastiquement les conditions environnementales biotiques (interactions entre individus) et abiotiques (ensoleillement, température, flux d'eau et de matière, etc) et permettrait à diverses espèces de s'installer lorsque les conditions leurs sont favorables [@Kariuki2006a;@Berry2008a].
-Vraisemblablement les communautés sont déterminées par une combinaison variables de processus stochastiques et déterministes, et la question se porte alors sur les facteurs déterminant leurs importances respectives. 
-Identifier les processus déterminant l'assemblage des communautés permet non seulement d'en comprendre le fonctionnement mais également d'en anticiper les dynamiques.
-La prépondérance des processus déterministes par exemple implique une correspondance unique entre un environnement et une communauté, quelle que soit son histoire la composition en espèce convergera toujours vers une certaine configuration.
-Une plus grand importance des processus stochastiques à l'inverse produira une divergence aléatoire des communautés et maintiendra des configurations différentes dans un environnement homogène.
+
 Les processus déterministes impliquent différemment les espèces et laissent ainsi une signature taxonomique et fonctionnelle dans la structure des communautés [@Funk2017] qui permet d'identifier les processus en jeu et leur importance.
 L'exclusion de certaines espèces non adaptées à l'environnement se traduira par une aggrégation des traits et diminution de la diversité fonctionnelle tandis qu'une exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une diversité fonctionnelle élevée [@McGill2006;@Kunstler2012].
 

@@ -1,12 +1,13 @@
-# Article 3: Dynamiques du recrutement,support de la trajectoire des communautés
+# Article 3: Analyse du recrutement, support de la trajectoire des communautés
 
-La dynamique des peuplement forestiers est la somme des processus démographiques de mortalité et de recrutement qui régissent l'apparition (recrutement) et la disparition (mortalité) des individus dans la communauté.
+Les conclusions récentes supposent que l'assemblage des communautés est régit par une combinaison de processus déterministes et stochastiques impliqués différemment dans la réponse aux perturbations des communautés mais produisant des structures similaires de communautés, ce qui les rend difficilement distinguables à l'échelle de tout le communauté [@Mouquet2003;@Chave2004].
+Décomposer les communautés selon leurs processus démographiques sous-jacents de mortalité (disparition d'espèces) et de recrutement (apparition d'espèces) permet en revanche de clarifier les règles écologiques qui les régissent.
 
 Les forêts sont soumises à un régime constant de perturbations, principalement sous la forme de chablis, qui modifient l'environnement biotique et abiotique (ensoleillement, flux d'eau et de matière, etc) de la communauté et sa productivité [@Otani2018].
 Après perturbation la réponse de la communauté est déterminée par la croissance des juvéniles ou des plantules de sous-bois ou la germination de graines de la banque du sol [@Denslow1980; @Schnitzer2001; @Asner2004], ce qui fait du recrutement une composante majeure de la réponse des communautés.
 Le recrutement correspond à une suite d'événements biologiques allant de la production, la dissémination et la germination des graines, à la survie et la croissance des plantules jusqu'au seuil de recrutement.
 Ce seuil correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour le fonctionnement de l'écosystème.
 Identifier la succession des étapes du recrutement et les processus sous-jacents permet d'appréhender l'intégralité de la résilience des communautés 
-La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étape de la résilience et d'appréhender la structure des communautés en devenir. 
+La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étapes de la résilience et d'appréhender la structure des communautés en devenir. 
 Le processus de résilience peut de plus être affiné en suivant le turnover des espèces recrutées par rapport à la composition de la communauté initiale.
 
