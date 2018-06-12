@@ -28,7 +28,7 @@ Le degré d'indétermination correspond au nombre d'arbres sans identification b
 
 ### Profils d'incertitude taxonomique
 
-A la différence des inventaire sd'exploitation, dans le cas des dispositifs expérimentaux le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés au niveau spécifique. 
+A la différence des inventaires d'exploitation, dans le cas des dispositifs expérimentaux le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés au niveau spécifique. 
 Sur le même principe que pour les inventaires d'exploitation, nous avons simulé un gradient d'indétermination taxonomique à partir d'inventaires complets en nom botanique complets évaluer l'impact de l'incertitude taxonomique pour les mesures de diversité \@ref(fig:FigTreesSp).
 
 ```{r FigTreesSp, out.width='60%', fig.asp=1/2, fig.cap="Profil de biais pour les diversité de Richesse, Shannon et Simpson au niveau spécifique le long d'un gradient d'indétermination correspondant au pourcentage d'individus identifiés uniquement par leur nom vernaculaire. Les profils de biais représentent la moyenne et les quantiles 0.025 et 0.975 de la distribution des diversités obtenues pour 100 simulations de tirage aléatoire et de propagation des incertitudes."}
