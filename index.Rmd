@@ -1,5 +1,5 @@
 --- 
-title: "Trajectoires de biodiversitÃ© en forÃªt tropicale exploitÃ©e"
+title: "Trajectoires de biodiversité en forêt tropicale exploitée"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
 output: pdf_document
@@ -8,7 +8,7 @@ bibliography:
 - packages.bib
 - 01ref-IntroG.bib
 - 02ref-chap2Incert.bib
-cite-style: verbose-inote
+cite-style: authoryear
 classoption:
 - extrafontsizes
 - onecolumn
@@ -27,22 +27,24 @@ keywords:
 - Neotropical forests
 - Perturbation
 - Communities Ecology
-- Dynamic
+- Dynamic trajectories
+- Resilience
 lang: fr
 link-citations: yes
 mots-cles:
-- BiodiversitÃ©
-- ForÃªts NÃ©otropicales
+- Biodiversité
+- Forêts Néotropicales
 - Perturbation
-- Ecologie des CommunautÃ©s
-- Dynamique
+- Ecologie des Communautés
+- Trajectoires dynamiques
+- Résilience
 otherlangs:
 - en-US
 - en-GB
 - fr
 biblatexoptions:
 - backend=bibtex
-- citestyle=verbose-inote
+- citestyle=authoryear
 - pageref=true
 - isbn=false
 - backref=true
@@ -97,15 +99,15 @@ PhD-HDR:
     name: PrÃ©nom NomJury7
     other: Membre du Jury
     status: Professeur d'UniversitÃ©
-  lab: Ã‰cologie des ForÃªts de Guyane
+  lab: Ecologie des forêts de Guyane
   njudge: 7
-  speciality: Ã‰cologie
+  speciality: Ecologie
 toc-depth: 3
 ---
 
 <!-- knitr and R options (packages, ...) --> 
 ```{r Options, echo=FALSE, message=FALSE}
-knitr::opts_chunk$set(cache=F, warning=FALSE, tidy=TRUE, fig.env='SCfigure', out.width='80%', fig.asp=.75, fig.align='center')
+knitr::opts_chunk$set(cache=T, warning=FALSE, tidy=TRUE, fig.env='SCfigure', out.width='80%', fig.asp=.75, fig.align='center')
 # Installation of packages if necessary and loading
 Library <- function(Packages) {
   InstallAndLoad <- function(Package) {
