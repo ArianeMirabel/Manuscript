@@ -2,8 +2,8 @@
 title: "Trajectoires de biodiversité en forêt tropicale exploitée"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
-output: pdf_document
-biblio-style: authoryear-ibid
+output: pdf_book
+biblio-style: authoryear
 bibliography:
 - packages.bib
 - 01ref-IntroG.bib
@@ -16,7 +16,7 @@ classoption:
 colorlinks: yes
 abstract: |
   To be coming
-description: Thesis manuscript
+description: "Manuscrit de thèse"
 documentclass: memoir
 fig_crop: yes
 fontsize: 11pt
@@ -32,12 +32,12 @@ keywords:
 lang: fr
 link-citations: yes
 mots-cles:
-- Biodiversité
-- Forêts Néotropicales
+- Biodiversite
+- Forets Neotropicales
 - Perturbation
-- Ecologie des Communautés
+- Ecologie des Communautes
 - Trajectoires dynamiques
-- Résilience
+- Resilience
 otherlangs:
 - en-US
 - en-GB
@@ -45,9 +45,9 @@ otherlangs:
 biblatexoptions:
 - backend=bibtex
 - citestyle=authoryear
-- pageref=true
 - isbn=false
 - backref=true
+#- pageref=true
 - giveninits=true
 - uniquename=init
 - maxcitenames=2
@@ -66,48 +66,59 @@ PhD-HDR:
   defence-date: 1er janvier 2018
   jury1:
     category: judge
-    name: PrÃ©nom NomJury1
+    name: Prenom NomJury1
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury2:
     category: judge
-    name: PrÃ©nom NomJury2
+    name: Prenom NomJury2
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury3:
     category: judge
-    name: PrÃ©nom NomJury3
+    name: Prenom NomJury3
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury4:
     category: judge
-    name: PrÃ©nom NomJury4
+    name: Prenom NomJury4
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury5:
     category: judge
-    name: PrÃ©nom NomJury5
+    name: Prenom NomJury5
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury6:
     category: judge
-    name: PrÃ©nom NomJury6
+    name: Prenom NomJury6
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
+    status: Professeur d'Universite
   jury7:
     category: judge
-    name: PrÃ©nom NomJury7
+    name: Prenom NomJury7
     other: Membre du Jury
-    status: Professeur d'UniversitÃ©
-  lab: Ecologie des forêts de Guyane
+    status: Professeur d'Universite
+  lab: Ecologie des forets de Guyane
   njudge: 7
   speciality: Ecologie
 toc-depth: 3
+preamble: >
+  \usepackage{textcomp}
+  \DeclareUnicodeCharacter{B0}{\textdegree}
+  \usepackage{tabu}
+  \usepackage{caption}
+  \captionsetup{justification = justified}
+  \renewenvironment{table}{\begin{table*}}{\end{table*}\ignorespacesafterend}
+  \hyphenation{bio-di-ver-si-ty sap-lings}
+  \usepackage{floatrow}
+  \floatsetup[widefigure]{margins=hangright,capposition=beside,
+  capbesideposition={bottom, right},floatwidth=\textwidth}ASC
 ---
 
 <!-- knitr and R options (packages, ...) --> 
 ```{r Options, echo=FALSE, message=FALSE}
-knitr::opts_chunk$set(cache=T, warning=FALSE, tidy=TRUE, fig.env='SCfigure', out.width='80%', fig.asp=.75, fig.align='center')
+knitr::opts_chunk$set(cache=T, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='80%', fig.asp=.75, fig.align='center')
 # Installation of packages if necessary and loading
 Library <- function(Packages) {
   InstallAndLoad <- function(Package) {

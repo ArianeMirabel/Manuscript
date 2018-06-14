@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 # Introduction générale
 
@@ -9,36 +9,34 @@ output:
 
 Les forêts couvrent 30% de la surface terrestre et les nombreux biens et services environnementaux, économiques et sociaux qu'elles assurent sont indispensables à l'équilibre planétaire.
 Elles régulent le climat, la qualité de l'eau, de l'air et des sols et abritent une diversité biologique exceptionnelle.
-Elles subviennent aux besoin alimentaires des populations et à leur développement économique en tant que sources de matières premières, de revenus et d'opportunités de développement.
-Enfin, indispensables au bien être des populations, elles représentent d'irremplaçables valeurs historiques, culturelles et patrimoniales [@FRA2015; @Tilman2014].
-Malgré leur importance les forêts restent extrêmement menacées aujourd'hui par les changements climatiques globaux, le traffic de bois illégal, la déforestation liée aux changements d'usage des terres et les dégradations et pollutions environnementales.
+Elles subviennent aux besoins alimentaires de la population mondiale et permettent son développement économique en tant que source de matières premières, de revenus et d'opportunités de développement.
+Enfin, indispensables au bien être des populations, elles représentent des valeurs historiques, culturelles et patrimoniales irremplaçables [@FRA2015; @Tilman2014].
+Malgré leur importance les forêts restent extrêmement menacées par les changements climatiques globaux, le traffic de bois illégal, la déforestation liée aux changements d'usage des terres et les dégradations et pollutions environnementales.
 
 ### Des écosystèmes incontournables
 
-Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes et leur environnement définissant une unité fonctionnelle dont les arbre sont les composants essentiels, définie par [@FRA2000]. 
+Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes et leur environnement qui définissent une unité fonctionnelle dont les arbre sont les composants essentiels [@FRA2000]. 
 Ces écosystèmes accueillent la diversité animale et végétale et les taux d'endémismes les plus importants du globe et sont les régions restées les moins anthropisées ce qui leur confère de forts enjeux de conservation [@Myers2000; @Mittermeier2003].
 
-En entretenant les cycles de l'eau et des nutriments (azote, phosphore, etc) via leur réseau racinaire, les forêts régulent la fertilité des sols et les températures et précipitations locales [@Malhi2008; @Isbell2017].
-Elles sont également des puits de carbone représentant 1.1 ± 0.8 PgC.yr^–1^ et jouent un rôle majeur dans la régulation des gaz à effet de serre (*GES*): elles d'une part stocker et compenser les émissions de GES dans l'atmosphère, mais également devenir une source de carbone lorsque leur dégradation libère le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
+En entretenant les cycles de l'eau et des nutriments (azote, phosphore, etc) via leur réseau racinaire, les forêts régulent la fertilité des sols et les températures et les précipitations locales [@Malhi2008; @Isbell2017].
+Elles sont également des puits de carbone qui représentent 1.1 ± 0.8 PgC.yr^–1^ et jouent un rôle majeur dans la régulation des gaz à effet de serre (*GES*), d'une part en tant que puit de carbone qui compense les émissions de GES mais également an tant que source potentielle lorsque leur dégradation libère le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
 
 A l'échelle globale la subsistance de 500 millions de personnes dépend directement des forêts qui sont une source de biens allant de la nourriture (par la chasse et la collecte de produits forestiers non ligneux comestibles), à l'eau, aux matériaux de construction, et à l'énergie (par l'utilisation du bois de chauffage et de cuisson des aliments). 
 L'exploitation forestière quant à elle représentait ~ 1% du PIB mondial, une part importante de l'emploi et l'une des principales sources d'énergie en 2011 [@CBDdiversity2011; @FAO2014].
 
 Enfin, les forêts interconnectées depuis toujours aux populations humaines sont indispensables à leur bien être et ont une dimension culturelle, spirituelle et patrimoniale importante. 
 
-
 ### Des écosystèmes menacés, en particulier sous les tropiques
 
-Bien qu'indispensables et irremplaçables, les forêts disparaissent et sont dégradées à une vitesse croissante: entre 2013 et 2015 leur surface globale a ainsi diminué de 3% [@FAO2009].
+Bien qu'aussi indispensables qu'irremplaçables, les forêts disparaissent et sont dégradées à une vitesse croissante: entre 2013 et 2015 leur surface globale a ainsi diminué de 3% [@FAO2009].
 Les forêts sont soumises à de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
-Elels subissent de plus les changements globaux qui augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
+Elles subissent de plus les changements climatiques globaux qui augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
 
-Malgré une prise de conscience globale, entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992, qui a motivé de nombreuses politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts, les pressions exercées sur les forêts demeurent [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Ces pressions diverses persistent voire s'accentuentmalgré une prise de conscience globale entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992 qui a motivé de nombreuses politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
 
 Ce contexte concerne en particulier les forêts tropicales, pour lesquelles les menaces sont d'autant plus graves que leur importance au niveau mondial est grande [@Dirzo2003a; @Hansen2013]. 
-Les bassins forestiers tropicaux qui représentent 1.3 million d'hectares sont plus grandes surfaces de forêts anciennes "primaires" n'ayant pas connu de forte perturbation anthropique et accueillent la diversité biologique la plus élevée au monde.
-[@Gentry1988; @FAO2011].
-Historiquement peu peuplées ces régions connaissent une croissance démographique moyenne de près de 1,4% par an qui entraîne des pressions croissantes de chasse, d'exploitation du bois, de conversion en terres agricoles et de dégradation en forêts secondaires [@Asner2009].
+Les bassins forestiers tropicaux qui représentent 1.3 million d'hectares sont plus grandes surfaces de forêts anciennes "primaires" n'ayant pas connu de forte perturbation anthropique et accueillent la diversité biologique la plus élevée au monde [@Gentry1988; @FAO2011].
+Historiquement peu peuplées, ces régions connaissent une croissance démographique moyenne de près de 1,4% par an qui entraîne des pressions anthropiques croissantes de chasse, d'exploitation du bois, de conversion en terres agricoles et de dégradation en forêts secondaires [@Asner2009].
 
 Une attention particulière doit être portée aux zones tropicales pour mieux comprendre leurs dynamiques et leur fonctionnement, toujours partiellement méconnus aujourd'hui. 
 
@@ -46,21 +44,22 @@ Une attention particulière doit être portée aux zones tropicales pour mieux c
 
 La biodiversité n'est pas épargnée par les pressions globales actuelles et une fraction significative est déjà anéantie et continue de disparaître irréversiblement, si bien que l'on qualifie déjà cette érosion croissantede sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012]. 
 
-Le fonctionnement des écosystèmes forestiers dont les arbres sont les éléments essentiels repose largement sur leur diversité en essences forestières, qui reflète de plus celle des autres groupes floristiques ou faunistiques [@Guitet2017].
-Individuellement, les espèces constituent le patrimoine naturel global et, selon leur charactéristiques biologiques, peuvent avoir un rôle clé dans leur communauté, comme c'est le cas pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
-Dans l'ensemble la diversité et la composition d'une communauté définit la complémentarité entre les individus et l'efficacité d'utilisation et de transformation des ressources: de la biodiversité dépendent la productivité des écosystèmes et les flux à la base des processus écosystémiques [@Begon2006].
-La biodiversité détermine de plus la stabilité et la résilience des écosystèmes en pallliant l'impact des maladies, des espèces invasives, des variations environnementales, etc [@Elmqvist2003].
+La diversité  des arbres, qui sont les éléments essentiels des écosystèmes forestiers, détermine largement leur fonctionnement et reflète celle autres groupes floristiques ou faunistiques [@Guitet2017].
+Individuellement d'une part, les espèces ont une valeur intrinsèque qui constitue le patrimoine naturel global et selon leurs charactéristiques biologiques peuvent avoir un rôle primordial, comme c'est le cas pour les espèces *clé de voûte*, [@Jones1994; @Power1996; @Gardner2007].
+D'autre part, la diversité et la composition d'une communauté dans son ensemble définit la complémentarité entre les individus qui la composent et l'utilisation et la transformation des ressources.
+La diversité d'une communauté détermine les flux d'eau, de nutriments et d'énergie à la base des processus écosystémiques et donc sa productivité [@Begon2006].
+Une diversité élevée est de plus garante de la stabilité et la résilience des écosystèmes en palliant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
 
 On sait aujourd'hui que l'érosion de la biodiversité impacte le fonctionnement des forêts mais les conséquences précises et la réponse des écosystèmes dans le contexte actuel de changements globaux restent mal connus.
-Pour avoir une vision réaliste du devenir des forêts et comprendre les mécanismes de leurs réponses il est crucial d'appréhender tous les aspects de la biodiversité.
+Pour avoir une comprendre et anticiper le devenir des forêts dans le contexte actuel il est primordial de déterminer leurs dynamique et leur réponse aux perturbation dans l'ensemble des aspects de leur biodiversité.
 
-## L'avenir de la biodiversité: dynamique des communautés et règles d'assemblage
+## Les déterminants de la biodiversité: dynamique des communautés et règles d'assemblage
 
 ### Quels processus sous-jacents la dynamique des communautés
 
 L'enjeu dans le contexte actuel est de prédire la réponse des communautés aux perturbations et l'effet des changements de composition et de diversité sur leur fonctionnement.
 Ceci revient à comprendre les processus qui régissent l'assemblage et la coexistence des espèces en communautés.
-Plusieurs hypothèses sont débattues aujourd'hui, invoquant d'une part des processus déterministes sélectionnant les espèces selon leurs aptitudes dans l'environnement biotique et abiotique considéré [@Molino2001], et d'autre part les processus stochastiques de la théorie neutre relevant des contraintes historiques et de limitation de dispersion ou de croissance [@Hubbell2001].
+Plusieurs hypothèses sont débattues aujourd'hui, invoquant des processus déterministes d'une part sélectionnant les espèces selon leurs aptitudes dans l'environnement biotique et abiotique considéré [@Molino2001], et stochastiques  d'autre part relevant  de la théorie neutre et impliquant les contraintes historiques et de limitation de dispersion ou de croissance [@Hubbell2001].
 
 Ce débat sur les processus écologiques impliqués dans la structuration des communautés est matérialisé par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis, IDH* en anglais).
 Cette théorie prédit la prépondérance des processus déterministes d'exclusion compétitive et de filtrage des espèces, et une diversité maximale pour un régime moyen de perturbations [@Molino2001].
@@ -70,7 +69,7 @@ Les deux hypothèses déterministe et stochastique on démontré leur capacité�
 Les hypothèses ne sont cependant pas exclusives et il est vraisemblable que les communautés réelles résultent de leur combinaison variable dans l'espace et le temps.
 La question qui se pose alors est de déterminer l'importance relative des processus neutres et déterministes et leurs déterminants [@Chave2004]. 
 
-### Motalité et recrutement, moteurs de la dynamique des communautés
+### Mortalité et recrutement, moteurs de la dynamique des communautés
 
 Comme tout écosystème les forêts tropicales sont soumises à un régime constant de perturbations qui modifie leur structure et leur composition et contribue à maintenir leur fonctionnement.
 L'équilibre des communautés est donc une dynamique constante soutenue par les processus démographiques de mortalité (disparition d'un individu), et de recrutement (apparition d'un individu) dana la communauté.
@@ -91,7 +90,7 @@ Appréhender les différents aspects de la biodiversité permet d'identifier les
 
 ### Composition et dissimilarité entre communautés
 
-De nombreuses mesures permettent d'estimer ce turnover, qui prennent en compte ou non l'abondance des espèces [@Podani2013a].
+De nombreuses mesures permettent d'estimer ce turnover, qui prennent en compte ou non l'abondance des espèces [@Podani2013].
 Nous avons choisis ici de mesurer le taux de remplacement d'abondance, ou similarité de Bray-Curtis, qui représente dans quelle mesure une communauté est le sous-ensemble d'une plus grande. 
 En pratique, si la communauté recrutée après exploitation répond aux mêmes lois que la communauté initiale elle sera équivalente à une communauté qui en aurait été tirée au hasard. La similarité de Bray-Curtis mesure la somme des abondances d'une commaunté remplacées par une espèce différente, normalisée par l'abondance totale partagée entre les deux communautés \@ref(eq:formNestedness).
 
@@ -124,7 +123,7 @@ Ces indicateurs sont les indices de diversité, résumant de façon quantifiable
 
 ### Les composantes de la diversité
 
-Si la biodiversité d'une communauté est souvent assimilée à sa richesse en espèces, elle englobe en réalité du nombre, de l'abondance, de la composition et des interactions entre les espèces.
+Si la biodiversité d'une communauté est souvent assimilée à sa richesse en espèces, elle englobe en réalité le nombre, l'abondance, la composition et les interactions entre les espèces.
 L'abondance en particulier est essentielle: une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare.
 Ainsi une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais aux abondances équivalentes.
 L'homogeneité des abondances dans une population, ou *équitabilité*, peut être bien plus révélatrice du fonctionnement des écosystèmes que leur richesse ou leur composition.
@@ -133,7 +132,7 @@ Les espèces peu communes n'ont une influence qu'à long terme, en tant que pote
 
 La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la régularité de distribution d'abondance des espèces, sont donc les deux composantes de la diversité taxonomique d'une communauté \@ref(fig:RichEqu) [@Whittaker1965; @Magurran2004].
 
-```{r RichEqu, out.width='60%', fig.cap="Les deux composantes de la diversité taxonomique: richesse (nombre d'espèces) et équitabilité (homogeneité de répartition)"}
+```{r RichEqu, fig.align='center',out.width='60%', fig.cap="Les deux composantes de la diversité taxonomique: richesse (nombre d'espèces) et équitabilité (homogeneité de répartition)"}
 knitr::include_graphics("ExternalFig/Fig_RichnessEquitability.jpg")
 ```
 
@@ -206,7 +205,7 @@ D'après la théorie du "ratio de biomasse" [@Grime1998], le rôle d'un individu
 Par ailleurs la répartition d'abondance des traits fonctionnels amène à la notion de redondance fonctionnelle qui quantifie le nombre d'espèces partageant les mêmes valeurs de traits.
 La redondance fonctionnelle, souvent élevée en forêt tropicale, permet aux communautés de perdre des espèces sans nécessairement voir disparaître leur rôle dans l'écosystème: la redondance détermine en partie la résilience des communautés et atténue l'impact des perturbations.
 L'organisation de la redondance dans l'espace des traits d'une communauté renseigne sur les assemblages les plus stables qui se dégageraient le plus probablement après de nouvelles perturbations.
-La redondance fonctionnelle d'une communauté peut se mesurer dans l'espace fonctionnel à partir de la densité de probabilité de traits (*Traits Density Probability, TDP* en anglais) de chaque espèce [@2016Carmona].
+La redondance fonctionnelle d'une communauté peut se mesurer dans l'espace fonctionnel à partir de la densité de probabilité de traits (*Traits Density Probability, TDP* en anglais) de chaque espèce [@Carmona2016].
 Les densités des espèces d'une communauté pondérées par leur abondance sont additionnées pour donner la redondance fonctionnelle sur l'ensemble de l'espace fonctionnel ou sur un espace restreint, comme nous le ferons par la suite quand on s'intéressera à la redondance fonctionnelle dans l'espace de la communauté de départ \@ref(fig:RedundancyMethod).
 
 ```{r RedundancyMethod, out.width='60%', fig.cap="La redondance fonctionnelle est la somme des chevauchement entre espèces dans l'espace fonctionnel. Les individus de la base de données fonctionnelle sont représentés dans un espace à 2 dimensions grâce à une analyse en composantes principales (ACP). Une estimation par noyau estime ensuite la densité de probabilité des traits (TDP) de chaque espèce. La somme de ces densités pondérées par l'abondance des espèces donne enfin la redondance fonctionnelle de la communauté, interprétable comme le nombre d'espèces qui peuvent disparaître sans diminuer l'espace fonctionnel de la communauté."}
@@ -294,5 +293,5 @@ S'intéresser au recrutment revient à décrire la forêt mise en place à plus 
 Les trajectoires de recrutement on permet d'identifier la succession des phases de recrutement après exploitation et d'en décrire les différents processus écologiques de sélection qui régissent l'assemblage de la future forêt.
 Ces conclusions ont permis de discuter la résilience des processus eux-mêmes et d'anticiper la réponse à de nouvelles perturbations.
 
-
+`r if (knitr:::is_html_output()) '# References {-}'`
 
