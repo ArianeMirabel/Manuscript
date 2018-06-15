@@ -1,16 +1,12 @@
 # Article 2: trajectoires de diversité des parcelles
 
+Nous proposons ici d'étudier les trajectoires de diversité et de composition taxonomique et fonctionnelle en forêt tropicale sur 30 années après perturbation pour identifier les processus écologiques déterminants la dynamique des communautés.
+Nous avons plus particulièrement analysé les trajectoires taxonomiques et fonctionnelles de composition, de richesse et d'équitabilitéet de redondance fonctionnelle, en considérant 7 traits fonctionnels représentatifs de lécologie des espèces.
 
-Les processus déterministes impliquent différemment les espèces et laissent ainsi une signature taxonomique et fonctionnelle dans la structure des communautés [@Funk2017] qui permet d'identifier les processus en jeu et leur importance.
-L'exclusion de certaines espèces non adaptées à l'environnement se traduira par une aggrégation des traits et diminution de la diversité fonctionnelle tandis qu'une exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une diversité fonctionnelle élevée [@McGill2006;@Kunstler2012].
+Ces trajectoires ont montré la restoration taxonomique des communautés initiales d'une part, traduisant le maintien de leurs différences de composition, et d'autre partdes trajectoires fonctionnelles communes dans l'espace des traits déterminées par l'intensité de la perturbation, validant la théorie des perturbations intermédiaires
+Les trajectoires après perturbations ont cependant démontré un décalage entre les trajectoires taxonomiques et fonctionnelles traduisant une récupération fonctionnelle rapide mais une récupération taxonomique des espèces rares inféodées aux peuplements matures ralentie par l'exclusion compétitive pour la lumière avec les espèces dominantes.
+Si la théorie des perturbations intermédiaires s'est avérée prédire correctement les trajectoires fonctionnelles, elle ne représentait que médiocrement les trajectoires taxonomiques troublées par la réorganisation de la redondance fonctionnelle adns l'espace des traits.
 
-Nous proposons ici d'étudier les trajectoires de diversité et de composition taxonomique et fonctionnelle en forêt tropicale après perturbation pour identifier les processus écologiques déterminants la dynamique des communautés, en interrogeant spécifiquement la validité de la théorie des perturbations intermédiaires, et clarifier les différents aspects de leur résilience.
+Bien que le fonctionnement des communautés soit restoré 30 ans après perturbation la récupération des espèces rares reste inachevée, altérant la structure taxonomique et la redondance fonctionnelle de la communauté.
+Ces résultats soulignent d'une part seuls des cycles de régénération longs de plusieurs décennies permettent la récupération complète de la communauté et préviennent la perte d'espèces, et d'autre part ils interrogent sur la résilience des peuplement saprès plusieurs perturbations.
 
-Ces trajectoires ont mis en évidence la restoration des communautés initiales et le maintien de leurs différences en composition spécifique, mais avec un décalage entre caractéristiques taxonomiques et fonctionnelles. 
-Après perturbation les communautés ont suivi une trajectoire fonctionnelle commune, déterminée par l'intensité de la perturbation et validant ainsi la théorie des perturbations intermédiaires.
-Les trajectoires taxonomiques en revanche ont prouver dépendre plus de la composition initiale de la communauté que de la perturbation, et ont montré une restoration plus lente du fait de la difficile récupération des espèces rares inféodées aux peuplements matures et exclues par la compétition avec les espèces en place.
-Le décalage entre trajectoires fonctionnelle et taxonomique et la faible cohérence taxonomique de la théorie des perturbations intermédiaires s'expliquent par une réorganisation de la redondance fonctionnelle après perturbation.
-Cette redondance dans l'espace fonctionnel de la communauté initiale diminue après perturbation suite à la disparition d'arbres et d'espèces, mais l'espace est rapidement réinvestit par les espèces dominantes qui permettent une rapide restoration fonctionnelle. 
-La restoration est en revanche plus lente pour les espèces rares qui partagent les même caractéristiques fonctionnelles et sont donc en compétition pour les resources lumineuses.
-Les trajectoires des parcelles de Paracou démontrent donc une résilience rapide et commune en termes de fonctionnement mais plus lente en termes de taxonomie et dépendant de la communauté initiale.
-La lente restoration de la redondance fonctionnelle démontre un effet persistant des perturbations et interroge fortement la résilience suite à plusieurs perturbations.
