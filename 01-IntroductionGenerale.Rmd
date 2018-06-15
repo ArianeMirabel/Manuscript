@@ -55,35 +55,43 @@ Pour avoir une comprendre et anticiper le devenir des forêts dans le contexte a
 
 ## Les déterminants de la biodiversité: dynamique des communautés et règles d'assemblage
 
-### Quels processus sous-jacents la dynamique des communautés
+L'enjeu dans le contexte actuel est de prédire la réponse des communautés aux perturbations en termes de diversité et de composition et l'impact de ces changements sur leur fonctionnement des écosystèmes.
+Comprendre et anticiper la réponse des peuplements revient à identifier les processus écologiques qui régissent la dynamique des communautés et qui déterminent la composition et la structure de la communauté à venir. 
 
-L'enjeu dans le contexte actuel est de prédire la réponse des communautés aux perturbations et l'effet des changements de composition et de diversité sur leur fonctionnement.
-Ceci revient à comprendre les processus qui régissent l'assemblage et la coexistence des espèces en communautés.
-Plusieurs hypothèses sont débattues aujourd'hui, invoquant des processus déterministes d'une part sélectionnant les espèces selon leurs aptitudes dans l'environnement biotique et abiotique considéré [@Molino2001], et stochastiques  d'autre part relevant  de la théorie neutre et impliquant les contraintes historiques et de limitation de dispersion ou de croissance [@Hubbell2001].
+### Les règles d'assemblage des espèces
 
-Ce débat sur les processus écologiques impliqués dans la structuration des communautés est matérialisé par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis, IDH* en anglais).
-Cette théorie prédit la prépondérance des processus déterministes d'exclusion compétitive et de filtrage des espèces, et une diversité maximale pour un régime moyen de perturbations [@Molino2001].
-Des perturbations qui modifierait régulièrement mais non drastiquement les conditions environnementales biotiques (interactions entre individus) et abiotiques (ensoleillement, température, flux d'eau et de matière) permettrait donc à un large panel d'espèces de s'installer soit parce que les conditions environnementales leurs deviennent favorables, soit parce qu'elles sont plus compétitives [@Chesson2000alire;@Kariuki2006a;@Berry2008a].
+La question fondamentale de l'écologie est de comprendre les processus impliqués dans l'assemblage et la coexistence des espèces en communautés.
+Plusieurs hypothèses sont débattues aujourd'hui, invoquant soit des processus déterministes qui sélectionnent les espèces selon leurs aptitudes dans l'environnement biotique et abiotique considéré [@Molino2001], soit des processus stochastiques relevant de la théorie neutre qui supposent un assemblage dépendant uniquement de contraintes historiques et de limitation de dispersion ou de croissance [@Hubbell2001] \@ref(fig:AssemblyRules).
+
+Ce débat sur les processus écologiques responsables de la structuration des communautés est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis, IDH* en anglais).
+Cette théorie prédit la prépondérance de processus déterministes d'exclusion compétitive et de filtrage des espèces qui conduirait à une diversité maximale pour un régime moyen de perturbations [@Molino2001].
+Un tel régime de perturbations modifierait régulièrement mais non drastiquement l'environnment et créerait une variabilité constante dans l'espace et le temps des conditions biotiques (interactions entre individus) et abiotiques (ensoleillement, température, flux d'eau et de matière).
+Cette variabilité permettrait à un large panel d'espèces de s'installer soit parce que les conditions environnementales leur sont devenues favorables soit parce qu'elles deviennent plus compétitives relativement au reste de la communauté [@Chesson2000alire;@Kariuki2006a;@Berry2008a].
 A l'inverse la théorie neutre suppose que les espèces sont équivalentes et que leur abondance ne dépend pas de leurs caractéritiques écologiques et fonctionnelles mais de processus aléatoires de dispersion, de croissance et de survie qui résultent en un assemblage stochastique des communautés [@Hubbell2001].
-Les deux hypothèses déterministe et stochastique on démontré leur capacitéà prédire la structure des communautés à différentes échelles et à différents niveaux de richesse.
-Les hypothèses ne sont cependant pas exclusives et il est vraisemblable que les communautés réelles résultent de leur combinaison variable dans l'espace et le temps.
-La question qui se pose alors est de déterminer l'importance relative des processus neutres et déterministes et leurs déterminants [@Chave2004]. 
+Les deux hypothèses déterministe et stochastique on démontré leur capacité à prédire la structure des communautés à différentes échelles et à différents niveaux de richesse.
+Ces hypothèses ce sont cependant pas incompatibles et il est vraisemblable que les communautés réelles résultent de leur actionconjointe selon une combinaison variable dans l'espace et le temps.
+La question se porte alors sur l'importance relative de ces deux processus neutres et déterministes et sur les facteurs qui les influencent [@Chave2004]. 
 
 ### Mortalité et recrutement, moteurs de la dynamique des communautés
 
-Comme tout écosystème les forêts tropicales sont soumises à un régime constant de perturbations qui modifie leur structure et leur composition et contribue à maintenir leur fonctionnement.
-L'équilibre des communautés est donc une dynamique constante soutenue par les processus démographiques de mortalité (disparition d'un individu), et de recrutement (apparition d'un individu) dana la communauté.
-Décomposer la dynamique des communautés en fonction de ces processus démographiques appréhende leur rôle pour le maintien de l'écosystème et affine la compréhension des mécanismes sous-jacent leur réponse aux perturbations.
+La dynamique des communautés est constituée des processus démographiques de mortalité (disparition), et de recrutement (apparition) des arbres dans la communauté.
+Décomposer la dynamique des communautés selon ces processus démographiques distingue leur importance respective dans le maintien de l'écosystème et affine le rôle des processus d'assemblage dans la réponse des communautés aux perturbations.
 
-La mort d'un arbre provoque une trouée dans la canopée qui modifie l'ensoleillement, les flux d'eau, de nutriments et de matière, les interactions biotiques entre individus, et enfin la croissance et l'établissement de nouveaux individus.
-La mortalité est ainsi un moteur de la dynamique descommunauté et, en tant que processus aléatoire, le fondement de leur variabilité dans l'espacé et le temps [@Denslow1998;@Sheil2003;@Goulamoussene2017;@Otani2018].
+La mort d'un arbre provoque une trouée dans la canopée qui modifie l'environnement abiotique (l'ensoleillement, les flux d'eau, de nutriments et de matière) et l'environnement biotique (lesinteractions entre individus), et impacte la croissance et l'établissement des arbres environnants.
+La mortalité est un moteur essentiel de la dynamique des communauté et de sa variabilité dans l'espace et le temps en tant que processus aléatoire [@Denslow1998;@Sheil2003;@Goulamoussene2017;@Otani2018].
 
-Le recrutement correspond à la suite d'événements biologiques allant de la production, la dissémination et la germination des graines, à la survie et la croissance des plantules jusquà un seuil de recrutement.
+Le recrutement correspond à la suite d'événements biologiques allant de la production, la dissémination et la germination des graines, à la survie et la croissance des plantules jusqu'au seuil de recrutement.
 Ce seuil correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour participer au fonctionnement de l'écosystème et pour intégrer les inventaires.
-Le recrutement et les processus écologiques qui le définissent déterminent la dynamique et la structure des commmunautés, et en particulier après perturbation où leur résilience dépend de la croissance des juvéniles et de la germination de graines ddu sol [@Denslow1980; @Schnitzer2001; @Asner2004].
+Le recrutement et les processus écologiques dont il relève déterminent la dynamique et la structure des commmunautés, en particulier après perturbation où leur résilience dépend de la croissance des juvéniles et de la germination de graines du sol [@Denslow1980; @Schnitzer2001; @Asner2004].
+
+```{r AssemblyRules, fig.align ='center',out.width='100%', fig.cap="Schéma des processus déterminant la réponse des communautés végétales aux perturbations. Les processus déterministes (partie haute) sélectionnent les espèces recrutées dans la communauté selon leurs préférences environnementales e leur compétitivité, tandis que les processus stochastiques (partie basse) reviennent à une sélection aléatoire."}
+knitr::include_graphics("ExternalFig/Fig_AssemblyRules.jpg")
+```
 
 ## Comment mesurer la diversité biologique ?
 
+Les processus démographiques et les règles d'assemblage d'espèces déterminent la structure, la composition et la diversité des communautés.
+Prédire et gérer l'avenir des forêts et en particularité de leur précieuse diversité biologique nécessite de comprendre le rôle des ces différents processus dans la définission de la diversité biologique dans tous ses aspects.
 La biodiversité est définie de l'échelle du gène à celle de l'écosystème considère la diversité des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
 La biodiversité est souvent réduite à celle de richesse en espèces, mais tient compte en réalité des multiples aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant qui constituent les communautés.
 Appréhender les différents aspects de la biodiversité permet d'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
