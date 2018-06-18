@@ -1,13 +1,19 @@
 # Article 3: Analyse du recrutement, support de la trajectoire des communautés
 
-Les conclusions récentes supposent que l'assemblage des communautés est régit par une combinaison de processus déterministes et stochastiques impliqués différemment dans la réponse aux perturbations des communautés mais produisant des structures similaires de communautés, ce qui les rend difficilement distinguables à l'échelle de tout le communauté [@Mouquet2003;@Chave2004].
-Décomposer les communautés selon leurs processus démographiques sous-jacents de mortalité (disparition d'espèces) et de recrutement (apparition d'espèces) permet en revanche de clarifier les règles écologiques qui les régissent.
+La littérature récente en écologie tropicale a démontré l'implication de processus déterministes et stochastiques dans la dynamique des communautés mais leur signature structurelle sont difficilement distinguables [@Mouquet2003;@Chave2004].
+Nous proposons ici de clarifier le rôle des processus écologiques régissant la réponse des communautés en distinguant la trajectoire du recrutement de celles de la communauté entière.
+Ces trajectoires de recrutement permettent d'une part de distinguer les processus stochastiques et déterministes qui les régissent, de spécifier les processus de compétition impliqués et de déterminer la durée et l'intégralité de la résilience des communautés et de leur fonctionnement.
 
-Les forêts sont soumises à un régime constant de perturbations, principalement sous la forme de chablis, qui modifient l'environnement biotique et abiotique (ensoleillement, flux d'eau et de matière, etc) de la communauté et sa productivité [@Otani2018].
-Après perturbation la réponse de la communauté est déterminée par la croissance des juvéniles ou des plantules de sous-bois ou la germination de graines de la banque du sol [@Denslow1980; @Schnitzer2001; @Asner2004], ce qui fait du recrutement une composante majeure de la réponse des communautés.
-Le recrutement correspond à une suite d'événements biologiques allant de la production, la dissémination et la germination des graines, à la survie et la croissance des plantules jusqu'au seuil de recrutement.
-Ce seuil correspond à un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour le fonctionnement de l'écosystème.
-Identifier la succession des étapes du recrutement et les processus sous-jacents permet d'appréhender l'intégralité de la résilience des communautés 
-La diversité fonctionnelle et taxonomique du recrutement est définie par les processus écologiques régissant les communautés: l'étude des trajectoires de diversité permet de distinguer les étapes de la résilience et d'appréhender la structure des communautés en devenir. 
-Le processus de résilience peut de plus être affiné en suivant le turnover des espèces recrutées par rapport à la composition de la communauté initiale.
+Nous avons pour cela suivi pendant 30 ans les trajectoires de diversité et de composition du recrutement dans 75 ha de forêts néotropicale Amazonienne après un gradient de perturbation (de 15 à 60% de la biomasse prélevée).
+Nous avons analysé et comparé à des modèles nuls les trajectoires de diversité et d'équitabilité taxonomique, de renouvellement des espèces recrutées par rapport à la communauté initiale avant perturbation, et de la diversité fonctionnelle (indice de Rao) de 7 trais fonctionnels majeurs des feuilles, du bois et d'histoire de vie.
 
+Nous avons identifié trois phases de recrutement après perturbation, définies par l'équilibre entre les processus déterministes et stochastiques impliqués.
+Dans un premier temps les trajectoires sont portées par la croissance de juvéniles recrutés aléatoirement dans la communauté d'avant exploitation.
+Dans un deuxième temps les trajectoires reposent sur les "recrutés vrais" issus de la banque de graines et tributaires de processus d'exclusion pour la lumière favorisant les espèces héliophiles à croissance rapide.
+La troisième et dernière phase des trajectoires correspond au retour progressif vers un recrutement aléatoire restorant la structure, la composition taxonomique et le fonctionnement de la communauté initiale. 
+Si le fontionnement du recrutement a été rapidement retrouvé, la restoration taxonomique s'est montrée longue, ce qui interroge l'intégralité de la résilience et malgré la réelle restoration de la diversité et de la composition initiale, Les différentes trajectoires ont par ailleurs confirmé une restoration de la diversité fonctionnelle rapide mais plus lente de la composition et de la diversité taxonomiques.
+
+La trajectoire des communautés après perturbation résulte de la combinaison des processus stochastiques, majeurs avant perturbation et progressivement restorés par la suite, et de processus déterministes d'exclusion compétitive favorisant les espèces héliophiles et à croissance rapide.
+La résilience de la composition et la diversité taxonomiques et fonctionnelles du recrutement a été confirmée mais longue de plusieurs décennies, et confirme le risque de trajectoires différentes dans le cas de perturbations répétées.
+
+  
