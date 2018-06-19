@@ -9,17 +9,22 @@ Dans le cas de l'étude des peuplements forestiers, les inventaires d'exploitati
 
 ## Noms vernaculaires et propagation des incertitudes taxonomiques
 
-Ces inventaires ne sont cependant généralement pas réalisés en noms scientifiques mais noms vernaculaires, qui sont mieux connus, plus faciles à attribués car basés sur des critères morphologiques, culturels ou d'usage et qui ne nécessitent pas de vérification botanique ultérieure à partir d'herbiers.
+Ces inventaires ne sont cependant généralement pas réalisés en noms scientifiques mais noms vernaculaires, qui sont mieux connus, plus faciles à attribuer car basés sur des critères morphologiques, culturels ou d'usage et qui ne nécessitent pas de vérification botanique ultérieure à partir d'herbiers.
 Cette simplicité se fait cependant au détriment de la fiabilité des noms vernaculaires, qui correspondent à plusieurs espèces botaniques et varient avec le temps et les équipes de terrain [@Oldeman1968].
-Pour valoriser ces inventaires il est donc nécessaire d'évaluer l'impact de l'incertitude taxonomique sur la fiabilité et la sensibilité des mesures de diversité.
-Nous proposons ici une méthode permettant de propager l'incertitude de détermination taxonomique des noms vernaculaires aux mesures de la diversité.
+Nous proposons ici une méthode de propagation des incertitudes taxonomiques permettant d'estimer la diversité des communautés en palliant les indéterminations botaniques. 
+La méthode se base sur la reconstitution d'inventaires complets théoriques à partir des associations entre noms vernaculaires et botaniques.
 
-Dans un premier temps nous appliquons cette méthode au contexte des inventaires d'exploitation en noms vernaculaires pour en estimer la fiabilité et la robustesse selon le degré d'indétermination botanique, et proposer un protocole d'inventaire standardisé.
-Dans ce cas les identifications botaniques fiables concernent quelques espèces cibles, emblématiques ou ayant une certaine valeur commerciale ou de conservation.
-Le degré d'indétermination botanique correspond alors au nombre d'espèces identifiées systématiquement par leur nom vernaculaire plutôt que botanique.
-Dans un deuxième temps nous adaptons la méthode au contexte des dispositifs expérimentaux pour pallier l'inévitable variabilité des pratiques d'inventaires.
-Dans ce cas les arbres identifiés uniquement par un nom vernaculaire sont les individus n'ayant pu être identifiés, que l'identification soit impossible ou qu'ils soient mort avant le passage du taxonomiste.
-Le degré d'indétermination correspond au nombre d'arbres sans identification botanique et concerne potentiellement toutes les espèces de la communauté. 
+Dans un premier temps nous avons déterminé la source la plus fiable pour calculer les associations entre noms vernaculaires et botaniques.
+Ces associations peuvent effectivement être estimées à partir d'inventaires réels ou à partir de dires d'experts, les ouvriers forestiers qui réalisent les inventaires et fournissent une liste des associations connues.
+
+Dans un deuxième temps nous appliquons la méthode de propagation au cas des inventaires forestiers réels qui, réalisés à large échelle dans le cadre de l'exploitation, permettraient d'élargir l'étude de la biodiversité forestière dans le temps et l'espace s'ils étaient plus précis.
+La précision des inventaires peut être améliorée par la méthode de propagation des incertitudes et nous en proposons une application optimisée.
+Nous avons testé la précision de l'estimateur de diversité en fonction de l'effort d'identification botanique (pourcentage d'espèces identifiées) et de l'effort d'échantillonnage (pourcentage de la surface couverte), et avons déterminé une méthode d'inventaire optimale. 
+
+Enfin, nous adaptons la méthode au contexte des dispositifs expérimentaux pour pallier la variabilité des pratiques d'inventaires.
+Dans le cas des inventaires forestiers pour lesquels l'ensemble des individus d'une espèce sont indéterminés.
+Dans le cas des dispotifs expérimentaux en revanche les indéterminations sont des individus n'ayant pas été identifié en nom botanique, que l'identification soit impossible ou qu'ils soient mort avant le passage du taxonomiste.
+Le degré d'indétermination correspond alors au nombre d'arbres sans identification botanique et concerne potentiellement toutes les espèces de la communauté. 
 
 ## Article 1 _ Inescapable Taxonomists: Workable Biodiversity Management Must Base on a Minimum Field Work
 
