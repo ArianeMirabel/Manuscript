@@ -1,7 +1,7 @@
 # Article 2: trajectoires de diversité des parcelles
 
 Nous proposons ici d'étudier sur 30 années la réponse des forêts tropicales à un gradient de perturbation (10 à 60% de biomasse prélevée) et d'identifier les processus écologiques sous-jacents.
-Nous avons analysé les trajectoires de composition, de richesse et d'équitabilitét taxonomiques et fonctionnelles et de redondance fonctionnelle, en considérant 7 traits des feuilles, du bois et d'histoire de vie représentatifs de l'écologie des espèces.
+Nous avons analysé les trajectoires de composition, de richesse et d'équitabilitét taxonomique et fonctionnelle et de redondance fonctionnelle, en considérant 7 traits des feuilles, du bois et d'histoire de vie représentatifs de l'écologie des espèces.
 
 Les trajectoires de diversité ont démontré la restoration taxonomique des communautés, maintenant leurs différences de composition initiales, et leur restoration fonctionnelle selon une trajectoire rapide et commune dans l'espace des traits.
 La théorie des perturbations intermédiaires a démontré prédire correctement la trajectoire fonctionnelle des communautés en fonction de l'intensité d'exploitation, elle n'expliquait que médiocrement leurs trajectoires taxonomiques troublées par une réorganisation de la redondance fonctionnelle et par un recrutement des espèces rares inféodées aux forêts matures ralenti par l'exclusion compétitive pour la lumière.
