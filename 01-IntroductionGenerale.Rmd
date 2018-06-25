@@ -32,7 +32,7 @@ Bien qu'aussi indispensables qu'irremplaçables, les forêts disparaissent et so
 Les forêts sont soumises à de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
 Elles subissent de plus les changements climatiques globaux qui augmentent la fréquence des événements extrêmes (sécheresses, incendies, inondations…) [@Pachauri2014]. 
 
-Ces pressions diverses persistent voire s'accentuentmalgré une prise de conscience globale entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992 qui a motivé de nombreuses politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Ces pressions diverses persistent voire s'accentuent malgré une prise de conscience globale entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992 qui a motivé de nombreuses politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
 
 Ce contexte concerne en particulier les forêts tropicales, pour lesquelles les menaces sont d'autant plus graves que leur importance au niveau mondial est grande [@Dirzo2003a; @Hansen2013]. 
 Les bassins forestiers tropicaux qui représentent 1.3 million d'hectares sont plus grandes surfaces de forêts anciennes "primaires" n'ayant pas connu de forte perturbation anthropique et accueillent la diversité biologique la plus élevée au monde [@Gentry1988; @FAO2011].
@@ -66,7 +66,7 @@ Plusieurs hypothèses sont débattues aujourd'hui, invoquant soit des processus 
 Ce débat sur les processus écologiques responsables de la structuration des communautés est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis, IDH* en anglais).
 Cette théorie prédit la prépondérance de processus déterministes d'exclusion compétitive et de filtrage des espèces qui conduirait à une diversité maximale pour un régime moyen de perturbations [@Molino2001].
 Un tel régime de perturbations modifierait régulièrement mais non drastiquement l'environnment et créerait une variabilité constante dans l'espace et le temps des conditions biotiques (interactions entre individus) et abiotiques (ensoleillement, température, flux d'eau et de matière).
-Cette variabilité permettrait à un large panel d'espèces de s'installer soit parce que les conditions environnementales leur sont devenues favorables soit parce qu'elles deviennent plus compétitives relativement au reste de la communauté [@Chesson2000alire;@Kariuki2006a;@Berry2008a].
+Cette variabilité permettrait à un large panel d'espèces de s'installer soit parce que les conditions environnementales leur sont devenues favorables soit parce qu'elles deviennent plus compétitives relativement au reste de la communauté [@Chesson2000;@Kariuki2006a;@Berry2008a].
 A l'inverse la théorie neutre suppose que les espèces sont équivalentes et que leur abondance ne dépend pas de leurs caractéritiques écologiques et fonctionnelles mais de processus aléatoires de dispersion, de croissance et de survie qui résultent en un assemblage stochastique des communautés [@Hubbell2001].
 Les deux hypothèses déterministe et stochastique on démontré leur capacité à prédire la structure des communautés à différentes échelles et à différents niveaux de richesse.
 Ces hypothèses ce sont cependant pas incompatibles et il est vraisemblable que les communautés réelles résultent de leur actionconjointe selon une combinaison variable dans l'espace et le temps.
@@ -226,7 +226,7 @@ knitr::include_graphics("ExternalFig/Fig_MesureRedondance.jpg")
 
 ## La Guyane Française et l'exemple de la station de Paracou
 
-Le bassin Amazonien est la plus riche des trois principales régions de forêt tropicale humide [@Gentry1988] et la Guyane française en est une région de 83 846 km^2 recouverte à 95% forestière au Nord-Est du continent sud-américain entre le Surinam et le Brésil.
+Le bassin Amazonien est la plus riche des trois principales régions de forêt tropicale humide [@Gentry1988] et la Guyane française en est une région de 83 846 km^2^ recouverte à 95% forestière au Nord-Est du continent sud-américain entre le Surinam et le Brésil.
 
 ### Le contexte Guyanais
 
@@ -252,7 +252,7 @@ Ces patrons suivent en particulier par une combinaison de gradients topographiqu
 
 Le dispositif de Paracou, installé entre les communes de Kourou et Sinnamary (5°18'N and 52°53'W), a été mis en place en 1984 pour étudier l'impact de l'exploitation forestière sélective sur les peuplements forestiers.
 Le dispositif correspond à l'origine à 12 parcelles de 6.25 ha ayant subi en 1984 un gradient de trois intensités d'abattage, d'éclairices et de coupe de bois de chauffage.
-Le traitement de perturbation a été attribué selon un dispositif aléatoire de trois réplications de 4 traitements: parcelles témoins sans intervention (*T0*), traitement 1 avec coupes d'abattage (*T1*), traitement 2 avec abattage et éclaircies par **poison girdling** (*T2*), traitement 3 avec abattage, éclaircies et coupe de bois de chauffage (*T3*) \@ref(tab:InterventionTable).
+Le traitement de perturbation a été attribué selon un dispositif aléatoire de trois réplications de 4 traitements: parcelles témoins sans intervention (*T0*), traitement 1 avec coupes d'abattage (*T1*), traitement 2 avec abattage et éclaircies par annélation (*T2*), traitement 3 avec abattage, éclaircies et coupe de bois de chauffage (*T3*) \@ref(tab:InterventionTable).
 
 En 1990, trois parcelles de 6.25ha et une parcelle de 25ha (parcelles 13, 14, 15 et 16) ont été ajoutées au dispositif pour l'étude et le suivi de la diversité en forêt non perturbée \@ref(fig:ParacouDesign).
 

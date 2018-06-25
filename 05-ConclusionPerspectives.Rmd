@@ -11,52 +11,55 @@ Les contraintes méthodologiques résolues, nous avons étudié les multiples as
 Les trajectoires de diversité ont permis d'identifier la succession des processus écologiques déterminant la réponse des communautés aux perturbations, que nous présenterons dans une première.
 A la lumière de ces processus nous proposons ici une discussion sur le maintien de l'intégrité et du fonctionnement des écosystèmes forestiers dans le contexte de changements actuel et de la possibilité d'une exploitation en forêt tropicale durable sur le long terme.
 
-## Du déterminisme et de l'aléatoire dans l'enfer vert
+## L'enfer vert, le déterminisme aléatoire (c'est n'importe quoi comme titre)
 
-Un débat fondateur de l'écologie tropicale est la validité de la théorie neutre, qui suppose un assemblage aléatoire des communautés, par rapport la théorie des perturbations intermédiaires, qui suppose l'existence de processus déterministes impliquant la sélection des espèces en fonction de leurs caractéristiques fonctionnelles.
-L'implication de processus déterministes dans la structuration des communautés suppose la convergence des communautés vers un assemblage donné d'espèce (correspondant à la communauté initiale) et un maintien de leurs différences après perturbation.
-La théorie neutre à l'inverse suppose une dérive aléatoire des assemblages, qui dépendant alors des contingences historiques (arrivée d'espèces, mortalité aléatoire, activité anthropique) ou géographiques (limitation de la dispersion).
-Ces deux théories neutres et déterministes ne sont cependant pas incompatibles et [@Chave2004] propose une théorie intégrative combinant processus neutres stochastiques et processus de sélection déterministes pour expliquer les multiples aspects de la structure des communautés.
+Un débat fondamental de l'écologie est d'élucider les processus régissant la coexistence des espèces et leur assemblage en communautés.
+Spécifiquement le débat porte sur la validité de la théorie neutre qui prédit un assemblage aléatoire des espèces, par rapport la théorie des perturbations intermédiaires qui suppose l'existence de processus déterministes sélectionnant les espèces selon leurs caractéristiques fonctionnelles.
+L'implication de processus déterministes suppose la convergence des trajectoires de diversité et de composition des communautés vers leur état initial, déterminés par les caractéristiques environnementales, et le maintien de leurs différences.
+La théorie neutre à l'inverse suppose un assemblage des communautés dépend des contingences historiques (arrivée d'espèces, mortalité aléatoire, activité anthropique) ou géographiques (limitation de la dispersion) et résulte en une dérive aléatoire des assemblages.
+Les deux théories neutres et déterministes, qui se sont montrées pertinentes dans différents cas de figure, ne sont cependant pas incompatibles.
+[@Chave2004] propose une théorie intégrative faisant intervenir les processus stochastiques comme les processus de sélection déterministes dont les différentes combinaisons dans le temps et l'espace expliquent la structure des communautés.
 
-Mettre en perspective les trajectoires taxonomiques et fonctionnelles (en termes de stratégie fonctionnelle d'acquisition de la lumière) nous a permi tout d'abord de montrer des réponses fonctionnelle et taxonomique contrastées.
+Dans cette étude nous avons pu décrire les trajectoires de diversité taxonomique et fonctionnelle (en termes de stratégie d'acquisition de la lumière) des communautés et en interpréter les processus sous-jacents.
 
 ### Trajectoires fonctionnelles
 
-Les trajectoires de diversité et de composition fonctionnelles, qui sont les échos les plus directs du fonctionnement de l'écosystème, ont révélé des trajectoires déterminées définies par une succession de processus déterministes de sélection des espèces.
-La réponse fonctionnelle des communautés est dans un premier temps déterminée par les changements biotiques et abiotiques induits suivant la perturbation qui augmente le taux de rerutement en stimulant la croissance des arbres.
-Les juvéniles déjà en place au moment de la perturbation sont les premiers à bénéficier de ces changements environnementaux et leur recrutement ne modifie pas dans la structure de la communauté car leur diversité et leur composition reflètent celle de la communauté d'avant perturbation. 
-Dans un deuxième temps la réponse fonctionnelle dépend du recrutement d'arbres issus de graines de la banque du sol et dont la diversité dépend cette fois de processus déterministes sélectionnant les espèces selon leur efficacité d'acquisition et d'utilisation de la lumière.
-Environ 5 ans après exploitation les trajectoires fonctionnelles étaient déterminées par l'exclusion d'espèces tolérantes à l'ombre inféodées aux forêts non perturbées en faveur d'espèce pionnières à croissance rapide, auparavant minoritaires.
-La diversité fonctionnelle des arbres recrutés était alors restreinte, en particulier après les perturbations les plus intenses entraînant une forte dominance de quelques espèces très pionnières.
-A l'échelle de la communauté entière en revanche les espèces favorisées étaient au paravant minoritaires et leur recrutement augmente l'équitabilité fonctionnelle de la communauté, ceci d'autant plus fortement que la perturbation était intense.
-Les trajectoires fonctionnelles correspondaient tout à fait au cadre de la théorie des perturbations intermédiaires, qui prédit une diversité élevée résultant de la variabilité des processus de compétition pour la ressource suivant le régime des pertubations.
-Les trajectoires de diversité suivent ainsi un régime cyclique assurant la résilience fonctionnelle des communautés par la restoration de la diversité et de la composition initiales et d'un processus de recrutement typique des forêts non perturbées.
-Trentes années ont quasiment permis la restoration du fonctionnement des communautés et de la dynamique du recrutement, mais l'impact de la perturbation restait persistant au niveau de la redondance fonctionnelle.
+La diversité et la composition fonctionnelles des communautés, qui représentent directement le fonctionnement des écosystèmes, ont révélé des trajectoires déterminée par la succession de différents processus de sélection des espèces émergeants après perturbation.
+La réponse des communautés dépend des changements biotiques et abiotiques qui accélère la croissance des arbres et augmente le taux de recrutement.
+Les arbres recrutés durant le 5 années suivant l'exploitation sont les juvéniles déjà en place avant perturbation et qui réagissent les premiers aux changements environnementaux.
+La diversité et la composition de ces premiers recutés reproduit celle de la communauté avant perturbation et aucun processus de sélection ne discrimine la croissance des espèces, si bien que la première phase de recrutement avant perturbation ne modifie pas le fonctionnement de la communauté. 
+Dans un deuxième temps les arbres recrutés sont issus de la germination des graines de la banque du sol et soumis à l'exclusion compétitive pour la lumière.
+Les trajectoires fonctionnelles sont alors déterminées par l'exclusion d'espèces tolérantes à l'ombre, inféodées aux forêts non perturbées, en faveur d'espèce pionnières à croissance rapide.
+La diversité fonctionnelle du recrutement est restreinte aux stratégies d'acquisition et d'utilisation de la lumière les plus efficaces, en particulier après les perturbations les plus intenses qui entraînent une forte dominance de quelques espèces très pionnières, telles que Cecropia spp..
+Malgré une diversité du recrutement plus faible, les principales espèces recrutées étaient minoritaires avant perturbation si bien qu'à l'échelle de la communauté entière l'équitabilité fonctionnelle augmente d'autant plus que la perturbation est intense.
+Dans un troisième temps les trajectoires révèlent un régime cyclique assurant la restoration des conditions environnementales et du fonctionnement des communautés initiales.
+Les processus de recrutment aléatoires propres aux communautés non perturbées et ne favorisant pas les espèces pionnières sont progressivement restaurés.
+Les trajectoires fonctionnelles observées conforment la théorie des perturbations intermédiaires, qui prédit une diversité élevée grâce à la variabilité dans le temps de l'environnement et des processus de sélection compétitive qui en résultent.
+Les trajectoires de diversité suivent un régime cyclique assurant la résilience fonctionnelle des communautés par la restoration de la diversité et de la composition et des processus de recrutement initiaux.
+Trentes années ont quasiment permis la restoration du fonctionnement des communautés et de la dynamique du recrutement, mais l'impact de la perturbation sur la structure de redondance fonctionnelle persiste.
 La redondance, qui quantifie les similarités fonctionnelles entre espèces d'une communauté, n'a pas d'influence sur son fonctionnement mais sur sa résilience.
-Après perturbation nous avons observé une réorganisation de la redondance dans l'espace fonctionnel, plus forte parmi les espèces pionnièresrecrutées en majorité après la perturbation et plus faible dans l'espace fonctionnel initial.
-La structure de redondance tendait vers une restoration de l'état initial mais demeurait fortement impactée 30 ans après exploitation, nuançant l'intégralité de la résilience des commmunautés.
+Après perturbation nous avons observé une réorganisation de la redondance dans l'espace fonctionnel, plus faible dans l'espace fonctionnel initial mais plus forte pour les valeurs de traits d'acquisiton et d'utilisation efficaces des ressources qui correspondent aux espèces pionnières recrutées en majorité. 
+La restauration de la structure de redondance fonctionnelle, inachevée 30 ans après exploitation, nuance l'intégralité de la résilience des commmunautés.
 
 ### Trajectoires taxonomiques
 
-La théorie des perturbations intermédiaires a démontré représenter fidèlement les trajectoires fonctionnelles des communautés.
-Nous avons pu identifier dans un permier temps le remplacement après perturbation des processus neutre de recrutement stochastique, régissant les communautés non perturbées, par des processus déterministes d'exclusion compétitive pour la ressource lumineuse, puis leur déclin progressif permettant un retour à la structure et au fonctionnement initiaux.
-La théorie des perturbations intermédiaires en revanche s'est avérée bien moins représentative des trajectoires taxonomiques, décorrélées des trajectoires fonctionnelles. 
+Les trajectoires fonctionnelles ont montré que la théorie des perturbations intermédiaires était un bon modèle prédictif de la réponse fonctionnelle des communautés aux perturbations, régie par l'émergence de processus écologiques déterministes.
+La théories des perturbations intermédiaires ne prédit que médiocrement les trajectoires taxonomiques, perturbées et décorrélées des trajectoires fonctionnelles par le difficile recrutement des espèces rares. 
 
 L'impact des perturbations sur la diversité taxonomique reste débattu et une grande diversité de réponses a été observée selon l'échelle d'étude, l'écosystème considéré et les modalités de la perturbation [@refatrouver].
-Globalement, nous avons observé une augentation .
-Malgré une augmentation globale de la richesse et de l'équitabilité, suite au recrutement déterministe d'espèces auparavant peu communes, les trajectoires taxonomiques étaient très variables entre communautés et peu corrélées à l'intensité de la perturbation.
-En revanche, les trajectoires taxonomiques tendaient à restorer la composition et la structure taxonomiques des communautés initiales et donc à maintenir les différences de composition entre communautés.
-Cette résilience signifie la convergence des communautés vers une composition donnée et le maintien à long terme de plusieurs équilibres stables, correspondant aux communautés initiales.
-La résilience taxonomique signifie de plus la dépendance des trajectoires taxonomiques aux caractéristiques de la communauté initiale et explique la forte variabilité des trajectoires taxonomiques.
+Bien que les perturbations favorisent le recrutement d'espèces auparavant peu communes, ce qui augmente la richesse et de l'équitabilité de la communauté, les trajectoires taxonomiques varient entre les communautés et sont peu corrélées à l'intensité de la perturbation.
+Le schéma commun à toutes les communautés est en revanche une restauration de la composition et la structure taxonomiques initiales et donc à maintenir les différences de composition entre communautés.
+Cette résilience signifie la convergence des communautés vers une composition donnée, celle de la communauté avant perturbation, et le maintien à long terme de plusieurs équilibres stables.
+La compositon et la structure taxonomique initiales orientent donc les trajectoire des communautés, ce qui explique leur forte variabilité.
 La structure taxonomique des communautés restait après 30 ans plus impactée par les perturbations que la structure fonctionnelle.
-Au regard des trajectoires de traits fonctionnels, les espèces dominantes ont rapidement été restorées, expliquant la restoration rapide de la structure fonctionnelle qui en dépend largement.
-Le délais entre trajectoires taxonomique et fonctionnelle relève plutôt de la difficile restoration des espèces rares qui induit une équitabilité taxonomique durablement plus élevée et une lente restoration de la composition initiale.
-La trajectoire taxonomique dépend plus de la strucutre de redondance fonctionnelle: cette redondance implique des processus de compétition limitant la similarité enter espèce d'autant plus importants que le redondance est élevée.
-Les espèces rares manquant à la restoration taxonomique des communautés correspondent à des espèces tolérantes à l'ombre et fonctionnellement redondantes au sein du peuplement en place.
+Si les espèces dominantes dans la communauté sont restaurées rapidement, déterminant la restauration fonctionnelle de la communauté, la restoration des espèces rares est plus lente et retarde les trajectoires taxonomiques par rapport aux trajectoires fonctionnelles .
+La restauration des espèces rares dépend de la structure de redondance fonctionnelle.
+La redondance fonctionnelle, diminuée dans l'espace initial après exploitation, est restaurée progressivement et avec elle les processus de compétition qui limitent la similarité entre espèces.
+Les espèces rares manquant à la restauration taxonomique sont des espèces inféodées aux communautés non perturbées, fonctionnellement redondantes dans l'espace fonctionnel initial et dont le recrutement est ralenti par la compétition.
 
-La trajectoire taxonomique des communautés est donc définie par la diversité et la composition de la communauté initiale et dépend de l'évolution redondance fonctionnelle.
-Trente ans après exploitation, la structure taxonomique et la redondance fonctionnelles restent fortement impactées par la perturbation et questionnent l'intégrité de la résilience des communautés.
-Ces modifications à long terme impliquent d'une part un risque élevé de voir disparaître certaines espèces rares  et d'autre part une forte probabilité pour que les trajectoires des communautés suite à de nouvelles perturbations soient différentes.
+La trajectoire taxonomique des communautés est donc déterminée par la diversité et la composition de la communauté initiale et dépend de la trajectoire de redondance fonctionnelle.
+Trente ans après exploitation, la structure taxonomique reste impactées par la perturbation,ce qui questionne sur l'intégralité de la résilience des communautés.
+Ces modifications à long terme impliquent menacent de voir disparaître certaines espèces rares et supposent une réponse différente des communautés après de nouvelles perturbations.
 
 
 

@@ -3,12 +3,12 @@ title: "Trajectoires de biodiversité en forêt tropicale exploitée"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
 output: pdf_book
-biblio-style: authoryear
+biblio-style: authoryear-ibid
 bibliography:
 - packages.bib
 - 01ref-IntroG.bib
 - 02ref-chap2Incert.bib
-cite-style: authoryear
+cite-style: verbose-inote
 classoption:
 - extrafontsizes
 - onecolumn
@@ -44,10 +44,9 @@ otherlangs:
 - fr
 biblatexoptions:
 - backend=bibtex
-- citestyle=authoryear
+- citestyle=verbose-inote
 - isbn=false
 - backref=true
-#- pageref=true
 - giveninits=true
 - uniquename=init
 - maxcitenames=2
@@ -118,7 +117,7 @@ preamble: >
 
 <!-- knitr and R options (packages, ...) --> 
 ```{r Options, echo=FALSE, message=FALSE}
-knitr::opts_chunk$set(cache=T, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='80%', fig.asp=.75, fig.align='center')
+knitr::opts_chunk$set(cache=T, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='100%', fig.asp=.75, fig.align='center',echo=F)
 # Installation of packages if necessary and loading
 Library <- function(Packages) {
   InstallAndLoad <- function(Package) {
