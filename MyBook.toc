@@ -6,41 +6,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introduction générale}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Les forêts tropicales humides, au coeur de l'avenir planétaire}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Les forêts tropicales, au coeur des enjeux actuels}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Des écosystèmes incontournables}{1}{section*.2}
+\contentsline {section}{\numberline {1.2}Conservation et protection des forêts tropicales}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Des écosystèmes menacés, en particulier sous les tropiques}{2}{section*.3}
+\contentsline {section}{\numberline {1.3}Diversité et assemblage des communautés}{3}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{La biodiversité: clé du fonctionnement des forêts tropicales}{3}{section*.4}
+\contentsline {subsection}{Succession, mortalité et recrutement: supports de la trajectoire des communautés}{4}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Les déterminants de la biodiversité: dynamique des communautés et règles d'assemblage}{3}{section.1.2}
+\contentsline {subsection}{Les règles d'assemblage des communautés}{4}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les règles d'assemblage des espèces}{4}{section*.5}
+\contentsline {section}{\numberline {1.4}Comment mesurer la diversité biologique ?}{6}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Mortalité et recrutement, moteurs de la dynamique des communautés}{4}{section*.6}
+\contentsline {subsection}{Composition et dissimilarité entre communautés}{6}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Comment mesurer la diversité biologique ?}{6}{section.1.3}
+\contentsline {subsection}{Assemblage et structure des communautés}{7}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Composition et dissimilarité entre communautés}{6}{section*.7}
+\contentsline {subsection}{Les composantes de la diversité}{8}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Assemblage et structure des communautés}{6}{section*.8}
+\contentsline {subsection}{Résolution du biais d'échantillonnage}{10}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les composantes de la diversité}{8}{section*.9}
+\contentsline {subsection}{Diversité fonctionnelle}{10}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Résolution du biais d'échantillonnage}{9}{section*.10}
+\contentsline {section}{\numberline {1.5}La Guyane Française et l'exemple de la station de Paracou}{14}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Diversité fonctionnelle}{10}{section*.11}
+\contentsline {subsection}{Le contexte Guyanais}{14}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}La Guyane Française et l'exemple de la station de Paracou}{12}{section.1.4}
+\contentsline {subsection}{Paracou, plus de 30 de suivi de la forêt Amazonienne}{15}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Le contexte Guyanais}{14}{section*.12}
+\contentsline {subsection}{Méthodes d'inventaires}{16}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Paracou, plus de 30 de suivi de la forêt Amazonienne}{14}{section*.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Méthodes d'inventaires}{15}{section*.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Problématique et plan de la thèse}{16}{section.1.5}
+\contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{16}{section.1.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}Article 1 : Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude}{19}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -50,9 +46,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}La recherche et les suivis à long terme: application de la méthode de propagation aux inventaires de Paracou}{21}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Profils d'incertitude taxonomique}{21}{section*.15}
+\contentsline {subsection}{Profils d'incertitude taxonomique}{21}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Cas particulier de Paracou}{22}{section*.16}
+\contentsline {subsection}{Cas particulier de Paracou}{22}{section*.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {3}Article 2: trajectoires de diversité des parcelles}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -62,9 +58,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}L'enfer vert, le déterminisme aléatoire (c'est n'importe quoi comme titre)}{28}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Trajectoires fonctionnelles}{28}{section*.17}
+\contentsline {subsection}{Trajectoires fonctionnelles}{28}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Trajectoires taxonomiques}{29}{section*.18}
+\contentsline {subsection}{Trajectoires taxonomiques}{29}{section*.15}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 

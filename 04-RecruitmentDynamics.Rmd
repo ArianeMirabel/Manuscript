@@ -1,11 +1,10 @@
 # Article 3: Analyse du recrutement, support de la trajectoire des communautés
 
-La littérature récente en écologie tropicale a démontré l'implication de processus déterministes et stochastiques dans la dynamique des communautés mais leur signature structurelle sont difficilement distinguables [@Mouquet2003;@Chave2004].
-Nous proposons ici de clarifier le rôle des processus écologiques régissant la réponse des communautés en distinguant la trajectoire du recrutement de celles de la communauté entière.
-Ces trajectoires de recrutement permettent d'une part de distinguer les processus stochastiques et déterministes qui les régissent, de spécifier les processus de compétition impliqués et de déterminer la durée et l'intégralité de la résilience des communautés et de leur fonctionnement.
+La réponse des communautés aux perturbations est déterminée par les trajetoires du recrutment, reconnu pour suivre une succession déterministe régie après perturbation.
+Ceci reste cependant à tester dans le cas des forêts tropicales, dont l'immense biodiversité pourrait atténuer les processus déterministes, et dans le cas particulier de perturbations relativement peu intenses en comparaison des coupes rases ou de la secondarisation pour lesquels ont été observés les modèles de succession classique.  
+Nous étudions dans ce chapitre les trajectoires de diversité taxonomique et fonctionnelle du recrutement après exploitation pour (i) clarifier l'importance respective des processus stochastiques et déterministes au cours de la succession  des processus écologiques et (ii) déterminer la résilience et la durée de restauration des processus démographiques après exploitation.
 
-Nous avons pour cela suivi pendant 30 ans les trajectoires de diversité et de composition du recrutement dans 75 ha de forêts néotropicale Amazonienne après un gradient de perturbation (de 15 à 60% de la biomasse prélevée).
-Nous avons analysé et comparé à des modèles nuls les trajectoires de diversité et d'équitabilité taxonomique, de renouvellement des espèces recrutées par rapport à la communauté initiale avant perturbation, et de la diversité fonctionnelle (indice de Rao) de 7 trais fonctionnels majeurs des feuilles, du bois et d'histoire de vie.
+Nous avons tracé et comparé à des odèles nuls stochastiques les trajectoires de diversité et d'équitabilité taxonomique, de renouvellement des espèces par rapport à la communauté avant perturbation, et de diversité fonctionnelle.
 
 Nous avons identifié trois phases de recrutement après perturbation, définies par l'équilibre entre les processus déterministes et stochastiques impliqués.
 Dans un premier temps les trajectoires sont portées par la croissance de juvéniles recrutés aléatoirement dans la communauté d'avant exploitation.

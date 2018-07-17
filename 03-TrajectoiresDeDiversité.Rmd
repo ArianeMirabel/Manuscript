@@ -1,11 +1,14 @@
 # Article 2: trajectoires de diversité des parcelles
 
-Nous proposons ici d'étudier sur 30 années la réponse des forêts tropicales à un gradient de perturbation (10 à 60% de biomasse prélevée) et d'identifier les processus écologiques sous-jacents.
-Nous avons analysé les trajectoires de composition, de richesse et d'équitabilitét taxonomique et fonctionnelle et de redondance fonctionnelle, en considérant 7 traits des feuilles, du bois et d'histoire de vie représentatifs de l'écologie des espèces.
+L'immense biodiversité des forêts tropicales est supposée déterminée et maintenue par un régime de perturbations régulier, comme l'illustre la théoriqe des perturbations intermédiaires.
+Cette théorie suppose une diversité maximale des communautés pour un régime de perturbation moyen, mais elle reste débattue dans le cas des forêts tropicales, et cette controverse conduit à questionner la résilience des communautés après perturbation.
 
-Les trajectoires de diversité ont démontré la restoration taxonomique des communautés, maintenant leurs différences de composition initiales, et leur restoration fonctionnelle selon une trajectoire rapide et commune dans l'espace des traits.
-La théorie des perturbations intermédiaires a démontré prédire correctement la trajectoire fonctionnelle des communautés en fonction de l'intensité d'exploitation, elle n'expliquait que médiocrement leurs trajectoires taxonomiques troublées par une réorganisation de la redondance fonctionnelle et par un recrutement des espèces rares inféodées aux forêts matures ralenti par l'exclusion compétitive pour la lumière.
+Nous étudions dans ce chapitre les trajectoires de diversité et de composition des communautés au cours des 30 années suivant un gradient de perturbation (10 à 60% de biomasse prélevée).
+Nous avons analysé les trajectoires de composition, de richesse et de redondance taxonomique et fonctionnelle, en considérant 7 traits fonctionnels des feuilles, du bois et d'histoire de vie.
 
-Bien que le fonctionnement des communautés soit restoré 30 ans après perturbation leur composition et leur diversité en espèces rares restent inachevées, altérant la structure taxonomique et la redondance fonctionnelle de la communauté.
-Ces résultats soulignent d'une part la nécessité d'adopter des cycles de régénération longs de plusieurs décennies pour assurer une restoration complète des communautés, et d'autre part interrogent la résilience des peuplements après plusieurs perturbations.
+Les trajectoires de diversité ont mis en évidence une réponse taxonomique et fonctionnelle cyclique après perturbation, conduisant à la restauration des charactéristiques d'avant perturbation.
+Les différentes trajectoires ont montré d'une part la divergence taxonomique des communautés, maintenant leurs différences de composition après exploitation du fait des limites de dispersion des espèces, et d'autre part leur convergence fonctionnelle,révélant une réponse commune régie par des processu de sélection fonctionnels.
+La théorie des perturbations intermédiaires a pu représenter correctement l'impact des perturbations sur la diversité taxonomique, dont l'augmentation est positivement corrélé à l'intensité de la perturbation jusqu'à un ertain seuil. 
+En revanche la sélection d'espèces fonctionnellement différentes augmentait la diversité fonctionnelle après perturbation quelle qu'en soit l'intensité, l'impact négatif de la perturbation étant atténué par l'importante redondance fonctionnelle des communautés.
+Bien qu'effective, la restauration des charactéristiques taxonomiques et fonctionnelles des communautés restait inachevée après 30 ans, suggérant un temps de restauration long de plusieurs décenies d'autant plus difficile à estimer que la restauration de la redondance fonctionnelle, déterminante de la résilience des communautés, s'est montrée ralentir au cours du temps.
 

@@ -291,23 +291,19 @@ Le soucis vient alors des arbres n'ayant qu'un identification en nom vernaculair
 
 ## Problématique et plan de la thèse
 
-La thèse présentée ici cherche à déterminer la réponse aux perturbations d'une forêt tropicale naturelle en termes de diversité taxonomique et fonctionnelle, à en interpréter les processus sous-jacents et à clarifier la résilience des forêts tropicales dans le contexte des changements actuel.
-Le document s'organise en trois chapitres correspondant à trois articles scientifiques en cours de rédaction (pour le moment!).
+La thèse présentée ici cherche à déterminer les processus écologiques et la réponse taxonomique et fonctionnelle après perturbation d'une forêt tropicale naturelle et à expliciter sa résilience, en vue de discuter de son maintien dans le contexte actuel des changements globaux et de la possibilité d'une sylviculture durable.
+Le document s'organise en trois chapitres correspondant à trois articles scientifiques en cours de soumisson.
 
-* Le premier chapitre présente une méthode de propagation des incertitudes taxonomiques permettant d'estimer la diversité des communautés en résolvant le problème des indéterminations botaniques. 
-La méthode se base sur la reconstitution d'inventaires complets théoriques à partir des associations entre noms vernaculaires et botaniques.
-Dans un premier temps nous calibrons la méthode de façon à avoir une estimation de la diversité la plus précise possible.
-Dans un deuxième temps nous appliquons la méthode de propagation au cas des inventaires forestiers réels, qui sont une large et précieuse source d'information, et proposons une méthode d'inventaires optimisée pour une estimation précise de la diversité.
-Nous proposons enfin l'application de cette méthode aux dispositifs expérimentaux, dont les contraintes d'identification sont différentes, et qui sera utilisée dans la suite de ce travail.
+* Le premier chapitre présente un estimateur de la diversité taxonomique et fonctionnelle des communautés tenant compte des incertitudes taxonomiques inhérentes aux inventaires forestiers. 
+La méthode utilise l'association entre noms vernaculaires et noms botaniques pour reconstituer itérativement des inventaires complets théoriques à partir desquels sont estimés moyenne et l'intervalle de sûreté de la diversité.
+Dans un premier temps nous calibrons la méthode pour avoir l'estimation la plus précise possible en fonctoin des données disponibles. Dans un deuxième temps nous appliquons la méthode de propagation au cas des inventaires forestiers, qui couvrent de larges surfaces de temps et d'espace, pour les valoriser dans l'étude et la préservation des forêts tropicales.
+Enfin nous appliquons cette méthode aux dispositifs expérimentaux, dont les contraintes d'incertitude sont différentes, et qui sera utilisée dans la suite de ce travail.
 
-* Dans le deuxième chapitre nous avons étudier les trajectoires de composition et de diversité taxonomique et fonctionnelle des parcelles de Paracou.
-Ces trajectoires permettent de clarifier l'impact des perturbations sur la structure des communautés, d'identifier les processus écologiques sous-jacents et d'évaluer la résilience des communautés.
-En particulier, nous examinons les trajectoires taxonomiques et fonctionnelles et leurs implications pour le fonctionnement et la résilience de l'écosystème.
-Nous testons la validité de la théorie des perturbations intermédiaires, débattue en forêt tropicale et rarement testée sur le long terme.
-Enfin, nous concluons sur les différents aspects de la résilience des communautés et leurs implications pour la gestion des forêts tropicales.
+* Dans le deuxième chapitre nous avons étudié les trajectoires de composition et de diversité taxonomique et fonctionnelle des 75ha de Paracou suivis sur 30 ans.
+Ces trajectoires permettent de clarifier la réponse aux perturbations de la composition et la diversité des communautés en forêts Néotropicale, d'identifier les processus écologiques sous-jacents, et de discuter de leur résilience.  
+Nous examinons en particulier (i) la convergence des trajectoires taxonomiques et fonctionnelles et leur implication quant au maintien des différences entre communautés après perturbation, (ii) la validité théorie des perturbations intermédiaires, débattue en forêt tropicale et rarement testée sur le long terme, et (iii) la durée et aspects de la résilience des communautés.
 
-* Dans le troisième chapitre nous étudions spécifiquement les trajectoies du recrutement qui permettent de préciser l'impact de la perturbation sur les processus démographiques et écologiques qui structurent les communautés.
-Ces trajetoires permettent d'identifier les phases successives de recrutement après exploitation, d'en décrire les processus écologiques sous-jacents et de mieux appréhender la résilience de la communauté et des processus qui la maintiennent, et d'anticiper la réponse à de nouvelles perturbations.
+* Dans le troisième chapitre nous étudions spécifiquement les trajectoies de recrutement. Nous testons en particulier (i) la déclinaison des modèles classique de succession forestière pour forêts tropicales, dont la validité est questionnée par l'immense diversité des communautés, et après une perturbation modérée, qui implique la maintient d'une communauté pre-perturbation significative, et (ii) questionnons la durée de restauration du fonctionnement de l'écosystème et les implications pour la gestion forestière.
 
 `r if (knitr:::is_html_output()) '# References {-}'`
 
