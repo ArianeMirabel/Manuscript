@@ -6,8 +6,8 @@ L'étude de la biodiversité est souvent limitée en temps, en espace et en pré
 Le premier travail de cette thèse a été de pallier les incertitudes des inventaires et des bases de données fonctionnelles en les intégrant à un estimateur de la diversité taxonomique et fonctionnelle.
 Cet estimateur mis au point, nous avons étudié les multiples trajectoires des communautés après un gradient de perturbation en considérant la composition, la richesse, l'équitabilité et la redondance des communautés en espèces d'arbres (diversité taxonomique), et en considérant leurs caractéristiques fonctionnelles et leur similarités (diversité fonctionnelle).
 Les trajectoires de diversité ont permis d'expliciter les processus écologiques sous-jacents la réponse des communautés aux perturbations,  d'identifier les prédicteur de cette réponse et de clarifier le temps et les aspects taxonomiques et fonctionnels de la résilience des communautés.
-Ces résultats permettent de discuter de la possibilité et des modalités d'une exploitation durable.
-Ils ouvrent également une voie vers la modélisation de la réponse de la diversité des communautés,qui pourrait être intégrée aux modèles de simulation actuels.
+Ces résultats permettent de discuter de la possibilité d'une exploitation durable et de scritères d'évaluation de cette durabilité.
+Ils ouvrent également une voie vers la modélisation de la réponse de la diversité des communautés, qui pourrait être intégrée aux modèles de simulation actuels.
 
 
 ## L'enfer vert, le déterminisme aléatoire (c'est n'importe quoi comme titre)
@@ -21,29 +21,21 @@ Les deux théories neutres et déterministes, qui se sont montrées pertinentes 
 
 Dans cette étude nous avons pu décrire les trajectoires de diversité taxonomique et fonctionnelle (en termes de stratégie d'acquisition de la lumière) des communautés et en interpréter les processus sous-jacents.
 
-### Trajectoires fonctionnelles
+### Une succession fonctionnelle déterministe
 
-La diversité et la composition fonctionnelles des communautés, qui représentent directement le fonctionnement des écosystèmes, ont révélé des trajectoires déterminée par la succession de différents processus de sélection des espèces émergeants après perturbation.
-La réponse des communautés dépend des changements biotiques et abiotiques qui accélère la croissance des arbres et augmente le taux de recrutement.
-Les arbres recrutés durant le 5 années suivant l'exploitation sont les juvéniles déjà en place avant perturbation et qui réagissent les premiers aux changements environnementaux.
-La diversité et la composition de ces premiers recutés reproduit celle de la communauté avant perturbation et aucun processus de sélection ne discrimine la croissance des espèces, si bien que la première phase de recrutement avant perturbation ne modifie pas le fonctionnement de la communauté. 
-Dans un deuxième temps les arbres recrutés sont issus de la germination des graines de la banque du sol et soumis à l'exclusion compétitive pour la lumière.
-Les trajectoires fonctionnelles sont alors déterminées par l'exclusion d'espèces tolérantes à l'ombre, inféodées aux forêts non perturbées, en faveur d'espèce pionnières à croissance rapide.
-La diversité fonctionnelle du recrutement est restreinte aux stratégies d'acquisition et d'utilisation de la lumière les plus efficaces, en particulier après les perturbations les plus intenses qui entraînent une forte dominance de quelques espèces très pionnières, telles que Cecropia spp..
-Malgré une diversité du recrutement plus faible, les principales espèces recrutées étaient minoritaires avant perturbation si bien qu'à l'échelle de la communauté entière l'équitabilité fonctionnelle augmente d'autant plus que la perturbation est intense.
-Dans un troisième temps les trajectoires révèlent un régime cyclique assurant la restoration des conditions environnementales et du fonctionnement des communautés initiales.
-Les processus de recrutment aléatoires propres aux communautés non perturbées et ne favorisant pas les espèces pionnières sont progressivement restaurés.
-Les trajectoires fonctionnelles observées conforment la théorie des perturbations intermédiaires, qui prédit une diversité élevée grâce à la variabilité dans le temps de l'environnement et des processus de sélection compétitive qui en résultent.
-Les trajectoires de diversité suivent un régime cyclique assurant la résilience fonctionnelle des communautés par la restoration de la diversité et de la composition et des processus de recrutement initiaux.
-Trentes années ont quasiment permis la restoration du fonctionnement des communautés et de la dynamique du recrutement, mais l'impact de la perturbation sur la structure de redondance fonctionnelle persiste.
-La redondance, qui quantifie les similarités fonctionnelles entre espèces d'une communauté, n'a pas d'influence sur son fonctionnement mais sur sa résilience.
-Après perturbation nous avons observé une réorganisation de la redondance dans l'espace fonctionnel, plus faible dans l'espace fonctionnel initial mais plus forte pour les valeurs de traits d'acquisiton et d'utilisation efficaces des ressources qui correspondent aux espèces pionnières recrutées en majorité. 
-La restauration de la structure de redondance fonctionnelle, inachevée 30 ans après exploitation, nuance l'intégralité de la résilience des commmunautés.
+La diversité et la composition fonctionnelles des communautés, qui représentent directement le fonctionnement des écosystèmes, ont révélé des trajectoires déterminées par la succession de différents processus de sélection des espèces émergeants après perturbation.
+La réponse des communautés dépend des changements biotiques et abiotiques qui accélèrent la croissance des arbres et augmentent le taux de recrutement.
+Le recrutement des juvéniles déjà en place avant perturbation, qui réagissent les premiers aux changements environnementaux, maintient la diversité et la composition de la communauté d'avant perturbation en l'absence de processus de sélection des espèces 
+Dans un deuxième temps en revanche les arbres recrutés sont issus de la germination des graines de la banque du sol et sélectionnés par exclusion compétitive sur la base de leur stratégie d'acquisition de la lumière.
+Cette seconde phase de recrutement, constituant l'essentiel du recrutement après perturbation, correspond à l'exclusion d'espèces tolérantes à l'ombre, inféodées aux forêts non perturbées, en faveur d'espèce pionnières à croissance rapide.
+La diversité fonctionnelle des communautés augmente suite au recrutement d'espèces pionnières, elle-même peu diverses mais peu fréquentes avant perturbation.
+Nous avons établi qu'au delà d'un seuil d'intensité d'exploitation, à partir de 25% de biomasse initiale perdue, quelques espèces très pionnières dominaient largement le recrutement (par exemple *Cecropia spp*, *Pourouma spp.* ou *Vismia spp.*), orientant la composition de la communauté vers des stratégies très héliophiles et une durée de vie courte et modifiant vraisemblablement le fonctionnement des communautés.
+Malgré des changements fonctionnels importants, la durée de vie courte des espèces pionnières et les changements de structure forestière accompagnant leur croissance (fermeture de la cannopée, compétition, etc.) conduit au recrutement d'un pool plus large d'espèces et à des trajectoires similaires à celles observées après des pertubations moins intenses.
+Les trajectoires conduisent alors à l'atténuation de la sélection des espèces, à un retour aux processus de recrutement initiaux, et à une restauration de la composition et de la diversité fonctionnelle initiales des communautés.
+
+Les communautés suivent après perturbation une trajectoire fonctionnelle cyclique, identique aux différente communautés du fait du recrutement des mêmes espèces pionnières dont le pool est restreint en Amazonie.
 
 ### Trajectoires taxonomiques
-
-Les trajectoires fonctionnelles ont montré que la théorie des perturbations intermédiaires était un bon modèle prédictif de la réponse fonctionnelle des communautés aux perturbations, régie par l'émergence de processus écologiques déterministes.
-La théories des perturbations intermédiaires ne prédit que médiocrement les trajectoires taxonomiques, perturbées et décorrélées des trajectoires fonctionnelles par le difficile recrutement des espèces rares. 
 
 L'impact des perturbations sur la diversité taxonomique reste débattu et une grande diversité de réponses a été observée selon l'échelle d'étude, l'écosystème considéré et les modalités de la perturbation [@refatrouver].
 Bien que les perturbations favorisent le recrutement d'espèces auparavant peu communes, ce qui augmente la richesse et de l'équitabilité de la communauté, les trajectoires taxonomiques varient entre les communautés et sont peu corrélées à l'intensité de la perturbation.
@@ -60,31 +52,43 @@ La trajectoire taxonomique des communautés est donc déterminée par la diversi
 Trente ans après exploitation, la structure taxonomique reste impactées par la perturbation,ce qui questionne sur l'intégralité de la résilience des communautés.
 Ces modifications à long terme impliquent menacent de voir disparaître certaines espèces rares et supposent une réponse différente des communautés après de nouvelles perturbations.
 
+La redondance, qui quantifie les similarités fonctionnelles entre espèces d'une communauté, n'a pas d'influence sur son fonctionnement mais sur sa résilience.
+Après perturbation nous avons observé une réorganisation de la redondance dans l'espace fonctionnel, plus faible dans l'espace fonctionnel initial mais plus forte pour les valeurs de traits d'acquisiton et d'utilisation efficaces des ressources qui correspondent aux espèces pionnières recrutées en majorité. 
+La restauration de la structure de redondance fonctionnelle, inachevée 30 ans après exploitation, nuance l'intégralité de la résilience des commmunautés.
 
 ## Vers une gestion plus durable intégrant la préservation de la biodiversité
 
+L'exploitation sélective est considérée comme étant l'une des pratiques d'exploitation les moins néfastes pour préserver l'intégrité et le fonctionnement des forêts tout en dégageant de nombreux bénéfices de sressources forestières.
+Ce régime d'exploitation sélective a été adopté dernièrement par de nombreux pays, suite à des réorganisations de l'économie locale, en réponse aux besoins de limitation des *GES*, et en reconnaissance du rôle de la diversité,la composition et la structure forestière pour la produtivité et le fonctionnement de l'écosystème.
+Les pratiques de gestion sylvicoles actuelles sont calibrées pour maintenir un couvert forestier et un stock de biomasse de sous-bois déterminés, ce que leur confère la définition d' "exploitation durable".
+L'impact de l'exploitation forestière sur le maintien de la biodiversité demeure cependant controversé, spécifiquement sur le long terme.
+L'adoption de l'exploitatoin sélective dans de nombreux pays rend primordiale d'expliciter l'impact de l'exploitation sur la biodiversité des communautés, et plus spécifiquement le rôle des différents paramètres de l'exploitation tels que la densité d'exploitation, le diamètre minimal de coupe, ou la durée des rotations.
+Le recul des 30 ans de suivi de Paracou donnent une vision à long terme de la réponse des communautés à l'exploitation et permettent de discuter de points d'amélioration pour les pratiques d'exploitation sélective durable.
+
 ### Quels critères de restauration?
 
-Les trajectoires de biodiversité et de composition des parcelles de Paracou ont montré un régime cyclique de restauration après perturbation, supposant la possibilité d'une exploitation soutenable à long terme.
+Dans la perspective d'une exploitation soutenable à long terme, les critères d'évaluation de la durabilité doivent être discutés selon les objectifs de l'exploitation, qui ne sont plus uniquement le maintien du stock exploitable mais également des services et processus écosystémiques.
+Les interactions entre espèces sont nombreuses en forêt tropicale, en particulier via des réseaux trophiques complexes, qui définissent et maintiennent l'équilibre des écosystèmes et les services qu'ils rendent.
+L'impact de l'exploitation sur l'écosystème est complexe, parfois visible à long terme seulement, parfois avec des conséquences inattendues comme dans le cas de la disparition d'espèces clé pour la faune ou la flore, ou parfois encore entraînant un blocage de succession et des modifications persistantes de l'écosystème.
+Des limitations méthodologiques sont de plus toujours présentes, provenant du coût économique et humain des suivis forestiers, du manque parfois de base de données, spécifiquement les bases de donnée fonctionnelle, et de la difficulté de développer des indices exhaustifs vis à vis de l'ensemble de l'écosystème.
+Cette complexité rend, à mon sens, indispensable (i) de garder à l'esprit la possibilité de conséquences inattendues de l'exploitation, (ii) d'adopter constamment un principe de précaution et une recherche d'amélioration de la gestion forestière, et (iii) enfin de chercher à mieux appréhender la réponse des écosystèmes. 
+Dans ce contexte, le recul des 30 ans de suivi à Paracou ouvre sur des réflexions intéressantes quant à la possibilité d'une exploitation durable et les critères d'évaluation de cette durabilité.
 
-La sylviculture ne se limite plus aujourd'hui à des objectifs de production de bois mais intègrent le maintien des services et processus écosystémiques.
-Les trajectoires de Paracou soulignent la nécessité d'un cycle de rotation long en comparaison de ce qui a pu être éprouvé et validé dans d'autres bassins forestiers tropicaux, notamment en Afrique.
-Les 30 ans de suivi s'il ont montré la résilience des forêts Amazoniennes supposent un temps de restauration long avant de retrouver l'intégrité du peuplement initial.
-L'exploitation ne recherche pas nécessairement la restauration absolue de la communauté avant perturbation, qui n'a que peu de sens étant donné que les forêts non perturbées connaissent elle-mêmes une dynamique constante impliquant des variations de diversité et de composition.
-Une réflexion sur les critères de restauration après exploitation est nécessaire au préalable de la calibration de l'exploitation.
+Le rôle central de la diversité taxonomique et fonctionnelle pour le fonctionnement de l'écosystème rend indispensable leur restauration dans le contexte d'une exploitation durable.
+Les trajectoires de Paracou si elles ont montré la résilience de la diversité taxonomique des communautés, ont surtout mis en évidence la durée de sa restauration, toujours inachevée après 30 ans.
+Dans le contexte de l'exploitation forestière, ceci implique des cycles de rotation longs en comparaison de ce qui a pu être éprouvé et validé pour d'autres bassins forestiers tropicaux, notamment en Afrique.
 
-D'une part, le rôle central de la diversité et de la composition pour le fonctoinnement de l'écosystème rend indispensable leur restauration en termes taxonomiques et fonctionnels après exploitation.
-Par ailleurs, nos analyses ont confirmé l'importance de la redondance fonctionnelle pour la résilience des forêts tropciales et souligné son rôle dans la restauration après perturbation.
-La redondance fonctionnelle élevée en forêt tropicale permet, comme on l'a vu, d'atténuer l'impact de la perturbation sur la diversité et la composition fonctionnelle des communautés.
-Cette atténuation implique un découplage entre les trajectoires fonctionnelles et les trajectoires taxonomiques des communautés, si bien qu'il serait erroné d'appréhender leur restauration en considérant uniquement leur fonctionnement (via par exemple la hauteur maximale ou la croissance des arbres, la biomasse aérienne totale, etc).
+Par ailleurs les trajectoires de paracou ont montré le découplage en les caractéristiques taxonomiques et fonctionnelles des communautés, due à l'atténuation des perturbations par la redondance fonctionnelle inhérente aux forêts tropicales.
+Ceci avertit sur l'importance de considérer la redondance fonctionnelle, garante de la résilience des écosystèmes, dont une restauration inachevée signifie à terme la disparition locale des espèces rares et la diminution de la résilience des écosystèmes.
+A la lumière de cela, nous proposons d'utiliser la redondance fonctionnelle de la communauté (dans l'espace fonctionnel initial avant perturbation) comme critère de restauration de l'écosystème, en plus des indicateurs fonctionnels (*i.e.* la hauteur maximale, la vitesse de croissance ou la biomasse aérienne totale, etc).
 
 ### Choix des traits et limites de l'approche fonctionnelle
 
-Les analyses de diversité et de composition fonctionnelles se sont toutes basées ici sur un jeu de donné considérant des traits fonctionnels clés, représentatifs de l'écologie, de la croissance et dans une certaine mesure des performances de reproduction de sespèces, mais qui néanmoins n'englobent pas l'intégralité du fonctionnement des espèces.
-Le choix des traits considérés dans l'approche fonctionnelle dépendent largement de la question posée.
-Dans cette thèse nous nous sommes intéressés à la réponse des communautés surtout en termes de productivité et avons donc considéré des traits relatifs à l'acuisition et l'utilisation des ressources.
-Nous avons cependant pu montrer l'importance de la dispersion et de la durée de vie des graines pour la restauration des communautés.
-Pour détailler l'impact des perturbations sur la résilience des communautés il serait ainsi judicieux de considérer d'avantage de traits de dispersion, de dormance et de germination des graines [@Verdu2005;@Yguel_inprep.].
+Les analyses de diversité et de composition fonctionnelles réalisées ici une base de données fonctionnelle considérant des traits fonctionnels clés, représentatifs de l'écologie, de la croissance et dans une certaine mesure des performances de reproduction des espèces.
+Aucun jeu de traits fonctionnels ne peut cependant être exhaustif du fonctionnement des espèces et les traits considérés dépendent largement de la question posée.
+Ici nous nous sommes plutôt intéressés à la réponse des communautés en termes de productivité, en considérant des traits fonctionnels relatifs à l'acquisition et l'utilisation des ressources.
+Les trajectoires après perturbation ont cependant démontré l'importance de la banque de graines pour la réponse des communautés et du rôle de la diversité et de la composition de la banque de graines dans la consruction de la commmunauté après perturbation.
+La constitution de la banque de graines dépend largement des traits de dispersion, de dormance et de germination des espèces, qu'il serait judicieux de considérer pour mieux anticiper le devenir des communautés perturbées [@Verdu2005;@Yguel_inprep.].
 
 ## Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière
 
