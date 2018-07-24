@@ -56,21 +56,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{27}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}L'enfer vert, le déterminisme aléatoire (c'est n'importe quoi comme titre)}{27}{section.5.1}
+\contentsline {section}{\numberline {5.1}La diversité des communautés, entre déterminisme et stochasticité}{28}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Une succession fonctionnelle déterministe}{28}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Trajectoires taxonomiques}{29}{section*.15}
+\contentsline {subsection}{Les trajectoires taxonomiques: diversité déterminée et composition stochastique}{29}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Vers une gestion plus durable intégrant la préservation de la biodiversité}{30}{section.5.2}
+\contentsline {section}{\numberline {5.2}Vers une gestion plus durable intégrant la préservation de la biodiversité}{31}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Quels critères de restauration?}{31}{section*.16}
+\contentsline {subsection}{Quels critères de restauration?}{32}{section*.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{32}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{32}{section.5.3}
+\contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{33}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{33}{section*.18}
+\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{34}{section*.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Modèle mécaniste: simuler les trajectoires après perturbation}{34}{section*.19}
 \defcounter {refsection}{0}\relax 
