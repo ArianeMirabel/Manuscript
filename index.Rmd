@@ -8,7 +8,7 @@ bibliography:
 - packages.bib
 - 01ref-IntroG.bib
 - 02ref-chap2Incert.bib
-- 05ref_CclG.bib
+- 05ref-CclG.bib
 cite-style: verbose-inote
 classoption:
 - extrafontsizes

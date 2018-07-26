@@ -89,6 +89,7 @@
       <file>packages.bib</file>
       <file>01ref-IntroG.bib</file>
       <file>02ref-chap2Incert.bib</file>
+      <file>05ref-CclG.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
