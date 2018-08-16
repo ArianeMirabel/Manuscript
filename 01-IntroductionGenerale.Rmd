@@ -28,16 +28,24 @@ Indispensables et irremplaçables, les forêts disparaissent ou sont dégradées
 Elles subissent de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
 Elles subissent également les changements climatiques globaux qui augmentent la fréquence des événements extrêmes tels que les sécheresses, les incendies, ou les inondations… [@Pachauri2014]. 
 
-Une prise de conscience globale de ces pressions diverses a été entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992.
-De nombreux engagements politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts ont pris mais les menaces persistent ou s'accroissent malgré tout [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
-
 Dans ce contexte les forêts tropicales sont particulièrement menacées.
 Les bassins forestiers tropicaux représentent 19.6 million de km² et représentent des enjeux économiques et de préservation primordiaux au niveau mondial [@Dirzo2003a; @Hansen2013]. 
 Ils accueillent la diversité biologique la plus élevée au monde et sont les plus grandes forêts n'ayant jamais connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
-Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an qui entraîne des pressions anthropiques croissantes et rendent leur devenir incertain [@Asner2009].
-Nombre d'espèces des écosystèmes forestiers ont déjà disparu aujourd'hui, engendrant une "érosion" de la biodiversité qui participe à ce qui est déjà qualifié de sixième extinction de l’ère moderne [@Vitousek1997; @Cardinale2012].
+Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an entraînant un développement économique proportionnel [@Asner2009;@Barlow2018].
+L'impact de ces pressions anthropiques est de plus exacerbé par le contexte économique de nombreuses zones tropicales, où les investissements, les politiques de conservation et les capacités de recherche et de développement sont moindres [@seeBarlow2018].
+Les impacts de ces pressions locales s'ajoutent aux changements globaux et entraînent des modifications importantes des écosystèmes, allant souvent vers une plus faible diversité.
+Ces changements correspondent à la disparition locales d'espèces, entraînant souvent des changements écosystémiques plus profonds dépendant du rôle des espèces au sein des communautés. 
+Ces disparitions qui constituent l'érosion actuelle de la biodiversité sont telles qu'elles ont déjà été qualifiées de "sixième extinction de l'ère moderne" [@Vitousek1997; @Cardinale2012].
 
-## Conservation et protection des forêts tropicales
+Une prise de conscience globale de ces pressions diverses a été entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992.
+De nombreux engagements politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts ont été pris mais les menaces persistent ou s'accroissent malgré tout [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Plusieurs approches ont été adoptées pour assurer la conservation de la biodiversité.
+La première approche s'appuie sur la création d'aires protégées, de plus en plus étendues aujourd'hui, mais dont les surfaces demeurent insuffisantes pour pallier l'érosion globale de la biodiversité [@Sist2015]. 
+La seconde approche est intégrative et propose de tenir compte des enjeux à la fois environnementaux, économiques et humains dans la gestion des écosystèmes.
+Cette approche se traduit par l'intégration du maintien des services écosystémiques comme enjeu de gestion en s'appuyant sur leur valeur économique, ce qui s'est traduit par des programmes comme le REDD+, des labels ou des systèmes de paiement de ces services [@Agrawal2011;@Barlow2018].
+Elle aboutit également à la mise en place de gestions fondées sur les interactions directes entre nature et société, comme par exemple la gestion communautaire des forêts, impliquant notamment les populations locales [@Liu2015].
+
+## Exploitation et conservation des forêts tropicales
 
 La conservation des forêts tropicales est aujourd'hui un enjeu majeur, mais la seule désignation d'aires protégées ne suffit pas à maintenir leur immense biodiversité et leur fonctionnement complexe [@Sist2015].
 Dans ce contexte, l'exploitation forestière est centrale car elle assure à la fois des profits économiques et sociaux tout en préservant la biodiversité et le fonctionnement des écosystèmes comme dans le cas de l'exploitation sélective.
