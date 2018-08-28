@@ -8,17 +8,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Les forêts tropicales, au coeur des enjeux actuels}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Conservation et protection des forêts tropicales}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Exploitation et conservation des forêts tropicales}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Diversité et assemblage des communautés}{3}{section.1.3}
+\contentsline {section}{\numberline {1.3}Diversité et assemblage des communautés}{4}{section.1.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Succession, mortalité et recrutement: supports de la trajectoire des communautés}{4}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les règles d'assemblage des communautés}{4}{section*.3}
+\contentsline {subsection}{Les règles d'assemblage des communautés}{5}{section*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Comment mesurer la diversité biologique ?}{6}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Composition et dissimilarité entre communautés}{6}{section*.4}
+\contentsline {subsection}{Composition et dissimilarité entre communautés}{7}{section*.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Assemblage et structure des communautés}{7}{section*.5}
 \defcounter {refsection}{0}\relax 
@@ -26,19 +26,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Résolution du biais d'échantillonnage}{10}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Diversité fonctionnelle}{10}{section*.8}
+\contentsline {subsection}{Diversité fonctionnelle}{11}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}La Guyane Française et l'exemple de la station de Paracou}{14}{section.1.5}
+\contentsline {section}{\numberline {1.5}La Guyane Française et l'exemple de la station de Paracou}{13}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Le contexte Guyanais}{14}{section*.9}
+\contentsline {subsection}{Le contexte Guyanais}{13}{section*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Paracou, plus de 30 de suivi de la forêt Amazonienne}{15}{section*.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Méthodes d'inventaires}{16}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{16}{section.1.6}
+\contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{17}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Article 1 : Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude}{19}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude}{19}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Noms vernaculaires et propagation des incertitudes taxonomiques}{19}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -50,29 +50,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Cas particulier de Paracou}{22}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Article 2: trajectoires de diversité des parcelles}{23}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}Trajectoires de diversité à l'échelle des communautés}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Article 3: Analyse du recrutement, support de la trajectoire des communautés}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{27}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}La diversité des communautés, entre déterminisme et stochasticité}{28}{section.5.1}
+\contentsline {section}{\numberline {5.1}Des communautés régies entre déterminisme et stochasticité}{28}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Une succession fonctionnelle déterministe}{28}{section*.14}
+\contentsline {subsection}{Un modèle de succession défini}{28}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les trajectoires taxonomiques: diversité déterminée et composition stochastique}{29}{section*.15}
+\contentsline {subsection}{Une succession fonctionnelle déterministe}{29}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Les trajectoires taxonomique}{30}{section*.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Vers une gestion plus durable intégrant la préservation de la biodiversité}{31}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Quels critères de restauration?}{32}{section*.16}
+\contentsline {subsection}{Quels critères de restauration?}{32}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{32}{section*.17}
+\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{33}{section*.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{33}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{34}{section*.18}
+\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{34}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle mécaniste: simuler les trajectoires après perturbation}{34}{section*.19}
+\contentsline {subsection}{Modèle mécaniste: simuler les trajectoires après perturbation}{35}{section*.20}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 

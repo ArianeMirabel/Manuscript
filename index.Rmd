@@ -8,6 +8,8 @@ bibliography:
 - packages.bib
 - 01ref-IntroG.bib
 - 02ref-chap2Incert.bib
+- 03ref-chap3WholePlot.bib
+- 04ref-Recruitment.bib
 - 05ref-CclG.bib
 cite-style: verbose-inote
 classoption:
@@ -34,11 +36,11 @@ lang: fr
 link-citations: yes
 mots-cles:
 - Biodiversite
-- Forets Neotropicales
+- Forêts Néotropicales
 - Perturbation
-- Ecologie des Communautes
-- Trajectoires dynamiques
-- Resilience
+- Ecologie des Communautés
+- Trajectoires
+- Résilience
 otherlangs:
 - en-US
 - en-GB
@@ -56,23 +58,28 @@ biblatexoptions:
 - sortcites=false
 papersize: A4
 resume: |
-  La biodiversité des forêts, dans les arbres sont les éléments essentiels, est garante de leur fonctionnement, de leur résilience et des biens et services environnementaux, sociaux et économiques qu'elles rendent. Dans le contexte des changements actuels l'avenir des forêts est incertain, en particulier sous les tropiques où les forêts, qui accueillent la majeure partie de la biodiversité terrestre, sont les plus menacées.
-  Comprendre le fonctionnement des écosystèmes forestiers pour anticiper leur réponse aux changements actuels et ajuster leur gestion durable à long terme est aujourd'hui un enjeu incontournable. Dans cet objectif, cette thèse cherche à expliciter la réponse des forêts tropicales dans le contexte de changements actuel, à en comprendre les processus sous-jacents, et à en discuter les perspectives pour le maintien des forêts et de leur fonctionnement. Nous proposons une analyse de la réponse des forêts tropicales aux perturbations à partir des trajectoires de diversité et de composition suivies pendant 30 ans après un gradient de perturbation par les parcelles du dispositif de Paracou en Guyane française.
-  Dans un premier temps nous avons établi un estimateur de la diversité tenant compte des incertitudes de détermination inhérentes aux inventaires forestiers. Cet estimateur a été appliqué d'une part au contexte de l'exploitation forestière pour proposer une méthode d'inventaire optimisée vis à vis du coût (humain et temporel) des estimateurs et de leur précision. D'autre part il a été appliqué au contexte expérimental tel que celui de Paracou, et sera appliqué par la suite au tracé des trajectoires de diversité et de composition.
-  Dans un deuxième temps nous avons analysé les trajectoires de diversité et de composition taxonomique et fonctionnelle des communautés après perturbation, à partir du suivi des parcelles de Paracou et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. Ces trajectoires ont montré la convergence fonctionnelle des communautés, illustrant une réponse commune régie par des mécanismes déterministes de sélection, et leur divergence taxonomique, illustrant le maintien de leurs différences de composition taxonomique régi par de sprocessus aléatoires de limites de dispersion. Les trajectoires de diversité ont par ailleurs validé la théories des perturbations intermédiaires au regard de la diversité taxonomique, maximisée après une perturbation d'intensité moyenne. L'impact des perturbations sur la diversité fonctionnelle s'est en revanche montré atténué par la redondance fonctionnelle importante des communautés, impliquant une augmentation de la diversité fonctionnelle quelle que soit l'intensité de la perturbation mais un temps de restauration long de plusieurs décennies.
-  Enfin l'anaylse plus précise des trajectoires du recrutement ont montré une succession déterministe des communautés, similaire aux modèles de succession reconnus en forêt tempérée, régie par l'émergence de processus de sélection fonctionnelle balancant processus stochastiques de recrutement inhérents aux communautés matures. Cette succession a confirmé la résilience du fonctionnement et des charactéristiques taxonomiques et fonctionnelles des communautés, mais démontre la diminution de la résilience des communautés et interroge sur la possibilité d'une exploitation répétée et durable.
+  Le fonctionnement, le maintien et la résilience des forêts repose sur la diversité des communautés d'arbres qui les constituent. Clarifier la réponse de la biodiversité forestière aux perturbations est primordial dans le contexte des changements actuels pour préserver et gérer les forêts et les biens et services qu'elles rendent, spécifiquement en forêt tropicale où la diversité est à la fois la plus élevée et la plus menacée au monde.
+  Dans ce contexte cette thèse cherche à décrire la réponse aux perturbations de la diversité des communautés forsetières, à identifier les processus écologiques sous-jacents, et à discuter des perspectives pour la gestion et la conservation des forêts. 
+  
+  Le suivi de la station de paracou permet d'examiner de façon exhaustive sur 30 années la réponse des communautés tropicales après un gradient de perturbation.
+  Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. Non seulement appliqué dans le cadre de cette thèse aux données de Paracou, cet estimateur a été appliqué au contexte de l'exploitation forestière pour proposer une méthode d'inventaire forestier optimisant le coût et la précision des inventaires.
+  Dans un deuxième temps nous avons analysé les trajectoires après perturbation de la diversité et de la composition taxonomique et fonctionnelle des communautés, à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
+  Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
+  
+  Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation aud delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taoxnomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbation et faisant office de paramètre synétiquement déterminant de la restauration des commuanutés après perturbation.
+  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitatoin durable des forêts et de nouvelles perspectives de modélisation de la diversité.
 site: bookdown::bookdown_site
 PhD-HDR:
   DIS: ST
   DocType: PhD
   ED: UG
   Ets: UG
-  defence-date: 1er janvier 2018
+  defence-date: Novembre 2018
   jury1:
     category: judge
-    name: Prenom NomJury1
-    other: Membre du Jury
-    status: Professeur d'Universite
+    name: Olivier Hardy
+    other: Rapporteur
+    status: Professeur d'Université
   jury2:
     category: judge
     name: Prenom NomJury2
@@ -80,31 +87,16 @@ PhD-HDR:
     status: Professeur d'Universite
   jury3:
     category: judge
-    name: Prenom NomJury3
-    other: Membre du Jury
-    status: Professeur d'Universite
+    name: Eric Marcon
+    other: Directeur de thèse
+    status: Chercheur
   jury4:
     category: judge
-    name: Prenom NomJury4
-    other: Membre du Jury
-    status: Professeur d'Universite
-  jury5:
-    category: judge
-    name: Prenom NomJury5
-    other: Membre du Jury
-    status: Professeur d'Universite
-  jury6:
-    category: judge
-    name: Prenom NomJury6
-    other: Membre du Jury
-    status: Professeur d'Universite
-  jury7:
-    category: judge
-    name: Prenom NomJury7
-    other: Membre du Jury
-    status: Professeur d'Universite
-  lab: Ecologie des forets de Guyane
-  njudge: 7
+    name: Bruno Hérault
+    other: Co-directeur de thèse
+    status: Chercheur
+  lab: UMR EcoFoG, Ecologie des Forêts de Guyane
+  njudge: 6
   speciality: Ecologie
 toc-depth: 3
 preamble: >

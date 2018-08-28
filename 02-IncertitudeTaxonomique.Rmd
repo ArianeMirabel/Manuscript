@@ -1,4 +1,4 @@
-# Article 1 : Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude
+#Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude
 
 Malgré les enjeux liés aux forêts tropicales et l'urgence d'en préserver l'intégrité et le fonctionnement, seule une petite fraction de leur diversité est connue.
 Le nombre d'espèces inventoriées sous les tropiques ne correspondant qu'à une observation unique [@Feeley2011] présume de l'ampleur de notre méconnaissance et rend impossible toute supposition sur la distribution des espèces et leurs dynamiques.

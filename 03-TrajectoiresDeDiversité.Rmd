@@ -1,4 +1,4 @@
-# Article 2: trajectoires de diversité des parcelles
+# Trajectoires de diversité à l'échelle des communautés
 
 L'immense biodiversité des forêts tropicales est supposée déterminée et maintenue par un régime de perturbations régulier, comme l'illustre la théoriqe des perturbations intermédiaires.
 Cette théorie suppose une diversité maximale des communautés pour un régime de perturbation moyen, mais elle reste débattue dans le cas des forêts tropicales, et cette controverse conduit à questionner la résilience des communautés après perturbation.
@@ -11,4 +11,5 @@ Les différentes trajectoires ont montré d'une part la divergence taxonomique d
 La théorie des perturbations intermédiaires a pu représenter correctement l'impact des perturbations sur la diversité taxonomique, dont l'augmentation est positivement corrélé à l'intensité de la perturbation jusqu'à un ertain seuil. 
 En revanche la sélection d'espèces fonctionnellement différentes augmentait la diversité fonctionnelle après perturbation quelle qu'en soit l'intensité, l'impact négatif de la perturbation étant atténué par l'importante redondance fonctionnelle des communautés.
 Bien qu'effective, la restauration des charactéristiques taxonomiques et fonctionnelles des communautés restait inachevée après 30 ans, suggérant un temps de restauration long de plusieurs décenies d'autant plus difficile à estimer que la restauration de la redondance fonctionnelle, déterminante de la résilience des communautés, s'est montrée ralentir au cours du temps.
+
 

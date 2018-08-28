@@ -71,20 +71,17 @@ La diversité taxonomique augmente pendant les deux premières phases de la succ
 Au delà d'un seuil d'intensité en revanche la favorisation d'espèces nouvelles ou peu communes ne compense pas les disparitions dues à la perturbation.
 Les espèces pionnières sont alors dominantes, la richesse taxonomique est diminuée puis restaurée sans dépasser la richesse initiale, et l'équitabilité est durablement augmentée.
 
-Si, comme on l'a vu, les communautés convergent dans l'espace fonctionnel elles divergent dans l'espace taxonomique [@Fukami2005].
-Cette dichotomie entre trajectoires taxonomiques et fonctionnelles s'explique par la redondance fonctionnelle.
-La redondance fonctionnelle, qui mesure le nombre d'espèces partageant les mêmes charactéristiques fonctionnelles, est élevée en forêt tropicale [@Bellwood2006].
-Bien que la composition des communautés soit différente, leurs réponses fonctionnelles aux perturbations peuvent donc être similaires, différentes espèces remplissant un rôle identique.
-De plus l'impact fonctionnel des perturbations est atténué, le rôle d'une espèce disparue de la communauté étant assuré par une espèce redondante [@Carmona2016].
-Après perturbation, la disparition de certaines espèces diminue la redondance fonctionnelle de la communauté et explique a décorrélation entre trajectoires taxonomiques et fonctionnelles.
-La redondance fonctionnelle s'impose comme l'élément clé de la restauration des communautés.
-La redondance fonctionnelle garantie la résilience des communautés et atténue l'impact des perturbations sur le fonctionnement des écosystèmes.
-Sa restauration est cependant l'élément cinétiquement déterminant de la résilience des communautés: une redondance fonctionnelle élevée implique une compétition importante entre espèces redondantes.
-La restauration de la redondance fonctionnelle relève du principe de "lottery recruitment": les premières espèces recrutées s'établiront dans la communauté tandis que celles par hasard recrutées tradivement seront en compétition ave les premières et s'établiront plus difficilement [@Busing2002].
-La restauration de la composition taxonomique et de la redondance fonctionnelle initiales sont donc longues et difficiles à anticiper.
-
-On s'attend à ce que la réponse des communautés après de nouvelles pertubations soit assez différente, et notamment à ce que le fonctionnement finisse par être modifié sur le long terme et la redondance fonctionnelle n'est pas restaurée.
-La restauration lente des espèces rares quand à elle accroît le risque de voir certaines espèces disparaître localement, et de voir la richesse taxonomique décliner petit à petit.
+D'après les trajectoires de Paracou, bien que les communautés convergent dans l'espace fonctionnel elles divergent dans l'espace taxonomique et les différences initiales de composition entre communautés sont maintenues [@Fukami2005].
+Ce découplage entre trajectoires taxonomiques et fonctionnelles s'explique par les variations de la redondance fonctionnelle des communautés, qui mesure le nombre d'espèces partageant les mêmes valeurs de traits et qui ont le même rôle dans l'écosystème [@Bellwood2006].
+En forêt tropicale où la redondance fonctionnelle est élevée, la composition fonctionnelle des communautés peut être identique malgré leurs différences taxonomiques.
+La redondance fonctionnelle explique la convergence fonctionnelle des communauté malgré leur divergence taxonomique et donc l'homogeneité des trajectoires après perturbation quelle que soit la composition taxonomique initiale.
+D'autre part une redondance fonctionnelle élevée assure le remplacement des espèce squi disparaissent par d'autres à la stratégie fonctionnelle similaire [@Carmona2016], ce qui atténue l'impact des perturbations sur la composition et la diversité fonctionnelle.
+Les trajectoires de redondance, complémentaires des trajectoires taxonomiques et fonctionnelles, explique leur découplage et appréhende la restauration de la résilience des communautés.
+La restauration de la redondance dépend des trajectoires taxonomique, et donc des processus stochastiques sous-jacents.
+Les trajectoires de redondance, de composition et de diversité taxonomique dépendent du principe de "lottery recruitment": tandis que les espèces recrutées en premier s'établissent rapidement dans la communauté, les suivantes, redondantes fonctionellement, subissent la compétition avec les prmières et s'établissent plus difficilement [@Busing2002].
+La restauration de la redondance, de la diversité et de la composition taxonomiques sont donc lentes, aléatoires et difficiles à anticiper.
+Malgré tout, ce sont les éléments clé et cinétiquement déterminants de la restauration après perturbation.
+Une diminution persistante de la redondance implique des réponses taxonomique et fonctionnelle différentes après de nouvelles perturbations et accroît le risque de voir certaines espèces disparaître localement et la richesse taxonomique décliner petit à petit.
 
 ## Vers une gestion plus durable intégrant la préservation de la biodiversité
 
