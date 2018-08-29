@@ -1,0 +1,698 @@
+--- 
+title: "Réponse et résilience de biodiversité des forêts tropicales après perturbation"
+author: "Ariane Mirabel"
+date: "2018-08-29"
+output: pdf_book
+biblio-style: authoryear-ibid
+bibliography:
+- packages.bib
+- 01ref-IntroG.bib
+- 02ref-chap2Incert.bib
+- 03ref-chap3WholePlot.bib
+- 04ref-Recruitment.bib
+- 05ref-CclG.bib
+cite-style: verbose-inote
+classoption:
+- extrafontsizes
+- onecolumn
+- openright
+colorlinks: yes
+  To be coming
+description: "Manuscrit de thèse"
+documentclass: memoir
+fig_crop: yes
+fontsize: 11pt
+fourthpagefontsize: normalsize
+graphics: yes
+keywords:
+- Biodiversity
+- Neotropical forests
+- Perturbation
+- Communities Ecology
+- Dynamic trajectories
+- Resilience
+lang: fr
+link-citations: yes
+mots-cles:
+- Biodiversite
+- Forêts Néotropicales
+- Perturbation
+- Ecologie des Communautés
+- Trajectoires
+- Résilience
+otherlangs:
+- en-US
+- en-GB
+- fr
+biblatexoptions:
+- backend=bibtex
+- citestyle=verbose-inote
+- isbn=false
+- backref=true
+- giveninits=true
+- uniquename=init
+- maxcitenames=2
+- maxbibnames=150
+- sorting=nyt
+- sortcites=false
+papersize: A4
+resume: |
+  Le fonctionnement, le maintien et la résilience des forêts repose sur la diversité des communautés d'arbres qui les constituent. Clarifier la réponse de la biodiversité forestière aux perturbations est primordial dans le contexte des changements actuels pour préserver et gérer les forêts et les biens et services qu'elles rendent, spécifiquement en forêt tropicale où la diversité est à la fois la plus élevée et la plus menacée au monde.
+  Dans ce contexte cette thèse cherche à décrire la réponse aux perturbations de la diversité des communautés forsetières, à identifier les processus écologiques sous-jacents, et à discuter des perspectives pour la gestion et la conservation des forêts. 
+  
+  Le suivi de la station de paracou permet d'examiner de façon exhaustive sur 30 années la réponse des communautés tropicales après un gradient de perturbation.
+  Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. Non seulement appliqué dans le cadre de cette thèse aux données de Paracou, cet estimateur a été appliqué au contexte de l'exploitation forestière pour proposer une méthode d'inventaire forestier optimisant le coût et la précision des inventaires.
+  Dans un deuxième temps nous avons analysé les trajectoires après perturbation de la diversité et de la composition taxonomique et fonctionnelle des communautés, à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
+  Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
+  
+  Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation aud delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taoxnomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbation et faisant office de paramètre synétiquement déterminant de la restauration des commuanutés après perturbation.
+  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitatoin durable des forêts et de nouvelles perspectives de modélisation de la diversité.
+site: bookdown::bookdown_site
+PhD-HDR:
+  DIS: ST
+  DocType: PhD
+  ED: UG
+  Ets: UG
+  defence-date: Novembre 2018
+  jury1:
+    category: judge
+    name: Olivier Hardy
+    other: Rapporteur
+    status: Professeur d'Université
+  jury2:
+    category: judge
+    name: Prenom NomJury2
+    other: Membre du Jury
+    status: Professeur d'Universite
+  jury3:
+    category: judge
+    name: Eric Marcon
+    other: Directeur de thèse
+    status: Chercheur
+  jury4:
+    category: judge
+    name: Bruno Hérault
+    other: Co-directeur de thèse
+    status: Chercheur
+  lab: UMR EcoFoG, Ecologie des Forêts de Guyane
+  njudge: 6
+  speciality: Ecologie
+toc-depth: 3
+preamble: >
+  \usepackage{textcomp}
+  \DeclareUnicodeCharacter{B0}{\textdegree}
+  \usepackage{tabu}
+  \usepackage{caption}
+  \captionsetup{justification = justified}
+  \renewenvironment{table}{\begin{table*}}{\end{table*}\ignorespacesafterend}
+  \hyphenation{bio-di-ver-si-ty sap-lings}
+  \usepackage{floatrow}
+  \floatsetup[widefigure]{margins=hangright,capposition=beside,
+  capbesideposition={bottom, right},floatwidth=\textwidth}ASC
+---
+
+(ref:Bolda) **(a)**
+
+(ref:Boldb) **(b)**
+
+(ref:Boldc) **(c)**
+
+<!-- knitr and R options (packages, ...) --> 
+
+```
+## Warning: package 'rmarkdown' was built under R version 3.5.1
+```
+
+
+
+\mainmatter
+ 
+
+<!--chapter:end:index.Rmd-->
+
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Introduction générale
+
+Les forêts couvrent 30% de la surface terrestre et assurent de nombreux biens et services environnementaux, économiques et sociaux indispensables à l'équilibre planétaire.
+Elles régulent le climat, la qualité de l'eau, de l'air et des sols et abritent une diversité biologique exceptionnelle.
+Elles subviennent aux besoins alimentaires de la population mondiale et permettent son développement économique en tant que source de matières premières, de revenus et d'opportunités de développement.
+Enfin, indispensables au bien être des populations, elles représentent des valeurs historiques, culturelles et patrimoniales irremplaçables [@FRA2015; @Tilman2014].
+Malgré leur importance les forêts sont aujourd'hui extrêmement menacées dans le contexte actuel de changements globaux.
+
+## Les forêts tropicales, au coeur des enjeux actuels
+
+Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes avec leur environnement qui définissent une unité fonctionnelle, et dont les arbres sont les composants essentiels [@FRA2000]. 
+Les forêts portent de forts enjeux de conservation, en restant les régions les moins anthropisées et en accueillant la diversité animale et végétale et les taux d'endémisme les plus importants du globe [@Myers2000; @Mittermeier2003].
+
+A l'échelle locale, les forêts entretiennent les cycles de l'eau et des nutriments (azote, phosphore, etc), et régulent le climat et la fertilité des sols [@Malhi2008; @Isbell2017].
+A l'échelle globale, elles régulent les émission de gaz à effet de serre (*GES*) en compensant les émissions en tant que puits de carbone de 1.1 ± 0.8 PgC.yr^–1^, mais sont également une source potentielle de GES lorsque'elles sont dégradées et libèrent le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
+
+Les forêts assurent directement la subsistance de 500 millions de personnes en tant que source de nourriture (par la chasse et la collecte de produits forestiers non ligneux comestibles), d'eau, de matériaux de construction, et d'énergie (par l'utilisation du bois de chauffage et de cuisson). 
+Elles sont de plus indispensables au bien-être des populations et possèdent d'importantes dimensions culturelle, spirituelle et patrimoniale.
+Enfin, l'exploitation forestière correspond à de forts enjeux économiques: elle représente ~ 1% du PIB mondial, une part importante de l'emploi et rsete l'une des principales sources d'énergie [@CBDdiversity2011; @FAO2014].
+
+
+Indispensables et irremplaçables, les forêts disparaissent ou sont dégradées à une vitesse croissante: entre 2013 et 2015 par exemple leur surface globale a diminué de 3% [@FAO2009].
+Elles subissent de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
+Elles subissent également les changements climatiques globaux qui augmentent la fréquence des événements extrêmes tels que les sécheresses, les incendies, ou les inondations… [@Pachauri2014]. 
+
+Dans ce contexte les forêts tropicales sont particulièrement menacées.
+Les bassins forestiers tropicaux représentent 19.6 million de km² et représentent des enjeux économiques et de préservation primordiaux au niveau mondial [@Dirzo2003a; @Hansen2013]. 
+Ils accueillent la diversité biologique la plus élevée au monde et sont les plus grandes forêts n'ayant jamais connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
+Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an accompagnée d'un développement économique proportionnel [@Asner2009;@Barlow2018].
+L'impact de ces pressions anthropiques est de plus exacerbé par le contexte économique de nombreuses zones tropicales, où les investissements, les politiques de conservation et les capacités de recherche et de développement sont moindres [@seeBarlow2018].
+Les impacts de ces pressions locales s'ajoutent aux changements globaux et entraînent des modifications importantes des écosystèmes, allant souvent vers une plus faible diversité.
+Ces changements correspondent à la disparition locales d'espèces, entraînant souvent des changements écosystémiques plus profonds dépendant du rôle des espèces au sein des communautés. 
+Ces disparitions qui constituent l'érosion actuelle de la biodiversité sont telles qu'elles ont déjà été qualifiées de "sixième extinction de l'ère moderne" [@Vitousek1997; @Cardinale2012].
+
+Une prise de conscience globale de ces pressions diverses a été entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992.
+De nombreux engagements politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts ont été pris mais les menaces persistent ou s'accroissent malgré tout [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Plusieurs approches ont été adoptées pour assurer la conservation de la biodiversité.
+La première approche s'appuie sur la création d'aires protégées, de plus en plus étendues aujourd'hui, mais dont les surfaces demeurent insuffisantes pour pallier l'érosion globale de la biodiversité [@Sist2015]. 
+La seconde approche est intégrative et propose de tenir compte des enjeux à la fois environnementaux, économiques et humains dans la gestion des écosystèmes.
+Cette approche se traduit par l'intégration du maintien des services écosystémiques comme enjeu de gestion en s'appuyant sur leur valeur économique, ce qui s'est traduit par des programmes comme le REDD+, des labels ou des systèmes de paiement de ces services [@Agrawal2011;@Barlow2018].
+Elle aboutit également à la mise en place de gestions fondées sur les interactions directes entre nature et société, comme par exemple la gestion communautaire des forêts, impliquant notamment les populations locales [@Liu2015].
+
+## Exploitation et conservation des forêts tropicales
+
+La conservation des forêts tropicales est aujourd'hui un enjeu majeur, mais la seule désignation d'aires protégées ne suffit pas à maintenir leur immense biodiversité et leur fonctionnement complexe [@Sist2015].
+Dans ce contexte, l'exploitation forestière est centrale car elle assure à la fois des profits économiques et sociaux tout en préservant la biodiversité et le fonctionnement des écosystèmes comme dans le cas de l'exploitation sélective.
+L'exploitation sélective correspond à l'exploitation de quelques espèces cibles dont les individus à exploiter sont désignés à l'avance.
+L'exploitation sélective implique des trouées éparses de la canopée et l'ouverture d'un réseau important de dessertes pouvant impacter la biodiversité des forêts.
+
+L'exploitation sélective, moins préjudiciable au fonctionnement de l'écosystème que de nombreuses autres activités anthropiques, est appliquée aujourd'hui sur environ 20% de la surface des forêts tropicales et représente 12% de la production mondiale de bois d'oeuvre [@Martin2015].
+Bien qu'ayant un potentiel important pour la préservation des forêts, l'exploitation sélective peut avoir des conséquences significatives et entraîner par exemple des changements dans la composition et la diversité des communautés, voire l'extinction locale d'espèces [@Gibson2011].
+Les pratiques de gestion forestière, définies principalement par le diamètre minimum de coupe et par le temps de récupération après exploitation [@Sist2015], sont aujourd'hui essentiellement calibrées en vue de la reconstitution du stock de bois d'oeuvre.
+Elles tendent cependant de plus en plus à intégrer des enjeux de conservation en visant la restauration de la diversité en espèces ou du fonctionnement de l'écosystème.
+La gestion durable des forêts est en effet définie par l' ITTO (*International Tropical Timber Organization*) comme devant maintenir la production des produits et services forestiers sans entraîner de préjudice à l'intégrité et la productivité future des forêts ni de dommages environnementaux ou sociaux collatéraux [@ITTO2005]. 
+Dans ce contexte, clarifier l'impact de l'exploitation sur la diversité et la composition des forêts est primordial à toute réflexion sur la durabilité et l'amélioration de la gestion sylvicole.
+
+## Diversité et assemblage des communautés
+
+Les arbres sont les éléments essentiels des écosystèmes forestiers.
+Leur diversité reflète celle des autres groupes floristiques et faunistiques et détermine largement le fonctionnement des forêts [@Guitet2017].
+Individuellement, chaque espèce a une valeur intrinsèque pour le patrimoine naturel global et, selon ses caractéristiques biologiques, peut avoir un rôle clé dans la communautés comme pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
+A l'échelle de la communauté, les processus et la productivité de l'écosystème son définis par les interactions entre individus et avec l'environnement et dépendent de la diversité et de la composition de l'assemblage d'espèces [@Begon2006].
+De même la diversité détermine la stabilité et la résilience des communautés, une diversité élevée palliant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
+
+L'érosion de la biodiversité impacte donc nécessairement le fonctionnement des écosystèmes mais le détail de la réponse des communautés et des conséquences de cette érosion reste mal connu.
+
+### Succession, mortalité et recrutement: supports de la trajectoire des communautés
+
+Une perturbation correspond à des changements dans l'environnement biotique (interactions entre individus) et abiotique (ensoleillement, flux d'eau, de nutriments et de matière) des communautés.
+La réponse des communautés aux perturbations a été décrite comme une succession temporelle de processus écologiques consécutifs à ces changements environnementaux.
+Les modèles de succession identifiés correspondent dans un premier temps au recrutement d'espèces pionnières, meilleures acquisitrices des ressources rendues disponibles après perturbation.
+Dans un deuxième temps, suivant la croissance des premiers recrutés, la disponibilité en ressources diminue, la compétition augmente et exclut finalement la disparition des espèces les moins compétitrices. 
+Les pionnières installées dans un premier temps, sénescentes ou exclues par la compétition, sont alors remplacées par les espèces de succession tardive qui correspondent en forêt tropicale à des espèces de croissance lente mais ayant une longue durée de vie.
+Cette succession restaure de façon déterministe une communauté de succession tardive via la combinaison de processus démographiques de mortalité (disparition), et de recrutement (apparition) d'espèces dans la communauté [@Denslow2000].
+
+Le recrutement correspond à la suite d'événements de production, de dissémination et de germination des graines, puis de survie et de croissance des plantules jusqu'à un seuil de recrutement.
+Ce seuil est un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour participer au fonctionnement de l'écosystème et pour intégrer les inventaires.
+Les processus écologiques qui régulent le recrutement des espèce déterminent donc la réponse des communautés aux perturbations et leur résilience en termes de diversité,de composition et de fonctionnement [@Denslow1980; @Schnitzer2001; @Asner2004].
+
+\begin{figure*}
+
+{\centering \includegraphics[width=1\linewidth]{ExternalFig/Fig_AssemblyRules} 
+
+}
+
+\caption{Schéma des processus déterminant la réponse des communautés végétales aux perturbations. Les processus déterministes (partie haute) sélectionnent les espèces recrutées dans la communauté selon leurs préférences environnementales e leur compétitivité, tandis que les processus stochastiques (partie basse) reviennent à une sélection aléatoire.}(\#fig:AssemblyRules)
+\end{figure*}
+
+### Les règles d'assemblage des communautés
+
+Expliciter et comprendre la réponse des forêts aux perturbations nécessité d'expliciter les processus écologiques sous-jacents.
+Plusieurs hypothèses sur les processus d'assemblage des communautés sont débattues aujourd'hui, notamment quant au rôle des processus stochastiques et déterministes.
+Les processus déterministes sélectionnent les espèces de la communauté selon leur performance dans l'environnement biotique et abiotique de la communauté , définie par leurs caractéristiques biologiques [@Molino2001].
+Les processus stochastiques, qui relèvent de la théorie neutre, supposent un assemblage aléatoire dépendant uniquement de l'histoire de la communauté et des limitations physique de dispersion ou de croissance (barrière à la dispersion, ordre d'arrivée des espèces) \@ref(fig:AssemblyRules) [@Hubbell2001].
+
+
+Le débat quant au rôle respectifs des processus stochastiques et déterministes est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis*, *IDH* en anglais).
+Cette théorie suppose la prépondérance de processus déterministes d'exclusion compétitive et de filtrage des espèces et prédit que, sous un certain seuil, la diversité est d'autant plus élevée que le milieu est perturbé [@Molino2001].
+Un tel régime de perturbations intermédaires ferait varier les conditions environnementales sans engendrer de modification drastique.
+Cette variabilité permettrait à un large panel d'espèces de s'installer ou de s'imposer lorsque les conditions environnementales leur deviennent favorables ou qu'elles deviennent plus compétitives relativement au reste de la communauté.
+Au delà d'un seuil d'intensité de perturbation en revanche les processus de sélection excluent plus d'espèces qu'ils n'en favorisent et la diversité des communautés diminue [@Chesson2000;@Kariuki2006a;@Berry2008a].
+
+A l'inverse la théorie neutre suppose que les espèces sont équivalentes et que leur abondance ne dépend pas de leurs caractéritiques biologiques.
+L'abondance des espèces dépendrait plutôt de processus aléatoires de dispersion, de croissance et de survie qui résultent en un assemblage stochastique des communautés [@Hubbell2001].
+
+Bien que débattues les hypothèses déterministe et stochastique ne sont cependant pas incompatibles et ont montré pouvoir prédire la structure des communautés à différentes échelles et à différents niveaux de richesse.
+Il est vraisemblable que les communautés résultent de combinaisons variables de processus déterministes et stochastiques, et la question se porte alors sur les facteurs qui influencent l'importance relative de ces processus [@Chave2004]. 
+
+## Comment mesurer la diversité biologique ?
+
+Les processus démographiques et les règles d'assemblage d'espèces déterminent la structure, la composition et la diversité des communautés.
+Prédire et gérer l'avenir des forêts et en particularité de leur précieuse diversité biologique nécessite de comprendre le rôle des ces différents processus dans la définission de la diversité biologique dans tous ses aspects.
+La biodiversité est définie de l'échelle du gène à celle de l'écosystème considère la diversité des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
+La biodiversité est souvent réduite à celle de richesse en espèces, mais tient compte en réalité des multiples aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant qui constituent les communautés.
+Appréhender les différents aspects de la biodiversité permet d'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+
+### Composition et dissimilarité entre communautés
+
+De nombreuses mesures permettent d'estimer ce turnover, qui prennent en compte ou non l'abondance des espèces [@Podani2013].
+Nous avons choisis ici de mesurer le taux de remplacement d'abondance, ou similarité de Bray-Curtis, qui représente dans quelle mesure une communauté est le sous-ensemble d'une plus grande. 
+En pratique, si la communauté recrutée après exploitation répond aux mêmes lois que la communauté initiale elle sera équivalente à une communauté qui en aurait été tirée au hasard. La similarité de Bray-Curtis mesure la somme des abondances d'une commaunté remplacées par une espèce différente, normalisée par l'abondance totale partagée entre les deux communautés \@ref(eq:formNestedness).
+
+\begin{equation}
+T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
+(\#eq:formNestedness)
+\end{equation}
+
+
+### Assemblage et structure des communautés {#AbundanceDistribution}
+
+Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces aux effectifs différents: certaines sont très abondantes, d'autres moyennement communes et d'autres encore, souvent la majorité, sont rares.
+La façon la plus simple et immédiate de décrire une communauté est de donner la distribution d'abondance de ses espèces, qui représente les proportions d'espèces abondantes rapport aux espèces communes ou rares.
+Cette distribution bien que variable d'une communauté à l'autre, est régie par des lois écologiques lui donnant invariablement une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
+
+\begin{figure*}
+
+{\centering \includegraphics[width=0.6\linewidth]{ExternalFig/SpeciesAbdDist} 
+
+}
+
+\caption{Exemple de distribution d'abondance pour une communauté d'arbres en forêt tropicale humide}(\#fig:AbdDist)
+\end{figure*}
+
+Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
+Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de ressources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
+Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau disponible, les nutriments du sol, l'espace, etc [@Silvertown2004;@terSteege2006]. 
+Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espèces de la communauté.
+De nombreux modèles prédictifs ont été proposés, des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la resource selon une formule prédéterminée, par exemple en la divisant successivement selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
+
+Ces modèles testés pour de nombreuses communautés, ont démontré pouvoir représenter correctement les communautés réelles et révéler les règles écologiques qui en régissent l'assemblage.
+Ce sont des outils adéquats pour comparer les communautés et en interpréter les différences, mais manipuler une distribution d'abondance reste compliqué car il s'agit d'une repréentation en 2D et ne permet pas de quantifier les différences entre communautés.
+En revanche, les paramètres de ces distributions et des modèle proposés pour les représenter permettent de quantifier le nombre d'espèces, la forme des distribution, ou encore l'homogénéité des abondances.
+Ces indicateurs sont les indices de diversité, résumant de façon quantifiable les caractéristiques des distributions d'abondance.
+
+### Les composantes de la diversité
+
+Si la biodiversité d'une communauté est souvent assimilée à sa richesse en espèces, elle englobe en réalité le nombre, l'abondance, la composition et les interactions entre les espèces.
+L'abondance en particulier est essentielle: une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare.
+Ainsi une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais aux abondances équivalentes.
+L'homogeneité des abondances dans une population, ou *équitabilité*, peut être bien plus révélatrice du fonctionnement des écosystèmes que leur richesse ou leur composition.
+Cette idée est illustrée par l'hypothèse du ratio de biomasse selon laquelle les espèces dominantes sont bien plus déterminantes du fonctionnement des écosystèmes que les espèces rares.
+Les espèces peu communes n'ont une influence qu'à long terme, en tant que potentielles futures espèces dominantes si l'environnement change, ou pas d'influence si elles sont transitoires et ne persistent pas dans l'écosystème [@Grime1998].
+
+La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la régularité de distribution d'abondance des espèces, sont donc les deux composantes de la diversité taxonomique d'une communauté \@ref(fig:RichEqu) [@Whittaker1965; @Magurran2004].
+
+\begin{figure*}
+
+{\centering \includegraphics[width=0.6\linewidth]{ExternalFig/Fig_RichnessEquitability} 
+
+}
+
+\caption{Les deux composantes de la diversité taxonomique: richesse (nombre d'espèces) et équitabilité (homogeneité de répartition)}(\#fig:RichEqu)
+\end{figure*}
+
+Mesurer la diversité ne revient donc pas à une mesure unique mais plusieurs indices de diversité qui combinent différemment les composantes de la diversité.
+Plusieurs familles d'indices de diversité ont été développées et regroupent les indices mesurés selon une même formule dont les déclinaisons accordent un poids variables aux composantes de la diversité.
+La famille des indices de diversité de Réyni par exemple, judicieuse pour l'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) modulée par un paramètre *q* appelé "ordre de diversité" qui correspond au poids des espèces rares par rapport aux espèces abondantes [@Mendes2008].
+Plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes.
+
+\begin{equation}
+{^{q}H=\frac{1}{q-1}\Bigg(1-\displaystyle\sum_{s=1}^{S}p^q_s\Bigg) }
+(\#eq:formHCDT)
+\end{equation}
+
+Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés dans la littérature: l'ordre 0 où chaque espèce contribue de la même façon correspond à la richesse spécifique, l'ordre 1 où richesse et équitabilité sont également prises en compte correspond à l'indice de Shannon, et l'ordre 2 pour lequel les espèces rares sont presque négligées correspond à l'indice de Simpson (parfois appelé "diversité en espèces abondantes") [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
+
+Ces indices, mathématiquement corrects et représentatifs des différentes composantes de la diversité, ne donnent cependant pas un nombre intelligible qui permettent de comparer facilement différentes communautés.
+Les indices de diversité doivent être traduits en *nombre équivalent d'espèces* qui correspond au nombre d'espèces qu'aurait la communauté étudiée si toutes les espèces avaient la même abondance.
+Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transformation des valeurs obtenues par une exponentielle à base q [@Hill1973].
+
+Les mesures de diversité choisies sont donc la traduction intelligible en nombre équivalent d'espèces d'une déclinaison d'indices combinant richesse et équitabilité de différentes façons pour capter toute structure de diversité.
+
+### Résolution du biais d'échantillonnage
+
+En pratique aucun inventaire n'est exhaustif et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous-estiment la richesse et faussent l'abondance des espèces.
+Corriger ce biais nécessite d'estimer les abondances réelles à partir des observations et des relations mathématiques reliant les abondances des différentes espèces.
+La première méthode développée correspond à la formule des fréquences de Turing [@Good1953] où l'abondance réelle *\alpha_v* d'une espèce observée *v* fois dans un échantillonnage de *n* individus dépend du nombre d'espèces observées également *v* fois et d'e celles'espèces observées *v+1* fois \@ref{eq=formGoodTuring}:
+
+\begin{equation}
+\alpha_v=\frac{\big(v+1\big)}{n}\frac{s^n_{v+1}}{s^n_v}
+(\#eq:formGoodTuring)
+\end{equation}
+
+Les singletons (espèces observées une seule fois) et les doubletons (espèces observées deux fois) sont alors particulièrement intéressants car il permettent d'estimer le nombre *s^n_0* d'espèces observées zéro fois ($s^n_0=\frac{s^n_1}{n}$) qui ont été manquées dans l'inventaire et peuvent être ajoutées aux observation pour corriger le biais d'échantillonnage de la richesse.
+
+De nombreuses méthodes ont repris cette relation en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire réel et permet de savoir quelle proportion de la communauté est échantillonnée [@Dauby2012].
+La correction la plus adéquate a pu être déterminée selon le taux de couverture de l'inventaire et les estimateurs de la diversité sont aujourd'hui très fiables [@Chao2015; @Marcon2015b].
+
+### Diversité fonctionnelle
+
+Les mesures de diversité décrites précédemment, appelées diversité neutre, considèrent toutes les espèces de la même façon que celles-ci aient ou non des caractéristiques biologiques ou phylogénétiques proches. 
+Ces diversités peuvent cependant facilement intégrer les caractéristiques des espèces en mesurant leur similarité et une communauté sera d'autant plus diverse que les espèces qui la constituent sont différentes.
+Pour des communautés végétales la diversité phylogénétique considère les distances entre espèces dans un arbre phylogénétique et la diversité fonctionnelle considère leurs différences morphologiques ou physiologiques \@ref(fig:RichEquSim).
+
+\begin{figure*}
+
+{\centering \includegraphics[width=0.6\linewidth]{ExternalFig/Fig_RichnessEquitabilitySimilarity} 
+
+}
+
+\caption{Troisième composante de la diversité: la similarité entre espèces basée sur des distances phylogénétiques ou taxonomiques}(\#fig:RichEquSim)
+\end{figure*}
+
+Ces similarités sont ensuite intégrées aux indices de diversité, au même titre que la richesse et l'équitabilité, sous la forme d'une matrice de distances entre espèces calculée sur la base de leur phylogénie ou de leurs traits fonctionnels.
+
+Les traits fonctionnels sont les caractéristiques morphologiques, physiologiques et phénologiques des espèces, ils déterminent le fonctionnement des individus, leur performance de croissance et de survie, et leurs interaction avec l'environnement [@Violle2007b].
+L'approche fonctionnelle décrivant les espèces et les individus selon leurs caractéristiques biologiques a été largement adoptée en écologie.
+D'une part, cette approche réduit la dimensionnalité des communautés, indispensable pour l'étude d'écosystèmes aussi riches que les forêts tropicales et permet de comparer les communautés quelle que soit leur composition en espèces [@Begon2006; @Scheiter2013; @Mouillot2013a; @Sakschewski2016].
+D'autre part, composition et diversité fonctionnelle sont interprétables en termes d'utilisation des ressources et de flux de matière et d'énergie, et relient directement la diversité des communautés à leur fonctionnement.
+Enfin, cette approche appréhende la signature fonctionnelle des perturbations et permet d'identifier et de quantifier les processus déterminant la dynamique des communautés [@Funk2017].
+La définition des processus déterministes est qu'ils n'impliquent pas les espèces de la même façon selon leurs caractéristiques biologiques: l'exclusion abiotique d'espèces non adaptées à l'environnement se traduiront par une aggrégation de la communauté dans l'espace des traits fonctionnels et une diminution de sa diversité fonctionnelle, tandis que l'exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une diversité fonctionnelle élevée [@McGill2006;@Kunstler2012].
+
+L'approche fonctionnelle nécessite de choisir judicieusement les traits intégrés aux indices de diversité.
+Une vaste littérature a permis d'identifier les traits clés représentatifs de l'écologie et de la croissance des espèces et de leur influence sur le fonctionnement de l'écosystème [@Reich2014].
+Les traits foliaires tout d'abord, qui déterminent la stratégie d'acquisition et d'allocation des resources lumineuses, définissent un "spectre économique foliaire" qui oppose les espèces à larges feuilles fines ayant une forte capacité photosynthétique permettant une acquisition rapide des resources, aux espèces à petites feuilles coriaces et résistantes.
+Un gradient similaire s'applique aux traits racinaires et aux propriétés du bois, opposant les espèces aux tissus légers à courte durée de vie permettant une croissance rapide à celles aux tissus denses plus résistants et mobilisant plus de ressources [@Chave2009; @Valverde-Barrantes2017].
+Les stratégies d'acquisition des resources déterminent la stratégie de croissance des espèces: les espèces "acquisitives" auront une croissance rapide et une courte durée de vie tandis que les espèces "conservatives" auront une croissance plus lente mais une meilleure résistance aux conditions environnementales éprouvantes [@Reich1997; @Wright2004].
+A ces traits fonctionnels mesurables à l'échelle de l'individus s'ajoutent des *traits d'histoire de vie* mesurables à l'échelle de l'espèce.
+Parmi ces traits la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte ont montré être particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
+La combinaison de l'ensemble de ces traits spécifique, foliaires, racinaires et du bois appréhende la stratégie fonctionnelle des espèces, leurs préférences écologiques et leur performance de croissance et de survie.
+L'engouement récent de l'écologie pour l'approche fonctionnelle a de plus permis la création de bases de données fonctionnelles conséquentes et standardisées qui rendent possibles l'approche fonctionnelle à l'échelle des communautés [@Kattge2011; @Perez-Harguindeguy2013; [^1]]
+
+[^1]: http://www.ecofog.gf/Bridge/
+
+L'approche fonctionnelle considère la diversité des communautés mais également leur composition fonctionnelle mesurable par les valeurs moyennes de traits pondérées par l'abondance des espèces (*Community Weighted Means, CWM* en anglais).
+L'abondance des caractéristiques fonctionnelles détermine à la fois le fonctionnement des communautés et leur résilience.
+D'après la théorie du "ratio de biomasse" [@Grime1998], le rôle d'un individu dans l'écosystème dépend de la fraction de biomasse qu'il représente et le fonctionnement des communautés repose sur les espèces dominantes tandis que les espèces rares ont peu d'influence.
+
+Par ailleurs la répartition d'abondance des traits fonctionnels amène à la notion de redondance fonctionnelle qui quantifie le nombre d'espèces partageant les mêmes valeurs de traits.
+La redondance fonctionnelle, souvent élevée en forêt tropicale, permet aux communautés de perdre des espèces sans nécessairement voir disparaître leur rôle dans l'écosystème: la redondance détermine en partie la résilience des communautés et atténue l'impact des perturbations.
+L'organisation de la redondance dans l'espace des traits d'une communauté renseigne sur les assemblages les plus stables qui se dégageraient le plus probablement après de nouvelles perturbations.
+La redondance fonctionnelle d'une communauté peut se mesurer dans l'espace fonctionnel à partir de la densité de probabilité de traits (*Traits Density Probability, TDP* en anglais) de chaque espèce [@Carmona2016].
+Les densités des espèces d'une communauté pondérées par leur abondance sont additionnées pour donner la redondance fonctionnelle sur l'ensemble de l'espace fonctionnel ou sur un espace restreint, comme nous le ferons par la suite quand on s'intéressera à la redondance fonctionnelle dans l'espace de la communauté de départ \@ref(fig:RedundancyMethod).
+
+\begin{figure*}
+
+{\centering \includegraphics[width=1\linewidth]{ExternalFig/Fig_MesureRedondance} 
+
+}
+
+\caption{La redondance fonctionnelle est la somme des chevauchement entre espèces dans l'espace fonctionnel. Les individus de la base de données fonctionnelle sont représentés dans un espace à 2 dimensions grâce à une analyse en composantes principales (ACP). Une estimation par noyau estime ensuite la densité de probabilité des traits (TDP) de chaque espèce. La somme de ces densités pondérées par l'abondance des espèces donne enfin la redondance fonctionnelle de la communauté, interprétable comme le nombre d'espèces qui peuvent disparaître sans diminuer l'espace fonctionnel de la communauté.}(\#fig:RedundancyMethod)
+\end{figure*}
+
+
+## La Guyane Française et l'exemple de la station de Paracou
+
+Le bassin Amazonien est la plus riche des trois principales régions de forêt tropicale humide [@Gentry1988] et la Guyane française en est une région de 83 846 km^2^ recouverte à 95% forestière au Nord-Est du continent sud-américain entre le Surinam et le Brésil.
+
+### Le contexte Guyanais
+
+La région appartient au bouclier des Guyanes qui s'étend de l'Amapa au Brésil jusqu'au delta de l'Orénoque au Venezuela.
+Formé il y a plus de 2 milliards d'années, le bouclier des Guyanes est un assemblage d'unités géomorphologiques façonnées par une succession d'épisodes géologiques, climatiques et marins.
+Ces unités correspondent à des conditions pédologiques, climatiques et topographiques déterminant la composition et la diversité du couvert végétal et les processus écologiques qui les régissent, tels que les migrations et le filtrage environnemental [@Guitet2015].
+
+Le relief Guyanais est une grande diversité topographique qui alterne entre des collines allant jusqu'à 50m d'altitude, et des bas-fonds humides.
+Les sols sont des Acrisols recouvrant une couche de saprolite transformée peu perméable qui entraîne un drainage latéral des précipitations.
+La profondeur des sols, leur composition et leur capacité de rétention et de drainage de l'eau sont très hétérogènes [@Ferry2010; @Robert2003].
+
+Le climat est un climat tropical humide, davantage marqué par le régime des précipitations que par celui des températures. 
+La température moyenne est 26°C et reste constante au cours de l'année tandis les précipitations moyennes annuelles varient de 2 000 à 4 000 mm.an^-1^ et montrent une grande variabilité spatiale et temporelle.
+Les précitations suivent un gradient décroissant marqué d'est en ouest et une forte variabilité au cours de l'année, avec une saison humide entre novembre et avril et une saison sèche d'avril à mi-juillet durant laquelle les précipitations sont inférieures à 50 mm [@Wagner2011].
+
+La forêt Guyanaise est une forêt équatoriale sempervirente ombrophile de plaine. 
+D'une richesse incroyable, elle accueille plus de 7 000 espèces végétales (hors champignons) dont 1 500 espèces d'arbres et une richesse faunistique toute aussi incroyable [@DeNoter2008].
+La composition taxonomique des arbres est très variable sur le territoire.
+Plusieurs patrons de composition on été mis en évidence selon un gradient du nord-ouest où dominent les familles botaniques des *Lecythidaceae* et *Cesalpinaceae*, au sud-est où dominent *Burseraceae* et *Mimosaceae*.
+Ces patrons suivent en particulier par une combinaison de gradients topographique et pédologique [@Sabatier1989; @Sabatier1997 cf Toto; @Guitet2015].
+
+### Paracou, plus de 30 de suivi de la forêt Amazonienne
+
+Le dispositif de Paracou, installé entre les communes de Kourou et Sinnamary (5°18'N and 52°53'W), a été mis en place en 1984 pour étudier l'impact de l'exploitation forestière sélective sur les peuplements forestiers.
+Le dispositif correspond à l'origine à 12 parcelles de 6.25 ha ayant subi en 1984 un gradient de trois intensités d'abattage, d'éclairices et de coupe de bois de chauffage.
+Le traitement de perturbation a été attribué selon un dispositif aléatoire de trois réplications de 4 traitements: parcelles témoins sans intervention (*T0*), traitement 1 avec coupes d'abattage (*T1*), traitement 2 avec abattage et éclaircies par annélation (*T2*), traitement 3 avec abattage, éclaircies et coupe de bois de chauffage (*T3*) \@ref(tab:InterventionTable).
+
+En 1990, trois parcelles de 6.25ha et une parcelle de 25ha (parcelles 13, 14, 15 et 16) ont été ajoutées au dispositif pour l'étude et le suivi de la diversité en forêt non perturbée \@ref(fig:ParacouDesign).
+
+\begin{figure*}
+
+{\centering \includegraphics[width=0.6\linewidth]{ExternalFig/Paracou} 
+
+}
+
+\caption{Dispositif expérimental de Paracou, schéma des 16 parcelles de suivi des dynamiques forestières. La couleur des parcelles indique l'intensité de perturbation appliquée à 9 des parcelles en 1984 (voir le tableau 1.}(\#fig:ParacouDesign)
+\end{figure*}
+
+Sur l'ensemble du dispositif sont recensées 591 espèces d'arbres appartenant à 223 genre et 64 familles botaniques, principalement les *Fabaceae*, les *Chrisobalanaceae*, les *Lecythidaceae* et les *Sapotaceae*.
+Les températures annuelles atteignent 26°C et les précipitations 2 980 mm.an^-1^ de mi-août à mi-novembre, avec une saison sèche d'un mois en mars [@Wagner2011].
+
+### Méthodes d'inventaires
+
+Depuis la mise en place du dispositif en 1984 toutes les parcelles sont inventoriées chaque année à la saison sèche à partir de mi-juillet.
+Tous les arbres de plus de 10 cm de diamètre à 1.30 m (diamètre à hauteur de poitrine, *DBH* en anglais) sont identifiés, numérotés et cartographiés.
+Les arbres morts sont relevés chaque année et notés en précisant le type mort (mort sur pied, chablis primaire ou chablis secondaire).
+
+Lorsqu'un arbre atteint 10 cm il est *recruté* et sera mesuré chaque année.
+Il est identifié dans un premier temps par un nom *vernaculaire*, ou nom commun, attribué par l'équipe de terrain.
+En 1984, 62 espèces commerciales étaient identifiées par un nom commun propre tandis que toutes les autres espèces étaient regroupées sous deux noms vernaculaires distinguant les palmiers des espèces arborées.
+Cette identification en nom vernaculaire s'est précisée par la suite et aujourd'hui 235 noms vernaculaires différents sont recensés pour l'ensemble du dispositif sur les 30 ans de suivi.
+Des campagnes d'identification botanique au cours desquelles les arbres sont identifiés au niveau espèce botanique ont été mises en place à partir de 2003 et se poursuivent depuis tous les 5 à 6 ans.
+
+L'histoire des inventaires botaniques s'étant construite petit à petit au gré des nouveaux projets et des forces en présence, la précision et le taux d'identification botaniques sont variables au cours du temps et entre les parcelles.
+Ceci génère des incertitudes taxonomiques importantes, les noms vernaculaires correspondant souvent à plusieurs noms botaniques et inversement [@Oldeman1968].
+Le soucis vient alors des arbres n'ayant qu'un identification en nom vernaculair, lorsque l'individu est mort avant d'avoir pu être identifié au cours d'une campagne botanique par exemple.
+
+## Problématique et plan de la thèse
+
+La thèse présentée ici cherche à déterminer les processus écologiques et la réponse taxonomique et fonctionnelle après perturbation d'une forêt tropicale naturelle et à expliciter sa résilience, en vue de discuter de son maintien dans le contexte actuel des changements globaux et de la possibilité d'une sylviculture durable.
+Le document s'organise en trois chapitres correspondant à trois articles scientifiques en cours de soumisson.
+
+* Le premier chapitre présente un estimateur de la diversité taxonomique et fonctionnelle des communautés tenant compte des incertitudes taxonomiques inhérentes aux inventaires forestiers. 
+La méthode utilise l'association entre noms vernaculaires et noms botaniques pour reconstituer itérativement des inventaires complets théoriques à partir desquels sont estimés moyenne et l'intervalle de sûreté de la diversité.
+Dans un premier temps nous calibrons la méthode pour avoir l'estimation la plus précise possible en fonctoin des données disponibles. Dans un deuxième temps nous appliquons la méthode de propagation au cas des inventaires forestiers, qui couvrent de larges surfaces de temps et d'espace, pour les valoriser dans l'étude et la préservation des forêts tropicales.
+Enfin nous appliquons cette méthode aux dispositifs expérimentaux, dont les contraintes d'incertitude sont différentes, et qui sera utilisée dans la suite de ce travail.
+
+* Dans le deuxième chapitre nous avons étudié les trajectoires de composition et de diversité taxonomique et fonctionnelle des 75ha de Paracou suivis sur 30 ans.
+Ces trajectoires permettent de clarifier la réponse aux perturbations de la composition et la diversité des communautés en forêts Néotropicale, d'identifier les processus écologiques sous-jacents, et de discuter de leur résilience.  
+Nous examinons en particulier (i) la convergence des trajectoires taxonomiques et fonctionnelles et leur implication quant au maintien des différences entre communautés après perturbation, (ii) la validité théorie des perturbations intermédiaires, débattue en forêt tropicale et rarement testée sur le long terme, et (iii) la durée et aspects de la résilience des communautés.
+
+* Dans le troisième chapitre nous étudions spécifiquement les trajectoies de recrutement. Nous testons en particulier (i) la déclinaison des modèles classique de succession forestière pour forêts tropicales, dont la validité est questionnée par l'immense diversité des communautés, et après une perturbation modérée, qui implique la maintient d'une communauté pre-perturbation significative, et (ii) questionnons la durée de restauration du fonctionnement de l'écosystème et les implications pour la gestion forestière.
+
+
+
+
+<!--chapter:end:01-IntroductionGenerale.Rmd-->
+
+
+<!--chapter:end:02-IncertitudeTaxonomique.Rmd-->
+
+# Trajectoires de diversité à l'échelle des communautés
+
+L'immense biodiversité des forêts tropicales est supposée déterminée et maintenue par un régime de perturbations régulier, comme l'illustre la théoriqe des perturbations intermédiaires.
+Cette théorie suppose une diversité maximale des communautés pour un régime de perturbation moyen, mais elle reste débattue dans le cas des forêts tropicales, et cette controverse conduit à questionner la résilience des communautés après perturbation.
+
+Nous étudions dans ce chapitre les trajectoires de diversité et de composition des communautés au cours des 30 années suivant un gradient de perturbation (10 à 60% de biomasse prélevée).
+Nous avons analysé les trajectoires de composition, de richesse et de redondance taxonomique et fonctionnelle, en considérant 7 traits fonctionnels des feuilles, du bois et d'histoire de vie.
+
+Les trajectoires de diversité ont mis en évidence une réponse taxonomique et fonctionnelle cyclique après perturbation, conduisant à la restauration des charactéristiques d'avant perturbation.
+Les différentes trajectoires ont montré d'une part la divergence taxonomique des communautés, maintenant leurs différences de composition après exploitation du fait des limites de dispersion des espèces, et d'autre part leur convergence fonctionnelle,révélant une réponse commune régie par des processu de sélection fonctionnels.
+La théorie des perturbations intermédiaires a pu représenter correctement l'impact des perturbations sur la diversité taxonomique, dont l'augmentation est positivement corrélé à l'intensité de la perturbation jusqu'à un ertain seuil. 
+En revanche la sélection d'espèces fonctionnellement différentes augmentait la diversité fonctionnelle après perturbation quelle qu'en soit l'intensité, l'impact négatif de la perturbation étant atténué par l'importante redondance fonctionnelle des communautés.
+Bien qu'effective, la restauration des charactéristiques taxonomiques et fonctionnelles des communautés restait inachevée après 30 ans, suggérant un temps de restauration long de plusieurs décenies d'autant plus difficile à estimer que la restauration de la redondance fonctionnelle, déterminante de la résilience des communautés, s'est montrée ralentir au cours du temps.
+
+
+
+<!--chapter:end:03-TrajectoiresDeDiversité.Rmd-->
+
+# Article 3: Analyse du recrutement, support de la trajectoire des communautés
+
+La réponse des communautés aux perturbations est déterminée par les trajetoires du recrutment, reconnu pour suivre une succession déterministe régie après perturbation.
+Ceci reste cependant à tester dans le cas des forêts tropicales, dont l'immense biodiversité pourrait atténuer les processus déterministes, et dans le cas particulier de perturbations relativement peu intenses en comparaison des coupes rases ou de la secondarisation pour lesquels ont été observés les modèles de succession classique.  
+Nous étudions dans ce chapitre les trajectoires de diversité taxonomique et fonctionnelle du recrutement après exploitation pour (i) clarifier l'importance respective des processus stochastiques et déterministes au cours de la succession  des processus écologiques et (ii) déterminer la résilience et la durée de restauration des processus démographiques après exploitation.
+
+Nous avons tracé et comparé à des odèles nuls stochastiques les trajectoires de diversité et d'équitabilité taxonomique, de renouvellement des espèces par rapport à la communauté avant perturbation, et de diversité fonctionnelle.
+
+Nous avons identifié trois phases de recrutement après perturbation, définies par l'équilibre entre les processus déterministes et stochastiques impliqués.
+Dans un premier temps les trajectoires sont portées par la croissance de juvéniles recrutés aléatoirement dans la communauté d'avant exploitation.
+Dans un deuxième temps les trajectoires reposent sur les "recrutés vrais" issus de la banque de graines et tributaires de processus d'exclusion pour la lumière favorisant les espèces héliophiles à croissance rapide.
+La troisième et dernière phase des trajectoires correspond au retour progressif vers un recrutement aléatoire restorant la structure, la composition taxonomique et le fonctionnement de la communauté initiale. 
+Si le fontionnement du recrutement a été rapidement retrouvé, la restoration taxonomique s'est montrée longue, ce qui interroge l'intégralité de la résilience et malgré la réelle restoration de la diversité et de la composition initiale, Les différentes trajectoires ont par ailleurs confirmé une restoration de la diversité fonctionnelle rapide mais plus lente de la composition et de la diversité taxonomiques.
+
+La trajectoire des communautés après perturbation résulte de la combinaison des processus stochastiques, majeurs avant perturbation et progressivement restorés par la suite, et de processus déterministes d'exclusion compétitive favorisant les espèces héliophiles et à croissance rapide.
+La résilience de la composition et la diversité taxonomiques et fonctionnelles du recrutement a été confirmée mais longue de plusieurs décennies, et confirme le risque de trajectoires différentes dans le cas de perturbations répétées.
+
+  
+
+<!--chapter:end:04-RecruitmentDynamics.Rmd-->
+
+# Conclusion et perspectives
+
+La diversité des communautés d'arbres a un rôle central pour le fonctionnement et le maintien des écosystèmes forestiers et des services qu'ils rendent [@Tilman2014].
+Expliciter la réponse de cette diversité et en comprendre les mécanismes et les déterminants est incontournable pour anticiper le devenir des forêts dans le contexte actuel et adapter leur gestion et leur conservation [@Barlow2018]. 
+Nous examinons dans cette thèse la réponse taxonomique et fonctionnelle d'une communauté d'arbres de forêt Néotropicale après un gradient de perturbation.
+
+Le premier travail de cette thèse a été la mise au point d'une méthode d'estimation fiable de la diversité des communautés à partir des inventaires forestiers.
+L'étude de la diversité des forêts tropicales est souvent compromise par la précision limitée des inventaires botaniques et des bases de données fonctionnelles du fait de leur coût financier et humain.
+Pour pallier les incertitudes inhérentes aux inventaires et aux bases de données nous avons mis au point un estimateur de diversité taxonomique et fonctionnelle et l'avons testé et calibré à partir d'inventaires réels.
+Cet estimateur a ensuite permis de tracer des trajectoires fiables de diversité taxonomiques et fonctionnelles pour les communautés et le recrutement d'une forêt Néotropicale sur 30 ans après un gradient de perturbation. 
+Ces trajectoires ont permis de montrer des changements de diversité et de composition taxonomiques des communautés après perturbation.
+Conformément à la théorie de sperturbations intermédiaires, au-delà d'un seuil d'intensité le recrutement des pionnières induit une augmentation persistente de l'équitabilité des communautés au détriment des espèces rares de forêt mature.
+Par ailleurs les trajectoires ont montré un découplage entre trajectoires taxonomiques et fonctionnelles dû à la diminution de la redondance fonctionnelle après perturbation.
+La restauration de la redondance fonctionnelle a montré être le paramètre déterminant de la résilience des communautés, plus lent à retrouver une valeur initiale que la diversité et la composition.
+Trente ans après perturbation, la restauration des processus de recrutement, de la composition et de la diversité des communautés reste inachevée mais est visible quelle que soit l'intensité de la perturbation initiale.
+
+Ces résultats conduisent à différentes perspectives vis à vis (i) des processus régissant l'assemblage des espèces en communautés et leurs dynamiques, (ii) des modes de gestion et de conservation durables des forêts tropicales, et (iii) de la modélisation de la diversité des communautés.
+
+## Des communautés régies entre déterminisme et stochasticité
+
+Comprendre la réponse des communautés aux perturbation revient à identifier les processus régissant la coexistence et l'assemblage des espèces.
+En forêt tropicale ces processus sont encore débattus.
+Spécifiquement le débat porte sur la prépondérance des processus stochastiques par rapport à des processus déterministes favorisant les espèces selon leurs caractéristiques fonctionnelles.
+La prépondérance de processus stochastique, supposée par la théorie neutre, implique un assemblage aléatoire des communautés dépendant uniquement de contingences historiques (ordre d'arrivée des espèces, mortalité aléatoire, activité anthropique) ou géographiques (limitation de la dispersion).
+La prépondérance de processus déterministes, supposée par la théorie des perturbations intermédiaires, suppose à l'inverse la convergence des communautés vers une composition et une diversité dépendant des caractéristiques environnementales.
+Bien que déattues les deux théories neutres et déterministes ne se sont pas incompatibles et peuvent être pertinentes dans différents cas de figure.
+Ainsi, la théorie intégrative proposée par @Chave2004 explique-t-elle la diversité et la composition des communautés par une combinaison des processus stochastiques et déterministes variable dans le temps et l'espace.
+
+### Un modèle de succession défini
+
+
+La perturbation, matérialisée par la mortalité d'une partie de la communauté, modifie en elle-même la distribution d'âge des arbres, la structure de hauteur et de diamètre des communautés et leur environnement abiotique (lumière, flux d'eau et de nutriments) [@Gourlet-Fleury2000;@Putz2012;@Piponiot2016;@Rutishauser2016].
+Bien que la mortalité soit plus importante après perturbation, la composition et la diversité des arbres survivants reflète la communauté initiale [@Herault2018].
+Les processus de recrutement en revanche se sont montrés en revanche très différents après perturbations.
+
+Les trajectoires de diversité du recrutement ont permis de distinguer trois phases de succession après perturbation, correspondant à différents processus écologiques déterministes et stochastiques.
+La réponse des communautés aux perturbations est ainsi déterminée tout d'abord par le recrutement de plantules déjà établies, bénéficiant en premier de l'espace environnemental rendu disponible par la perturbation, puis par le recrutement de pionnières et d'héliophiles favorisées par leurs stratégies d'acquisition de la lumière efficaces, et enfin par le retour progressif aux processus de recrutement initiaux [@Denslow2000;@Herault2010;@Herault2011].
+
+Cette succession est déterminée par l'émergence après perturbation de processus déterministes éclipsant les processus stochastiques, neutres, qui maintiennent la diversité des communautés en forêt non perturbée.
+Ces processus déterministes changent la diversité et la composition des individus recrutés et, bien qu'eux-même rapidement restaurés, impactent l'ensemble de la communauté sur plusieurs décennies et dépendent largement de l'intensité de la perturbation et de la composition initiale.
+
+La réponse des communautés aux perturbations est donc définie par une succession de processus déterministes, mais l'impact sur les trajectoirse taxonomiques et fonctionnelles à l'échelle de toute la communauté est plus variable.
+
+### Une succession fonctionnelle déterministe
+
+La réponse des communautés aux perturbations dépend des changements biotiques et abiotiques augmentant la croissance des arbres et le nombre de recrutés.
+Après perturbation l'émergence de processus déterministes favorisant les espèces pionnières et héliophiles entraîne une augmentation de la diversité fonctionnelle et un déplacement de la composition fonctionnelle vers des stratégies fonctionnelles d'acquisition et d'utilisation efficaces de la lumière  [@Violle2007b;@Baraloto2012a].
+
+Dans un premier temps le recrutement des juvéniles déjà en place avant perturbation ne modifie pas la diversité et la composition fonctionnelles de la communautée. 
+Dans un deuxième temps les arbres recrutés sont issus de la germination des graines de la banque du sol et consituent l'essentiel du recrutement après perturbation [@Lawton1988].
+Les espèces pionnières et héliophiles sont alors favorisées au détriment des espèces tolérantes à l'ombre inféodées aux forêts non perturbées.
+Ces espèces héliophiles, auparavant rares ou peu fréquentes, deviennent alors communes et leur recrutement augmente la diversité fonctionnelle.
+Au delà d'un seuil d'intensité de perturbation (plus de 25% de biomasse initiale perdue) le recutement est dominé par quelques espèces très pionnières (par exemple *Cecropia spp*, *Pourouma spp.* ou *Vismia spp.*) [@Guitet2018].
+Il existe cependant un compromis fonctionnel entre les stratégies "acquisitives" et "conservatives" des ressources: les espèces héliophiles présentent une capacité d'acquisition et d'utilisation rapide des ressources mais ont une durée de vie courte [@Falster2011].
+La croissance des héliophiles modifie de plus la structure et l'environnement abiotique de la communauté (fermeture de la canopée, rétablissement de la compétition, etc.), si bien que les espèces tolérantes à l'ombre plus commune avant perturbation remplacent les héliophiles après une dizaine d'années [@Denslow2000].
+Les caractéristiques fonctionnelles initiales sont donc restaurées dans un troisième temps.
+Après perturbation les communautés suivent donc une trajectoire fonctionnelle cyclique et commune à toutes les communautés, déterminée par les caractéristiques fonctionnelles des pionnières et des héliophiles recrutées.
+La réponse fonctionnelle des communautés, bien que très informative du fonctionnement des communautés après perturbation, n'est cependant pas le miroir de la réponse taxonomique.
+Diversité et composition fonctionnelle ne tiennent en effet pas compte de l'identité des espèces et sont déterminées par les espèces dominantes [@Grime1998;@Lavorel2002].
+
+### Les trajectoires taxonomique
+
+Les trajectoires taxonomiques se sont montrées décorrélées des trajectoires fonctionnelles, dépendantes de l'intensité de perturbation et de la composition de la communauté.
+Bien que la composition des communauté soit initialement différentes, les espèces pionnières et héliophiles recrutées après perturbation sont identiques pour toutes les communautés et quelle que soit l'intensité de perturbation.
+Les différences de composition sont donc maintenues après perturbation, impliquant que la trajectoire taxonomique après perturbation dépend de la composition initiale.
+Peu d'espèces initialement absentes s'installent après perturbation malgré l'espace libéré, du fait probablement des limites de dispersion identifiées pour beaucoup d'espèces de forêt tropicale [@Svenning2005].
+Conformément à l'esprit de la théorie neutre la composition taxonomique des communautés relève donc de la contingence historique, *i.e.* du hasard de l'arrivée et de l'installation des espèces, plutôt que de processus de déterministes [@Hubbell2001].
+
+Par ailleurs, conformément aux hypothèses de @Connell1978, le recrutement de pionnières et d'héliophiles augmente la richesse et l'équitabilité des communautés jusqu'à un seuil d'intensité de perturbation (environ 25% de biomasse initiale perdue).
+La diversité taxonomique augmente pendant les deux premières phases de la succession, jusqu'à la restauration des processus de recrutement stochastiques: la diversité est maximale quelque temps après une perturbation d'intensité moyenne [@Molino2001:@Guitet2018].
+Au delà d'un seuil d'intensité en revanche la favorisation d'espèces nouvelles ou peu communes ne compense pas les disparitions dues à la perturbation.
+Les espèces pionnières sont alors dominantes, la richesse taxonomique est diminuée puis restaurée sans dépasser la richesse initiale, et l'équitabilité est durablement augmentée.
+
+D'après les trajectoires de Paracou, bien que les communautés convergent dans l'espace fonctionnel elles divergent dans l'espace taxonomique et les différences initiales de composition entre communautés sont maintenues [@Fukami2005].
+Ce découplage entre trajectoires taxonomiques et fonctionnelles s'explique par les variations de la redondance fonctionnelle des communautés, qui mesure le nombre d'espèces partageant les mêmes valeurs de traits et qui ont le même rôle dans l'écosystème [@Bellwood2006].
+En forêt tropicale où la redondance fonctionnelle est élevée, la composition fonctionnelle des communautés peut être identique malgré leurs différences taxonomiques.
+La redondance fonctionnelle explique la convergence fonctionnelle des communauté malgré leur divergence taxonomique et donc l'homogeneité des trajectoires après perturbation quelle que soit la composition taxonomique initiale.
+D'autre part une redondance fonctionnelle élevée assure le remplacement des espèce squi disparaissent par d'autres à la stratégie fonctionnelle similaire [@Carmona2016], ce qui atténue l'impact des perturbations sur la composition et la diversité fonctionnelle.
+Les trajectoires de redondance, complémentaires des trajectoires taxonomiques et fonctionnelles, explique leur découplage et appréhende la restauration de la résilience des communautés.
+La restauration de la redondance dépend des trajectoires taxonomique, et donc des processus stochastiques sous-jacents.
+Les trajectoires de redondance, de composition et de diversité taxonomique dépendent du principe de "lottery recruitment": tandis que les espèces recrutées en premier s'établissent rapidement dans la communauté, les suivantes, redondantes fonctionellement, subissent la compétition avec les prmières et s'établissent plus difficilement [@Busing2002].
+La restauration de la redondance, de la diversité et de la composition taxonomiques sont donc lentes, aléatoires et difficiles à anticiper.
+Malgré tout, ce sont les éléments clé et cinétiquement déterminants de la restauration après perturbation.
+Une diminution persistante de la redondance implique des réponses taxonomique et fonctionnelle différentes après de nouvelles perturbations et accroît le risque de voir certaines espèces disparaître localement et la richesse taxonomique décliner petit à petit.
+
+## Vers une gestion plus durable intégrant la préservation de la biodiversité
+
+L'exploitation sélective est considérée comme étant l'une des pratiques d'exploitation les moins néfastes pour préserver l'intégrité et le fonctionnement des forêts tout en dégageant des bénéfices économiques et sociaux significatifs [@Chaudhary2016].
+L'exploitation sélective a été adoptée dernièrement par de nombreux pays, suite à des réorganisations de l'économie locale, en réponse aux besoins de limitation des *GES*, et en reconnaissance du rôle de la diversité, de la composition et de la structure forestière pour la produtivité et le fonctionnement de l'écosystème [@Begon2006].
+Les pratiques de gestion sylvicoles actuelles sont calibrées pour maintenir un couvert forestier et un stock de biomasse de sous-bois déterminés, ce que leur confère la définition d' "exploitation durable" [@ITTO2005].
+L'impact de l'exploitation forestière, adoptée aujourd'hui dans de nombreux pays, demeure controversé à propos du maintient de la biodiversité, spécifiquement sur le long terme.
+ et plus spécifiquement le rôle des différents paramètres de l'exploitation tels que la densité d'exploitation, le diamètre minimal de coupe, ou la durée des rotations.
+
+Le recul des 30 ans de suivi de Paracou donne une vision à long terme de la réponse des communautés à l'exploitation et permettent de discuter de points d'amélioration pour les pratiques d'exploitation sélective durable.
+
+Ces espèces présentent également une hauteur et un diamètre maximums faibles, ce qui amplifie les changements de structure générés par les pertubations et modifie la valeur économique du peuplement [@Rutishauser2016].
+
+### Quels critères de restauration?
+
+Dans la perspective d'une exploitation soutenable à long terme, les critères d'évaluation de la durabilité doivent être discutés selon les objectifs de l'exploitation, qui ne sont plus uniquement le maintien du stock exploitable mais également des services et processus écosystémiques [@ITTO2005;@Barlow2018].
+
+Les trajectoires de Paracou ont montré la résilience taxonomique et fonctionnelle des communautés, mais ont également mis en évidence la durée de cette restauration, toujours inachevée après 30 ans.
+Dans le contexte de l'exploitation forestière cette durée implique des cycles de rotation plus longs que ceux éprouvés et validés pour d'autres bassins forestiers tropicaux, notamment en Afrique [@Durrieu1998].
+
+Le recul des 30 ans d'inventaire à Paracou a démontré une réponse complexe de la diversité et de la composition taxonomique des communautés après exploitation.
+Spécifiquement, les changements de composition taxonomique relèvent de processus aléatoires s'avérant difficiles à anticiper et pouvant n'être visibles qu'à long terme.
+les conséquences de tels changements de composition taxonomiques peuvent cependant être non négligeables, entraînant par exemple la disparition d'espèces clé pour la faune ou la flore ou un blocage de succession modifiant durablement l'écosystème [@Diaz2005].
+Compte tenu de la complexité de la réponse taxonomique, il est a mon sens recommandé d'une part de garder à l'esprit la possibilité de conséquences inattendues, d'autre part d'adopter un principe de précaution en favorisant la conservation des communautés par défaut, et enfin de poursuivre la recherche d'amélioration de la gestion forestière et des moyens (de mesure, de surveillance ou de modélisation) d'estimation de la restauration. 
+
+L'analyse des trajectoires a montré le rôle central de la redondance fonctionnelle, qui appréhende la restauration de la composition taxonomique et de la résilience.
+Une restauration inachevée de la redondance fonctionnelle implique, après plusieurs rotations, un risque élevé de voir dispaître localement les espèces les moins fréquentes et de rendre les communautés de plus en plus sensibles à la perturbation.
+Nous proposons en conséquence la mesure de redondance fonctionnelle dans l'espace fonctionnel initial d'avant perturbation comme critère de restauration de l'écosystème, en plus des indicateurs fonctionnels actuels (*i.e.* la hauteur maximale, la vitesse de croissance ou la biomasse aérienne totale, etc) [@Sist2015].
+
+### Choix des traits et limites de l'approche fonctionnelle
+
+La diversité, de la composition et de la redondance fonctionnelle des communautés sont le lien le plus direct pour appréhender le fonctionnement et le maintien des écosystèmes [@Violle2007b;@Kunstler2016].
+Ces conclusions concernent des mesures fonctionnelles basées sur des traits fonctionnels clés, représentatifs de l'écologie, de la croissance et dans une certaine mesure des performances de reproduction des espèces.
+Comme tout jeu de traits fonctionnels, ce choix n'est cependant pas exhaustif du fonctionnement des espèces et les traits considérés ont été choisis pour appréhender surtout la productivité et la stratégie d'acquisition et d'utilisation des ressources des espèces.
+Nous avons cependant pu souligner l'importance de la banque de graines pour la réponse des communautés et le rôle de sa diversité et de sa composition pour la consruction de la commmunauté après perturbation.
+La constitution de la banque de graines dépend largement des traits de dispersion, de dormance et de germination des espèces, qu'il serait judicieux de considérer pour mieux anticiper le devenir des communautés perturbées [@Verdu2005;@Schleuning2016;@Yguel_inprep.].
+
+## Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière
+
+La modélisation est un outil qui simplifie les systèmes complexes en les limitant aux processus étudiés.
+La modélisation revient d'une part à synthétiser les données et les connaissances du système puis à les extrapoler à des systèmes différents ou à d'autres échelles spatiales ou temporelles.
+La modélisation est largement utilisée en écologie des forêts tropicales d'une part pour comprendre les processus, les lois et les déterminants de la dynamique forestière et d'autre part pour prédire la trajectoire des communautés dans le temps et leur réponse aux perturbations.
+La modélisation des forêts tropicales a été largement développée pour l'étude de la structure forestière (hauteur et diamètre des arbres, densité du peuplement, biomasse, etc), des flux d'eau, de gaz ou de nutriments, ou encore de la distribution spatiale des espèces [@Piponiot2016;@Rutishauser2016;@Grimm2017].
+Ces modèles sont largement utilisés pour anticiper la réponse des forêts aux changements climatiques et d'usage des terres d'une part, et pour calibrer la gestion forestière en vue des objectifs de l'exploitation [@Gourlet-Fleury2005].
+Modéliser la diversité des forêts tropicales en revanche reste difficile, bien que cela soit indispensable compte tenu de son rôle pour le fonctionnements et les services écosystémiques. 
+La grande diversité des forêts rend une approche espèce-spécifique difficile voire impossible et impose une approche à l'échelle des communautés.
+Les forêts correspondent alors à une mosaïque de patch aux caractéristiques environnementales biotiques et abiotiques déterminées (richesse spécifique, traits fonctionnels moyens, densité d'arbres, intensité de la perturbation et temps écoulé depuis, etc) [@Porte2002].
+
+Dans cette thèse nous avons synthétisé les informations des 30 ans de suivi de la réponse des communautés de Paracou après perturbation et en avons proposé une interprétation des processus sous-jacents et de la restauration.
+Ce travail ouvre la voie à la modélisation de la biodiversité en forêt tropicale, que nous proposons d'envisager selon les deux perspectives empirique et mécaniste. 
+L'approche empirique basée sur l'analyse statistique des trajectoires par des modèles mixtes permettrait de représenter les lois régissant la réponse de la diversité aux perturbations sans y expliciter les processus sous-jacents.
+L'approche mécaniste basée sur des processus identifiés, spécifiquement le recrutement et la mortalité, permettrait de simuler la dynamique de différentes communautés.
+
+### Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation
+
+Les trajectoires de Paracou ont mis en évidence les corrélations au cours du temps entre l'intensité de la perturbation et la diversité fonctionnelle et taxonomique des communautés du temps écoulé depuis la perturbation et de son intensité.
+Ces corrélations pourraient être formalisées par une modélisation empirique statistique prédisant la variation de diversité taxonomique des communautés en fonction du temps et de l'intensité de la perturbation (en % de biomasse perdue). 
+Une telle relation entre intensité d'exploitation et diversité au cours du temps permettrait de mieux planifier la gestion forestière en fonction des niveaux de diversité attendus.
+
+Spécifiquement, nous avons pensé ajuster des modèles mixtes aux trajectoires de diversité et de divergence de composition.
+Les modèles mixtes sont largement utilisés dans l'étude de données "longitudinales", *i.e.* des mesures répétées dans le temps sur un même objet, comme c'est le cas des mesures de dynamique étudiées ici.
+Ces modèles tiennent compte des corrélations entre mesures successives en associant une effet aléatoire commun aux mesures d'une même communauté.
+
+### Modèle mécaniste: simuler les trajectoires après perturbation
+
+Les trajectoires de paracou ont mis en évidence la succession des processus de recrutement déterministes ou stochastiques déterminant la réponse des communautés après perturbation.
+La connaissance de ces processus inspire la construction de modèles mécanismes simulant explicitement la réponse des communautés aux perturbations.
+
+Dans un premier temps, nous avons abordé la modélisation mécaniste en assimilant les trajectoires des communautés recrutées après perturbation à des courbes d'accumulation.
+Les courbes d'accumulation représentent usuellement le nombre d'espèces découvertes en fonction de l'effort d'échantillonnage dans l'espace [@Gotelli2001].
+Ces courbes se déclinent en courbes de raréfaction lissées, représentant le nombre moyen d'espèces rencontrées pour chaque sous-échantillonnage d'une communauté donnée selon des effectifs de taille variable [@Ugland2003].
+Les courbes de raréfaction sont construites en considérant la richesse comme une variable aléatoire, dont l'espérance est estimée théoriquement à partir de la taille de la communauté initiale et la probabilité de tirage de chacune des espèces.
+Nos essais ont cependant montré que les trajectoires du recrutement observées ne correspondaient à aucune courbe d'accumulation.
+Dans le cas de perturbations peu intenses, comme à Paracou, les communautés après exploitation sont constituées à la fois des arbres survivants d'avant perturbation et des arbres recrutés par la suite.
+La communauté des recrutés de même combine d'une part les recrutés issus des processus de recrutement de forêt mature (qui reflétent la composition et la diversité de la communauté initiale) et d'autre part les recrutés issus des processus de recrutement spécifiques à la perturbation (qui reflétent la composition et la diversité des espèces pionnières).
+Les trajectoires du recrutement combinent deux communautés de survivants et de pionnières, et ne peuvent s'apparenter à une courbe de raréfaction qui concerne une unique communauté.
+
+Notre étude a cependant montré que l'intensité de perturbation déterminait l'importance relative d'une part de ces deux communautés de survivants et de pionnières, et d'autre part l'importance des arbres recrutés par les processus stochastiques propres aux communautés matures, par rapport aux pionnières recrutées par les processus déterministes propres aux perturbations.
+Partant de là, la réponse des communautés aux perturbations pourrait être modilisée par deux tirages aléatoires dans la population pré-exploitation d'une part et dans la population des espèces spécifiquement pionnières d'autre part.
+L'enjeu sera au préalable de déterminer la pondération des tirages au cours du temps, par exemple grâce à une analyse de la variance tenant compte de la diversité apportées par communautés pionnières et d'avant exploitation.
+De tels modèles pourraient d'une part être intégrés aux modèles de dynamique forestière existants et d'autre part d'élucider la réponse des communautés à des perturbations répétées, comme c'est le cas pour l'exploitation forestière [@Dufour2012].
+
+
+
+<!--chapter:end:05-ConclusionPerspectives.Rmd-->
+
+
+
+<!--chapter:end:99-references.Rmd-->
+

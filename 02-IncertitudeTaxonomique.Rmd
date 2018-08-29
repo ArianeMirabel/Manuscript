@@ -1,47 +1,41 @@
 #Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude
 
-Malgré les enjeux liés aux forêts tropicales et l'urgence d'en préserver l'intégrité et le fonctionnement, seule une petite fraction de leur diversité est connue.
-Le nombre d'espèces inventoriées sous les tropiques ne correspondant qu'à une observation unique [@Feeley2011] présume de l'ampleur de notre méconnaissance et rend impossible toute supposition sur la distribution des espèces et leurs dynamiques.
-Il est essentiel d'améliorer notre connaissance du vivant, en fournissant un plus grand effort d'échantillonnage et en valorisant toute connaissance déjà disponible.
-
-Le coût des inventaires en temps, en main d'oeuvre et en moyens, d'autant plus important que le niveau de l'inventaire est précis, implique de travailler également à des méthodes pour valoriser tout type d'inventaires [@Baraloto2012].
-Dans le cas de l'étude des peuplements forestiers, les inventaires d'exploitation peu coûteux et couvrant des surfaces larges sont une source d'information incontournable [@terSteege2000;@Guitet2014].
+La biodiversité des forêts tropicales, malgré son importance pour le fonctionnement, les biens et les services des environnementaux des écosystèmes, reste largement méconnue.
+Parmi les espèces tropicales inventoriées, un grand nombre ne correspond qu'à une observation unique [@Feeley2011] ce qui limite considérablement l'étude de la distribution et de la dynamique des espèces.
+Cette méconnaissance provient du coût financier et en main d'oeuvre des inventaires, et limite la précision des mesures et des suivi de biodiversité en forêt.
+Dans ce contexte il est indispensable de développer des méthodes améliorant la précision des inventaires et la valorisation des données disponibles [@Baraloto2012].
 
 ## Noms vernaculaires et propagation des incertitudes taxonomiques
 
-Ces inventaires ne sont cependant généralement pas réalisés en noms scientifiques mais noms vernaculaires, qui sont mieux connus, plus faciles à attribuer car basés sur des critères morphologiques, culturels ou d'usage et qui ne nécessitent pas de vérification botanique ultérieure à partir d'herbiers.
-Cette simplicité se fait cependant au détriment de la fiabilité des noms vernaculaires, qui correspondent à plusieurs espèces botaniques et varient avec le temps et les équipes de terrain [@Oldeman1968].
-Nous proposons ici une méthode de propagation des incertitudes taxonomiques permettant d'estimer la diversité des communautés en palliant les indéterminations botaniques. 
-La méthode se base sur la reconstitution d'inventaires complets théoriques à partir des associations entre noms vernaculaires et botaniques.
+Une approche largement adoptée pour améliorer le coût et le délais des inventaires consiste à employer les noms vernaculaires plutôt que les noms botaniques précis.
+Les noms vernaculaires sont mieux connus et, souvent basés sur des critères morphologiques, plus faciles à attribuer et ne nécessitent pas de vérification ultérieure à partir d'herbiers.
+L'usage des noms vernaculaires entraîne cependant des incertitudes taxonomiques importantes, diminuant la précision des mesures de diversité. 
+Les noms vernaculaires correspondent en effet à plusieurs noms botaniques et ces correspondances varient au cours du temps et selon les équipes de terrain [@Oldeman1968].
+Pour pallier ces imprécisions, nous proposons un estimateur de la diversité intégrant les incertitudes botaniques.
+Cet estimateur a d'une part été calibré et utilisé pour l'ensemble des mesures de diversité examinant la réponse des communautés de Paracou aux perturbations.
+D'autre part il a été appliqué au contexte des inventaires pré-exploitation qui, nombreux et réalisés sur de grandes surfaces, sont une source d'information incontournable [@terSteege2000;@Guitet2014]. 
+Nous avons estimé la précision et la biais de l'estimateur dans ce contexte et proposons en conséquence une méthode d'inventaire optimisée.
 
-Dans un premier temps nous avons déterminé la source la plus fiable pour calculer les associations entre noms vernaculaires et botaniques.
-Ces associations peuvent effectivement être estimées à partir d'inventaires réels ou à partir de dires d'experts, les ouvriers forestiers qui réalisent les inventaires et fournissent une liste des associations connues.
+L'estimateur se base sur la reconstitution d'inventaires complets théoriques en noms botaniques, générés à partir des probabilités d'association entre noms vernaculaires et botaniques.
+Dans un premier temps l'estimateur a été calibré en déterminant la source d'information la plus fiable utilisée pour calculer les probabilités d'associations entre noms vernaculaires et botaniques.
+Deux sources d'informations sont disponible pour estimer les probabilités d'association: les inventaires réels donnant une probabilité d'association observée ou les tables générales listant les associations possibles selon les dires d'experts.
+Une fois calibré, l'estimateur de diversité a été appliqué à des inventaires pré-exploitation qui, réalisés à large échelle, permettraient d'élargir l'étude de la biodiversité forestière dans le temps et l'espace.
+L'estimateur nous a permis d'évaluer la fiabilité des inventaires et de proposer une méthode d'inventaire optimisant le coût et la précision des inventaires.
+Spécifiquement, nous avons déterminé les efforts d'échantillonnage (nombre d'arbrse inventoriés) et d'identification botanique (pourcentage d'espèces identifiées) optimaux. 
 
-Dans un deuxième temps nous appliquons la méthode de propagation au cas des inventaires forestiers réels qui, réalisés à large échelle dans le cadre de l'exploitation, permettraient d'élargir l'étude de la biodiversité forestière dans le temps et l'espace s'ils étaient plus précis.
-La précision des inventaires peut être améliorée par la méthode de propagation des incertitudes et nous en proposons une application optimisée.
-Nous avons testé la précision de l'estimateur de diversité en fonction de l'effort d'identification botanique (pourcentage d'espèces identifiées) et de l'effort d'échantillonnage (pourcentage de la surface couverte), et avons déterminé une méthode d'inventaire optimale. 
-
-Enfin, nous adaptons la méthode au contexte des dispositifs expérimentaux pour pallier la variabilité des pratiques d'inventaires.
-Dans le cas des inventaires forestiers pour lesquels l'ensemble des individus d'une espèce sont indéterminés.
-Dans le cas des dispotifs expérimentaux en revanche les indéterminations sont des individus n'ayant pas été identifié en nom botanique, que l'identification soit impossible ou qu'ils soient mort avant le passage du taxonomiste.
-Le degré d'indétermination correspond alors au nombre d'arbres sans identification botanique et concerne potentiellement toutes les espèces de la communauté. 
-
-## Article 1 _ Inescapable Taxonomists: Workable Biodiversity Management Must Base on a Minimum Field Work
-
-
-## La recherche et les suivis à long terme: application de la méthode de propagation aux inventaires de Paracou
+## Application de l'estimateur aux inventaires de Paracou
 
 ### Profils d'incertitude taxonomique
 
-A la différence des inventaires d'exploitation, dans le cas des dispositifs expérimentaux le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés au niveau spécifique. 
-Sur le même principe que pour les inventaires d'exploitation, nous avons simulé un gradient d'indétermination taxonomique à partir d'inventaires complets en nom botanique complets évaluer l'impact de l'incertitude taxonomique pour les mesures de diversité \@ref(fig:FigTreesSp).
+Dans le cas de dispositifs expérimentaux tels que Paracou le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés en nom botanique. 
+La fiabilité de l'estimateur de diversité a été évaluée en simulant un gradient d'indétermination taxonomique à partir d'inventaires botaniques complets \@ref(fig:FigTreesSp).
 
-```{r FigTreesSp, fig.asp=1/2, fig.cap="Profil de biais pour les diversité de Richesse, Shannon et Simpson au niveau spécifique le long d'un gradient d'indétermination correspondant au pourcentage d'individus identifiés uniquement par leur nom vernaculaire. Les profils de biais représentent la moyenne et les quantiles 0.025 et 0.975 de la distribution des diversités obtenues pour 100 simulations de tirage aléatoire et de propagation des incertitudes."}
-load("ExternalFig/Uncertaintypropagation_Genus_noCorrection")
+```{r FigTreesSp, fig.asp=1/2, fig.cap="Biais de l'estimateur pour les diversité de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
+load("ExternalFig/Uncertaintypropagation_Species_noCorrection")
 
 par(mfrow=c(1,3),no.readonly=TRUE)
-invisible(lapply(Profile_Genus,function(ind){
-  plot(colnames(ind),ind["0.5",],type="n",ylim=c(0,max(ind)),xlab="",ylab="")
+invisible(lapply(Matvalidation,function(ind){
+  plot(colnames(ind),ind["0.5",],ylim=c(min(ind)-0.2*min(ind),max(ind)),type="n",xlab="",ylab="")
   polygon(c(colnames(ind),rev(colnames(ind))),c(pmax(ind["0.025",]),pmin(rev(ind["0.975",]))),col="gray75")
   lines(colnames(ind), ind["0.5",], col = "red",lty = 2)
   points(colnames(ind), ind["0.5",], col = "black",pch = 3)
@@ -49,28 +43,28 @@ invisible(lapply(Profile_Genus,function(ind){
 }))
 mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
 mtext("Diversité équivalente (Espèces)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
-mtext("Richness",at=0.1,line=-1.5,outer=TRUE);mtext("Shannon",at=0.44,line=-1.5,outer=TRUE)
-mtext("Simpson",at=0.76,line=-1.5,outer=TRUE)
+mtext("(a) Richness",at=0.1,line=-1.5,outer=TRUE);mtext("(b) Shannon",at=0.44,line=-1.5,outer=TRUE)
+mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
 
 ```
 
-Le profil de biais obtenu montre un effet non négligeable du degré d'indétermination sur la mesure de la diversité.
-L'estimateur de la richesse reste peu biaisé tant que le degré d'indétermination ne dépasse pas 80%, ce qui signifique que toutes les espèces sont représentées par au moins un individu identifié au niveau botanique.
-En revanche les diversités de Shannon et Simpson, et donc l'équitabilité des communautés, sont significativement surestimées et ceci proportionellement au degré d'indétermination.
+Les estimateurs de richesse et d'équitabilité sont d'autant plus biaisés que le degré d'indétermination est élevé. 
+Tandis que la richesse est sous-estimée, l'équitabilité est sur-estimée: l'estimateur tend donc à homogénéiser les distributions d'abondance: les noms vernaculaires ont plus de chance d'être associés à une espèce abondante (plus fréquente) et la queue de distribution en espèces rares n'est pas correctement simulée.
+Le biais de l'estimateur dépend à la fois de l'abondance des espèces et de leur probabilité d'être indéterminée semble donc difficile à formaliser car il dépend de la relation entre rareté et probabilité d'indétermination des espèces, qui est déterminée par la connaissances botaniques de l'équipe d'identification.
 
-La propagation des incertitudes tend donc à homogénéiser les abondances de la communauté: les individus indéterminés tirés aléatoirement ont plus de chances de orrespondre à une espèce abondante (par définition plus fréquente) et d'être réattribuée par la méthode de propagation à une espèce plus commune.
-Le biais semble donc difficile à formaliser car il dépend de la relation entre rareté et probabilité d'indétermination des espèces, qui est déterminée par la connaissances botaniques de l'équipe d'identification.
+Dans la suite de ce travail nous avons choisi de pallier les biais de l'estimateur en nous rapportant au niveau taxonomique supérieur et en étudiant les diversité en genres botaniques.
+L'estimateur de la richesse reste peu biaisé jusqu'à un seuil d'indétermination de 80%, au delà duquel la richesse est sous-estimée.
+L'équitabilité est surestimée, d'autant plus que le degré d'indétermnation est élevé (diversités de Shannon et de Simpson), mais le biais ne dépasse pas 10% de la diversité réelle \@ref(fig:FigTreesGenus).
 
-Pour pallier ce biais nous avons choisis de nous rapporter au niveau taxonomique supérieur et d'étudier la diversité des communautés en genre botanique.
-Le biais de l'estimateur de diversité au niveau espèce est bien moins important, ne dépassant pas 10% de la diversité observée \@ref(fig:FigTreesGenus).
-Par ailleurs, les estimateurs sont peu variables et permettent de comparer correctement les communautés communautés, pourvu que leurs degrés d'indétermination soient similaires.
+Dans le cas de Paracou, la détermination des parcelles a varié au cours du temps et entre les parcelles.
+Au moment de travail, dans les parcelles contrôle et du traitement 3 moins de 5% des arbres n'ont pas d'identification botanique, tandis que les parcelles du traitement 1 ou 2 restent mal déterminées (30% d'indétermination pour certaines parcelles).
 
-```{r FigTreesGenus, out.width='60%', fig.asp=1/2, fig.cap="Profil de biais pour les diversité de Richesse, Shannon et Simpson au niveau genre le long d'un gradient d'indétermination correspondant au pourcentage d'individus identifiés uniquement par leur nom vernaculaire. Les profils de biais représentent la moyenne et les quantiles 0.025 et 0.975 de la distribution des diversités obtenues pour 100 simulations de tirage aléatoire et de propagation des incertitudes."}
-load("ExternalFig/Uncertaintypropagation_Species_noCorrection")
+```{r FigTreesGenus, out.width='60%', fig.asp=1/2, fig.cap="Biais de l'estimateur pour les diversité en genre botanique de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
+load("ExternalFig/Uncertaintypropagation_Genus_noCorrection")
 
 par(mfrow=c(1,3),no.readonly=TRUE)
 invisible(lapply(Profile_Genus,function(ind){
-  plot(colnames(ind),ind["0.5",],type="n",ylim=c(0,max(ind)),xlab="",ylab="")
+  plot(colnames(ind),ind["0.5",],type="n",ylim=c(min(ind)-0.2*min(ind),max(ind)),xlab="",ylab="")
   polygon(c(colnames(ind),rev(colnames(ind))),c(pmax(ind["0.025",]),pmin(rev(ind["0.975",]))),col="gray75")
   lines(colnames(ind), ind["0.5",], col = "red",lty = 2)
   points(colnames(ind), ind["0.5",], col = "black",pch = 3)
@@ -78,16 +72,21 @@ invisible(lapply(Profile_Genus,function(ind){
 }))
 mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
 mtext("Diversité équivalente (Genre)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
-mtext("Richness",at=0.1,line=-1.5,outer=TRUE);mtext("Shannon",at=0.44,line=-1.5,outer=TRUE)
-mtext("Simpson",at=0.76,line=-1.5,outer=TRUE)
+mtext("(a) Richness",at=0.1,line=-1.5,outer=TRUE);mtext("(b) Shannon",at=0.44,line=-1.5,outer=TRUE)
+mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
 
 ```
 
+## Application de l'estimateur au cas des inventaires pré-exploitation
 
-### Cas particulier de Paracou
+Comprendre et anticiper le devenir des forêts tropicales dans le contexte actuel requiert un suivi fiable des communautés et des mesures précises de la diversité. 
+Les inventaires forsetiers sont cependant très coûteux et la majorités sont conduits en noms vernaculaires, bien que ceux-ci impliquent d'importances incertitudes taxonomiques.
+Plusieurs méthodes ont été proposées pour pallier ces incertitudes mais aucun n'est encore adaptée à des suivi de diversité fonctionnelle ou à petite échelle spatiale.
+Nous proposons ici un estimateur de diversité adaptable à chaque inventaire particulier et intégrant les incertitudes botaniques inhérentes aux inventaires forestiers.
+Nous avons calibré l'estimateur de diversité à partir d'un large inventaire en forêt Néotropicale et la simulation de gradients d'incertitude taxonomique et d'effort d'échantillonnage ont permis de déterminé un protocole d'inventaire idéal optimisant le coût des inventaires et la précision de l'estimateur.
+Notre analyse a d'une part souligné la nécessité d'avoir recours à des inventaires réels et à une expertise botanique de terrain par assurer la fiabilité de mesures de diversité.
+D'autre part nous avons pu identifié un protocole idéal assurant une estimation de la diversité avec une intervalle de confiance de 10%, basé sur l'inventaire de 2 000 arbres au minimum et sur une effort d'identification taxonomique de 80% des espèces au moins
 
-L'histoire de détermination botanique des parcelles de Paracou implique une grande variabilité du degré d'indétermination au cours du temps et des différences significatives entres les parcelles.
-Aujourd'hui tandis que les parcelles contrôle et du traitement 3 sont bien déterminées, moins de 5% des arbres 'ne sont identifiés que par un nom vernaculaire'ont pas d'identification botanique, d'autres parcelles du traitement 1 ou 2 sont encore mal déterminées et pour certaines plus de 30% des arbres n'ont pas d'identification botanique.
+\newpage
 
-Jusqu'à présent le biais des estimateurs de diversité reste à resoudre, en revanche il est possible de pallier ces différences de détermination en considérant la compositon et la diversité des parcelles au niveau du genre plutôt qu'au niveau de l'espèce.
-
+## Inescapable Taxonomists: Workable Biodiversity Management Based on a Minimum Field Work {-}

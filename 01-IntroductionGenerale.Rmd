@@ -31,7 +31,7 @@ Elles subissent également les changements climatiques globaux qui augmentent la
 Dans ce contexte les forêts tropicales sont particulièrement menacées.
 Les bassins forestiers tropicaux représentent 19.6 million de km² et représentent des enjeux économiques et de préservation primordiaux au niveau mondial [@Dirzo2003a; @Hansen2013]. 
 Ils accueillent la diversité biologique la plus élevée au monde et sont les plus grandes forêts n'ayant jamais connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
-Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an entraînant un développement économique proportionnel [@Asner2009;@Barlow2018].
+Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an accompagnée d'un développement économique proportionnel [@Asner2009;@Barlow2018].
 L'impact de ces pressions anthropiques est de plus exacerbé par le contexte économique de nombreuses zones tropicales, où les investissements, les politiques de conservation et les capacités de recherche et de développement sont moindres [@seeBarlow2018].
 Les impacts de ces pressions locales s'ajoutent aux changements globaux et entraînent des modifications importantes des écosystèmes, allant souvent vers une plus faible diversité.
 Ces changements correspondent à la disparition locales d'espèces, entraînant souvent des changements écosystémiques plus profonds dépendant du rôle des espèces au sein des communautés. 
