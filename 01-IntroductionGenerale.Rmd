@@ -6,81 +6,81 @@ output:
 # Introduction générale
 
 Les forêts couvrent 30% de la surface terrestre et assurent de nombreux biens et services environnementaux, économiques et sociaux indispensables à l'équilibre planétaire.
-Elles régulent le climat, la qualité de l'eau, de l'air et des sols et abritent une diversité biologique exceptionnelle.
-Elles subviennent aux besoins alimentaires de la population mondiale et permettent son développement économique en tant que source de matières premières, de revenus et d'opportunités de développement.
-Enfin, indispensables au bien être des populations, elles représentent des valeurs historiques, culturelles et patrimoniales irremplaçables [@FRA2015; @Tilman2014].
-Malgré leur importance les forêts sont aujourd'hui extrêmement menacées dans le contexte actuel de changements globaux.
+Malgré leur importance les forêts sont aujourd'hui extrêmement menacées dans le contexte de changements globaux actuel.
 
 ## Les forêts tropicales, au coeur des enjeux actuels
 
-Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes avec leur environnement qui définissent une unité fonctionnelle, et dont les arbres sont les composants essentiels [@FRA2000]. 
-Les forêts portent de forts enjeux de conservation, en restant les régions les moins anthropisées et en accueillant la diversité animale et végétale et les taux d'endémisme les plus importants du globe [@Myers2000; @Mittermeier2003].
+Par "forêt" ou "ecosystème forestier" on entend les assemblages de plantes, animaux et microorganismes au sein de leur environnement définissant une unité fonctionnelle.
+Les arbres sont les composants essentiels de ces écosystèmes forestiers [@FRA2000]. 
+Les forêts sont les régions les moins anthropisées du globe et portent de forts enjeux de conservation en accueillant la diversité animale et végétale et les taux d'endémisme les plus importants du globe [@Myers2000; @Mittermeier2003].
 
 A l'échelle locale, les forêts entretiennent les cycles de l'eau et des nutriments (azote, phosphore, etc), et régulent le climat et la fertilité des sols [@Malhi2008; @Isbell2017].
-A l'échelle globale, elles régulent les émission de gaz à effet de serre (*GES*) en compensant les émissions en tant que puits de carbone de 1.1 ± 0.8 PgC.yr^–1^, mais sont également une source potentielle de GES lorsque'elles sont dégradées et libèrent le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
+A l'échelle globale ce sont des éléments centraux dans la régulation des gaz à effet de serre (*GES*), en tant que puits de carbone de 1.1 ± 0.8 PgC.yr^–1^ qui compensent une partie des émissions de GES, mais également en tant que sources potentielles lorsque leur dégradation libère le carbone stocké dans leur biomasse [@Pan2011; @Roy2017].
 
 Les forêts assurent directement la subsistance de 500 millions de personnes en tant que source de nourriture (par la chasse et la collecte de produits forestiers non ligneux comestibles), d'eau, de matériaux de construction, et d'énergie (par l'utilisation du bois de chauffage et de cuisson). 
-Elles sont de plus indispensables au bien-être des populations et possèdent d'importantes dimensions culturelle, spirituelle et patrimoniale.
-Enfin, l'exploitation forestière correspond à de forts enjeux économiques: elle représente ~ 1% du PIB mondial, une part importante de l'emploi et rsete l'une des principales sources d'énergie [@CBDdiversity2011; @FAO2014].
+Elles sont de plus indispensables au bien-être des populations et possèdent d'importantes dimensions culturelle, spirituelle et patrimoniale [@FRA2015; @Tilman2014].
+Enfin, l'exploitation forestière correspond à de forts enjeux économiques: elle représente ~ 1% du PIB mondial, une part importante de l'emploi et reste l'une des principales sources d'énergie [@CBDdiversity2011; @FAO2014].
 
+Indispensables et irremplaçables, les forêts sont néanmoins dégradées ou disparaissent à une vitesse croissante: entre 2013 et 2015 leur surface globale a diminué de 3% [@FAO2009].
+Elles subissent de fortes pressions anthropiques allant des changements d’usage des terres via déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, la chasse ou l'introduction d’espèces invasives.
+Elles subissent également les changements climatiques globaux qui augmentent la fréquence des événements extrêmes tels que les sécheresses, les incendies, ou les inondations [@Pachauri2014].\newline
 
-Indispensables et irremplaçables, les forêts disparaissent ou sont dégradées à une vitesse croissante: entre 2013 et 2015 par exemple leur surface globale a diminué de 3% [@FAO2009].
-Elles subissent de fortes pressions anthropiques allant des changements d’usage des terres, tels que le déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois légale ou illégale, à la chasse ou à l'introduction d’espèces invasives.
-Elles subissent également les changements climatiques globaux qui augmentent la fréquence des événements extrêmes tels que les sécheresses, les incendies, ou les inondations… [@Pachauri2014]. 
+Dans ce contexte les forêts tropicales, représentant 19.6 million de km², sont les régions à la fois les plus menacées et celles aux enjeux les plus importants [@Barlow2018].
+Les forêts tropciales accueillent la diversité biologique la plus élevée au monde et sont les plus grandes forêts n'ayant jamais connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
+Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an qui s'accompagne d'un développement économique proportionnel [@Asner2009].
+L'impact de ces pressions anthropiques est de plus exacerbé par le contexte économique de nombreuses zones tropicales, où les investissements, les politiques de conservation et les capacités de recherche et de développement sont moindres.
+Les impacts de ces pressions locales s'ajoutent aux changements globaux et entraînent des modifications importantes des écosystèmes, allant souvent vers une dminution de la diversité biologique.
+Ces changements correspondent à la disparition locales d'espèces qui peut entraîner des changements écosystémiques plus profonds selon le rôle des espèces dans la communautés. 
+Ces disparitions, qui constituent l'érosion actuelle de la biodiversité, sont telles qu'elles ont déjà été qualifiées de "sixième extinction de l'ère moderne" [@Vitousek1997; @Cardinale2012].
 
-Dans ce contexte les forêts tropicales sont particulièrement menacées.
-Les bassins forestiers tropicaux représentent 19.6 million de km² et représentent des enjeux économiques et de préservation primordiaux au niveau mondial [@Dirzo2003a; @Hansen2013]. 
-Ils accueillent la diversité biologique la plus élevée au monde et sont les plus grandes forêts n'ayant jamais connu de forte perturbation anthropique [@Gentry1988; @FAO2011].
-Historiquement peu peuplées, ces régions connaissent cependant une croissance démographique moyenne de près de 1,4% par an accompagnée d'un développement économique proportionnel [@Asner2009;@Barlow2018].
-L'impact de ces pressions anthropiques est de plus exacerbé par le contexte économique de nombreuses zones tropicales, où les investissements, les politiques de conservation et les capacités de recherche et de développement sont moindres [@seeBarlow2018].
-Les impacts de ces pressions locales s'ajoutent aux changements globaux et entraînent des modifications importantes des écosystèmes, allant souvent vers une plus faible diversité.
-Ces changements correspondent à la disparition locales d'espèces, entraînant souvent des changements écosystémiques plus profonds dépendant du rôle des espèces au sein des communautés. 
-Ces disparitions qui constituent l'érosion actuelle de la biodiversité sont telles qu'elles ont déjà été qualifiées de "sixième extinction de l'ère moderne" [@Vitousek1997; @Cardinale2012].
-
-Une prise de conscience globale de ces pressions diverses a été entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992.
-De nombreux engagements politiques de surveillance, de conservation de la biodiversité et de préservation du fonctionnement des forêts ont été pris mais les menaces persistent ou s'accroissent malgré tout [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Une prise de conscience globale de la situation globale a été entérinée par la conférence des nations unies sur l'environnement et le développement à Rio en 1992.
+De nombreux engagements politiques ont été pris vis à vis de la surveillance et de la conservation de la biodiversité et de la préservation du fonctionnement des forêts mais les menaces persistent voire grandissent malgré tout [@Summit1992; @Schlaepfer2000; @Dirzo2003a; @Morales-Hidalgo2015].
+Ces engagement doivent être maintenus et améliorés aujourd'hui.
 Plusieurs approches ont été adoptées pour assurer la conservation de la biodiversité.
-La première approche s'appuie sur la création d'aires protégées, de plus en plus étendues aujourd'hui, mais dont les surfaces demeurent insuffisantes pour pallier l'érosion globale de la biodiversité [@Sist2015]. 
-La seconde approche est intégrative et propose de tenir compte des enjeux à la fois environnementaux, économiques et humains dans la gestion des écosystèmes.
-Cette approche se traduit par l'intégration du maintien des services écosystémiques comme enjeu de gestion en s'appuyant sur leur valeur économique, ce qui s'est traduit par des programmes comme le REDD+, des labels ou des systèmes de paiement de ces services [@Agrawal2011;@Barlow2018].
-Elle aboutit également à la mise en place de gestions fondées sur les interactions directes entre nature et société, comme par exemple la gestion communautaire des forêts, impliquant notamment les populations locales [@Liu2015].
+La première s'appuie sur la création d'aires protégées, de plus en plus étendues aujourd'hui, mais dont les surfaces demeurent insuffisantes pour pallier l'érosion globale de la biodiversité [@Sist2015]. 
+La seconde approche propose d'intégrer à la gestion des écosystèmes les enjeux à la fois environnementaux, économiques et humains.
+Cela se traduit par l'intégration des services écosystémiques comme enjeu de gestion grâce à leur valorisation économique, via la création de de systèmes de paiement, de programmes comme le REDD+ ou de divers labels [@Agrawal2011;@Barlow2018].
+Cette approche se traduit également par la mise en place de modes de gestion fondés sur les interactions entre nature et société, via par exemple la gestion communautaire des forêts impliquant les populations locales [@Liu2015].
 
 ## Exploitation et conservation des forêts tropicales
 
-La conservation des forêts tropicales est aujourd'hui un enjeu majeur, mais la seule désignation d'aires protégées ne suffit pas à maintenir leur immense biodiversité et leur fonctionnement complexe [@Sist2015].
-Dans ce contexte, l'exploitation forestière est centrale car elle assure à la fois des profits économiques et sociaux tout en préservant la biodiversité et le fonctionnement des écosystèmes comme dans le cas de l'exploitation sélective.
-L'exploitation sélective correspond à l'exploitation de quelques espèces cibles dont les individus à exploiter sont désignés à l'avance.
-L'exploitation sélective implique des trouées éparses de la canopée et l'ouverture d'un réseau important de dessertes pouvant impacter la biodiversité des forêts.
+Parmi les différentes approches de conservation des forêts tropicales, la seule désignation d'aires protégées ne suffit pas au maintien de leur incroyable biodiversité et leur fonctionnement complexe [@Sist2015].
+L'exploitation forestière est aujourd'hui un élément central pour la conservation des forêts car elle assure à la fois des profits économiques et sociaux tout en préservant la biodiversité et le fonctionnement des écosystèmes.
+L'exploitation sélective en particulier peut jouer un rôle majeur.
 
-L'exploitation sélective, moins préjudiciable au fonctionnement de l'écosystème que de nombreuses autres activités anthropiques, est appliquée aujourd'hui sur environ 20% de la surface des forêts tropicales et représente 12% de la production mondiale de bois d'oeuvre [@Martin2015].
-Bien qu'ayant un potentiel important pour la préservation des forêts, l'exploitation sélective peut avoir des conséquences significatives et entraîner par exemple des changements dans la composition et la diversité des communautés, voire l'extinction locale d'espèces [@Gibson2011].
-Les pratiques de gestion forestière, définies principalement par le diamètre minimum de coupe et par le temps de récupération après exploitation [@Sist2015], sont aujourd'hui essentiellement calibrées en vue de la reconstitution du stock de bois d'oeuvre.
-Elles tendent cependant de plus en plus à intégrer des enjeux de conservation en visant la restauration de la diversité en espèces ou du fonctionnement de l'écosystème.
-La gestion durable des forêts est en effet définie par l' ITTO (*International Tropical Timber Organization*) comme devant maintenir la production des produits et services forestiers sans entraîner de préjudice à l'intégrité et la productivité future des forêts ni de dommages environnementaux ou sociaux collatéraux [@ITTO2005]. 
-Dans ce contexte, clarifier l'impact de l'exploitation sur la diversité et la composition des forêts est primordial à toute réflexion sur la durabilité et l'amélioration de la gestion sylvicole.
+L'exploitation sélective est à l'exploitation de quelques espèces cibles dont les individus exploités sont désignés à l'avance.
+Elle crée des trouées éparses dans la canopée et nécessite l'ouverture d'un réseau important de dessertes pouvant impacter la biodiversité des forêts.
+L'exploitation sélective reste néanmoins bien moins préjudiciable au fonctionnement de l'écosystème que de nombreuses autres activités anthropiques.
+Elle concerne environ 20% de la surface des forêts tropicales et représente 12% de la production mondiale de bois d'oeuvre [@Martin2015].
+L'exploitation représente ainsi un potentiel important pour la préservation des forêts, mais peut également peut avoir des conséquences significatives et entraîner par exemple des changements de composition et de diversité des communautés, voire l'extinction locale d'espèces [@Gibson2011].
+L'impact de l'exploitation sélective en forêt tropicale dépendra des pratiques de gestion.
+ces pratiques sont définies principalement par le diamètre minimum de coupe et par le temps de récupération après exploitation [@Sist2015], et sont aujourd'hui essentiellement calibrées en vue de la reconstitution du stock de bois d'oeuvre.
+Elles intègrent cependant de plus en plus des enjeux de conservation en visant le maintien de la production sans entraîner de préjudice à l'intégrité et la productivité des forêts, ni de dommages environnementaux ou sociaux [@ITTO2005].
+La gestion durable des forêts, définie par l' ITTO (*International Tropical Timber Organization*), doit ainsi permettre la  restauration de la diversité en espèces et du fonctionnement de l'écosystème après exploitation.
+Dans ce contexte, toute réflexion sur la durabilité et l'amélioration de la gestion sylvicole nécessite de bien connaître  l'impact de l'exploitation sur la diversité et la composition des forêts .
 
 ## Diversité et assemblage des communautés
 
 Les arbres sont les éléments essentiels des écosystèmes forestiers.
-Leur diversité reflète celle des autres groupes floristiques et faunistiques et détermine largement le fonctionnement des forêts [@Guitet2017].
-Individuellement, chaque espèce a une valeur intrinsèque pour le patrimoine naturel global et, selon ses caractéristiques biologiques, peut avoir un rôle clé dans la communautés comme pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
-A l'échelle de la communauté, les processus et la productivité de l'écosystème son définis par les interactions entre individus et avec l'environnement et dépendent de la diversité et de la composition de l'assemblage d'espèces [@Begon2006].
-De même la diversité détermine la stabilité et la résilience des communautés, une diversité élevée palliant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
-
-L'érosion de la biodiversité impacte donc nécessairement le fonctionnement des écosystèmes mais le détail de la réponse des communautés et des conséquences de cette érosion reste mal connu.
+Leur diversité reflète celle des autres groupes floristiques et faunistiques et détermine largement le fonctionnement des communautés [@Guitet2017].
+Individuellement, chaque espèce a une valeur intrinsèque pour le patrimoine naturel global et en fonction de ses caractéristiques biologiques peut avoir un rôle clé dans la communauté, comme c'est la cas pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
+A l'échelle de la communauté, les processus et la productivité de l'écosystème dépendent des interactions entre individus et avec l'environnement et donc de leur diversité et de leur composition en espèces [@Begon2006].
+La diversité détermine égalment la stabilité et la résilience des communautés en atténuant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
+Toute perturbation ou changement susceptible de modifier la biodiversité et la composition des comunautés impacte donc le fonctionnement des écosystèmes, mais le détail de ces impacts et de leurs conséquences reste mal connu.
 
 ### Succession, mortalité et recrutement: supports de la trajectoire des communautés
 
-Une perturbation correspond à des changements dans l'environnement biotique (interactions entre individus) et abiotique (ensoleillement, flux d'eau, de nutriments et de matière) des communautés.
-La réponse des communautés aux perturbations a été décrite comme une succession temporelle de processus écologiques consécutifs à ces changements environnementaux.
+Une perturbation correspond à des changements de l'environnement biotique (interactions entre individus) et abiotique (ensoleillement, flux d'eau, de nutriments et de matière) des communautés.
+La réponse des communautés aux perturbations a été décrite comme une succession temporelle de processus écologiques consécutifs à ces changements environnementaux [@Clements1916].
 Les modèles de succession identifiés correspondent dans un premier temps au recrutement d'espèces pionnières, meilleures acquisitrices des ressources rendues disponibles après perturbation.
-Dans un deuxième temps, suivant la croissance des premiers recrutés, la disponibilité en ressources diminue, la compétition augmente et exclut finalement la disparition des espèces les moins compétitrices. 
-Les pionnières installées dans un premier temps, sénescentes ou exclues par la compétition, sont alors remplacées par les espèces de succession tardive qui correspondent en forêt tropicale à des espèces de croissance lente mais ayant une longue durée de vie.
-Cette succession restaure de façon déterministe une communauté de succession tardive via la combinaison de processus démographiques de mortalité (disparition), et de recrutement (apparition) d'espèces dans la communauté [@Denslow2000].
+Dans un deuxième temps avec la croissance des premiers recrutés la disponibilité en ressources diminue et la compétition augmente, excluant du recrutement les espèces les moins compétitrices. 
+Les pionnières tout d'abord recrutées, sénescentes ou exclues par la compétition, sont petit à petit remplacées par les espèces de succession tardive qui correspondent en forêt tropicale à des espèces de croissance lente mais à longue durée de vie.
+Ces combinaisons successives de processus démographiques de mortalité (disparition), et de recrutement (apparition) d'espèces dans la communauté restaure ainsi de façon déterministe une communauté typique de succession tardive  [@Denslow2000].
 
-Le recrutement correspond à la suite d'événements de production, de dissémination et de germination des graines, puis de survie et de croissance des plantules jusqu'à un seuil de recrutement.
-Ce seuil est un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est considéré comme assez développé pour participer au fonctionnement de l'écosystème et pour intégrer les inventaires.
-Les processus écologiques qui régulent le recrutement des espèce déterminent donc la réponse des communautés aux perturbations et leur résilience en termes de diversité,de composition et de fonctionnement [@Denslow1980; @Schnitzer2001; @Asner2004].
+Le recrutement est ainsi un élément clé de la réponse des communautés aux perturbations. 
+il regroupe l'ensemble des processus de production, de dissémination et de germination des graines, puis de survie et de croissance des plantules jusqu'à un seuil de recrutement.
+Ce seuil est un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est intégré aux inventaires car considéré comme assez développé pour participer significativement au fonctionnement de l'écosystème.
+Les processus écologiques qui régulent le recrutement des espèce sont donc des déterminants majeurs de la réponse des communautés aux perturbations [@Denslow1980; @Schnitzer2001; @Asner2004].
 
 ```{r AssemblyRules, fig.align ='center',out.width='100%', fig.cap="Schéma des processus déterminant la réponse des communautés végétales aux perturbations. Les processus déterministes (partie haute) sélectionnent les espèces recrutées dans la communauté selon leurs préférences environnementales e leur compétitivité, tandis que les processus stochastiques (partie basse) reviennent à une sélection aléatoire."}
 knitr::include_graphics("ExternalFig/Fig_AssemblyRules.jpg")
@@ -88,23 +88,23 @@ knitr::include_graphics("ExternalFig/Fig_AssemblyRules.jpg")
 
 ### Les règles d'assemblage des communautés
 
-Expliciter et comprendre la réponse des forêts aux perturbations nécessité d'expliciter les processus écologiques sous-jacents.
-Plusieurs hypothèses sur les processus d'assemblage des communautés sont débattues aujourd'hui, notamment quant au rôle des processus stochastiques et déterministes.
-Les processus déterministes sélectionnent les espèces de la communauté selon leur performance dans l'environnement biotique et abiotique de la communauté , définie par leurs caractéristiques biologiques [@Molino2001].
-Les processus stochastiques, qui relèvent de la théorie neutre, supposent un assemblage aléatoire dépendant uniquement de l'histoire de la communauté et des limitations physique de dispersion ou de croissance (barrière à la dispersion, ordre d'arrivée des espèces) \@ref(fig:AssemblyRules) [@Hubbell2001].
+En plus d'expliciter la réponse des communautés aux perturbations il est primoridial d'en comprendre les processus sous-jacents.
+Plusieurs hypothèses quant aux processus d'assemblage des communautés sont débattues aujourd'hui, notamment vis à vis de l'importance des processus stochastiques et déterministes.
+Les processus déterministes sélectionnent les espèces de la communauté sur la base de leurs caractéristiques biologiques, en fonction de leurs performance dans l'environnement biotique et abiotique [@Molino2001].
+Les processus stochastiques, qui relèvent de la théorie neutre, supposent un assemblage aléatoire de sespèces dépendant uniquement de l'histoire de la communauté et des limitations physique de dispersion ou de croissance (barrière à la dispersion, ordre d'arrivée des espèces) \@ref(fig:AssemblyRules) [@Hubbell2001].
 
 
-Le débat quant au rôle respectifs des processus stochastiques et déterministes est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis*, *IDH* en anglais).
-Cette théorie suppose la prépondérance de processus déterministes d'exclusion compétitive et de filtrage des espèces et prédit que, sous un certain seuil, la diversité est d'autant plus élevée que le milieu est perturbé [@Molino2001].
-Un tel régime de perturbations intermédaires ferait varier les conditions environnementales sans engendrer de modification drastique.
-Cette variabilité permettrait à un large panel d'espèces de s'installer ou de s'imposer lorsque les conditions environnementales leur deviennent favorables ou qu'elles deviennent plus compétitives relativement au reste de la communauté.
+Le débat quant au rôle respectif des processus stochastiques et déterministes est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis*, *IDH* en anglais).
+Cette théorie suppose la prépondérance de processus déterministes d'exclusion compétitive des espèces.
+Elle prédit alors une diversité maximale pour des régimes de perturbation réguliers et d'intensité moyenne évitant la dominance de quelques espèces [@Molino2001].
+Un tel régime de perturbations intermédaires correspond en effet à des conditions environnementales variables permettrait à un large panel d'espèces de s'installer ou de s'imposer lorsque les conditions environnementales leur deviennent favorables en comparaison du reste de la communauté.
 Au delà d'un seuil d'intensité de perturbation en revanche les processus de sélection excluent plus d'espèces qu'ils n'en favorisent et la diversité des communautés diminue [@Chesson2000;@Kariuki2006a;@Berry2008a].
 
 A l'inverse la théorie neutre suppose que les espèces sont équivalentes et que leur abondance ne dépend pas de leurs caractéritiques biologiques.
-L'abondance des espèces dépendrait plutôt de processus aléatoires de dispersion, de croissance et de survie qui résultent en un assemblage stochastique des communautés [@Hubbell2001].
+L'abondance des espèces dépendrait alors de processus aléatoires de dispersion, de croissance et de survie résultant en un assemblage stochastique des communautés [@Hubbell2001].
 
-Bien que débattues les hypothèses déterministe et stochastique ne sont cependant pas incompatibles et ont montré pouvoir prédire la structure des communautés à différentes échelles et à différents niveaux de richesse.
-Il est vraisemblable que les communautés résultent de combinaisons variables de processus déterministes et stochastiques, et la question se porte alors sur les facteurs qui influencent l'importance relative de ces processus [@Chave2004]. 
+Bien que débattues les hypothèses déterministe et stochastique ne sont pas incompatibles et peuvent prédire la structure des communautés à différentes échelles et pour différents niveaux de richesse.
+Il est vraisemblable que les règles d'assemblage des communautés soient une combinaison variable de processus déterministes et stochastiques, et la question se pose alors des facteurs qui déterminent ces combinaisons [@Chave2004]. 
 
 ## Comment mesurer la diversité biologique ?
 

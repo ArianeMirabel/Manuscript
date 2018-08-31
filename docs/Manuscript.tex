@@ -48,7 +48,7 @@
 
 \usepackage{hyperref}
 \hypersetup{
-            pdftitle={Réponse et résilience de biodiversité des forêts tropicales après perturbation},
+            pdftitle={Réponse et résilience de la biodiversité des forêts tropicales après perturbation},
             pdfauthor={Ariane Mirabel},
             pdfkeywords={Biodiversity, Neotropical forests, Perturbation, Communities Ecology, Dynamic trajectories, Resilience},
             colorlinks=true,
@@ -131,14 +131,14 @@
 % Title, author, etc. from YAML to LaTeX
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Réponse et résilience de biodiversité des forêts tropicales après
+\title{Réponse et résilience de la biodiversité des forêts tropicales après
 perturbation}
 
 
 \author{Ariane Mirabel}
 
 
-\date{2018-08-29}
+\date{2018-08-31}
 
 
 % Main title page with filigrane
@@ -189,9 +189,9 @@ perturbation}
 
 \usepackage[DocType=PhD, ED=UG, Ets=UG, DIS=ST]{latex/pdgUniv}
 
-\specialty{Ecologie}
+\specialty{Écologie}
 \defencedate{Novembre 2018}
-\lab{UMR EcoFoG, Ecologie des Forêts de Guyane}
+\lab{UMR EcoFoG, Écologie des Forêts de Guyane}
 % ==================
 % Setup people like your boss, the jury team and the referees
 % - First you need to define how number they will be in each category
@@ -227,6 +227,7 @@ perturbation}
 % Title page
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\MainTitlePage[epigraphe]
 
 \makeflyleaf
 \newpage
@@ -263,46 +264,37 @@ perturbation}
 
 
 
-\begin{verbatim}
-## Warning: package 'rmarkdown' was built under R version 3.5.1
-\end{verbatim}
-
 \mainmatter
 
 \chapter{Introduction générale}\label{introduction-generale}
 
 Les forêts couvrent 30\% de la surface terrestre et assurent de nombreux
 biens et services environnementaux, économiques et sociaux
-indispensables à l'équilibre planétaire. Elles régulent le climat, la
-qualité de l'eau, de l'air et des sols et abritent une diversité
-biologique exceptionnelle. Elles subviennent aux besoins alimentaires de
-la population mondiale et permettent son développement économique en
-tant que source de matières premières, de revenus et d'opportunités de
-développement. Enfin, indispensables au bien être des populations, elles
-représentent des valeurs historiques, culturelles et patrimoniales
-irremplaçables \autocites{FRA2015}{Tilman2014}. Malgré leur importance
-les forêts sont aujourd'hui extrêmement menacées dans le contexte actuel
-de changements globaux.
+indispensables à l'équilibre planétaire. Malgré leur importance les
+forêts sont aujourd'hui extrêmement menacées dans le contexte de
+changements globaux actuel.
 
 \section{Les forêts tropicales, au coeur des enjeux
 actuels}\label{les-forets-tropicales-au-coeur-des-enjeux-actuels}
 
 Par ``forêt'' ou ``ecosystème forestier'' on entend les assemblages de
-plantes, animaux et microorganismes avec leur environnement qui
-définissent une unité fonctionnelle, et dont les arbres sont les
-composants essentiels \autocite{FRA2000}. Les forêts portent de forts
-enjeux de conservation, en restant les régions les moins anthropisées et
-en accueillant la diversité animale et végétale et les taux d'endémisme
-les plus importants du globe \autocites{Myers2000}{Mittermeier2003}.
+plantes, animaux et microorganismes au sein de leur environnement
+définissant une unité fonctionnelle. Les arbres sont les composants
+essentiels de ces écosystèmes forestiers \autocite{FRA2000}. Les forêts
+sont les régions les moins anthropisées du globe et portent de forts
+enjeux de conservation en accueillant la diversité animale et végétale
+et les taux d'endémisme les plus importants du globe
+\autocites{Myers2000}{Mittermeier2003}.
 
 A l'échelle locale, les forêts entretiennent les cycles de l'eau et des
 nutriments (azote, phosphore, etc), et régulent le climat et la
 fertilité des sols \autocites{Malhi2008}{Isbell2017}. A l'échelle
-globale, elles régulent les émission de gaz à effet de serre
-(\emph{GES}) en compensant les émissions en tant que puits de carbone de
-1.1 ± 0.8 PgC.yr\textsuperscript{--1}, mais sont également une source
-potentielle de GES lorsque'elles sont dégradées et libèrent le carbone
-stocké dans leur biomasse \autocites{Pan2011}{Roy2017}.
+globale ce sont des éléments centraux dans la régulation des gaz à effet
+de serre (\emph{GES}), en tant que puits de carbone de 1.1 ± 0.8
+PgC.yr\textsuperscript{--1} qui compensent une partie des émissions de
+GES, mais également en tant que sources potentielles lorsque leur
+dégradation libère le carbone stocké dans leur biomasse
+\autocites{Pan2011}{Roy2017}.
 
 Les forêts assurent directement la subsistance de 500 millions de
 personnes en tant que source de nourriture (par la chasse et la collecte
@@ -310,164 +302,166 @@ de produits forestiers non ligneux comestibles), d'eau, de matériaux de
 construction, et d'énergie (par l'utilisation du bois de chauffage et de
 cuisson). Elles sont de plus indispensables au bien-être des populations
 et possèdent d'importantes dimensions culturelle, spirituelle et
-patrimoniale. Enfin, l'exploitation forestière correspond à de forts
-enjeux économiques: elle représente \textasciitilde{} 1\% du PIB
-mondial, une part importante de l'emploi et rsete l'une des principales
-sources d'énergie \autocites{CBDdiversity2011}{FAO2014}.
+patrimoniale \autocites{FRA2015}{Tilman2014}. Enfin, l'exploitation
+forestière correspond à de forts enjeux économiques: elle représente
+\textasciitilde{} 1\% du PIB mondial, une part importante de l'emploi et
+reste l'une des principales sources d'énergie
+\autocites{CBDdiversity2011}{FAO2014}.
 
-Indispensables et irremplaçables, les forêts disparaissent ou sont
-dégradées à une vitesse croissante: entre 2013 et 2015 par exemple leur
-surface globale a diminué de 3\% \autocite{FAO2009}. Elles subissent de
-fortes pressions anthropiques allant des changements d'usage des terres,
-tels que le déboisement pour l'élevage ou l'agriculture, à
-l'exploitation du bois légale ou illégale, à la chasse ou à
-l'introduction d'espèces invasives. Elles subissent également les
-changements climatiques globaux qui augmentent la fréquence des
-événements extrêmes tels que les sécheresses, les incendies, ou les
-inondations\ldots{} \autocite{Pachauri2014}.
+Indispensables et irremplaçables, les forêts sont néanmoins dégradées ou
+disparaissent à une vitesse croissante: entre 2013 et 2015 leur surface
+globale a diminué de 3\% \autocite{FAO2009}. Elles subissent de fortes
+pressions anthropiques allant des changements d'usage des terres via
+déboisement pour l'élevage ou l'agriculture, à l'exploitation du bois
+légale ou illégale, la chasse ou l'introduction d'espèces invasives.
+Elles subissent également les changements climatiques globaux qui
+augmentent la fréquence des événements extrêmes tels que les
+sécheresses, les incendies, ou les inondations
+\autocite{Pachauri2014}.\newline
 
-Dans ce contexte les forêts tropicales sont particulièrement menacées.
-Les bassins forestiers tropicaux représentent 19.6 million de km² et
-représentent des enjeux économiques et de préservation primordiaux au
-niveau mondial \autocites{Dirzo2003a}{Hansen2013}. Ils accueillent la
-diversité biologique la plus élevée au monde et sont les plus grandes
-forêts n'ayant jamais connu de forte perturbation anthropique
-\autocites{Gentry1988}{FAO2011}. Historiquement peu peuplées, ces
-régions connaissent cependant une croissance démographique moyenne de
-près de 1,4\% par an accompagnée d'un développement économique
-proportionnel \autocites{Asner2009}{Barlow2018}. L'impact de ces
-pressions anthropiques est de plus exacerbé par le contexte économique
-de nombreuses zones tropicales, où les investissements, les politiques
-de conservation et les capacités de recherche et de développement sont
-moindres \autocite{seeBarlow2018}. Les impacts de ces pressions locales
-s'ajoutent aux changements globaux et entraînent des modifications
-importantes des écosystèmes, allant souvent vers une plus faible
-diversité. Ces changements correspondent à la disparition locales
-d'espèces, entraînant souvent des changements écosystémiques plus
-profonds dépendant du rôle des espèces au sein des communautés. Ces
-disparitions qui constituent l'érosion actuelle de la biodiversité sont
-telles qu'elles ont déjà été qualifiées de ``sixième extinction de l'ère
-moderne'' \autocites{Vitousek1997}{Cardinale2012}.
+Dans ce contexte les forêts tropicales, représentant 19.6 million de
+km², sont les régions à la fois les plus menacées et celles aux enjeux
+les plus importants \autocite{Barlow2018}. Les forêts tropciales
+accueillent la diversité biologique la plus élevée au monde et sont les
+plus grandes forêts n'ayant jamais connu de forte perturbation
+anthropique \autocites{Gentry1988}{FAO2011}. Historiquement peu
+peuplées, ces régions connaissent cependant une croissance démographique
+moyenne de près de 1,4\% par an qui s'accompagne d'un développement
+économique proportionnel \autocite{Asner2009}. L'impact de ces pressions
+anthropiques est de plus exacerbé par le contexte économique de
+nombreuses zones tropicales, où les investissements, les politiques de
+conservation et les capacités de recherche et de développement sont
+moindres. Les impacts de ces pressions locales s'ajoutent aux
+changements globaux et entraînent des modifications importantes des
+écosystèmes, allant souvent vers une dminution de la diversité
+biologique. Ces changements correspondent à la disparition locales
+d'espèces qui peut entraîner des changements écosystémiques plus
+profonds selon le rôle des espèces dans la communautés. Ces
+disparitions, qui constituent l'érosion actuelle de la biodiversité,
+sont telles qu'elles ont déjà été qualifiées de ``sixième extinction de
+l'ère moderne'' \autocites{Vitousek1997}{Cardinale2012}.
 
-Une prise de conscience globale de ces pressions diverses a été
-entérinée par la conférence des nations unies sur l'environnement et le
-développement à Rio en 1992. De nombreux engagements politiques de
-surveillance, de conservation de la biodiversité et de préservation du
-fonctionnement des forêts ont été pris mais les menaces persistent ou
-s'accroissent malgré tout
+Une prise de conscience globale de la situation globale a été entérinée
+par la conférence des nations unies sur l'environnement et le
+développement à Rio en 1992. De nombreux engagements politiques ont été
+pris vis à vis de la surveillance et de la conservation de la
+biodiversité et de la préservation du fonctionnement des forêts mais les
+menaces persistent voire grandissent malgré tout
 \autocites{Summit1992}{Schlaepfer2000}{Dirzo2003a}{Morales-Hidalgo2015}.
+Ces engagement doivent être maintenus et améliorés aujourd'hui.
 Plusieurs approches ont été adoptées pour assurer la conservation de la
-biodiversité. La première approche s'appuie sur la création d'aires
-protégées, de plus en plus étendues aujourd'hui, mais dont les surfaces
-demeurent insuffisantes pour pallier l'érosion globale de la
-biodiversité \autocite{Sist2015}. La seconde approche est intégrative et
-propose de tenir compte des enjeux à la fois environnementaux,
-économiques et humains dans la gestion des écosystèmes. Cette approche
-se traduit par l'intégration du maintien des services écosystémiques
-comme enjeu de gestion en s'appuyant sur leur valeur économique, ce qui
-s'est traduit par des programmes comme le REDD+, des labels ou des
-systèmes de paiement de ces services
-\autocites{Agrawal2011}{Barlow2018}. Elle aboutit également à la mise en
-place de gestions fondées sur les interactions directes entre nature et
-société, comme par exemple la gestion communautaire des forêts,
-impliquant notamment les populations locales \autocite{Liu2015}.
+biodiversité. La première s'appuie sur la création d'aires protégées, de
+plus en plus étendues aujourd'hui, mais dont les surfaces demeurent
+insuffisantes pour pallier l'érosion globale de la biodiversité
+\autocite{Sist2015}. La seconde approche propose d'intégrer à la gestion
+des écosystèmes les enjeux à la fois environnementaux, économiques et
+humains. Cela se traduit par l'intégration des services écosystémiques
+comme enjeu de gestion grâce à leur valorisation économique, via la
+création de de systèmes de paiement, de programmes comme le REDD+ ou de
+divers labels \autocites{Agrawal2011}{Barlow2018}. Cette approche se
+traduit également par la mise en place de modes de gestion fondés sur
+les interactions entre nature et société, via par exemple la gestion
+communautaire des forêts impliquant les populations locales
+\autocite{Liu2015}.
 
 \section{Exploitation et conservation des forêts
 tropicales}\label{exploitation-et-conservation-des-forets-tropicales}
 
-La conservation des forêts tropicales est aujourd'hui un enjeu majeur,
-mais la seule désignation d'aires protégées ne suffit pas à maintenir
-leur immense biodiversité et leur fonctionnement complexe
-\autocite{Sist2015}. Dans ce contexte, l'exploitation forestière est
-centrale car elle assure à la fois des profits économiques et sociaux
-tout en préservant la biodiversité et le fonctionnement des écosystèmes
-comme dans le cas de l'exploitation sélective. L'exploitation sélective
-correspond à l'exploitation de quelques espèces cibles dont les
-individus à exploiter sont désignés à l'avance. L'exploitation sélective
-implique des trouées éparses de la canopée et l'ouverture d'un réseau
-important de dessertes pouvant impacter la biodiversité des forêts.
+Parmi les différentes approches de conservation des forêts tropicales,
+la seule désignation d'aires protégées ne suffit pas au maintien de leur
+incroyable biodiversité et leur fonctionnement complexe
+\autocite{Sist2015}. L'exploitation forestière est aujourd'hui un
+élément central pour la conservation des forêts car elle assure à la
+fois des profits économiques et sociaux tout en préservant la
+biodiversité et le fonctionnement des écosystèmes. L'exploitation
+sélective en particulier peut jouer un rôle majeur.
 
-L'exploitation sélective, moins préjudiciable au fonctionnement de
-l'écosystème que de nombreuses autres activités anthropiques, est
-appliquée aujourd'hui sur environ 20\% de la surface des forêts
+L'exploitation sélective est à l'exploitation de quelques espèces cibles
+dont les individus exploités sont désignés à l'avance. Elle crée des
+trouées éparses dans la canopée et nécessite l'ouverture d'un réseau
+important de dessertes pouvant impacter la biodiversité des forêts.
+L'exploitation sélective reste néanmoins bien moins préjudiciable au
+fonctionnement de l'écosystème que de nombreuses autres activités
+anthropiques. Elle concerne environ 20\% de la surface des forêts
 tropicales et représente 12\% de la production mondiale de bois d'oeuvre
-\autocite{Martin2015}. Bien qu'ayant un potentiel important pour la
-préservation des forêts, l'exploitation sélective peut avoir des
-conséquences significatives et entraîner par exemple des changements
-dans la composition et la diversité des communautés, voire l'extinction
-locale d'espèces \autocite{Gibson2011}. Les pratiques de gestion
-forestière, définies principalement par le diamètre minimum de coupe et
-par le temps de récupération après exploitation \autocite{Sist2015},
-sont aujourd'hui essentiellement calibrées en vue de la reconstitution
-du stock de bois d'oeuvre. Elles tendent cependant de plus en plus à
-intégrer des enjeux de conservation en visant la restauration de la
-diversité en espèces ou du fonctionnement de l'écosystème. La gestion
-durable des forêts est en effet définie par l' ITTO (\emph{International
-Tropical Timber Organization}) comme devant maintenir la production des
-produits et services forestiers sans entraîner de préjudice à
-l'intégrité et la productivité future des forêts ni de dommages
-environnementaux ou sociaux collatéraux \autocite{ITTO2005}. Dans ce
-contexte, clarifier l'impact de l'exploitation sur la diversité et la
-composition des forêts est primordial à toute réflexion sur la
-durabilité et l'amélioration de la gestion sylvicole.
+\autocite{Martin2015}. L'exploitation représente ainsi un potentiel
+important pour la préservation des forêts, mais peut également peut
+avoir des conséquences significatives et entraîner par exemple des
+changements de composition et de diversité des communautés, voire
+l'extinction locale d'espèces \autocite{Gibson2011}. L'impact de
+l'exploitation sélective en forêt tropicale dépendra des pratiques de
+gestion. ces pratiques sont définies principalement par le diamètre
+minimum de coupe et par le temps de récupération après exploitation
+\autocite{Sist2015}, et sont aujourd'hui essentiellement calibrées en
+vue de la reconstitution du stock de bois d'oeuvre. Elles intègrent
+cependant de plus en plus des enjeux de conservation en visant le
+maintien de la production sans entraîner de préjudice à l'intégrité et
+la productivité des forêts, ni de dommages environnementaux ou sociaux
+\autocite{ITTO2005}. La gestion durable des forêts, définie par l' ITTO
+(\emph{International Tropical Timber Organization}), doit ainsi
+permettre la restauration de la diversité en espèces et du
+fonctionnement de l'écosystème après exploitation. Dans ce contexte,
+toute réflexion sur la durabilité et l'amélioration de la gestion
+sylvicole nécessite de bien connaître l'impact de l'exploitation sur la
+diversité et la composition des forêts .
 
 \section{Diversité et assemblage des
 communautés}\label{diversite-et-assemblage-des-communautes}
 
 Les arbres sont les éléments essentiels des écosystèmes forestiers. Leur
 diversité reflète celle des autres groupes floristiques et faunistiques
-et détermine largement le fonctionnement des forêts
+et détermine largement le fonctionnement des communautés
 \autocite{Guitet2017}. Individuellement, chaque espèce a une valeur
-intrinsèque pour le patrimoine naturel global et, selon ses
-caractéristiques biologiques, peut avoir un rôle clé dans la communautés
-comme pour les espèces \emph{clé de voûte}
+intrinsèque pour le patrimoine naturel global et en fonction de ses
+caractéristiques biologiques peut avoir un rôle clé dans la communauté,
+comme c'est la cas pour les espèces \emph{clé de voûte}
 \autocites{Jones1994}{Power1996}{Gardner2007}. A l'échelle de la
-communauté, les processus et la productivité de l'écosystème son définis
-par les interactions entre individus et avec l'environnement et
-dépendent de la diversité et de la composition de l'assemblage d'espèces
-\autocite{Begon2006}. De même la diversité détermine la stabilité et la
-résilience des communautés, une diversité élevée palliant l'impact des
-maladies, des espèces invasives et des variations environnementales
-\autocite{Elmqvist2003}.
-
-L'érosion de la biodiversité impacte donc nécessairement le
-fonctionnement des écosystèmes mais le détail de la réponse des
-communautés et des conséquences de cette érosion reste mal connu.
+communauté, les processus et la productivité de l'écosystème dépendent
+des interactions entre individus et avec l'environnement et donc de leur
+diversité et de leur composition en espèces \autocite{Begon2006}. La
+diversité détermine égalment la stabilité et la résilience des
+communautés en atténuant l'impact des maladies, des espèces invasives et
+des variations environnementales \autocite{Elmqvist2003}. Toute
+perturbation ou changement susceptible de modifier la biodiversité et la
+composition des comunautés impacte donc le fonctionnement des
+écosystèmes, mais le détail de ces impacts et de leurs conséquences
+reste mal connu.
 
 \subsection{Succession, mortalité et recrutement: supports de la
 trajectoire des
 communautés}\label{succession-mortalite-et-recrutement-supports-de-la-trajectoire-des-communautes}
 
-Une perturbation correspond à des changements dans l'environnement
+Une perturbation correspond à des changements de l'environnement
 biotique (interactions entre individus) et abiotique (ensoleillement,
 flux d'eau, de nutriments et de matière) des communautés. La réponse des
 communautés aux perturbations a été décrite comme une succession
 temporelle de processus écologiques consécutifs à ces changements
-environnementaux. Les modèles de succession identifiés correspondent
-dans un premier temps au recrutement d'espèces pionnières, meilleures
-acquisitrices des ressources rendues disponibles après perturbation.
-Dans un deuxième temps, suivant la croissance des premiers recrutés, la
-disponibilité en ressources diminue, la compétition augmente et exclut
-finalement la disparition des espèces les moins compétitrices. Les
-pionnières installées dans un premier temps, sénescentes ou exclues par
-la compétition, sont alors remplacées par les espèces de succession
-tardive qui correspondent en forêt tropicale à des espèces de croissance
-lente mais ayant une longue durée de vie. Cette succession restaure de
-façon déterministe une communauté de succession tardive via la
-combinaison de processus démographiques de mortalité (disparition), et
-de recrutement (apparition) d'espèces dans la communauté
+environnementaux \autocite{Clements1916}. Les modèles de succession
+identifiés correspondent dans un premier temps au recrutement d'espèces
+pionnières, meilleures acquisitrices des ressources rendues disponibles
+après perturbation. Dans un deuxième temps avec la croissance des
+premiers recrutés la disponibilité en ressources diminue et la
+compétition augmente, excluant du recrutement les espèces les moins
+compétitrices. Les pionnières tout d'abord recrutées, sénescentes ou
+exclues par la compétition, sont petit à petit remplacées par les
+espèces de succession tardive qui correspondent en forêt tropicale à des
+espèces de croissance lente mais à longue durée de vie. Ces combinaisons
+successives de processus démographiques de mortalité (disparition), et
+de recrutement (apparition) d'espèces dans la communauté restaure ainsi
+de façon déterministe une communauté typique de succession tardive
 \autocite{Denslow2000}.
 
-Le recrutement correspond à la suite d'événements de production, de
-dissémination et de germination des graines, puis de survie et de
+Le recrutement est ainsi un élément clé de la réponse des communautés
+aux perturbations. il regroupe l'ensemble des processus de production,
+de dissémination et de germination des graines, puis de survie et de
 croissance des plantules jusqu'à un seuil de recrutement. Ce seuil est
 un diamètre minimum, représentatif de la taille et de la biomasse de
-l'arbre, à partir duquel l'individu est considéré comme assez développé
-pour participer au fonctionnement de l'écosystème et pour intégrer les
-inventaires. Les processus écologiques qui régulent le recrutement des
-espèce déterminent donc la réponse des communautés aux perturbations et
-leur résilience en termes de diversité,de composition et de
-fonctionnement \autocites{Denslow1980}{Schnitzer2001}{Asner2004}.
+l'arbre, à partir duquel l'individu est intégré aux inventaires car
+considéré comme assez développé pour participer significativement au
+fonctionnement de l'écosystème. Les processus écologiques qui régulent
+le recrutement des espèce sont donc des déterminants majeurs de la
+réponse des communautés aux perturbations
+\autocites{Denslow1980}{Schnitzer2001}{Asner2004}.
 
 \begin{figure*}
 
@@ -481,50 +475,50 @@ fonctionnement \autocites{Denslow1980}{Schnitzer2001}{Asner2004}.
 \subsection{Les règles d'assemblage des
 communautés}\label{les-regles-dassemblage-des-communautes}
 
-Expliciter et comprendre la réponse des forêts aux perturbations
-nécessité d'expliciter les processus écologiques sous-jacents. Plusieurs
-hypothèses sur les processus d'assemblage des communautés sont débattues
-aujourd'hui, notamment quant au rôle des processus stochastiques et
-déterministes. Les processus déterministes sélectionnent les espèces de
-la communauté selon leur performance dans l'environnement biotique et
-abiotique de la communauté , définie par leurs caractéristiques
-biologiques \autocite{Molino2001}. Les processus stochastiques, qui
-relèvent de la théorie neutre, supposent un assemblage aléatoire
-dépendant uniquement de l'histoire de la communauté et des limitations
-physique de dispersion ou de croissance (barrière à la dispersion, ordre
-d'arrivée des espèces) \ref{fig:AssemblyRules} \autocite{Hubbell2001}.
+En plus d'expliciter la réponse des communautés aux perturbations il est
+primoridial d'en comprendre les processus sous-jacents. Plusieurs
+hypothèses quant aux processus d'assemblage des communautés sont
+débattues aujourd'hui, notamment vis à vis de l'importance des processus
+stochastiques et déterministes. Les processus déterministes
+sélectionnent les espèces de la communauté sur la base de leurs
+caractéristiques biologiques, en fonction de leurs performance dans
+l'environnement biotique et abiotique \autocite{Molino2001}. Les
+processus stochastiques, qui relèvent de la théorie neutre, supposent un
+assemblage aléatoire de sespèces dépendant uniquement de l'histoire de
+la communauté et des limitations physique de dispersion ou de croissance
+(barrière à la dispersion, ordre d'arrivée des espèces)
+\ref{fig:AssemblyRules} \autocite{Hubbell2001}.
 
-Le débat quant au rôle respectifs des processus stochastiques et
+Le débat quant au rôle respectif des processus stochastiques et
 déterministes est matérialisé dans le cas des forêts tropicales par la
 controverse sur la théorie des perturbations intermédiaires
 (\emph{Intermediaite Disturbance Hypothesis}, \emph{IDH} en anglais).
 Cette théorie suppose la prépondérance de processus déterministes
-d'exclusion compétitive et de filtrage des espèces et prédit que, sous
-un certain seuil, la diversité est d'autant plus élevée que le milieu
-est perturbé \autocite{Molino2001}. Un tel régime de perturbations
-intermédaires ferait varier les conditions environnementales sans
-engendrer de modification drastique. Cette variabilité permettrait à un
-large panel d'espèces de s'installer ou de s'imposer lorsque les
-conditions environnementales leur deviennent favorables ou qu'elles
-deviennent plus compétitives relativement au reste de la communauté. Au
-delà d'un seuil d'intensité de perturbation en revanche les processus de
-sélection excluent plus d'espèces qu'ils n'en favorisent et la diversité
-des communautés diminue
+d'exclusion compétitive des espèces. Elle prédit alors une diversité
+maximale pour des régimes de perturbation réguliers et d'intensité
+moyenne évitant la dominance de quelques espèces \autocite{Molino2001}.
+Un tel régime de perturbations intermédaires correspond en effet à des
+conditions environnementales variables permettrait à un large panel
+d'espèces de s'installer ou de s'imposer lorsque les conditions
+environnementales leur deviennent favorables en comparaison du reste de
+la communauté. Au delà d'un seuil d'intensité de perturbation en
+revanche les processus de sélection excluent plus d'espèces qu'ils n'en
+favorisent et la diversité des communautés diminue
 \autocites{Chesson2000}{Kariuki2006a}{Berry2008a}.
 
 A l'inverse la théorie neutre suppose que les espèces sont équivalentes
 et que leur abondance ne dépend pas de leurs caractéritiques
-biologiques. L'abondance des espèces dépendrait plutôt de processus
-aléatoires de dispersion, de croissance et de survie qui résultent en un
+biologiques. L'abondance des espèces dépendrait alors de processus
+aléatoires de dispersion, de croissance et de survie résultant en un
 assemblage stochastique des communautés \autocite{Hubbell2001}.
 
 Bien que débattues les hypothèses déterministe et stochastique ne sont
-cependant pas incompatibles et ont montré pouvoir prédire la structure
-des communautés à différentes échelles et à différents niveaux de
-richesse. Il est vraisemblable que les communautés résultent de
-combinaisons variables de processus déterministes et stochastiques, et
-la question se porte alors sur les facteurs qui influencent l'importance
-relative de ces processus \autocite{Chave2004}.
+pas incompatibles et peuvent prédire la structure des communautés à
+différentes échelles et pour différents niveaux de richesse. Il est
+vraisemblable que les règles d'assemblage des communautés soient une
+combinaison variable de processus déterministes et stochastiques, et la
+question se pose alors des facteurs qui déterminent ces combinaisons
+\autocite{Chave2004}.
 
 \section{Comment mesurer la diversité biologique
 ?}\label{comment-mesurer-la-diversite-biologique}
@@ -1036,58 +1030,66 @@ soumisson.
 problème universel de
 l'incertitude}\label{des-inventaires-forestiers-aux-trajectoires-de-diversite-le-probleme-universel-de-lincertitude}
 
-La biodiversité des forêts tropicales, malgré son importance pour le
-fonctionnement, les biens et les services des environnementaux des
-écosystèmes, reste largement méconnue. Parmi les espèces tropicales
-inventoriées, un grand nombre ne correspond qu'à une observation unique
-\autocite{Feeley2011} ce qui limite considérablement l'étude de la
-distribution et de la dynamique des espèces. Cette méconnaissance
-provient du coût financier et en main d'oeuvre des inventaires, et
-limite la précision des mesures et des suivi de biodiversité en forêt.
-Dans ce contexte il est indispensable de développer des méthodes
-améliorant la précision des inventaires et la valorisation des données
-disponibles \autocite{Baraloto2012}.
+La biodiversité des forêts tropicales reste largement méconnue malgré
+son importance pour le fonctionnement des écosystèmes et le maintien des
+biens et les services qu'ils rendent. Parmi les espèces tropicales
+inventoriée en milieu tropical un grand nombre ne correspond qu'à
+l'observation d'un unique individu \autocite{Feeley2011}, et la préciion
+des inventaires reste fortement contrainte par le coût financier et la
+main d'oeuvre qu'ils représentent. Ceci limite la précision des mesures
+et l'éimportance des suivis de biodiversité et restreint en particulier
+l'étude de la distribution des espèces et de la dynamique des
+communautés dans le temps. Dans ce contexte il est indispensable de
+développer des méthodes pour améliorer la précision des inventaires et
+la valorisation des données disponibles \autocite{Baraloto2012}.
 
 \section{Noms vernaculaires et propagation des incertitudes
 taxonomiques}\label{noms-vernaculaires-et-propagation-des-incertitudes-taxonomiques}
 
-Une approche largement adoptée pour améliorer le coût et le délais des
-inventaires consiste à employer les noms vernaculaires plutôt que les
-noms botaniques précis. Les noms vernaculaires sont mieux connus et,
-souvent basés sur des critères morphologiques, plus faciles à attribuer
-et ne nécessitent pas de vérification ultérieure à partir d'herbiers.
-L'usage des noms vernaculaires entraîne cependant des incertitudes
-taxonomiques importantes, diminuant la précision des mesures de
-diversité. Les noms vernaculaires correspondent en effet à plusieurs
-noms botaniques et ces correspondances varient au cours du temps et
-selon les équipes de terrain \autocite{Oldeman1968}. Pour pallier ces
-imprécisions, nous proposons un estimateur de la diversité intégrant les
-incertitudes botaniques. Cet estimateur a d'une part été calibré et
-utilisé pour l'ensemble des mesures de diversité examinant la réponse
-des communautés de Paracou aux perturbations. D'autre part il a été
-appliqué au contexte des inventaires pré-exploitation qui, nombreux et
-réalisés sur de grandes surfaces, sont une source d'information
-incontournable \autocites{terSteege2000}{Guitet2014}. Nous avons estimé
-la précision et la biais de l'estimateur dans ce contexte et proposons
-en conséquence une méthode d'inventaire optimisée.
+Pour diminuer le coût et le délais des inventaires l'emploi des noms
+vernaculaires plutôt que des noms botaniques précis a été largement
+adopté. Les noms vernaculaires sont mieux connus, plus faciles à
+attribuer car souvent basés sur des critères morphologiques, et ne
+nécessitent pas de vérification ultérieure à partir d'herbiers. L'usage
+des noms vernaculaires entraîne cependant des incertitudes taxonomiques
+importantes, limitant la précision des mesures de diversité. Les noms
+vernaculaires correspondent en effet à plusieurs noms botaniques et ces
+correspondances varient au cours du temps et selon les équipes de
+terrain \autocite{Oldeman1968}. De plus, ces correspondances
+vernaculaires/botaniques multiples ne permettent pas des mesures
+directes de la diversité fonctionnelle, les bases de données
+fonctionnelles fournissant des informations à l'échelle des noms
+botaniques. Pour pallier ces difficultés, nous proposons ici un
+estimateur de la diversité permettant de transcrire les inventaires
+vernaculaires en inventaires botaniques et d'intégrer les incertitudes
+taxonomiques aux mesures de diversité. Une fois calibré cet estimateur a
+été employé pour l'ensemble des mesures de diversité taxonomique et
+fonctionnelle développées dans le suite de ce travail. Par ailleurs
+l'estimateur de diversité a été appliqué au contexte des inventaires
+pré-exploitation qui, nombreux et réalisés sur de grandes surfaces, sont
+une source d'information incontournable
+\autocites{terSteege2000}{Guitet2014} pour l'étude et la gestion de la
+biodiversité en forêt tropicale. Dans ce contexte, l'analyse de la
+performance de l'estimateur a permis de proposé une méthode d'inventaire
+optimisant les coût et la précision des inventaires.
 
-L'estimateur se base sur la reconstitution d'inventaires complets
-théoriques en noms botaniques, générés à partir des probabilités
-d'association entre noms vernaculaires et botaniques. Dans un premier
-temps l'estimateur a été calibré en déterminant la source d'information
-la plus fiable utilisée pour calculer les probabilités d'associations
-entre noms vernaculaires et botaniques. Deux sources d'informations sont
-disponible pour estimer les probabilités d'association: les inventaires
-réels donnant une probabilité d'association observée ou les tables
-générales listant les associations possibles selon les dires d'experts.
-Une fois calibré, l'estimateur de diversité a été appliqué à des
-inventaires pré-exploitation qui, réalisés à large échelle,
-permettraient d'élargir l'étude de la biodiversité forestière dans le
-temps et l'espace. L'estimateur nous a permis d'évaluer la fiabilité des
-inventaires et de proposer une méthode d'inventaire optimisant le coût
-et la précision des inventaires. Spécifiquement, nous avons déterminé
-les efforts d'échantillonnage (nombre d'arbrse inventoriés) et
-d'identification botanique (pourcentage d'espèces identifiées) optimaux.
+L'estimateur se base sur la reconstitution d'inventaires complets en
+noms botaniques, générés à partir des probabilités d'association entre
+noms vernaculaires et botaniques. Dans un premier temps l'estimateur a
+été calibré en déterminant la source d'information la plus adaptée au
+calcul des probabilités d'associations vernaculaires/botaniques. Deux
+sources d'informations sont disponibles pour estimer ces probabilités:
+les inventaires réels donnant une fréquence d'association observée et
+les tables générales listant les associations vernaculaire/botaniques
+possibles à partir de dires d'experts (équipes de terrain, taxonomiqtes,
+etc.). Une fois calibré, l'estimateur de diversité a été appliqué à des
+inventaires pré-exploitation. Cette étude a permis d'une part d'évaluer
+la fiabilité des inventaires selon l'effort d'identification
+(pourcentage d'espèces identifiées en nom botanique) et l'effort
+d'éhantillonnage (nombre d'arbres pré-inventoriés pour calculer les
+probabilité d'association vernaculaire/botanique). D'autre part l'étude
+a permis de proposer une méthode d'inventaire optimisant le coût et la
+précision des inventaires.
 
 \section{Application de l'estimateur aux inventaires de
 Paracou}\label{application-de-lestimateur-aux-inventaires-de-paracou}
@@ -1111,33 +1113,36 @@ complets \ref{fig:FigTreesSp}.
 \caption{Biais de l'estimateur pour les diversité de \textbf{(a)} Richesse, \textbf{(b)} Shannon et \textbf{(c)} Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\% de l'estimateur.}\label{fig:FigTreesSp}
 \end{figure*}
 
-Les estimateurs de richesse et d'équitabilité sont d'autant plus biaisés
-que le degré d'indétermination est élevé. Tandis que la richesse est
-sous-estimée, l'équitabilité est sur-estimée: l'estimateur tend donc à
-homogénéiser les distributions d'abondance: les noms vernaculaires ont
-plus de chance d'être associés à une espèce abondante (plus fréquente)
-et la queue de distribution en espèces rares n'est pas correctement
-simulée. Le biais de l'estimateur dépend à la fois de l'abondance des
-espèces et de leur probabilité d'être indéterminée semble donc difficile
-à formaliser car il dépend de la relation entre rareté et probabilité
-d'indétermination des espèces, qui est déterminée par la connaissances
-botaniques de l'équipe d'identification.
+Les estimateurs de richesse et d'équitabilité (diversité de Shannon et
+Simpson) sont d'autant plus biaisés que le degré d'indétermination est
+élevé. Tandis que la richesse est sous-estimée, l'équitabilité est
+sur-estimée: l'estimateur tend donc à homogénéiser les distributions
+d'abondance. Un nom vernaculaire a plus de chances d'être associé à une
+espèce abondante (plus fréquente) qu'à une espèce rare et donc la queue
+de distribution en espèces rares n'est pas correctement reproduite. Ce
+biais de l'estimateur semble difficile à formaliser car il dépend de la
+relation entre rareté et probabilité d'indétermination des espèces, ce
+qui rend pour le moment difficile toute correction formelle.
 
-Dans la suite de ce travail nous avons choisi de pallier les biais de
+Dans la suite de ce travail nous avons choisi de pallier ce biais de
 l'estimateur en nous rapportant au niveau taxonomique supérieur et en
-étudiant les diversité en genres botaniques. L'estimateur de la richesse
-reste peu biaisé jusqu'à un seuil d'indétermination de 80\%, au delà
-duquel la richesse est sous-estimée. L'équitabilité est surestimée,
-d'autant plus que le degré d'indétermnation est élevé (diversités de
-Shannon et de Simpson), mais le biais ne dépasse pas 10\% de la
-diversité réelle \ref{fig:FigTreesGenus}.
+étudiant la diversité au niveau du genre botanique. Dans le cas d'une
+mesure rapportée au genre, l'estimateur de la richesse reste peu biaisé
+jusqu'à un seuil d'indétermination de 80\% au delà duquel la richesse
+est trop sous-estimée. L'équitabilité est surestimée, d'autant plus que
+le degré d'indétermnation est élevé (diversités de Shannon et de
+Simpson), mais le biais ne dépasse pas 10\% de la diversité réelle
+\ref{fig:FigTreesGenus}.
 
-Dans le cas de Paracou, la détermination des parcelles a varié au cours
-du temps et entre les parcelles. Au moment de travail, dans les
+Dans le cas de Paracou, la détermination des parcelles est variable au
+cours du temps et entre les parcelles. Au moment de travail, dans les
 parcelles contrôle et du traitement 3 moins de 5\% des arbres n'ont pas
 d'identification botanique, tandis que les parcelles du traitement 1 ou
 2 restent mal déterminées (30\% d'indétermination pour certaines
-parcelles).
+parcelles). Les trajectoires de diversité seront donc étudiées en termes
+de différence à l'état initial de chaque parcelle. Pour l'état initial
+nous prendrons comme référence les inventaires 5 ans après exploitation,
+date à partir de laquelle l'incertitude des inventaires reste stable.
 
 \begin{figure*}
 
@@ -1151,30 +1156,27 @@ parcelles).
 \section{Application de l'estimateur au cas des inventaires
 pré-exploitation}\label{application-de-lestimateur-au-cas-des-inventaires-pre-exploitation}
 
-Assess the fate of Neotropical forests requires to accurately measures
-are the base of reliable foret monitoring, crucial to assess the fate of
-neotropical forests in the current changing climate. The costs of
-botanical inventories and the taxonomic complexity of Neotropical
-forests make predominant forest inventories in vernacular names,
-although these hold high botanical uncertainty. Several methods proposed
-to compensate botanical uncertainties but none allowed reliable neither
-functional nor fine-scale diversity approaches. Here we offer a
-polyvalent diversity estimator propagating botanical uncertainties and
-workable in numerous specific cases. From a large neotropical
-inventory,we calibrated the stimator and through simulations we
-determined an ideal inventory protocol optimizing the costs and the
-accuracy of forest inventories.\\
-Our study first highlighted the unavoidable use to real inventories,
-compared to general vernacular/botanical tables, and the inescapable
-recourse to taxonomists to ensure robust diversity survey. Then our
-simulations allowed estimated the minimum sampling size (XX trees) and
-percentage of species accurately identified (80\% of species known) for
-inventories to allow diversity estimations with a 10\% error.
-
-The diversity estimator effectively assessed diversity for a variety of
-pre-logging and experimental forest monitoring, acknowledging the
-rescourse to taxonomists, and enabled to design optimized inventory
-protocols.
+Comprendre et anticiper le devenir des forêts tropicales dans le
+contexte actuel requiert un suivi temporel des communautés et des
+mesures de diversité précis. Le coût des inventaires forestiers conduit
+cependant la majorités à être réalisés en noms vernaculaires, malgré que
+ceux-ci impliquent d'importances incertitudes taxonomiques. Plusieurs
+méthodes ont été proposées pour pallier ces incertitudes mais aucune
+n'est encore adaptée à des suivi de diversité fonctionnelle ou à petite
+échelle spatiale. Nous proposons ici un estimateur de diversité
+adaptable à chaque inventaire particulier et intégrant les incertitudes
+botaniques inhérentes aux inventaires forestiers. Nous avons calibré
+l'estimateur de diversité à partir d'un large inventaire en forêt
+Néotropicale et la simulation de gradients d'incertitude taxonomique et
+d'effort d'échantillonnage ont permis de déterminé un protocole
+d'inventaire idéal optimisant le coût des inventaires et la précision de
+l'estimateur. Notre analyse a d'une part souligné la nécessité d'avoir
+recours à des inventaires réels et à une expertise botanique de terrain
+par assurer la fiabilité de mesures de diversité. D'autre part nous
+avons pu identifié un protocole idéal assurant une estimation de la
+diversité avec un intervalle de confiance de 10\%, basé sur l'inventaire
+de 3 000 arbres au minimum et sur une effort d'identification
+taxonomique de 80\% des espèces.
 
 \newpage
 
@@ -1183,8 +1185,6 @@ Based on a Minimum Field
 Work}\label{inescapable-taxonomists-workable-biodiversity-management-based-on-a-minimum-field-work}
 \addcontentsline{toc}{section}{Inescapable Taxonomists: Workable
 Biodiversity Management Based on a Minimum Field Work}
-
-\newpage
 
 \chapter{Trajectoires de diversité à l'échelle des
 communautés}\label{trajectoires-de-diversite-a-lechelle-des-communautes}
@@ -1814,6 +1814,15 @@ nouvelles perspectives de modélisation de la diversité.
 Biodiversite, Forêts Néotropicales, Perturbation, Ecologie des Communautés, Trajectoires, Résilience.
 ~\\
 
+\selectlanguage{english}
+\item[Abstract:]
+English abstract, on the last page.
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies,
+purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+
+Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
 \selectlanguage{english}
 \item[Keywords:]

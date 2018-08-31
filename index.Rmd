@@ -1,79 +1,23 @@
 --- 
-title: "Réponse et résilience de biodiversité des forêts tropicales après perturbation"
+title: "Réponse et résilience de la biodiversité des forêts tropicales après perturbation"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
-output: pdf_book
-biblio-style: authoryear-ibid
-bibliography:
-- packages.bib
-- 01ref-IntroG.bib
-- 02ref-chap2Incert.bib
-- 03ref-chap3WholePlot.bib
-- 04ref-Recruitment.bib
-- 05ref-CclG.bib
-cite-style: verbose-inote
-classoption:
-- extrafontsizes
-- onecolumn
-- openright
-colorlinks: yes
-  To be coming
-description: "Manuscrit de thèse"
-documentclass: memoir
-fig_crop: yes
-fontsize: 11pt
-fourthpagefontsize: normalsize
-graphics: yes
-keywords:
-- Biodiversity
-- Neotropical forests
-- Perturbation
-- Communities Ecology
-- Dynamic trajectories
-- Resilience
-lang: fr
-link-citations: yes
-mots-cles:
-- Biodiversite
-- Forêts Néotropicales
-- Perturbation
-- Ecologie des Communautés
-- Trajectoires
-- Résilience
-otherlangs:
-- en-US
-- en-GB
-- fr
-biblatexoptions:
-- backend=bibtex
-- citestyle=verbose-inote
-- isbn=false
-- backref=true
-- giveninits=true
-- uniquename=init
-- maxcitenames=2
-- maxbibnames=150
-- sorting=nyt
-- sortcites=false
-papersize: A4
-resume: |
-  Le fonctionnement, le maintien et la résilience des forêts repose sur la diversité des communautés d'arbres qui les constituent. Clarifier la réponse de la biodiversité forestière aux perturbations est primordial dans le contexte des changements actuels pour préserver et gérer les forêts et les biens et services qu'elles rendent, spécifiquement en forêt tropicale où la diversité est à la fois la plus élevée et la plus menacée au monde.
-  Dans ce contexte cette thèse cherche à décrire la réponse aux perturbations de la diversité des communautés forsetières, à identifier les processus écologiques sous-jacents, et à discuter des perspectives pour la gestion et la conservation des forêts. 
-  
-  Le suivi de la station de paracou permet d'examiner de façon exhaustive sur 30 années la réponse des communautés tropicales après un gradient de perturbation.
-  Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. Non seulement appliqué dans le cadre de cette thèse aux données de Paracou, cet estimateur a été appliqué au contexte de l'exploitation forestière pour proposer une méthode d'inventaire forestier optimisant le coût et la précision des inventaires.
-  Dans un deuxième temps nous avons analysé les trajectoires après perturbation de la diversité et de la composition taxonomique et fonctionnelle des communautés, à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
-  Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
-  
-  Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation aud delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taoxnomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbation et faisant office de paramètre synétiquement déterminant de la restauration des commuanutés après perturbation.
-  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitatoin durable des forêts et de nouvelles perspectives de modélisation de la diversité.
 site: bookdown::bookdown_site
+description: "Manuscrit de thèse"
+maintitlepage:
+  epigraph: |
+    epigraphe
+
+output: pdf_book
 PhD-HDR:
-  DIS: ST
   DocType: PhD
   ED: UG
   Ets: UG
+  DIS: ST
+  speciality: Écologie
   defence-date: Novembre 2018
+  lab: UMR EcoFoG, Écologie des Forêts de Guyane
+  njudge: 6
   jury1:
     category: judge
     name: Olivier Hardy
@@ -94,10 +38,78 @@ PhD-HDR:
     name: Bruno Hérault
     other: Co-directeur de thèse
     status: Chercheur
-  lab: UMR EcoFoG, Ecologie des Forêts de Guyane
-  njudge: 6
-  speciality: Ecologie
+documentclass: memoir
+classoption:
+- extrafontsizes
+- onecolumn
+- openright
+papersize: A4
+fontsize: 11pt
 toc-depth: 3
+lang: fr
+otherlangs:
+- en-US
+- en-GB
+- fr
+bibliography:
+- packages.bib
+- 01ref-IntroG.bib
+- 02ref-chap2Incert.bib
+- 03ref-chap3WholePlot.bib
+- 04ref-Recruitment.bib
+- 05ref-CclG.bib
+biblio-style: authoryear-ibid
+cite-style: verbose-inote
+biblatexoptions:
+- backend=bibtex
+- citestyle=verbose-inote
+- isbn=false
+- backref=true
+- giveninits=true
+- uniquename=init
+- maxcitenames=2
+- maxbibnames=150
+- sorting=nyt
+- sortcites=false
+link-citations: yes
+colorlinks: yes
+graphics: yes
+fig_crop: yes
+
+resume: |
+  Le fonctionnement, le maintien et la résilience des forêts repose sur la diversité des communautés d'arbres qui les constituent. Clarifier la réponse de la biodiversité forestière aux perturbations est primordial dans le contexte des changements actuels pour préserver et gérer les forêts et les biens et services qu'elles rendent, spécifiquement en forêt tropicale où la diversité est à la fois la plus élevée et la plus menacée au monde.
+  Dans ce contexte cette thèse cherche à décrire la réponse aux perturbations de la diversité des communautés forsetières, à identifier les processus écologiques sous-jacents, et à discuter des perspectives pour la gestion et la conservation des forêts. 
+  
+  Le suivi de la station de paracou permet d'examiner de façon exhaustive sur 30 années la réponse des communautés tropicales après un gradient de perturbation.
+  Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. Non seulement appliqué dans le cadre de cette thèse aux données de Paracou, cet estimateur a été appliqué au contexte de l'exploitation forestière pour proposer une méthode d'inventaire forestier optimisant le coût et la précision des inventaires.
+  Dans un deuxième temps nous avons analysé les trajectoires après perturbation de la diversité et de la composition taxonomique et fonctionnelle des communautés, à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
+  Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
+  
+  Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation aud delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taoxnomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbation et faisant office de paramètre synétiquement déterminant de la restauration des commuanutés après perturbation.
+  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitatoin durable des forêts et de nouvelles perspectives de modélisation de la diversité.
+mots-cles:
+- Biodiversite
+- Forêts Néotropicales
+- Perturbation
+- Ecologie des Communautés
+- Trajectoires
+- Résilience
+abstract: |
+  English abstract, on the last page.
+  
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+  
+  Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+keywords:
+- Biodiversity
+- Neotropical forests
+- Perturbation
+- Communities Ecology
+- Dynamic trajectories
+- Resilience
+
+fourthpagefontsize: normalsize
+
 preamble: >
   \usepackage{textcomp}
   \DeclareUnicodeCharacter{B0}{\textdegree}
@@ -118,7 +130,7 @@ preamble: >
 (ref:Boldc) **(c)**
 
 <!-- knitr and R options (packages, ...) --> 
-```{r Options, echo=FALSE, message=FALSE}
+```{r Options, echo=FALSE, warning=F, message=FALSE}
 knitr::opts_chunk$set(cache=T, echo=F, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='100%', fig.asp=.75, fig.align='center',echo=F)
 # Installation of packages if necessary and loading
 Library <- function(Packages) {
