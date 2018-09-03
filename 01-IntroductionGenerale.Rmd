@@ -44,15 +44,15 @@ Cette approche se traduit également par la mise en place de modes de gestion fo
 
 ## Exploitation et conservation des forêts tropicales
 
-Parmi les différentes approches de conservation des forêts tropicales, la seule désignation d'aires protégées ne suffit pas au maintien de leur incroyable biodiversité et leur fonctionnement complexe [@Sist2015].
-L'exploitation forestière est aujourd'hui un élément central pour la conservation des forêts car elle assure à la fois des profits économiques et sociaux tout en préservant la biodiversité et le fonctionnement des écosystèmes.
-L'exploitation sélective en particulier peut jouer un rôle majeur.
+L'une des approches les plus intuitives et courantes pour la conservation des forêts tropicales est la désignation d'aires protégées exemptes de toute activité anthropique.
+Cette approche seule ne suffit cependant pas pour maintenir l'incroyable biodiversité de ces forêts et leur fonctionnement complexe [@Sist2015].
+Pour cela l'exploitation forestière joue aujourd'hui un rôle central en permettant à la fois le maintien du fonctionement des forêts et un développement économique et social, sous réserve d'une gestion adéquate.
 
-L'exploitation sélective est à l'exploitation de quelques espèces cibles dont les individus exploités sont désignés à l'avance.
-Elle crée des trouées éparses dans la canopée et nécessite l'ouverture d'un réseau important de dessertes pouvant impacter la biodiversité des forêts.
-L'exploitation sélective reste néanmoins bien moins préjudiciable au fonctionnement de l'écosystème que de nombreuses autres activités anthropiques.
+L'exploitation sélective est l'exploitation de quelques espèces cibles dont les individus exploités sont désignés à l'avance.
 Elle concerne environ 20% de la surface des forêts tropicales et représente 12% de la production mondiale de bois d'oeuvre [@Martin2015].
-L'exploitation représente ainsi un potentiel important pour la préservation des forêts, mais peut également peut avoir des conséquences significatives et entraîner par exemple des changements de composition et de diversité des communautés, voire l'extinction locale d'espèces [@Gibson2011].
+Cette exploitation crée des trouées éparses et nécessite l'ouverture d'un réseau important de dessertes modifiant la structure de la canopée.
+L'exploitation sélective peut impacter le fontionnement des communautés mais reste néanmoins bien moins préjudiciable que de nombreuses autres activités anthropiques.
+Bien gérée, l'exploitation sélective représente un potentiel de conservation important car elle allie développement économique et préservation du fonctionnement des forêts, mais peut également peut avoir des impacts négatifs comme par exemple des changements de composition et de diversité, voire l'extinction locale d'espèces [@Gibson2011].
 L'impact de l'exploitation sélective en forêt tropicale dépendra des pratiques de gestion.
 ces pratiques sont définies principalement par le diamètre minimum de coupe et par le temps de récupération après exploitation [@Sist2015], et sont aujourd'hui essentiellement calibrées en vue de la reconstitution du stock de bois d'oeuvre.
 Elles intègrent cependant de plus en plus des enjeux de conservation en visant le maintien de la production sans entraîner de préjudice à l'intégrité et la productivité des forêts, ni de dommages environnementaux ou sociaux [@ITTO2005].
@@ -61,26 +61,26 @@ Dans ce contexte, toute réflexion sur la durabilité et l'amélioration de la g
 
 ## Diversité et assemblage des communautés
 
-Les arbres sont les éléments essentiels des écosystèmes forestiers.
-Leur diversité reflète celle des autres groupes floristiques et faunistiques et détermine largement le fonctionnement des communautés [@Guitet2017].
+Comprendre et anticiper la réponse aux perturbations des forêts tropicales passe par l'étude des communautés d'arbres, qui en sont les éléments principaux, et en particulier par leur diversité et leur composition.
+La diversité des communautés d'arbres reflète celle des autres groupes floristiques et faunistiques et détermine largement le fonctionnement des communautés [@Guitet2017].
 Individuellement, chaque espèce a une valeur intrinsèque pour le patrimoine naturel global et en fonction de ses caractéristiques biologiques peut avoir un rôle clé dans la communauté, comme c'est la cas pour les espèces *clé de voûte* [@Jones1994; @Power1996; @Gardner2007].
-A l'échelle de la communauté, les processus et la productivité de l'écosystème dépendent des interactions entre individus et avec l'environnement et donc de leur diversité et de leur composition en espèces [@Begon2006].
-La diversité détermine égalment la stabilité et la résilience des communautés en atténuant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
-Toute perturbation ou changement susceptible de modifier la biodiversité et la composition des comunautés impacte donc le fonctionnement des écosystèmes, mais le détail de ces impacts et de leurs conséquences reste mal connu.
+A l'échelle de la communauté la diversité et la composition des communautés détermine les interactions entre individus et avec l'environnement, et déterminent don le fonctionnement et la productivité des écosystèmes [@Begon2006].
+La diversité détermine également la stabilité et la résilience des communautés en atténuant l'impact des maladies, des espèces invasives et des variations environnementales [@Elmqvist2003].
+Toute perturbation ou changement susceptible de modifier la biodiversité et la composition des communautés impacte donc le fonctionnement des écosystèmes, mais le détail de ces impacts et de leurs conséquences reste mal connu.
 
 ### Succession, mortalité et recrutement: supports de la trajectoire des communautés
 
-Une perturbation correspond à des changements de l'environnement biotique (interactions entre individus) et abiotique (ensoleillement, flux d'eau, de nutriments et de matière) des communautés.
+Une perturbation correspond à des changements de l'environnement biotique (interactions entre individus) et abiotique (ensoleillement, flux d'eau, de nutriments et de matière).
 La réponse des communautés aux perturbations a été décrite comme une succession temporelle de processus écologiques consécutifs à ces changements environnementaux [@Clements1916].
-Les modèles de succession identifiés correspondent dans un premier temps au recrutement d'espèces pionnières, meilleures acquisitrices des ressources rendues disponibles après perturbation.
-Dans un deuxième temps avec la croissance des premiers recrutés la disponibilité en ressources diminue et la compétition augmente, excluant du recrutement les espèces les moins compétitrices. 
-Les pionnières tout d'abord recrutées, sénescentes ou exclues par la compétition, sont petit à petit remplacées par les espèces de succession tardive qui correspondent en forêt tropicale à des espèces de croissance lente mais à longue durée de vie.
-Ces combinaisons successives de processus démographiques de mortalité (disparition), et de recrutement (apparition) d'espèces dans la communauté restaure ainsi de façon déterministe une communauté typique de succession tardive  [@Denslow2000].
+Les modèles de succession identifiés impliquent dans un premier temps le recrutement d'espèces pionnières, meilleures acquisitrices des ressources rendues disponibles après perturbation.
+Dans un deuxième temps la croissance de ces premiers recrutés diminue la disponibilité en ressources et augmente la compétition, excluant du recrutement les espèces les moins compétitrices. 
+Les pionnières recrutées en premier lieu deviennent alors sénescentes ou exclues par la compétition, et sont petit à petit remplacées par les espèces de succession tardive qui correspondent en forêt tropicale à des espèces de croissance lente mais à longue durée de vie.
 
+Ce modèle de succession correspond à différentes combinaisons de processus de mortalité (disparition) et de recrutement (apparition) d'espèces dans la communauté et restaure ainsi de façon déterministe une communauté typique de succession tardive  [@Denslow2000].
 Le recrutement est ainsi un élément clé de la réponse des communautés aux perturbations. 
-il regroupe l'ensemble des processus de production, de dissémination et de germination des graines, puis de survie et de croissance des plantules jusqu'à un seuil de recrutement.
-Ce seuil est un diamètre minimum, représentatif de la taille et de la biomasse de l'arbre, à partir duquel l'individu est intégré aux inventaires car considéré comme assez développé pour participer significativement au fonctionnement de l'écosystème.
-Les processus écologiques qui régulent le recrutement des espèce sont donc des déterminants majeurs de la réponse des communautés aux perturbations [@Denslow1980; @Schnitzer2001; @Asner2004].
+Le recrutement regroupe l'ensemble des processus de production, de dissémination et de germination des graines, et de survie et de croissance des plantules jusqu'à un seuil de recrutement.
+Ce seuil est un diamètre minimum représentatif de la taille et de la biomasse de l'arbre à partir duquel l'individu est considéré comme assez développé pour participer significativement au fonctionnement de l'écosystème et est intégré aux inventaires.
+Les nombreux processus écologiques qui régulent les différentes étapes du recrutement sont donc des déterminants majeurs de la réponse des communautés aux perturbations [@Denslow1980; @Schnitzer2001; @Asner2004].
 
 ```{r AssemblyRules, fig.align ='center',out.width='100%', fig.cap="Schéma des processus déterminant la réponse des communautés végétales aux perturbations. Les processus déterministes (partie haute) sélectionnent les espèces recrutées dans la communauté selon leurs préférences environnementales e leur compétitivité, tandis que les processus stochastiques (partie basse) reviennent à une sélection aléatoire."}
 knitr::include_graphics("ExternalFig/Fig_AssemblyRules.jpg")
@@ -88,49 +88,48 @@ knitr::include_graphics("ExternalFig/Fig_AssemblyRules.jpg")
 
 ### Les règles d'assemblage des communautés
 
-En plus d'expliciter la réponse des communautés aux perturbations il est primoridial d'en comprendre les processus sous-jacents.
-Plusieurs hypothèses quant aux processus d'assemblage des communautés sont débattues aujourd'hui, notamment vis à vis de l'importance des processus stochastiques et déterministes.
+La réponse des communautés aux perturbations résulte d'un ensemble de processus d'assemblage et de maintien des espèces.
+Plusieurs hypothèses quant à ce sprocessus sont débattues aujourd'hui, notamment vis à vis de l'importance des processus stochastiques et déterministes.
 Les processus déterministes sélectionnent les espèces de la communauté sur la base de leurs caractéristiques biologiques, en fonction de leurs performance dans l'environnement biotique et abiotique [@Molino2001].
-Les processus stochastiques, qui relèvent de la théorie neutre, supposent un assemblage aléatoire de sespèces dépendant uniquement de l'histoire de la communauté et des limitations physique de dispersion ou de croissance (barrière à la dispersion, ordre d'arrivée des espèces) \@ref(fig:AssemblyRules) [@Hubbell2001].
+Les processus stochastiques, qui relèvent de la théorie neutre, supposent un assemblage aléatoire des espèces dépendant uniquement de l'histoire de la communauté et des limitations physique de dispersion ou de croissance (barrière à la dispersion, ordre d'arrivée des espèces) \@ref(fig:AssemblyRules) [@Hubbell2001].
 
-
-Le débat quant au rôle respectif des processus stochastiques et déterministes est matérialisé dans le cas des forêts tropicales par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis*, *IDH* en anglais).
-Cette théorie suppose la prépondérance de processus déterministes d'exclusion compétitive des espèces.
-Elle prédit alors une diversité maximale pour des régimes de perturbation réguliers et d'intensité moyenne évitant la dominance de quelques espèces [@Molino2001].
-Un tel régime de perturbations intermédaires correspond en effet à des conditions environnementales variables permettrait à un large panel d'espèces de s'installer ou de s'imposer lorsque les conditions environnementales leur deviennent favorables en comparaison du reste de la communauté.
-Au delà d'un seuil d'intensité de perturbation en revanche les processus de sélection excluent plus d'espèces qu'ils n'en favorisent et la diversité des communautés diminue [@Chesson2000;@Kariuki2006a;@Berry2008a].
+Le débat quant au rôle respectif des processus stochastiques et déterministes est matérialisé par la controverse sur la théorie des perturbations intermédiaires (*Intermediaite Disturbance Hypothesis*, *IDH* en anglais).
+Cette théorie suppose la prépondérance de processus déterministes d'exclusion compétitive et prédit une diversité maximale pour des régimes de perturbation réguliers et d'intensité moyenne évitant la dominance de quelques espèces [@Molino2001].
+Un tel régime de perturbations intermédaires premet en effet une variabilité des conditions environnementales qui permet à un large panel d'espèces de s'installer lorsque les conditions environnementales leur deviennent favorables, puis de persister dans la communauté.
+Au delà d'un seuil d'intensité de perturbation en revanche un trop grand nombre d'espèces sont exclues et les quelques espèces favorisées deviennent dominantes, si bien que la diversitédiminue [@Chesson2000;@Kariuki2006a;@Berry2008a].
 
 A l'inverse la théorie neutre suppose que les espèces sont équivalentes et que leur abondance ne dépend pas de leurs caractéritiques biologiques.
-L'abondance des espèces dépendrait alors de processus aléatoires de dispersion, de croissance et de survie résultant en un assemblage stochastique des communautés [@Hubbell2001].
+Les espèces favorisées suite aux perturbations seraient alors variables, l'abondance des espèces dépendrait uniquement de processus aléatoires de dispersion, de croissance et de survie résultant en un assemblage stochastique des communautés [@Hubbell2001].
 
 Bien que débattues les hypothèses déterministe et stochastique ne sont pas incompatibles et peuvent prédire la structure des communautés à différentes échelles et pour différents niveaux de richesse.
 Il est vraisemblable que les règles d'assemblage des communautés soient une combinaison variable de processus déterministes et stochastiques, et la question se pose alors des facteurs qui déterminent ces combinaisons [@Chave2004]. 
 
 ## Comment mesurer la diversité biologique ?
 
-Les processus démographiques et les règles d'assemblage d'espèces déterminent la structure, la composition et la diversité des communautés.
-Prédire et gérer l'avenir des forêts et en particularité de leur précieuse diversité biologique nécessite de comprendre le rôle des ces différents processus dans la définission de la diversité biologique dans tous ses aspects.
-La biodiversité est définie de l'échelle du gène à celle de l'écosystème considère la diversité des plantes, animaux, champignons et microorganismes qui constituent les écosystèmes, de leur variabilité génétique et phénotypique, et de la variabilité de leurs assemblages [@Loreau2005].
-La biodiversité est souvent réduite à celle de richesse en espèces, mais tient compte en réalité des multiples aspects de richesse, d'homogenéité, de disparité et d'interactions entre les éléments du vivant qui constituent les communautés.
-Appréhender les différents aspects de la biodiversité permet d'identifier les mécanismes écologiques fondamentaux qui régissent les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
+Mesurer la diversité des communautés, déterminante du  fonctionnement et du maintien des écosystèmes, est essentiel pour prédire et gérer l'avenir des forêts.
+La diversité est cependant une notion complexe qui englobe la diversité génétique et phénotypique des individus, et la variabilité de leurs assemblages [@Loreau2005].
+La biodiversité, souvent réduite à la notion de richesse spécifique, prend donc également en compte des aspects de richesse, d'équitabilité d'abondance, de similarité entre espèces.
+En plus de quantifier la diversité des communautés, ces différents aspects permettent d'appréhender les mécanismes écologiques régissant les écosystèmes et leurs dynamiques spatiales et temporelles [@Purvis2000; @Loreau2005].
 
-### Composition et dissimilarité entre communautés
+### Composition et dissimilarité
 
-De nombreuses mesures permettent d'estimer ce turnover, qui prennent en compte ou non l'abondance des espèces [@Podani2013].
-Nous avons choisis ici de mesurer le taux de remplacement d'abondance, ou similarité de Bray-Curtis, qui représente dans quelle mesure une communauté est le sous-ensemble d'une plus grande. 
-En pratique, si la communauté recrutée après exploitation répond aux mêmes lois que la communauté initiale elle sera équivalente à une communauté qui en aurait été tirée au hasard. La similarité de Bray-Curtis mesure la somme des abondances d'une commaunté remplacées par une espèce différente, normalisée par l'abondance totale partagée entre les deux communautés \@ref(eq:formNestedness).
+Comparer des communautés ou suivre leur évolution au cours du temps implique dans un premier temps de comparer leur composition et de quantifier le turnover des espèces.
+De nombreuses mesures permettent d'estimer ce turnover, prenant en compte ou non l'abondance des espèces [@Podani2013].
+Dans la suite de cette thèse nous avons choisi de mesurer le taux de remplacement d'abondance, ou similarité de Bray-Curtis, qui estime dans quelle mesure une communauté est le sous-ensemble d'une autre. 
+Si le turnover des espèces entre deux communautés est faible, l'une d'elles sera comme le sous-échantillonnage de l'autre, comme si elle en avait été tirée au hasard. 
+La similarité de Bray-Curtis est la somme des abondances d'une communauté qui correspondent à une espèce différente dans l'autre communauté, normalisée ensuite par l'abondance totale partagée entre les deux communautés \@ref(eq:formNestedness).
 
 \begin{equation}
 T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
 (\#eq:formNestedness)
 \end{equation}
 
+### Assemblage et structure des communautés
 
-### Assemblage et structure des communautés {#AbundanceDistribution}
-
-Une communauté, qu'elle soit végétale, animale ou microbienne, est constituée d'espèces aux effectifs différents: certaines sont très abondantes, d'autres moyennement communes et d'autres encore, souvent la majorité, sont rares.
-La façon la plus simple et immédiate de décrire une communauté est de donner la distribution d'abondance de ses espèces, qui représente les proportions d'espèces abondantes rapport aux espèces communes ou rares.
-Cette distribution bien que variable d'une communauté à l'autre, est régie par des lois écologiques lui donnant invariablement une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
+Outre la composition en espèce l'étude de la biodiversité est l'étude de la diversité des communautés, comprenant la richesse et la distribution d'abondance.
+Une communauté est constituée d'espèces aux effectifs différents: certaines sont très abondantes, d'autres communes et d'autres encore, souvent la majorité, sont rares.
+La façon la plus simple et immédiate de décrire une communauté est de donner les proportions d'espèces abondantes rapport aux espèces communes ou rares, représentées par la distribution d'abondance de la communauté.
+Cette distribution d'abondance est régie par des lois écologiques et, moyennant quelque variations, prend invariablement la forme d'une courbe en creux \@ref(fig:AbdDist) [@McGill2007].
 
 ```{r AbdDist, fig.align ='center',out.width='60%', fig.cap="Exemple de distribution d'abondance pour une communauté d'arbres en forêt tropicale humide"}
 knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
@@ -138,23 +137,24 @@ knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
 
 Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
 Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de ressources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
-Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau disponible, les nutriments du sol, l'espace, etc [@Silvertown2004;@terSteege2006]. 
-Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre les espèces de la communauté.
-De nombreux modèles prédictifs ont été proposés, des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la resource selon une formule prédéterminée, par exemple en la divisant successivement selon une fraction constante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
+Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau, les nutriments, l'espace, etc [@Silvertown2004;@terSteege2006]. 
+Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre espèces de la communauté.
+De nombreux modèles prédictifs ont été proposés: des modèles statistiques divisant aléatoirement la ressource selon une loi de propabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la resource selon une formule prédéterminée comme par exemple selon une division systématique de la ressource restante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
 
-Ces modèles testés pour de nombreuses communautés, ont démontré pouvoir représenter correctement les communautés réelles et révéler les règles écologiques qui en régissent l'assemblage.
-Ce sont des outils adéquats pour comparer les communautés et en interpréter les différences, mais manipuler une distribution d'abondance reste compliqué car il s'agit d'une repréentation en 2D et ne permet pas de quantifier les différences entre communautés.
-En revanche, les paramètres de ces distributions et des modèle proposés pour les représenter permettent de quantifier le nombre d'espèces, la forme des distribution, ou encore l'homogénéité des abondances.
-Ces indicateurs sont les indices de diversité, résumant de façon quantifiable les caractéristiques des distributions d'abondance.
+Ces modèles testés pour de nombreuses communautés ont montré représenter correctement les communautés réelles et pouvoir révéler les règles écologiques régissant l'assemblage des espèces.
+Ce sont donc des outils adéquats pour comparer les communautés et en interpréter les différences.
+Manipuler une distribution d'abondance est cependant compliqué car il s'agit d'une représentation en deux dimensions qui ne permet pas de quantifier les différences entre communautés.
+En revanche, les paramètres de ces distributions et des modèle proposés permettent de résumer de façon quantifiable les caractéristiques des distributions d'abondance.
+Ces différents paramètres, les indices de diversité, correspondent au nombre d'espèces, à la forme des distributions, ou encore à l'homogénéité des abondances.
 
 ### Les composantes de la diversité
 
-Si la biodiversité d'une communauté est souvent assimilée à sa richesse en espèces, elle englobe en réalité le nombre, l'abondance, la composition et les interactions entre les espèces.
-L'abondance en particulier est essentielle: une espèce dominante n'apportera pas la même contribution à l'écosystème qu'une espèce rare.
-Ainsi une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une autre avec autant d'espèces mais aux abondances équivalentes.
-L'homogeneité des abondances dans une population, ou *équitabilité*, peut être bien plus révélatrice du fonctionnement des écosystèmes que leur richesse ou leur composition.
-Cette idée est illustrée par l'hypothèse du ratio de biomasse selon laquelle les espèces dominantes sont bien plus déterminantes du fonctionnement des écosystèmes que les espèces rares.
-Les espèces peu communes n'ont une influence qu'à long terme, en tant que potentielles futures espèces dominantes si l'environnement change, ou pas d'influence si elles sont transitoires et ne persistent pas dans l'écosystème [@Grime1998].
+La diversité est souvent assimilée à la richesse en espèce, qui correspond au nombre d'espèces qui constituent la communauté.
+La richesse ne tient cependant pas compte de l'abondance des espèces qui est pourtant un paramètre essentiel, une espèce dominante n'apportant pas la même contribution à l'écosystème qu'une espèce rare.
+Une communauté dominée par une ou deux espèces très abondantes sera intuitivement moins diverse qu'une communauté avec le même nombre d'espèces mais ond les abondances sont équivalentes.
+L'homogeneité des abondances dans une population est l'*équitabilité*, et elle peut être bien plus révélatrice du fonctionnement des écosystèmes que la richesse ou la composition.
+Selon l'hypothèse du ratio de biomasse en effet, le fonctionnement des écosystèmes repose bien plus sur les caractéristiques des espèces dominantes que sur celles des espèces rares.
+Les espèces rares n'ont pas d'influence si elles sont transitoires ou alors une influence qu'à long terme en tant que futures dominantes potentielles [@Grime1998].
 
 La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la régularité de distribution d'abondance des espèces, sont donc les deux composantes de la diversité taxonomique d'une communauté \@ref(fig:RichEqu) [@Whittaker1965; @Magurran2004].
 
@@ -162,80 +162,82 @@ La richesse, simplement le nombre d'espèces recensées, et l'équitabilité, la
 knitr::include_graphics("ExternalFig/Fig_RichnessEquitability.jpg")
 ```
 
-Mesurer la diversité ne revient donc pas à une mesure unique mais plusieurs indices de diversité qui combinent différemment les composantes de la diversité.
-Plusieurs familles d'indices de diversité ont été développées et regroupent les indices mesurés selon une même formule dont les déclinaisons accordent un poids variables aux composantes de la diversité.
-La famille des indices de diversité de Réyni par exemple, judicieuse pour l'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) modulée par un paramètre *q* appelé "ordre de diversité" qui correspond au poids des espèces rares par rapport aux espèces abondantes [@Mendes2008].
-Plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes.
+Estimer la diversité d'une communauté ne revient donc pas à une mesure unique mais à un ensemble de mesures combinant différemment les composantes de la diversité.
+Plusieurs familles d'indices de diversité ont été développées: une famille correspond aux déclinaisons d'une même formule accordant un poids variable aux différentes composantes de la diversité.
+La famille des indices de diversité de Réyni par exemple, judicieuse pour l'étude des communautés végétales, rassemble les indices mesurés selon l'équation \@ref(eq:formHCDT) modulée par un paramètre *q* appelé "ordre de diversité".
+L'ordre de diversité q correspond au poids donné aux espèces rares par rapport aux espèces abondantes, plus l'ordre de diversité est élevé, plus les espèces rares sont négligées par rapport aux espèces abondantes [@Mendes2008].
 
 \begin{equation}
 {^{q}H=\frac{1}{q-1}\Bigg(1-\displaystyle\sum_{s=1}^{S}p^q_s\Bigg) }
 (\#eq:formHCDT)
 \end{equation}
 
-Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés dans la littérature: l'ordre 0 où chaque espèce contribue de la même façon correspond à la richesse spécifique, l'ordre 1 où richesse et équitabilité sont également prises en compte correspond à l'indice de Shannon, et l'ordre 2 pour lequel les espèces rares sont presque négligées correspond à l'indice de Simpson (parfois appelé "diversité en espèces abondantes") [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
-
-Ces indices, mathématiquement corrects et représentatifs des différentes composantes de la diversité, ne donnent cependant pas un nombre intelligible qui permettent de comparer facilement différentes communautés.
+Dans cette famille d'indices de diversité se retrouvent les indices les plus utilisés dans la littérature.
+A l'ordre 0 chaque espèce contribue de la même façon à la mesure, ce qui correspond à la richesse spécifique.
+A l'ordre 1 la richesse et équitabilité sont également prises en compte, ce qui correspond à l'indice de Shannon.
+Enfin à l'ordre 2 les espèces rares sont presque négligées,ce qui correspond à l'indice de Simpson (parfois appelé "diversité en espèces abondantes") [@Shannon1948; @Simpson1949; @Patil1982; @Tothmeresz1995].
+Tels quels, les indices de Réyni sont mathématiquement corrects et représentatifs des différentes composantes de la diversité, mais ne donnent pas une mesure intelligible permettant de comparer facilement différentes communautés.
 Les indices de diversité doivent être traduits en *nombre équivalent d'espèces* qui correspond au nombre d'espèces qu'aurait la communauté étudiée si toutes les espèces avaient la même abondance.
-Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transformation des valeurs obtenues par une exponentielle à base q [@Hill1973].
+Ce nombre équivalent d'espèces, ou *nombre de Hill*, est obtenu par transformation des valeurs obtenues selon une exponentielle à base q [@Hill1973].
 
-Les mesures de diversité choisies sont donc la traduction intelligible en nombre équivalent d'espèces d'une déclinaison d'indices combinant richesse et équitabilité de différentes façons pour capter toute structure de diversité.
+Les mesures de diversité utilisées dans la suite de ce travail sont donc la traduction intelligible en nombre équivalent d'espèces d'un panel d'indices combinant richesse et équitabilité de différentes façons pour capter toute structure de diversité.
 
 ### Résolution du biais d'échantillonnage
 
 En pratique aucun inventaire n'est exhaustif et l'étude de la diversité se heurte aux biais d'échantillonnage qui sous-estiment la richesse et faussent l'abondance des espèces.
-Corriger ce biais nécessite d'estimer les abondances réelles à partir des observations et des relations mathématiques reliant les abondances des différentes espèces.
-La première méthode développée correspond à la formule des fréquences de Turing [@Good1953] où l'abondance réelle *\alpha_v* d'une espèce observée *v* fois dans un échantillonnage de *n* individus dépend du nombre d'espèces observées également *v* fois et d'e celles'espèces observées *v+1* fois \@ref{eq=formGoodTuring}:
+Corriger ces biais nécessite d'estimer les abondances réelles à partir des observations et des relations mathématiques reliant les abondances des différentes espèces.
+La première méthode développée correspond à la formule des fréquences de Turing [@Good1953] où l'abondance réelle *\alpha_v* d'une espèce observée *v* fois dans un échantillonnage de *n* individus dépend du nombre d'espèces observées également *v* fois et du nombre d'espèces observées *v+1* fois \@ref{eq=formGoodTuring}:
 
 \begin{equation}
 \alpha_v=\frac{\big(v+1\big)}{n}\frac{s^n_{v+1}}{s^n_v}
 (\#eq:formGoodTuring)
 \end{equation}
 
-Les singletons (espèces observées une seule fois) et les doubletons (espèces observées deux fois) sont alors particulièrement intéressants car il permettent d'estimer le nombre *s^n_0* d'espèces observées zéro fois ($s^n_0=\frac{s^n_1}{n}$) qui ont été manquées dans l'inventaire et peuvent être ajoutées aux observation pour corriger le biais d'échantillonnage de la richesse.
+Les singletons (espèces observées une seule fois) et les doubletons (espèces observées deux fois) sont ici particulièrement intéressants car il permettent d'estimer le nombre *s^n_0* d'espèces manquées observées zéro fois ($s^n_0=\frac{s^n_1}{n}$) et donc de corriger le biais d'échantillonnage de la richesse.
 
-De nombreuses méthodes ont repris cette relation en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire réel et permet de savoir quelle proportion de la communauté est échantillonnée [@Dauby2012].
-La correction la plus adéquate a pu être déterminée selon le taux de couverture de l'inventaire et les estimateurs de la diversité sont aujourd'hui très fiables [@Chao2015; @Marcon2015b].
+De nombreuses méthodes ont repris cette relation en y intégrant notamment la notion de *taux de couverture* qui quantifie l'effort d'échantillonnage d'un inventaire et permet de savoir quelle proportion de la communauté a été échantillonnée [@Dauby2012].
+La correction la plus adéquate a été déterminée pour chaque taux de couverture et les estimateurs de la diversité sont aujourd'hui très fiables [@Chao2015; @Marcon2015b].
 
 ### Diversité fonctionnelle
 
-Les mesures de diversité décrites précédemment, appelées diversité neutre, considèrent toutes les espèces de la même façon que celles-ci aient ou non des caractéristiques biologiques ou phylogénétiques proches. 
-Ces diversités peuvent cependant facilement intégrer les caractéristiques des espèces en mesurant leur similarité et une communauté sera d'autant plus diverse que les espèces qui la constituent sont différentes.
+Les mesures de diversité décrites précédemment, appelées diversité neutre, considèrent toutes les espèces de la même façon quelles que soient leurs caractéristiques biologiques ou phylogénétiques. 
+Ces caractéristiques peuvent cependant facilement intégrer les mesures de diversité au même titre que la richesse et l'équitabilité, en passant pas la similarité entre espèces.
+Une communauté sera d'autant plus diverse que les espèces qui la constituent sont différentes.
 Pour des communautés végétales la diversité phylogénétique considère les distances entre espèces dans un arbre phylogénétique et la diversité fonctionnelle considère leurs différences morphologiques ou physiologiques \@ref(fig:RichEquSim).
 
 ```{r RichEquSim, out.width='60%', fig.cap="Troisième composante de la diversité: la similarité entre espèces basée sur des distances phylogénétiques ou taxonomiques"}
 knitr::include_graphics("ExternalFig/Fig_RichnessEquitabilitySimilarity.jpg")
 ```
 
-Ces similarités sont ensuite intégrées aux indices de diversité, au même titre que la richesse et l'équitabilité, sous la forme d'une matrice de distances entre espèces calculée sur la base de leur phylogénie ou de leurs traits fonctionnels.
-
-Les traits fonctionnels sont les caractéristiques morphologiques, physiologiques et phénologiques des espèces, ils déterminent le fonctionnement des individus, leur performance de croissance et de survie, et leurs interaction avec l'environnement [@Violle2007b].
-L'approche fonctionnelle décrivant les espèces et les individus selon leurs caractéristiques biologiques a été largement adoptée en écologie.
-D'une part, cette approche réduit la dimensionnalité des communautés, indispensable pour l'étude d'écosystèmes aussi riches que les forêts tropicales et permet de comparer les communautés quelle que soit leur composition en espèces [@Begon2006; @Scheiter2013; @Mouillot2013a; @Sakschewski2016].
-D'autre part, composition et diversité fonctionnelle sont interprétables en termes d'utilisation des ressources et de flux de matière et d'énergie, et relient directement la diversité des communautés à leur fonctionnement.
-Enfin, cette approche appréhende la signature fonctionnelle des perturbations et permet d'identifier et de quantifier les processus déterminant la dynamique des communautés [@Funk2017].
-La définition des processus déterministes est qu'ils n'impliquent pas les espèces de la même façon selon leurs caractéristiques biologiques: l'exclusion abiotique d'espèces non adaptées à l'environnement se traduiront par une aggrégation de la communauté dans l'espace des traits fonctionnels et une diminution de sa diversité fonctionnelle, tandis que l'exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une diversité fonctionnelle élevée [@McGill2006;@Kunstler2012].
+La similarité au sein d'une communauté est intégrée sous la forme d'une matrice de distances entre espèces calculée sur la base de leur phylogénie ou de leurs traits fonctionnels.
+Les traits fonctionnels sont les caractéristiques morphologiques, physiologiques et phénologiques des espèces, ils déterminent le fonctionnement des individus, leur performance en termes de croissance et de survie, et leurs interactions avec l'environnement [@Violle2007b].
+L'approche fonctionnelle qui décrivt les espèces et les individus selon leurs caractéristiques biologiques a été largement adoptée en écologie.
+Elle permet d'une part de réduire la dimensionnalité des communautés, indispensable pour l'étude d'écosystèmes aussi riches que les forêts tropicales, et de comparer les communautés quelle que soit leur composition en espèces [@Begon2006; @Scheiter2013; @Mouillot2013a; @Sakschewski2016].
+D'autre part l'approche fonctionnelle permet d'appréhender directement la diversité des communautés et leur fonctionnement, la composition et diversité fonctionnelle étant interprétables en termes d'utilisation des ressources et de flux de matière et d'énergie.
+Enfin, cette approche appréhende la signature fonctionnelle des perturbations et permet d'identifier et de quantifier les processus écologiques déterminant la réponse des communautés aux perturbations [@Funk2017].
+Spécifiquement, l'approche fonctionnelle appréhende l'importance des processus déterministes dépendant par les caractéristiques biologiques des espèces.
+L'exclusion d'espèces non adaptées à l'environnement se traduira par une aggrégation de la communauté dans l'espace des traits fonctionnels et une diminution de sa diversité fonctionnelle, tandis que l'exclusion compétitive limitant les similarité entre espèces se traduira par une dispersion des traits fonctionnels de la communauté et une augmentation de la diversité fonctionnelle [@McGill2006;@Kunstler2012].
 
 L'approche fonctionnelle nécessite de choisir judicieusement les traits intégrés aux indices de diversité.
 Une vaste littérature a permis d'identifier les traits clés représentatifs de l'écologie et de la croissance des espèces et de leur influence sur le fonctionnement de l'écosystème [@Reich2014].
-Les traits foliaires tout d'abord, qui déterminent la stratégie d'acquisition et d'allocation des resources lumineuses, définissent un "spectre économique foliaire" qui oppose les espèces à larges feuilles fines ayant une forte capacité photosynthétique permettant une acquisition rapide des resources, aux espèces à petites feuilles coriaces et résistantes.
-Un gradient similaire s'applique aux traits racinaires et aux propriétés du bois, opposant les espèces aux tissus légers à courte durée de vie permettant une croissance rapide à celles aux tissus denses plus résistants et mobilisant plus de ressources [@Chave2009; @Valverde-Barrantes2017].
-Les stratégies d'acquisition des resources déterminent la stratégie de croissance des espèces: les espèces "acquisitives" auront une croissance rapide et une courte durée de vie tandis que les espèces "conservatives" auront une croissance plus lente mais une meilleure résistance aux conditions environnementales éprouvantes [@Reich1997; @Wright2004].
+Les traits foliaires tout d'abord, déterminant la stratégie d'acquisition et d'allocation des resources lumineuses, définissent un "spectre économique foliaire".
+Ce spectre oppose les espèces à larges feuilles fines ayant une forte capacité photosynthétique et donc une acquisition rapide des resources, aux espèces à petites feuilles coriaces et résistantes.
+Un gradient similaire s'applique aux traits racinaires et aux propriétés du bois, opposant les espèces aux tissus légers et à croissance rapide, aux espèces aux tissus denses mobilisant plus de ressources [@Chave2009; @Valverde-Barrantes2017].
+Les stratégies d'acquisition déterminent la stratégie de croissance des espèces: tandis que les "acquisitives" auront une croissance rapide et une courte durée de vie, les "conservatives" auront une croissance plus lente mais une meilleure résistance aux conditions environnementales éprouvantes [@Reich1997; @Wright2004].
 A ces traits fonctionnels mesurables à l'échelle de l'individus s'ajoutent des *traits d'histoire de vie* mesurables à l'échelle de l'espèce.
-Parmi ces traits la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte ont montré être particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
-La combinaison de l'ensemble de ces traits spécifique, foliaires, racinaires et du bois appréhende la stratégie fonctionnelle des espèces, leurs préférences écologiques et leur performance de croissance et de survie.
+Parmi ces traits la masse des graines et la hauteur moyenne maximale des arbres à l'âge adulte sont particulièrement représentatifs des stratégies de croissance, de survie et de reproduction [@Westoby1998; @Herault2011].
 L'engouement récent de l'écologie pour l'approche fonctionnelle a de plus permis la création de bases de données fonctionnelles conséquentes et standardisées qui rendent possibles l'approche fonctionnelle à l'échelle des communautés [@Kattge2011; @Perez-Harguindeguy2013; [^1]]
 
 [^1]: http://www.ecofog.gf/Bridge/
 
 L'approche fonctionnelle considère la diversité des communautés mais également leur composition fonctionnelle mesurable par les valeurs moyennes de traits pondérées par l'abondance des espèces (*Community Weighted Means, CWM* en anglais).
-L'abondance des caractéristiques fonctionnelles détermine à la fois le fonctionnement des communautés et leur résilience.
+L'abondance des caractéristiques fonctionnelles détermine à la fois le fonctionnement et la résilience des communautés.
 D'après la théorie du "ratio de biomasse" [@Grime1998], le rôle d'un individu dans l'écosystème dépend de la fraction de biomasse qu'il représente et le fonctionnement des communautés repose sur les espèces dominantes tandis que les espèces rares ont peu d'influence.
 
 Par ailleurs la répartition d'abondance des traits fonctionnels amène à la notion de redondance fonctionnelle qui quantifie le nombre d'espèces partageant les mêmes valeurs de traits.
 La redondance fonctionnelle, souvent élevée en forêt tropicale, permet aux communautés de perdre des espèces sans nécessairement voir disparaître leur rôle dans l'écosystème: la redondance détermine en partie la résilience des communautés et atténue l'impact des perturbations.
-L'organisation de la redondance dans l'espace des traits d'une communauté renseigne sur les assemblages les plus stables qui se dégageraient le plus probablement après de nouvelles perturbations.
-La redondance fonctionnelle d'une communauté peut se mesurer dans l'espace fonctionnel à partir de la densité de probabilité de traits (*Traits Density Probability, TDP* en anglais) de chaque espèce [@Carmona2016].
-Les densités des espèces d'une communauté pondérées par leur abondance sont additionnées pour donner la redondance fonctionnelle sur l'ensemble de l'espace fonctionnel ou sur un espace restreint, comme nous le ferons par la suite quand on s'intéressera à la redondance fonctionnelle dans l'espace de la communauté de départ \@ref(fig:RedundancyMethod).
+La redondance fonctionnelle d'une communauté se mesure dans l'espace fonctionnel à partir de la densité de probabilité de traits (*Traits Density Probability, TDP* en anglais) de chaque espèce [@Carmona2016].
+Les densités des espèces d'une communauté pondérées par leur abondance sont additionnées pour donner la redondance fonctionnelle sur l'ensemble de l'espace fonctionnel ou sur un espace restreint \@ref(fig:RedundancyMethod).
 
 ```{r RedundancyMethod, fig.cap="La redondance fonctionnelle est la somme des chevauchement entre espèces dans l'espace fonctionnel. Les individus de la base de données fonctionnelle sont représentés dans un espace à 2 dimensions grâce à une analyse en composantes principales (ACP). Une estimation par noyau estime ensuite la densité de probabilité des traits (TDP) de chaque espèce. La somme de ces densités pondérées par l'abondance des espèces donne enfin la redondance fonctionnelle de la communauté, interprétable comme le nombre d'espèces qui peuvent disparaître sans diminuer l'espace fonctionnel de la communauté."}
 knitr::include_graphics("ExternalFig/Fig_MesureRedondance.jpg")
