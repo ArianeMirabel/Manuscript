@@ -17,6 +17,30 @@ Bien qu'effective, la restauration des charactéristiques taxonomiques et foncti
  
 ## Post-Disturbance Tree Community Trajectories in a Neotropical Forest {-}
 
+```{r loadWholePlot, echo=FALSE, message=FALSE}
+source("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/Scripts/DrawingTools.R")
+```
+
+Ariane MIRABEL ^1^ ^\*^
+
+Bruno Hérault ^2^
+
+Eric Marcon ^1^
+\newline
+
+^1^ UMR EcoFoG, AgroParistech, CNRS, Cirad, INRA, Université des Antilles, Université de Guyane.
+    Campus Agronomique,
+    97310 Kourou,
+    France.
+
+^2^ INPHB, Institut National Polytechnique Félix Houphoüet-Boigny
+   Yamoussoukro,
+      Ivory Coast.
+\newline
+
+\* 
+E-mail: ariane.mirabel@ecofog.gf, 
+url: https://github.com/ArianeMirabel
 
 ### Abstract
 
@@ -145,9 +169,6 @@ While both taxonomic and functional composition remained stable in undisturbed c
 In disturbed communities, these compositional changes corresponded to shifts towards species with more acquisitive functional strategies, from communities with high average WSG to high average SLA and chlorophyll content (see appendix I). For functional composition, this translated into cyclic compositional changes with an unachieved recovery of the initial composition (Fig. \@ref(fig:NMDSplans)). The maximum dissimilarity with the initial state was positively correlated to the disturbance intensity for both taxonomic and functional composition ($\rho_{spearman}^{Taxonomic}=0.87$ and $\rho_{spearman}^{Functional}=0.90$ respectively). The maximum value was reached around 26 years after disturbance for taxonomic composition and 22 years for functional composition. 
 
 ```{r NMDSplans, out.width = '100%', echo=FALSE, fig.cap="Plot trajectories in terms of flora composition (left panels (ref:Bolda) and (ref:Boldc)) and functional composition (right panels (ref:Boldb) and (ref:Boldd)) in a two-dimensional NMDS space. Lower panels ((ref:Boldc) and (ref:Boldd)) represent the Euclidean distance to initial condition along the 30 sampled years. Shaded areas are the credibility intervals.", fig.env="figure*"}
-
-source("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/Scripts/DrawingTools.R")
-
 load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/FunctionalComposition_forGraphs");load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/TaxoComposition_forGraphs")
 load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/FunDistance_ForGraphs");load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/TaxoDistance_ForGraphs")
 
@@ -234,7 +255,7 @@ legend("right",inset=-0.5,xpd=NA,legend=c("10","20","30"),col=colyear,lwd=2.5,bt
 
 All disturbed plots had lower functional redundancy than control plots and followed similar hump-shaped trajectories (\@ref(fig:RedFunRest)). The maximum redundancy loss was positively correlated with the disturbance intensity ($\rho_{spearman}=0.47$) and the initial value had not recovered for any disturbed communities after 30 years.
 
-```{r RedFunRest, out.width = '100%', echo=FALSE, fig.cap="Trajectories of the functional redundancy within the initial functional space over 30 years after disturbance. Shaded areas are the credibility intervals.", fig.env="figure"}
+```{r RedFunRest, out.width = '80%', echo=FALSE, fig.cap="Trajectories of the functional redundancy within the initial functional space over 30 years after disturbance. Shaded areas are the credibility intervals.", fig.env="figure"}
 load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/Redundancy_restricted")
 
 par(mar=c(3,2,3,2))

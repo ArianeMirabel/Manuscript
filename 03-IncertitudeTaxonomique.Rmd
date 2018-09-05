@@ -305,3 +305,159 @@ The diversity estimator developed in this paper (i) proved relevant to measure t
 Examining the estimator performance highlighted the inescapable rescourse to taxonomists and to minimum real inventories:
 an initial inventory of 3 000 trees with 80% of the species identified allowed an estimation accurate at 10% of Shannon and Simpson diversities.
 The diversity estimator allows integrating  and is thus adaptable to all specific case.
+
+\newpage
+
+---
+title: "Script"
+author: "Ariane"
+date: "5 septembre 2018"
+output: pdf_document
+---
+
+## Script R, estimateur de diversité
+
+``` {r echo=FALSE, message=FALSE}
+Plot<-read.csv2("ExternalFig/Inventory.csv", dec=".", sep=";", header=TRUE)[c(626,3,8,4,815),]
+Plot["name"]<-paste(Plot$Genus, Plot$Species)
+```
+
+``` {r scriptUncertainty, echo=TRUE}
+# Le script retourne la moyenne et l'intervalle de confiance à 95% du profil de diversité 
+# d'un inventaire. 
+# L'inventaire est une matrice Plot (individu * données botaniques), les données manquantes 
+# sont indiquées par "Indet."
+
+head(Plot,5)
+
+
+# La première étape donne une matrice d'association vernaculaire/botanique.
+# La matrice alpha liste les fréquences d'association de référence.
+
+alpha_construct<-  function(Plot){
+  mat_eff<-as.data.frame.matrix(with(Plot, xtabs(~name+Vernacular)))
+  alpha <- apply(mat_eff,2,function(v){v/sum(v)})
+  return(alpha)
+}
+
+# A partir d'un vecteur d'association, un processus Dirichlet/Multinomial permet de tirer
+# au hasard un nom botanique
+
+Dirichlet_draw<-function(V){
+  Vdir<-gtools::rdirichlet(1,V)
+  names(Vdir)<-names(V)
+  res <- rmultinom(1,1,Vdir)
+  res<-rownames(res)[which(res>0)]
+  return(res)
+}
+
+# Pour tenir compte de toute les informations phylogénétiques disponibles, on liste les 
+# associations possibles nom vernaculaire / Famille / genre / espèce  
+
+Correspondences<-function(Plot){
+  bota<-Plot[order(Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]),]
+  bota<-bota[which(!duplicated(bota)),]
+  return(bota)
+} 
+
+# On peut alors attribuer un nom botanique à tout nom vernaculaire:
+
+tirage <- function(alpha,bota,name,eps=0.05){ 
+  
+  if(name["Vernacular"]=="-"){
+    trial<-sample(rownames(alpha),1)
+    while(grepl("Indet.",trial)){trial<-sample(rownames(alpha),1)}
+  }
+  
+  alpha_adjust<-alpha[,name["Vernacular"]]
+  
+  if(name["Vernacular"]!="-" & name["Genus"]!="Indet."){
+    mismatch<-bota[intersect(which(bota[,"Vernacular"]==name["Vernacular"]),
+                             which(!bota[,"Genus"]%in%name["Genus"])),"name"]
+    alpha_adjust[as.character(mismatch)]<-0
+    match<-names(alpha_adjust[which(alpha_adjust!=0)])
+    
+    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+    
+    trial<-Dirichlet_draw(alpha_adjust)
+    
+    if(any(grep("Indet.",match,invert=T)!=0)){
+      while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+      }
+    }
+  }
+  
+# Restrict the sampling pool to account for phylogenetic information
+  
+  if(name["Vernacular"]!="-" & name["Genus"]=="Indet." & name["Family"]!="Indet."){
+    mismatch<-bota[intersect(which(bota[,"Vernacular"]==name["Vernacular"]),
+                             which(!bota[,"Family"]%in%name["Family"])),"name"]
+    alpha_adjust[as.character(mismatch)]<-0
+    match<-names(alpha_adjust[which(alpha_adjust!=0)])
+    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+    
+    trial<-Dirichlet_draw(alpha_adjust)
+    if(any(grep("Indet.",match,invert=T))!=0){ 
+      while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+      } 
+    }
+  }
+  if(name["Vernacular"]!="-" & name["Genus"]=="Indet." & name["Family"]=="Indet."){
+    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+    
+    trial<-Dirichlet_draw(alpha_adjust)
+    while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+    }
+  }
+  return(trial)
+}
+
+# On peut alors générer un inventaire théorique complet à partir de l'inventaire réel 
+
+Replacement<-function(Plot,Alpha,Bota){
+  Determ<-Plot[which(!Plot["Species"]=="Indet."),]
+  Indet<-Plot[which(Plot["Species"]=="Indet."),]
+  
+  Vern<-apply(Indet,2,as.character)
+  
+  if(nrow(Indet)==0){
+    Simu<-as.character(Determ[,"name"])
+  }
+  if(nrow(Indet)==1){
+    Simu<-c(as.character(Determ[,"name"]),
+            tirage(alpha=Alpha,bota=Bota,name=Vern))
+  }
+  if(nrow(Indet)>1){
+    Simu<-unlist(lapply(1:nrow(Vern),function(i){
+      tirage(alpha=Alpha,bota=Bota,name=Vern[i,])
+      }))
+    Simu<-c(as.character(Determ[,"name"]),Simu)
+  }
+  return(Simu)
+}
+
+# L'algorithme final retourne la médiane et l'intervalle de confiance 
+# de l'estimateur de diversité pour tout ordre Q, après Nrep simulations
+
+Est_Entropy<-function(Plot,Q){
+  
+  alpha<-alpha_construct(Plot)
+  
+  bota<-Correspondences(Plot)
+  
+  Entrop<-lapply(1:Nrep,function(r){
+    entrop<-as.data.frame(Replacement(Plot,Alpha=alpha,Bota=bota))
+    entrop<-as.AbdVector(tapply(entrop,entrop,length))
+    return(expq(bcTsallis(entrop,q=Q,Correction = "None"),q=Q))
+  })
+ 
+  Entrop<-lapply(c(0.025,0.5,0.975),function(p){
+    return(quantile(x,probs=p,na.rm=T))
+    })
+  names(Entrop)<-c(0.025,0.5,0.975)
+                 
+  return(unlist(Entrop))
+}
+
+```
+
