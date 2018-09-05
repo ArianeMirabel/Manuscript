@@ -51,7 +51,9 @@ otherlangs:
 - en-US
 - en-GB
 - fr
-bibliography: References.bib
+bibliography: 
+- References.bib
+- packages.bib
 biblio-style: authoryear-ibid
 cite-style: verbose-inote
 biblatexoptions:
@@ -131,11 +133,28 @@ preamble: >
   capbesideposition={bottom, right},floatwidth=\textwidth}ASC
 ---
 
+
 (ref:Bolda) **(a)**
 
 (ref:Boldb) **(b)**
 
 (ref:Boldc) **(c)**
+
+(ref:Boldd) **(d)**
+
+(ref:capThickness) *L_thickness*
+
+(ref:capChloro) *L_chloro*
+
+(ref:capThoughness) *L_toughness*
+
+(ref:capSLA) *SLA*
+
+(ref:capWSG) *WSG*
+
+(ref:capBarkThick) *Bark-thick*
+
+(ref:capHmax) *Hmax*
 
 <!-- knitr and R options (packages, ...) --> 
 ```{r Options, echo=FALSE, warning=F, message=FALSE}

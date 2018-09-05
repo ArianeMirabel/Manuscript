@@ -67,7 +67,7 @@ Peu d'espèces initialement absentes s'installent après perturbation malgré l'
 Conformément à l'esprit de la théorie neutre la composition taxonomique des communautés relève donc de la contingence historique, *i.e.* du hasard de l'arrivée et de l'installation des espèces, plutôt que de processus de déterministes [@Hubbell2001].
 
 Par ailleurs, conformément aux hypothèses de @Connell1978, le recrutement de pionnières et d'héliophiles augmente la richesse et l'équitabilité des communautés jusqu'à un seuil d'intensité de perturbation (environ 25% de biomasse initiale perdue).
-La diversité taxonomique augmente pendant les deux premières phases de la succession, jusqu'à la restauration des processus de recrutement stochastiques: la diversité est maximale quelque temps après une perturbation d'intensité moyenne [@Molino2001:@Guitet2018].
+La diversité taxonomique augmente pendant les deux premières phases de la succession, jusqu'à la restauration des processus de recrutement stochastiques: la diversité est maximale quelque temps après une perturbation d'intensité moyenne [@Molino2001;@Guitet2018].
 Au delà d'un seuil d'intensité en revanche la favorisation d'espèces nouvelles ou peu communes ne compense pas les disparitions dues à la perturbation.
 Les espèces pionnières sont alors dominantes, la richesse taxonomique est diminuée puis restaurée sans dépasser la richesse initiale, et l'équitabilité est durablement augmentée.
 
