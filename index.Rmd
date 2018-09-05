@@ -6,8 +6,8 @@ site: bookdown::bookdown_site
 description: "Manuscrit de thèse"
 maintitlepage:
   epigraph: |
-    epigraphe
-
+    A Maryse, merci.
+    
 output: pdf_book
 PhD-HDR:
   DocType: PhD
@@ -51,13 +51,7 @@ otherlangs:
 - en-US
 - en-GB
 - fr
-bibliography:
-- packages.bib
-- 01ref-IntroG.bib
-- 02ref-chap2Incert.bib
-- 03ref-chap3WholePlot.bib
-- 04ref-Recruitment.bib
-- 05ref-CclG.bib
+bibliography: References.bib
 biblio-style: authoryear-ibid
 cite-style: verbose-inote
 biblatexoptions:
@@ -95,11 +89,26 @@ mots-cles:
 - Trajectoires
 - Résilience
 abstract: |
-  English abstract, on the last page.
+ The functioning, the maintenance and the resilience of tropical forests largely rely on tree community diversity. 
+ In the current changing context it is crucial to clarify community diversity response to disturbance in order to maintain forests goods and services, specifically in tropical forests that are as diverse and crucial as they are currently threatened.
+ 
+ In this context, this work aims to define neotropical forests response to disturbance, identify the underyling ecological mechanisms and discuss the perspectives for tropical forests conservation and management.
+ The dataset from the Paracou experimental station in French Guiana provides an exhaustive monitoring of Neotropical tree communities response to a disturbance gradient over 30 years.
+ 
+  First we developed and tested a diversity estimator tackling the taxonomic uncertainties of forest inventories and improving the accuracy of biodiversity surveys. 
+  Not only used in the experimental dataset analysed here, the diversity estimator was applied in the context of pre-logging inventories to propose an inventory protocol optimizing the costs of the inventories and the accuracy of the diversity estimation.
+  Second, we analyzed the post-disturbance txonmoic and functoinal trajectories at the scale of the whole community. 
+  we combined the 30 years of botanical inventories with a large functional dataset encompassing key leaf, root, wood and life-history functional traits.
+  Eventually we specifically analysed the post-disturbance recruitment processes and the diversity and composition succession.
   
-  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+  We highlighted the emergence of deterministic processes driving community responses to disturbance first through the recruitment of a restricted pool of pioneers, common to all communities, and then through the recovery of pre-disturbance stochastic processes.
+  At the whole-community scale this succession translated into a cyclic taxonomic composition trajectory maintaining the initial differences among communities.
+  It also increased the taxonomic richness and evenness until a perturbation intensity threshold above which, in accordance with the Intermediate Disturbance Hypothesis, the taxonomic richness decreased and the pioneers became persistently dominant.
+  On the other hand the functional trajectories proved decoupled from taxonomic trajectories and highlighted communities functional convergence and the uniformity of the functional trajectories whatever the disturbance intensity.
+  The taxonomic and functional decoupling was explained by the functional redundancy that mitigated the disturbance functional impact and proved to be the slow parameter of tropical forest recovery.
+  This study demonstrated the taxonomic and functoinal resilience of Neotropical communities and highlighted the key parameters of forest recovery. 
   
-  Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+  It allowed discussing the sustainability of tropical forest management practices and some perspectives for the modeling of community diversity.
 keywords:
 - Biodiversity
 - Neotropical forests
@@ -113,7 +122,6 @@ fourthpagefontsize: normalsize
 preamble: >
   \usepackage{textcomp}
   \DeclareUnicodeCharacter{B0}{\textdegree}
-  \usepackage{tabu}
   \usepackage{caption}
   \captionsetup{justification = justified}
   \renewenvironment{table}{\begin{table*}}{\end{table*}\ignorespacesafterend}

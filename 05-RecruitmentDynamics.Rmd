@@ -1,0 +1,18 @@
+ Article 3: Analyse du recrutement, support de la trajectoire des communautés
+
+La réponse des communautés aux perturbations est déterminée par les trajetoires du recrutment, reconnu pour suivre une succession déterministe régie après perturbation.
+Ceci reste cependant à tester dans le cas des forêts tropicales, dont l'immense biodiversité pourrait atténuer les processus déterministes, et dans le cas particulier de perturbations relativement peu intenses en comparaison des coupes rases ou de la secondarisation pour lesquels ont été observés les modèles de succession classique.  
+Nous étudions dans ce chapitre les trajectoires de diversité taxonomique et fonctionnelle du recrutement après exploitation pour (i) clarifier l'importance respective des processus stochastiques et déterministes au cours de la succession  des processus écologiques et (ii) déterminer la résilience et la durée de restauration des processus démographiques après exploitation.
+
+Nous avons tracé les trajectoires de diversité et d'équitabilité taxonomique et fonctionnelle, et de renouvellement des espèces par rapport à la communauté initiale.
+Nous avons ensuite comparé ces trajectoires à celles de modèles nuls stochastiques.
+
+Nous avons identifié trois phases de recrutement après perturbation, définies par la combinaison de processus déterministes et stochastiques.
+La première phase de succession correspond à la croissance de juvéniles recrutés aléatoirement dans la communauté initiale.
+La deuxième phase correspond à l'émergence de processus déterministes favorisant le recrutement de pionnières issues de la banque de graines.
+La troisième et dernière phase correspond à la restauration des processus de recrutement aléatoire entraînant un retour de la diversité et de la composition initiales. 
+Malgré la rapide restauration des processus de recrutement, la restauration de la composition et de la diversité du recrutement s'est montrée longue de plusieurs décennies. 
+
+La trajectoire des communautés après perturbation est déterminée par l'émergence de processus de recrutement déterministes favorisant les espèces héliophiles, remplaçant temporairement le recrutement stochastique propre aux communautés matures. 
+Bien que résilientes les caractéristiques taxonomiques et fonctionnelles du recrutement se sont montrée impactées sur plusieurs décennies, incitant à la prudence quand au maintien des caractéristiques initiales.
+  

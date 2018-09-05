@@ -86,12 +86,7 @@
       <file>Manuscript-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>packages.bib</file>
-      <file>01ref-IntroG.bib</file>
-      <file>02ref-chap2Incert.bib</file>
-      <file>03ref-chap3WholePlot.bib</file>
-      <file>04ref-Recruitment.bib</file>
-      <file>05ref-CclG.bib</file>
+      <file>References.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
