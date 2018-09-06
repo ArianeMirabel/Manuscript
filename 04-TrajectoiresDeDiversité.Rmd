@@ -5,13 +5,13 @@ La diversité des forêts tropicales est supposée être soumise et entretenue n
 En milieu tropical cependant cette théorie des perturbation intermédiaires reste débattue, ce qui questionne la résilience fonctionnelle et taxonomique des forêts tropicales.
 
 Pour clarifier les processus écologiques sous-jacent la réponse des communautés aux perturbations nous étudions ici les trajectoires de diversité et de composition des communautés au cours des 30 années suivant un gradient de perturbations (10 à 60% de biomasse prélevée).
-Nous avons analysé les trajectoires des communautés en termes de composition, de richesse et de redondance taxonomique et fonctionnelle, en considérant pour celà 7 traits fonctionnels des feuilles, du bois et d'histoire de vie des espèces.
+Nous avons analysé les trajectoires des communautés en termes de composition, de richesse et de redondance taxonomique et fonctionnelle, en considérant pour cela 7 traits fonctionnels des feuilles, du bois et d'histoire de vie des espèces.
 
 Les trajectoires de diversité ont mis en évidence des réponses taxonomique et fonctionnelle cycliques, permettant la restauration des caractéristiques d'avant perturbation.
 Les trajectoires ont montré la divergence taxonomique des communautés, due aux limites de dispersion des espèces maintenant les différences de composition initiales, et leur convergence fonctionnelle, due à des processus déterministes imposant une trajectoire fonctionnelle commune.
 La théorie des perturbations intermédiaires a montré prédire les trajectoires de diversité taxonomique, augmentant avec l'intensité de la perturbation jusqu'à un certain seuil.
 En revanche la diversité fonctionnelle augmentaient après perturbation quelle qu'en soit l'intensité, l'impact de la perturbation étant atténué par l'importante redondance fonctionnelle des communautés.
-Bien qu'effective, la restauration des charactéristiques taxonomiques et fonctionnelles des communautés restait inachevée après 30 ans, suggérant un temps de restauration long de plusieurs décenies d'autant plus difficile à estimer que la restauration de la redondance fonctionnelle, déterminante de la résilience des communautés, s'est montrée ralentir au cours du temps.
+Bien qu'effective, la restauration des caractéristiques taxonomiques et fonctionnelles des communautés restait inachevée après 30 ans, suggérant un temps de restauration long de plusieurs décennies d'autant plus difficile à estimer que la restauration de la redondance fonctionnelle, déterminante de la résilience des communautés, s'est montrée ralentir au cours du temps.
 
  \newpage
  

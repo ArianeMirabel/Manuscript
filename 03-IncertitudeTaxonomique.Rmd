@@ -2,27 +2,27 @@
 #Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude
 
 La biodiversité des forêts tropicales reste largement méconnue malgré son importance pour le fonctionnement des écosystèmes et le maintien des biens et les services qu'ils rendent.
-Parmi les espèces tropicales inventoriée en milieu tropical un grand nombre ne correspond qu'à l'observation d'un unique individu [@Feeley2011], et la préciion des inventaires reste fortement contrainte par le coût financier et la main d'oeuvre qu'ils représentent.
-Ceci limite la précision des mesures et l'éimportance des suivis de biodiversité et restreint en particulier l'étude de la distribution des espèces et de la dynamique des communautés dans le temps.
+Parmi les espèces tropicales inventoriée en milieu tropical un grand nombre ne correspond qu'à l'observation d'un unique individu [@Feeley2011], et la précision des inventaires reste fortement contrainte par le coût financier et la main d'œuvre qu'ils représentent.
+Ceci limite la précision des mesures et l'importance des suivis de biodiversité et restreint en particulier l'étude de la distribution des espèces et de la dynamique des communautés dans le temps.
 Dans ce contexte il est indispensable de développer des méthodes pour améliorer la précision des inventaires et la valorisation des données disponibles [@Baraloto2012].
 
 ## Noms vernaculaires et propagation des incertitudes taxonomiques
 
-Pour diminuer le coût et le délais des inventaires l'emploi des noms vernaculaires plutôt que des noms botaniques précis a été largement adopté.
+Pour diminuer le coût et le délai des inventaires l'emploi des noms vernaculaires plutôt que des noms botaniques précis a été largement adopté.
 Les noms vernaculaires sont mieux connus, plus faciles à attribuer car souvent basés sur des critères morphologiques, et ne nécessitent pas de vérification ultérieure à partir d'herbiers.
 L'usage des noms vernaculaires entraîne cependant des incertitudes taxonomiques importantes, limitant la précision des mesures de diversité. 
 Les noms vernaculaires correspondent en effet à plusieurs noms botaniques et ces correspondances varient au cours du temps et selon les équipes de terrain [@Oldeman1968].
 De plus, ces correspondances vernaculaires/botaniques multiples ne permettent pas des mesures directes de la diversité fonctionnelle, les bases de données fonctionnelles fournissant des informations à l'échelle des noms botaniques.
 Pour pallier ces difficultés, nous proposons ici un estimateur de la diversité permettant de transcrire les inventaires vernaculaires en inventaires botaniques et d'intégrer les incertitudes taxonomiques aux mesures de diversité.
-Une fois calibré cet estimateur a été employé pour l'ensemble des mesures de diversité taxonomique et fonctionnelle développées dans le suite de ce travail.
+Une fois calibré cet estimateur a été employé pour l'ensemble des mesures de diversité taxonomique et fonctionnelle développées dans la suite de ce travail.
 Par ailleurs l'estimateur de diversité a été appliqué au contexte des inventaires pré-exploitation qui, nombreux et réalisés sur de grandes surfaces, sont une source d'information incontournable [@terSteege2000;@Guitet2014] pour l'étude et la gestion de la biodiversité en forêt tropicale. 
-Dans ce contexte, l'analyse de la performance de l'estimateur a permis de proposé une méthode d'inventaire optimisant les coût et la précision des inventaires.
+Dans ce contexte, l'analyse de la performance de l'estimateur a permis de proposer une méthode d'inventaire optimisant les coût et la précision des inventaires.
 
 L'estimateur se base sur la reconstitution d'inventaires complets en noms botaniques, générés à partir des probabilités d'association entre noms vernaculaires et botaniques.
 Dans un premier temps l'estimateur a été calibré en déterminant la source d'information la plus adaptée au calcul des probabilités d'associations vernaculaires/botaniques.
-Deux sources d'informations sont disponibles pour estimer ces probabilités: les inventaires réels donnant une fréquence d'association observée et les tables générales listant les associations vernaculaire/botaniques possibles à partir de dires d'experts (équipes de terrain, taxonomiqtes, etc.).
+Deux sources d'informations sont disponibles pour estimer ces probabilités: les inventaires réels donnant une fréquence d'association observée et les tables générales listant les associations vernaculaire/botaniques possibles à partir de dires d'experts (équipes de terrain, taxonomiques, etc.).
 Une fois calibré, l'estimateur de diversité a été appliqué à des inventaires pré-exploitation.
-Cette étude a permis d'une part d'évaluer la fiabilité des inventaires selon l'effort d'identification (pourcentage d'espèces identifiées en nom botanique) et l'effort d'éhantillonnage (nombre d'arbres pré-inventoriés pour calculer les probabilité d'association vernaculaire/botanique).
+Cette étude a permis d'une part d'évaluer la fiabilité des inventaires selon l'effort d'identification (pourcentage d'espèces identifiées en nom botanique) et l'effort d'échantillonnage (nombre d'arbres pré-inventoriés pour calculer les probabilité d'association vernaculaire/botanique).
 D'autre part l'étude a permis de proposer une méthode d'inventaire optimisant le coût et la précision des inventaires.
 
 ## Application de l'estimateur aux inventaires de Paracou
@@ -32,7 +32,7 @@ D'autre part l'étude a permis de proposer une méthode d'inventaire optimisant 
 Dans le cas de dispositifs expérimentaux tels que Paracou le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés en nom botanique. 
 La fiabilité de l'estimateur de diversité a été évaluée en simulant un gradient d'indétermination taxonomique à partir d'inventaires botaniques complets \@ref(fig:FigTreesSp).
 
-```{r FigTreesSp, fig.asp=1/2, fig.cap="Biais de l'estimateur pour les diversité de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
+```{r FigTreesSp, fig.asp=1/2, out.width='100%', fig.cap="Biais de l'estimateur pour les diversité de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
 load("ExternalFig/Uncertaintypropagation_Species_noCorrection")
 
 par(mfrow=c(1,3),no.readonly=TRUE)
@@ -51,13 +51,13 @@ mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
 ```
 
 Les estimateurs de richesse et d'équitabilité (diversité de Shannon et Simpson) sont d'autant plus biaisés que le degré d'indétermination est élevé. 
-Tandis que la richesse est sous-estimée, l'équitabilité est sur-estimée: l'estimateur tend donc à homogénéiser les distributions d'abondance.
+Tandis que la richesse est sous-estimée, l'équitabilité est surestimée: l'estimateur tend donc à homogénéiser les distributions d'abondance.
 Un nom vernaculaire a plus de chances d'être associé à une espèce abondante (plus fréquente) qu'à une espèce rare et donc la queue de distribution en espèces rares n'est pas correctement reproduite.
 Ce biais de l'estimateur semble difficile à formaliser car il dépend de la relation entre rareté et probabilité d'indétermination des espèces, ce qui rend pour le moment difficile toute correction formelle.
 
-Dans la suite de ce travail nous avons choisi de pallier ce biais de l'estimateur en nous rapportant au niveau taxonomique supérieur et en étudiant la diversité  au niveau du genre botanique.
-Dans le cas d'une mesure rapportée au genre, l'estimateur de la richesse reste peu biaisé jusqu'à un seuil d'indétermination de 80% au delà duquel la richesse est trop sous-estimée.
-L'équitabilité est surestimée, d'autant plus que le degré d'indétermnation est élevé (diversités de Shannon et de Simpson), mais le biais ne dépasse pas 10% de la diversité réelle \@ref(fig:FigTreesGenus).
+Dans la suite de ce travail nous avons choisi de pallier ce biais de l'estimateur en nous rapportant au niveau taxonomique supérieur et en étudiant la diversité au niveau du genre botanique.
+Dans le cas d'une mesure rapportée au genre, l'estimateur de la richesse reste peu biaisé jusqu'à un seuil d'indétermination de 80% au-delà duquel la richesse est trop sous-estimée.
+L'équitabilité est surestimée, d'autant plus que le degré d'indétermination est élevé (diversités de Shannon et de Simpson), mais le biais ne dépasse pas 10% de la diversité réelle \@ref(fig:FigTreesGenus).
 
 Dans le cas de Paracou, la détermination des parcelles est variable au cours du temps et entre les parcelles.
 Au moment de travail, dans les parcelles contrôle et du traitement 3 moins de 5% des arbres n'ont pas d'identification botanique, tandis que les parcelles du traitement 1 ou 2 restent mal déterminées (30% d'indétermination pour certaines parcelles).
@@ -85,12 +85,12 @@ mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
 ## Application de l'estimateur au cas des inventaires pré-exploitation
 
 Comprendre et anticiper le devenir des forêts tropicales dans le contexte actuel requiert un suivi temporel des communautés et des mesures de diversité précis. 
-Le coût des inventaires forestiers conduit cependant la majorités à être réalisés en noms vernaculaires, malgré que ceux-ci impliquent d'importances incertitudes taxonomiques.
-Plusieurs méthodes ont été proposées pour pallier ces incertitudes mais aucune n'est encore adaptée à des suivi de diversité fonctionnelle ou à petite échelle spatiale.
+Le coût des inventaires forestiers conduit cependant la majorité à être réalisés en noms vernaculaires, malgré que ceux-ci impliquent d'importances incertitudes taxonomiques.
+Plusieurs méthodes ont été proposées pour pallier ces incertitudes mais aucune n'est encore adaptée à des suivis de diversité fonctionnelle ou à petite échelle spatiale.
 Nous proposons ici un estimateur de diversité adaptable à chaque inventaire particulier et intégrant les incertitudes botaniques inhérentes aux inventaires forestiers.
-Nous avons calibré l'estimateur de diversité à partir d'un large inventaire en forêt Néotropicale et la simulation de gradients d'incertitude taxonomique et d'effort d'échantillonnage ont permis de déterminé un protocole d'inventaire idéal optimisant le coût des inventaires et la précision de l'estimateur.
+Nous avons calibré l'estimateur de diversité à partir d'un large inventaire en forêt Néotropicale et la simulation de gradients d'incertitude taxonomique et d'effort d'échantillonnage ont permis de déterminer un protocole d'inventaire idéal optimisant le coût des inventaires et la précision de l'estimateur.
 Notre analyse a d'une part souligné la nécessité d'avoir recours à des inventaires réels et à une expertise botanique de terrain par assurer la fiabilité de mesures de diversité.
-D'autre part nous avons pu identifié un protocole idéal assurant une estimation de la diversité avec un intervalle de confiance de 10%, basé sur l'inventaire de 3 000 arbres au minimum et sur une effort d'identification taxonomique de 80% des espèces.
+D'autre part nous avons pu identifier un protocole idéal assurant une estimation de la diversité avec un intervalle de confiance de 10%, basé sur l'inventaire de 3 000 arbres au minimum et sur une effort d'identification taxonomique de 80% des espèces.
 
 \newpage
 
@@ -105,7 +105,7 @@ source("P:/Private/Taff/These/Redaction/1_TaxonomicUncertainties/Scripts/Drawing
 Assess the fate of Neotropical forests requires to accurately measures forest diversity and reliably monitor forest communities.
   The costs of botanical inventories and the taxonomic complexity of Neotropical forests make forest inventories in vernacular names the most efficient approach today, although these hold high botanical uncertainty and limit the accuracy of diversity measures. 
   Several methods were proposed to compensate these botanical uncertainties but none reliably assessed functional and fine-scale diversity surveys.
-  We developed a polyvalent diversity estimator workable in numerous specific cases based on the propagation of botanical uncertainties. The estimator was calibrated with a large neotropical inventory and the simulations of uncertainty and sampling effort gradients allowed to determined an ideal inventory protocol optimizing the costs and the accuracy of forest inventories.  
+  We developed a polyvalent diversity estimator workable in numerous specific cases based on the propagation of botanical uncertainties. The estimator was calibrated with a large Neotropical inventory and the simulations of uncertainty and sampling effort gradients allowed to determine an ideal inventory protocol optimizing the costs and the accuracy of forest inventories.  
   Our study first advocated of necessity of real inventories and the inescapable recourse to taxonomists to ensure reliable diversity estimations.
   An ideal inventory protocol based on a sampling effort of 3 000 trees and on an identification effort of 80% of the species was identified and ensured diversity estimations with a 10% error.
 
@@ -117,20 +117,20 @@ Handling the conservation and management of tree diversity requires setting sens
 
 Correctly measure, map and manage forests biodiversity require accurate and large forest monitoring.
 The precision of forest inventories, though, is often limited by their significant cost in terms of time, money, and logistic [@Feeley2011;@Baraloto2013].
-Sampling methods were optimized to minimize these costs and maximize inventory accuracy.Some approaches would restrict inventories to some DBH or height classes, to specific taxa, or would opt for inventories at family or genus level.
+Sampling methods were optimized to minimize these costs and maximize inventory accuracy. Some approaches would restrict inventories to some DBH or height classes, to specific taxa, or would opt for inventories at family or genus level.
 These methods efficiently translated biodiversity patterns at regional scales and along wide ecological gradients [@Steege2000;@Higgins2004;@Rejou-Mechain2011;@Pos2014].
-However, these methods were either limited to small areas (under 1ha), sometimes remained biased or holding significant uncertainty, and usually proved limited to detect subtle diversity aspects and to desentangle richness from equitability parameters [@Phillips2003a;@Baraloto2013;@Guitet2014b ;@Vellend2008;@Prance1994].
+However, these methods were either limited to small areas (under 1ha), sometimes remained biased or holding significant uncertainty, and usually proved limited to detect subtle diversity aspects and to disentangle richness from equitability parameters [@Phillips2003a;@Baraloto2013;@Guitet2014b ;@Vellend2008;@Prance1994].
 Another approach proposed to use inventories in vernacular names instead of botanical species.
 Vernacular names indeed are easier to attribute, more common and usually do not require vouchers collection or posterior botanical identification. 
 The reliability of vernacular names may be high at genus level, but this proved highly variable across tropical regions: while this reliability was estimated around 60-70% in French Guiana [@Hawes2012;@Guitet2014b] to ranges from 32% to 67% in Central Africa [@Rejou-Mechain2011].
 The multiple and variable associations between botanical and vernacular names then entail significant botanical uncertainties that should not be ignored [@Oldeman1968].
-Besides, rough vernacular inventories would not allow functional and phylogenetic approaches, that require identification at the botanical species to comply with phylogenetic and functional database.
-However the approach through vernacular names deserves further attention.
+Besides, rough vernacular inventories would not allow functional and phylogenetic approaches that require identification at the botanical species to comply with phylogenetic and functional database.
+However, the approach through vernacular names deserves further attention.
 First, it gives the opportunity to analyze pre-logging inventories conducted in large areas by logging companies.
 Second, as exhaustive inventories, they allow some post-process based on vernacular/botanical names association and allow the building of reliable diversity estimators [@TerSteege2006;@Feldpausch2006;@Rejou-Mechain2008;@Rejou-Mechain2011].
 Following this idea @Guitet2014b proposed a framework propagating vernacular names taxonomic uncertainties in diversity measures.
 The propagation framework was based on Monte-Carlo processes estimating forest diversity from the vernacular-botanical name association.
-These association combined prior information from both general taxa-abundance correspondence table [@Molino2009] and reference field inventories.
+These associations combined prior information from both general taxa-abundance correspondence table [@Molino2009] and reference field inventories.
 The framework successfully rendered the ranking of plots diversity, but remained restricted to large environmental gradient and for highly different communities [@Guitet2014b;@Guitet2013].
 In this study we offer to refine this framework and adapt it to diversity estimation at smaller spatial scales.
 The following diversity estimator is based on the specific case of the studied community and the inventory protocol.
@@ -138,7 +138,7 @@ The diversity estimator besides suits all inventories whatever the ratio of bota
 It besides suits experimental specific as well as pre-logging inventories where only the commercial or most recognizable species are identified at species level.
 
 Such diversity estimator allows maximizing the accuracy of diversity measures while minimizing the sampling effort, *i.e.* the size of inventoried communities and the number of accurately identified species.
-In this perspective we thought to calibrate an ideal inventory protocol optimized in terms of sampling effort and determination degree.
+In this perspective, we thought to calibrate an ideal inventory protocol optimized in terms of sampling effort and determination degree.
 From a real inventory, with complete vernacular and botanical identifications, we simulated ranges of sampling efforts and identification degrees along which we examined the bias and variability of the diversity estimator.
 
 In this study we *(i)* redesigned a diversity estimator based on a Bayesian framework accounting for both general taxa-association tables and specific field inventories, and *(ii)* applied the estimator to a real Neotropical forest inventory to determine the sampling effort and determination degree of an ideal inventory protocol.
@@ -149,16 +149,16 @@ In this study we *(i)* redesigned a diversity estimator based on a Bayesian fram
 
 We based our analyses on the inventory of a Neotropical rainforest, from the Paracou Research Station in French Guiana (5°18'N and 52°53'W).
 The experimental site stands in a lowland tropical rainforest with a flora dominated by *Fabaceae*, *Chrysobalanaceae*, *Lecythidaceae* and *Sapotaceae* families.
-Mean mean annual temperature is 26°C. and the mean annual precipitations average $2980 mm.y^-1$ (30-y period) with a 3-months dry season ($< 100 mm.months-1$) from mid-August to mid-November and a one-month dry season in March [@Wagner2011].
+Mean annual temperature is 26°C and the mean annual precipitations average $2980 mm.y^-1$ (30-y period) with a 3-months dry season ($< 100 mm.months-1$) from mid-August to mid-November and a one-month dry season in March [@Wagner2011].
 Elevation ranges between 5 and 50 m and soils correspond to thin acrisols over a layer of transformed saprolite with low permeability, generating lateral drainage during heavy rains [@IUSSWorkingGroupWRB2015]. 
 We used the 2015 inventory of six permanent plots of undisturbed forest (6.25ha each, 37.5ha inventoried in total).
-During inventories trees are identified first with a vernacular name assigned by the forest worker team, and afterward with a scientific name assigned by botanists during regular botanical campaigns. 
-The community inventoried ancompasses 22 904 trees belonging to 375 species and 63 families, identified by 290 different vernacular names.
+During inventories, trees are identified first with a vernacular name assigned by the forest worker team, and afterward with a scientific name assigned by botanists during regular botanical campaigns. 
+The community inventoried encompasses 22 904 trees belonging to 375 species and 63 families, identified by 290 different vernacular names.
 The initial taxonomic uncertainty was 3% of the community, *i.e.* the proportion of trees not identified with a botanical name.
 
 #### Diversity measures
 
-Among the large panel of diversity indices we examined here the family of q-generalized (Tsallis) entropy, widely adopted to assess all aspects of taxonomic, functional and phylogenetic diversities.
+Among the large panel of diversity indices, we examined here the family of q-generalized (Tsallis) entropy, widely adopted to assess all aspects of taxonomic, functional and phylogenetic diversities.
 The Tsallis diversity indices derive from a general formula, modulated by an order q emphasizing species frequency \@ref(eq:TsallisEntropy). 
 
 \begin{equation}
@@ -168,7 +168,7 @@ The Tsallis diversity indices derive from a general formula, modulated by an ord
 
 In the diversity formula, species relative abundance $p_i$ in a community of $N$ species is raised at the power $q$ that is the order of the diversity.
 The higher the order $q$, the higher the emphasis on common vs. rare species, so browsing a range of order $q$ corresponds assess a gradient balance between richness and evenness.
-The formula retrieves species richness for $q = 0$ , Shannon diversity for $q = 1$ where richness and evenness are equally accounted for and Simpson diversity, that can be undestood as the diversity of common species, for $q = 2$. 
+The formula retrieves species richness for $q = 0$ , Shannon diversity for $q = 1$ where richness and evenness are equally accounted for and Simpson diversity, that can be understood as the diversity of common species, for $q = 2$. 
 The Tsallis diversity indices would eventually be converted into equivalent number of species in our framework.
 The conversion in equivalent number of species, through Hill transformation, allows understandable analysis and comparisons among communities [@Hill1973;@Keylock2005;@Jost2006].
 
@@ -204,7 +204,7 @@ When $w=0$ only observed inventories were considered, when $w=0.5$ both informat
 
 The estimator was calibrated in comparing several methods for the vernacular/botanical association probability (corresponding to different values of $w$, the balance between general table and observed inventories).
 The performance of the estimator was examined regarding its bias, *i.e.* the difference between the estimation and the real diversity, and its variability, *i.e.* 95% confidence interval [@Baltanas2009]. 
-For each computation method the performance of the estimator was examined along a determination gradient (corresponding to an increasing number of species only identified in vernacular name).
+For each computation method, the performance of the estimator was examined along a determination gradient (corresponding to an increasing number of species only identified in vernacular name).
 As rare species had more chance to be undetermined (Kendall test, $\tau = -0.46, p < 10^-16$), the trial of ignored determination followed botanical names abundance ($p_{undetermined}=f_i^{-0.1}$, with $f_i$ botanical name frequency).
 
 Different inventory specific cases were then tested in examining the bias and variability of the estimator along a sampling effort gradient (corresponding to an increasing number of trees, from 500 to 22 000 trees, used to compute the vernacular/botanical association probability). 
@@ -212,7 +212,7 @@ Along the sampling effort gradient the estimations were performed on the fully u
 
 ### Results
 
-#### The reponse to determination effort, and the design of an ideal framework
+#### The response to determination effort, and the design of an ideal framework
 
 Along the indetermination gradient, when considering both general taxa-association table and observed inventory the diversity was increasingly overestimated (Fig. \@ref(fig:UncertGrad)).
 This overestimation increased with the order of diversity q, while it was not significant for the richness ($q=0$), the overestimation reached 45% of the real diversity for Shannon diversity ($q = 1$) and it reached 57% of the real diversity for the Simpson diversity ($q = 2$).
@@ -262,7 +262,7 @@ mtext("(c) Simpson",at=0.76,line=-1,outer=TRUE)
 
 ```
 
-The precision and bias of the estimator were eventually tested for the recomended sampling effort of 3 000 trees.
+The precision and bias of the estimator were eventually tested for the recommended sampling effort of 3 000 trees.
 In this case the Shannon and Simpson biases remained lower than 10% and the Richness bias was below 10% until 20% of undetermined species.
 
 ```{r UncertGradLim, echo=FALSE, fig.asp=1.3/3, fig.cap="Richness, Shannon and Simpson estimators along a taxonomic uncertainty gradient based on field inventories of 3 000 trees,  with shaded areas the 95\\% confidence interval.", fig.env="figure*"}
@@ -282,67 +282,70 @@ mtext("Determination effort (%)",side=1,adj=1,cex=0.9,line=0.5,outer=TRUE)
 
 #### Inescapable taxonomists
 
-The method developed in the line of @Guitet2014b to propagate the taxonomic uncertainty of vernacular names in diversity mesures provided a reliable estimator for diversity indices, workable for all diversity order and adaptable for functoinal diversity.
+The method developed in the line of @Guitet2014b to propagate the taxonomic uncertainty of vernacular names in diversity measures provided a reliable estimator for diversity indices, workable for all diversity order and adaptable for functional diversity.
 The use the general taxonomic-association table proved to systematically overestimate the diversity.
-In these tables the vernacular/botanical association probabilities were independent of botanical name abundances, so rare vernacular names were indifferently replaced by rare or abundant botanical names.
+In these tables, the vernacular/botanical association probabilities were independent of botanical name abundances, so rare vernacular names were indifferently replaced by rare or abundant botanical names.
 As a result, the abundance of rare species were inflated at the expense abundant ones, which overestimated the equitability.
-Contrastingly the use of observed inventories that account for the abundance of botanical names proved more reliable.
-The rescourse to taxonomists and pre-inventories proved unavoidable to correctly estimate and therefore manage forest biodiversity.
+Contrastingly, the use of observed inventories that account for the abundance of botanical names proved more reliable.
+The recourse to taxonomists and pre-inventories proved unavoidable to correctly estimate and therefore manage forest biodiversity.
 
 #### Calibration of an optimized inventory protocol
 
-The performance of the estimator, regarding its bias and variability, along the determination and sampling efforts gradients highlighted the difficulty to assess communities richness.
+The performance of the estimator, regarding its bias and variability, along the determination and sampling efforts gradients highlighted the difficulty to assess community richness.
 Whatever the inventory protocol the richness indeed remained significantly biased, as already suggested in previous analysis comparing several inventory methods [@Higgins2004].
 
 Conversely, the Shannon and Simpson diversity estimations proved less biased, thus allowing the estimator to detect small variation of community equitability.
-This would be a key to value existing inventories and ease future protocols as subtle time and spatial diversity variations often invlove changes in community abundance distribution rather than richness [@Baraloto2012a;@Berry2008a;@Cannon1998;@Plumptre1996].
+This would be a key to value existing inventories and ease future protocols as subtle time and spatial diversity variations often involve changes in community abundance distribution rather than richness [@Baraloto2012a;@Berry2008a;@Cannon1998;@Plumptre1996].
 
 An optimized protocol maximizing the estimator performance on the one hand and minimizing the determination and sampling efforts on the other hand corresponding to the pre-inventory of at least 3 000 trees and the determination of 80% of the botanical species.
 
 ### Conclusion
 
 The diversity estimator developed in this paper (i) proved relevant to measure tropical forest diversity at small time and spatial scale, (ii) allowed to integrate the specificities of local forests and working team, and (iii) was adaptable for both taxonomic and functional diversity at all order.
-Examining the estimator performance highlighted the inescapable rescourse to taxonomists and to minimum real inventories:
+Examining the estimator performance highlighted the inescapable recourse to taxonomists and to minimum real inventories:
 an initial inventory of 3 000 trees with 80% of the species identified allowed an estimation accurate at 10% of Shannon and Simpson diversities.
-The diversity estimator allows integrating  and is thus adaptable to all specific case.
+The diversity estimator allows integrating local specificities and is thus adaptable to all specific case.
 
 \newpage
 
----
-title: "Script"
-author: "Ariane"
-date: "5 septembre 2018"
-output: pdf_document
----
 
 ## Script R, estimateur de diversité
+
+L'estimateur de diversité correspond à la routine présentée ci-dessous.
+L'estimateur utilise les fonctions du package entropart [@Entropart2015].
+La donnée d'entrée est un inventaire sous forme de tableau recensant les individus inventoriés en ligne et les informations botaniques correspondantes en colonne (nom vernaculaire, famille, genre et espèce).
 
 ``` {r echo=FALSE, message=FALSE}
 Plot<-read.csv2("ExternalFig/Inventory.csv", dec=".", sep=";", header=TRUE)[c(626,3,8,4,815),]
 Plot["name"]<-paste(Plot$Genus, Plot$Species)
 ```
 
-``` {r scriptUncertainty, echo=TRUE}
-# Le script retourne la moyenne et l'intervalle de confiance à 95% du profil de diversité 
-# d'un inventaire. 
-# L'inventaire est une matrice Plot (individu * données botaniques), les données manquantes 
-# sont indiquées par "Indet."
+Le script retourne la moyenne et l'intervalle de confiance à 95% du profil de diversité d'un inventaire. 
+L'inventaire est une matrice Plot (individu * données botaniques), les données manquantes sont notées "Indet."
 
-head(Plot,5)
+``` {r , echo=FALSE}
 
+head(Plot[,1:4],5)
 
-# La première étape donne une matrice d'association vernaculaire/botanique.
-# La matrice alpha liste les fréquences d'association de référence.
+```
 
+La première étape donne une matrice alpha d'association vernaculaire/botanique qui liste les fréquences d'association observées dans l'inventaire de référence.
+
+``` {r , echo=TRUE}
 alpha_construct<-  function(Plot){
-  mat_eff<-as.data.frame.matrix(with(Plot, xtabs(~name+Vernacular)))
+  mat_eff<-as.data.frame.matrix(
+    with(Plot, xtabs(~name+Vernacular)))
+  
   alpha <- apply(mat_eff,2,function(v){v/sum(v)})
+  
   return(alpha)
 }
+```
 
-# A partir d'un vecteur d'association, un processus Dirichlet/Multinomial permet de tirer
-# au hasard un nom botanique
+A partir d'un vecteur d'association, un processus Dirichlet/Multinomial permet de tirer au hasard un nom botanique
 
+``` {r , echo=TRUE}
+ 
 Dirichlet_draw<-function(V){
   Vdir<-gtools::rdirichlet(1,V)
   names(Vdir)<-names(V)
@@ -351,72 +354,104 @@ Dirichlet_draw<-function(V){
   return(res)
 }
 
-# Pour tenir compte de toute les informations phylogénétiques disponibles, on liste les 
-# associations possibles nom vernaculaire / Famille / genre / espèce  
+```
 
+Pour tenir compte de toute les informations phylogénétiques disponibles, on liste les associations possibles nom vernaculaire / Famille / genre / espèce  
+
+``` {r , echo=TRUE}
 Correspondences<-function(Plot){
-  bota<-Plot[order(Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]),]
+  bota<-Plot[order(
+    Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]
+    ),]
   bota<-bota[which(!duplicated(bota)),]
   return(bota)
 } 
+```
 
-# On peut alors attribuer un nom botanique à tout nom vernaculaire:
+On peut alors attribuer un nom botanique à tout nom vernaculaire:
 
+``` {r , echo=TRUE}
 tirage <- function(alpha,bota,name,eps=0.05){ 
   
   if(name["Vernacular"]=="-"){
     trial<-sample(rownames(alpha),1)
-    while(grepl("Indet.",trial)){trial<-sample(rownames(alpha),1)}
-  }
+    while(grepl("Indet.",trial)){
+      trial<-sample(rownames(alpha),1)
+      }}
   
   alpha_adjust<-alpha[,name["Vernacular"]]
   
   if(name["Vernacular"]!="-" & name["Genus"]!="Indet."){
-    mismatch<-bota[intersect(which(bota[,"Vernacular"]==name["Vernacular"]),
-                             which(!bota[,"Genus"]%in%name["Genus"])),"name"]
+    
+    mismatch<-bota[intersect(
+      which(bota[,"Vernacular"]==name["Vernacular"]),
+      which(!bota[,"Genus"]%in%name["Genus"])),"name"]
+    
     alpha_adjust[as.character(mismatch)]<-0
     match<-names(alpha_adjust[which(alpha_adjust!=0)])
     
-    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+    alpha_adjust[which(alpha_adjust==0)]<-
+      eps/length(which(alpha_adjust==0))
     
     trial<-Dirichlet_draw(alpha_adjust)
     
     if(any(grep("Indet.",match,invert=T)!=0)){
-      while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+      while(grepl("Indet.",trial)){
+        trial<-Dirichlet_draw(alpha_adjust)
       }
     }
   }
   
-# Restrict the sampling pool to account for phylogenetic information
+# Seuls les noms botaniques correspondant 
+# aux informations botaniques 
+# sont gardés dans le tirage
   
-  if(name["Vernacular"]!="-" & name["Genus"]=="Indet." & name["Family"]!="Indet."){
-    mismatch<-bota[intersect(which(bota[,"Vernacular"]==name["Vernacular"]),
-                             which(!bota[,"Family"]%in%name["Family"])),"name"]
+  if(name["Vernacular"]!="-" 
+     & name["Genus"]=="Indet." 
+     & name["Family"]!="Indet."){
+    
+    mismatch<-bota[intersect(which(
+      bota[,"Vernacular"]==name["Vernacular"]),
+      which(!bota[,"Family"] %in%
+              name["Family"])),"name"]
+    
     alpha_adjust[as.character(mismatch)]<-0
     match<-names(alpha_adjust[which(alpha_adjust!=0)])
-    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+    
+    alpha_adjust[which(alpha_adjust==0)]<-
+      eps/length(which(alpha_adjust==0))
     
     trial<-Dirichlet_draw(alpha_adjust)
     if(any(grep("Indet.",match,invert=T))!=0){ 
-      while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+      while(grepl("Indet.",trial)){
+        trial<-Dirichlet_draw(alpha_adjust)
       } 
     }
   }
-  if(name["Vernacular"]!="-" & name["Genus"]=="Indet." & name["Family"]=="Indet."){
-    alpha_adjust[which(alpha_adjust==0)]<-eps/length(which(alpha_adjust==0))
+  if(name["Vernacular"]!="-" 
+     & name["Genus"]=="Indet." 
+     & name["Family"]=="Indet."){
+    
+    alpha_adjust[which(alpha_adjust==0)]<-
+      eps/length(which(alpha_adjust==0))
     
     trial<-Dirichlet_draw(alpha_adjust)
-    while(grepl("Indet.",trial)){trial<-Dirichlet_draw(alpha_adjust)
+    while(grepl("Indet.",trial)){
+      trial<-Dirichlet_draw(alpha_adjust)
     }
   }
   return(trial)
 }
+```
 
-# On peut alors générer un inventaire théorique complet à partir de l'inventaire réel 
+On peut alors générer un inventaire théorique complet à partir de l'inventaire réel 
 
+``` {r , echo=TRUE}
 Replacement<-function(Plot,Alpha,Bota){
-  Determ<-Plot[which(!Plot["Species"]=="Indet."),]
-  Indet<-Plot[which(Plot["Species"]=="Indet."),]
+  Determ<-
+    Plot[which(!Plot["Species"]=="Indet."),]
+  Indet<-
+    Plot[which(Plot["Species"]=="Indet."),]
   
   Vern<-apply(Indet,2,as.character)
   
@@ -425,7 +460,7 @@ Replacement<-function(Plot,Alpha,Bota){
   }
   if(nrow(Indet)==1){
     Simu<-c(as.character(Determ[,"name"]),
-            tirage(alpha=Alpha,bota=Bota,name=Vern))
+      tirage(alpha=Alpha,bota=Bota,name=Vern))
   }
   if(nrow(Indet)>1){
     Simu<-unlist(lapply(1:nrow(Vern),function(i){
@@ -435,29 +470,39 @@ Replacement<-function(Plot,Alpha,Bota){
   }
   return(Simu)
 }
+```
 
-# L'algorithme final retourne la médiane et l'intervalle de confiance 
-# de l'estimateur de diversité pour tout ordre Q, après Nrep simulations
+L'algorithme final retourne la médiane et l'intervalle de confiance de l'estimateur de diversité pour tout ordre *Q*, après *Nrep* simulations.
 
-Est_Entropy<-function(Plot,Q){
+``` {r , echo=TRUE}
+Est_Entropy<-function(Plot,Q,Nrep){
   
   alpha<-alpha_construct(Plot)
   
   bota<-Correspondences(Plot)
   
   Entrop<-lapply(1:Nrep,function(r){
-    entrop<-as.data.frame(Replacement(Plot,Alpha=alpha,Bota=bota))
-    entrop<-as.AbdVector(tapply(entrop,entrop,length))
-    return(expq(bcTsallis(entrop,q=Q,Correction = "None"),q=Q))
-  })
- 
+    entrop<-
+      Replacement(Plot,Alpha=alpha,Bota=bota)
+    entrop<-
+      as.AbdVector(tapply(entrop,entrop,length))
+    return(
+      expq(bcTsallis(
+        entrop,q=Q,Correction = "None"),q=Q)
+      )})
+  
+  Entrop<-unlist(Entrop)
+  
   Entrop<-lapply(c(0.025,0.5,0.975),function(p){
-    return(quantile(x,probs=p,na.rm=T))
-    })
+    return(quantile(Entrop,probs=p,na.rm=T))
+  })
+  Entrop<-unlist(Entrop)
   names(Entrop)<-c(0.025,0.5,0.975)
-                 
-  return(unlist(Entrop))
+  
+  return(Entrop)
 }
+
+Est_Entropy(Plot,1,3)
 
 ```
 

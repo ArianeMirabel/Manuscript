@@ -174,7 +174,7 @@ perturbation}
 \author{Ariane Mirabel}
 
 
-\date{2018-09-05}
+\date{2018-09-06}
 
 
 % Main title page with filigrane
@@ -1637,41 +1637,50 @@ thus adaptable to all specific case.
 \section{Script R, estimateur de
 diversité}\label{script-r-estimateur-de-diversite}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\CommentTok{# Le script retourne la moyenne et l'intervalle de confiance à 95% du profil}
-\CommentTok{# de diversité d'un inventaire.  L'inventaire est une matrice Plot (individu}
-\CommentTok{# * données botaniques), les données manquantes sont indiquées par 'Indet.'}
+L'estimateur de diversité correspond à la routine présentée ci-dessous.
+L'estimateur utilise les fonctions du package entropart
+\autocite{Entropart2015}. La donnée d'entrée est un inventaire sous
+forme de tableau recensant les individus inventoriés en ligne et les
+informations botaniques correspodantes en colonne (nom vernaculaire,
+famille, genre et espèce).
 
-\KeywordTok{head}\NormalTok{(Plot, }\DecValTok{5}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+Le script retourne la moyenne et l'intervalle de confiance à 95\% du
+profil de diversité d'un inventaire. L'inventaire est une matrice Plot
+(individu * données botaniques), les données manquantes sont notées
+``Indet.''
 
 \begin{verbatim}
-##      Vernacular        Family     Genus    Species                name
-## 626  busi mango    Clusiaceae  Tovomita     Indet.     Tovomita Indet.
-## 3   maho cochon     Malvaceae Sterculia   pruriens  Sterculia pruriens
-## 8    maho rouge Lecythidaceae  Lecythis persistens Lecythis persistens
-## 4          wapa      Fabaceae    Eperua    falcata      Eperua falcata
-## 815        weko      Fabaceae      Inga     Indet.         Inga Indet.
+##      Vernacular        Family     Genus    Species
+## 626  busi mango    Clusiaceae  Tovomita     Indet.
+## 3   maho cochon     Malvaceae Sterculia   pruriens
+## 8    maho rouge Lecythidaceae  Lecythis persistens
+## 4          wapa      Fabaceae    Eperua    falcata
+## 815        weko      Fabaceae      Inga     Indet.
 \end{verbatim}
+
+La première étape donne une matrice alpha d'association
+vernaculaire/botanique qui liste les fréquences d'association observées
+dans l'inventaire de référence.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{# La première étape donne une matrice d'association vernaculaire/botanique.}
-\CommentTok{# La matrice alpha liste les fréquences d'association de référence.}
-
 \NormalTok{alpha_construct <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(Plot) \{}
 \NormalTok{    mat_eff <-}\StringTok{ }\KeywordTok{as.data.frame.matrix}\NormalTok{(}\KeywordTok{with}\NormalTok{(Plot, }\KeywordTok{xtabs}\NormalTok{(}\OperatorTok{~}\NormalTok{name }\OperatorTok{+}\StringTok{ }\NormalTok{Vernacular)))}
+    
 \NormalTok{    alpha <-}\StringTok{ }\KeywordTok{apply}\NormalTok{(mat_eff, }\DecValTok{2}\NormalTok{, }\ControlFlowTok{function}\NormalTok{(v) \{}
 \NormalTok{        v}\OperatorTok{/}\KeywordTok{sum}\NormalTok{(v)}
 \NormalTok{    \})}
+    
     \KeywordTok{return}\NormalTok{(alpha)}
 \NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# A partir d'un vecteur d'association, un processus Dirichlet/Multinomial}
-\CommentTok{# permet de tirer au hasard un nom botanique}
+A partir d'un vecteur d'association, un processus Dirichlet/Multinomial
+permet de tirer au hasard un nom botanique
 
+\begin{Shaded}
+\begin{Highlighting}[]
 \NormalTok{Dirichlet_draw <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(V) \{}
 \NormalTok{    Vdir <-}\StringTok{ }\NormalTok{gtools}\OperatorTok{::}\KeywordTok{rdirichlet}\NormalTok{(}\DecValTok{1}\NormalTok{, V)}
     \KeywordTok{names}\NormalTok{(Vdir) <-}\StringTok{ }\KeywordTok{names}\NormalTok{(V)}
@@ -1679,20 +1688,28 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{    res <-}\StringTok{ }\KeywordTok{rownames}\NormalTok{(res)[}\KeywordTok{which}\NormalTok{(res }\OperatorTok{>}\StringTok{ }\DecValTok{0}\NormalTok{)]}
     \KeywordTok{return}\NormalTok{(res)}
 \NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# Pour tenir compte de toute les informations phylogénétiques disponibles,}
-\CommentTok{# on liste les associations possibles nom vernaculaire / Famille / genre /}
-\CommentTok{# espèce}
+Pour tenir compte de toute les informations phylogénétiques disponibles,
+on liste les associations possibles nom vernaculaire / Famille / genre /
+espèce
 
+\begin{Shaded}
+\begin{Highlighting}[]
 \NormalTok{Correspondences <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(Plot) \{}
 \NormalTok{    bota <-}\StringTok{ }\NormalTok{Plot[}\KeywordTok{order}\NormalTok{(Plot[, }\StringTok{"Family"}\NormalTok{], Plot[, }\StringTok{"Genus"}\NormalTok{], Plot[, }\StringTok{"Species"}\NormalTok{]), }
 \NormalTok{        ]}
 \NormalTok{    bota <-}\StringTok{ }\NormalTok{bota[}\KeywordTok{which}\NormalTok{(}\OperatorTok{!}\KeywordTok{duplicated}\NormalTok{(bota)), ]}
     \KeywordTok{return}\NormalTok{(bota)}
 \NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# On peut alors attribuer un nom botanique à tout nom vernaculaire:}
+On peut alors attribuer un nom botanique à tout nom vernaculaire:
 
+\begin{Shaded}
+\begin{Highlighting}[]
 \NormalTok{tirage <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(alpha, bota, name, }\DataTypeTok{eps =} \FloatTok{0.05}\NormalTok{) \{}
     
     \ControlFlowTok{if}\NormalTok{ (name[}\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{==}\StringTok{ "-"}\NormalTok{) \{}
@@ -1705,8 +1722,10 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{    alpha_adjust <-}\StringTok{ }\NormalTok{alpha[, name[}\StringTok{"Vernacular"}\NormalTok{]]}
     
     \ControlFlowTok{if}\NormalTok{ (name[}\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{!=}\StringTok{ "-"} \OperatorTok{&}\StringTok{ }\NormalTok{name[}\StringTok{"Genus"}\NormalTok{] }\OperatorTok{!=}\StringTok{ "Indet."}\NormalTok{) \{}
+        
 \NormalTok{        mismatch <-}\StringTok{ }\NormalTok{bota[}\KeywordTok{intersect}\NormalTok{(}\KeywordTok{which}\NormalTok{(bota[, }\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{==}\StringTok{ }\NormalTok{name[}\StringTok{"Vernacular"}\NormalTok{]), }
             \KeywordTok{which}\NormalTok{(}\OperatorTok{!}\NormalTok{bota[, }\StringTok{"Genus"}\NormalTok{] }\OperatorTok{%in%}\StringTok{ }\NormalTok{name[}\StringTok{"Genus"}\NormalTok{])), }\StringTok{"name"}\NormalTok{]}
+        
 \NormalTok{        alpha_adjust[}\KeywordTok{as.character}\NormalTok{(mismatch)] <-}\StringTok{ }\DecValTok{0}
 \NormalTok{        match <-}\StringTok{ }\KeywordTok{names}\NormalTok{(alpha_adjust[}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{!=}\StringTok{ }\DecValTok{0}\NormalTok{)])}
         
@@ -1722,14 +1741,18 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{        \}}
 \NormalTok{    \}}
     
-    \CommentTok{# Restrict the sampling pool to account for phylogenetic information}
+    \CommentTok{# Seuls les noms botaniques correspondant aux informations botaniques sont}
+    \CommentTok{# gardés dans le tirage}
     
     \ControlFlowTok{if}\NormalTok{ (name[}\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{!=}\StringTok{ "-"} \OperatorTok{&}\StringTok{ }\NormalTok{name[}\StringTok{"Genus"}\NormalTok{] }\OperatorTok{==}\StringTok{ "Indet."} \OperatorTok{&}\StringTok{ }\NormalTok{name[}\StringTok{"Family"}\NormalTok{] }\OperatorTok{!=}\StringTok{ }
 \StringTok{        "Indet."}\NormalTok{) \{}
+        
 \NormalTok{        mismatch <-}\StringTok{ }\NormalTok{bota[}\KeywordTok{intersect}\NormalTok{(}\KeywordTok{which}\NormalTok{(bota[, }\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{==}\StringTok{ }\NormalTok{name[}\StringTok{"Vernacular"}\NormalTok{]), }
             \KeywordTok{which}\NormalTok{(}\OperatorTok{!}\NormalTok{bota[, }\StringTok{"Family"}\NormalTok{] }\OperatorTok{%in%}\StringTok{ }\NormalTok{name[}\StringTok{"Family"}\NormalTok{])), }\StringTok{"name"}\NormalTok{]}
+        
 \NormalTok{        alpha_adjust[}\KeywordTok{as.character}\NormalTok{(mismatch)] <-}\StringTok{ }\DecValTok{0}
 \NormalTok{        match <-}\StringTok{ }\KeywordTok{names}\NormalTok{(alpha_adjust[}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{!=}\StringTok{ }\DecValTok{0}\NormalTok{)])}
+        
 \NormalTok{        alpha_adjust[}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{==}\StringTok{ }\DecValTok{0}\NormalTok{)] <-}\StringTok{ }\NormalTok{eps}\OperatorTok{/}\KeywordTok{length}\NormalTok{(}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{==}\StringTok{ }
 \StringTok{            }\DecValTok{0}\NormalTok{))}
         
@@ -1742,6 +1765,7 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{    \}}
     \ControlFlowTok{if}\NormalTok{ (name[}\StringTok{"Vernacular"}\NormalTok{] }\OperatorTok{!=}\StringTok{ "-"} \OperatorTok{&}\StringTok{ }\NormalTok{name[}\StringTok{"Genus"}\NormalTok{] }\OperatorTok{==}\StringTok{ "Indet."} \OperatorTok{&}\StringTok{ }\NormalTok{name[}\StringTok{"Family"}\NormalTok{] }\OperatorTok{==}\StringTok{ }
 \StringTok{        "Indet."}\NormalTok{) \{}
+        
 \NormalTok{        alpha_adjust[}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{==}\StringTok{ }\DecValTok{0}\NormalTok{)] <-}\StringTok{ }\NormalTok{eps}\OperatorTok{/}\KeywordTok{length}\NormalTok{(}\KeywordTok{which}\NormalTok{(alpha_adjust }\OperatorTok{==}\StringTok{ }
 \StringTok{            }\DecValTok{0}\NormalTok{))}
         
@@ -1752,10 +1776,14 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{    \}}
     \KeywordTok{return}\NormalTok{(trial)}
 \NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# On peut alors générer un inventaire théorique complet à partir de}
-\CommentTok{# l'inventaire réel}
+On peut alors générer un inventaire théorique complet à partir de
+l'inventaire réel
 
+\begin{Shaded}
+\begin{Highlighting}[]
 \NormalTok{Replacement <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(Plot, Alpha, Bota) \{}
 \NormalTok{    Determ <-}\StringTok{ }\NormalTok{Plot[}\KeywordTok{which}\NormalTok{(}\OperatorTok{!}\NormalTok{Plot[}\StringTok{"Species"}\NormalTok{] }\OperatorTok{==}\StringTok{ "Indet."}\NormalTok{), ]}
 \NormalTok{    Indet <-}\StringTok{ }\NormalTok{Plot[}\KeywordTok{which}\NormalTok{(Plot[}\StringTok{"Species"}\NormalTok{] }\OperatorTok{==}\StringTok{ "Indet."}\NormalTok{), ]}
@@ -1777,31 +1805,46 @@ diversité}\label{script-r-estimateur-de-diversite}
 \NormalTok{    \}}
     \KeywordTok{return}\NormalTok{(Simu)}
 \NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
 
-\CommentTok{# L'algorithme final retourne la médiane et l'intervalle de confiance de}
-\CommentTok{# l'estimateur de diversité pour tout ordre Q, après Nrep simulations}
+L'algorithme final retourne la médiane et l'intervalle de confiance de
+l'estimateur de diversité pour tout ordre \emph{Q}, après \emph{Nrep}
+simulations.
 
-\NormalTok{Est_Entropy <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(Plot, Q) \{}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Est_Entropy <-}\StringTok{ }\ControlFlowTok{function}\NormalTok{(Plot, Q, Nrep) \{}
     
 \NormalTok{    alpha <-}\StringTok{ }\KeywordTok{alpha_construct}\NormalTok{(Plot)}
     
 \NormalTok{    bota <-}\StringTok{ }\KeywordTok{Correspondences}\NormalTok{(Plot)}
     
 \NormalTok{    Entrop <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(}\DecValTok{1}\OperatorTok{:}\NormalTok{Nrep, }\ControlFlowTok{function}\NormalTok{(r) \{}
-\NormalTok{        entrop <-}\StringTok{ }\KeywordTok{as.data.frame}\NormalTok{(}\KeywordTok{Replacement}\NormalTok{(Plot, }\DataTypeTok{Alpha =}\NormalTok{ alpha, }\DataTypeTok{Bota =}\NormalTok{ bota))}
+\NormalTok{        entrop <-}\StringTok{ }\KeywordTok{Replacement}\NormalTok{(Plot, }\DataTypeTok{Alpha =}\NormalTok{ alpha, }\DataTypeTok{Bota =}\NormalTok{ bota)}
 \NormalTok{        entrop <-}\StringTok{ }\KeywordTok{as.AbdVector}\NormalTok{(}\KeywordTok{tapply}\NormalTok{(entrop, entrop, length))}
         \KeywordTok{return}\NormalTok{(}\KeywordTok{expq}\NormalTok{(}\KeywordTok{bcTsallis}\NormalTok{(entrop, }\DataTypeTok{q =}\NormalTok{ Q, }\DataTypeTok{Correction =} \StringTok{"None"}\NormalTok{), }\DataTypeTok{q =}\NormalTok{ Q))}
 \NormalTok{    \})}
     
+\NormalTok{    Entrop <-}\StringTok{ }\KeywordTok{unlist}\NormalTok{(Entrop)}
+    
 \NormalTok{    Entrop <-}\StringTok{ }\KeywordTok{lapply}\NormalTok{(}\KeywordTok{c}\NormalTok{(}\FloatTok{0.025}\NormalTok{, }\FloatTok{0.5}\NormalTok{, }\FloatTok{0.975}\NormalTok{), }\ControlFlowTok{function}\NormalTok{(p) \{}
-        \KeywordTok{return}\NormalTok{(}\KeywordTok{quantile}\NormalTok{(x, }\DataTypeTok{probs =}\NormalTok{ p, }\DataTypeTok{na.rm =}\NormalTok{ T))}
+        \KeywordTok{return}\NormalTok{(}\KeywordTok{quantile}\NormalTok{(Entrop, }\DataTypeTok{probs =}\NormalTok{ p, }\DataTypeTok{na.rm =}\NormalTok{ T))}
 \NormalTok{    \})}
+\NormalTok{    Entrop <-}\StringTok{ }\KeywordTok{unlist}\NormalTok{(Entrop)}
     \KeywordTok{names}\NormalTok{(Entrop) <-}\StringTok{ }\KeywordTok{c}\NormalTok{(}\FloatTok{0.025}\NormalTok{, }\FloatTok{0.5}\NormalTok{, }\FloatTok{0.975}\NormalTok{)}
     
-    \KeywordTok{return}\NormalTok{(}\KeywordTok{unlist}\NormalTok{(Entrop))}
+    \KeywordTok{return}\NormalTok{(Entrop)}
 \NormalTok{\}}
+
+\KeywordTok{Est_Entropy}\NormalTok{(Plot, }\DecValTok{1}\NormalTok{, }\DecValTok{3}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## 0.025   0.5 0.975 
+##     5     5     5
+\end{verbatim}
 
 \chapter{Trajectoires de diversité à l'échelle des
 communautés}\label{trajectoires-de-diversite-a-lechelle-des-communautes}

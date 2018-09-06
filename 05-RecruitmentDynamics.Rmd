@@ -1,8 +1,8 @@
 # Analyse du recrutement, support de la trajectoire des communautés
 
-La réponse des communautés aux perturbations est déterminée par les trajetoires du recrutment, reconnu pour suivre une succession déterministe régie après perturbation.
+La réponse des communautés aux perturbations est déterminée par les trajectoires du recrutement, reconnu pour suivre une succession déterministe régie après perturbation.
 Ceci reste cependant à tester dans le cas des forêts tropicales, dont l'immense biodiversité pourrait atténuer les processus déterministes, et dans le cas particulier de perturbations relativement peu intenses en comparaison des coupes rases ou de la secondarisation pour lesquels ont été observés les modèles de succession classique.  
-Nous étudions dans ce chapitre les trajectoires de diversité taxonomique et fonctionnelle du recrutement après exploitation pour (i) clarifier l'importance respective des processus stochastiques et déterministes au cours de la succession  des processus écologiques et (ii) déterminer la résilience et la durée de restauration des processus démographiques après exploitation.
+Nous étudions dans ce chapitre les trajectoires de diversité taxonomique et fonctionnelle du recrutement après exploitation pour (i) clarifier l'importance respective des processus stochastiques et déterministes au cours de la succession des processus écologiques et (ii) déterminer la résilience et la durée de restauration des processus démographiques après exploitation.
 
 Nous avons tracé les trajectoires de diversité et d'équitabilité taxonomique et fonctionnelle, et de renouvellement des espèces par rapport à la communauté initiale.
 Nous avons ensuite comparé ces trajectoires à celles de modèles nuls stochastiques.
@@ -14,7 +14,7 @@ La troisième et dernière phase correspond à la restauration des processus de 
 Malgré la rapide restauration des processus de recrutement, la restauration de la composition et de la diversité du recrutement s'est montrée longue de plusieurs décennies. 
 
 La trajectoire des communautés après perturbation est déterminée par l'émergence de processus de recrutement déterministes favorisant les espèces héliophiles, remplaçant temporairement le recrutement stochastique propre aux communautés matures. 
-Bien que résilientes les caractéristiques taxonomiques et fonctionnelles du recrutement se sont montrée impactées sur plusieurs décennies, incitant à la prudence quand au maintien des caractéristiques initiales.
+Bien que résilientes les caractéristiques taxonomiques et fonctionnelles du recrutement se sont montrée impactées sur plusieurs décennies, incitant à la prudence quantd au maintien des caractéristiques initiales.
   
 \newpage
 
@@ -91,7 +91,7 @@ Both views were reconciled under the hypothesis that communities might diverge i
 In this paper we followed recruitment trajectories over 30 years of 75 ha of Neotropical forest plots set up on a gradient of disturbance intensity, from 10 to 60% of forest biomass removed.
 We examined the recruited trees (i) taxonomic composition, richness and evenness, (ii) taxonomic turnover compared to pre-disturbance community, and (iii) functional composition and diversity based on seven major leaf, stem and life-history traits.
 We compared the recruitment trajectories to neutral models corresponding to a stochastic recruitment and a randomization of species functional traits. 
-Specifically, we (i) elucidated the successional pathway shaping community response to disturbance and the underlying ecological processes and (ii) clarified the extent of community taxonomic and functional resilience,in the sense of pre-disturbance characteristics recovery, and its consequences for tropical forest management.
+Specifically, we (i) elucidated the successional pathway shaping community response to disturbance and the underlying ecological processes and (ii) clarified the extent of community taxonomic and functional resilience, in the sense of pre-disturbance characteristics recovery, and its consequences for tropical forest management.
 
 ### Material and Methods
 
@@ -180,7 +180,7 @@ In disturbed communities the taxonomic richness followed hump-shaped trajectorie
 Afterward the taxonomic richness decreased and recovered the pre-disturbance values after 30 years.
 The observed taxonomic richness was increasingly lower than this of null model for 15 years, then the difference started to shrink but the observed richness remained negative remained negative until after 30 years.
 The taxonomic evenness decreased independently of the disturbance intensity over the 30 years ($\rho^{simpson}_{spearman}=-0.35$).
-The observed taxonomic eveness was increasingly lower than this of the null model until 15 years after disturbance, when the difference stabilized.
+The observed taxonomic evenness was increasingly lower than this of the null model until 15 years after disturbance, when the difference stabilized.
 
 The functional diversity in the undisturbed plots remained stable and equivalent to this of the functional null model over the 30 years.
 In the lowest disturbance plots the functional diversity remained stable or slightly increasing, and was higher than this of the null model for two of the T1 plots.
@@ -239,7 +239,7 @@ legend("topright",xpd=NA,legend=c("T0","T1","T2","T3"),col=ColorsTr,lwd=2.5,bty=
 
 Post-disturbance recruitment trajectories relied on a three-phased successional pathway defined by the emergence of deterministic competition processes for light gradually balancing the stochastic recruitment specific to undisturbed communities.
 
-A first phase (0-8 years), corresponded to the recruitment of pre-disturbance surviving saplings (DBH < 10 cm) that immediately benefited from the increased enlightment and alleviated competition induced by disturbance [@Denslow2000;@Herault2010].
+A first phase (0-8 years), corresponded to the recruitment of pre-disturbance surviving saplings (DBH < 10 cm) that immediately benefited from the increased enlightenment and alleviated competition induced by disturbance [@Denslow2000;@Herault2010].
 The taxonomic and functional characteristics of recruited trees mirrored the pre-disturbance communities and recruitment processes matched the null stochastic recruitment model.
 
 A second phase (8-15 years) was marked by a shift in community functional composition towards more "acquisitive" functional strategies and the dominance of a restricted set of species.
@@ -254,7 +254,7 @@ A third recruitment phase (15-30 years) corresponded to the recovery of pre-dist
 Although the recruits remained mainly light-demanding species their functional diversity increased and they increasingly resembled the pre-disturbance taxonomic composition.
 The deterministic recruitment processes then gradually left room to stochastic recruitment processes specific to undisturbed forest [@Lawton1988;@Chave2004].
 
-#### The achievement of communities recovery
+#### The achievement of community recovery
 
 After disturbance the stochastic recruitment specific to undisturbed communities was progressively restored and drove community taxonomic and functional recovery. 
 This confirmed previous results from the Paracou experiment, conducted 10 years [@Molino2001] and 20 years [@Baraloto2012a] after disturbance, where the early signs of the resilience of pre-disturbance taxonomic and functional composition recovery had been detected. 

@@ -82,99 +82,99 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}Script R, estimateur de diversité}{33}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {3}Trajectoires de diversité à l'échelle des communautés}{37}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}Trajectoires de diversité à l'échelle des communautés}{39}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Post-Disturbance Tree Community Trajectories in a Neotropical Forest}{39}{section*.29}
+\contentsline {section}{Post-Disturbance Tree Community Trajectories in a Neotropical Forest}{41}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Abstract}{39}{section*.30}
+\contentsline {subsection}{Abstract}{41}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Introduction}{40}{section*.31}
+\contentsline {subsection}{Introduction}{42}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Material and Methods}{41}{section*.32}
+\contentsline {subsection}{Material and Methods}{43}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Study site}{41}{section*.33}
+\contentsline {subsubsection}{Study site}{43}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Inventories protocol and dataset collection}{42}{section*.34}
+\contentsline {subsubsection}{Inventories protocol and dataset collection}{44}{section*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Composition and diversity metrics}{43}{section*.35}
+\contentsline {subsubsection}{Composition and diversity metrics}{45}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Results}{44}{section*.36}
+\contentsline {subsection}{Results}{46}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Communities Composition}{44}{section*.37}
+\contentsline {subsubsection}{Communities Composition}{46}{section*.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Communities richness and evenness}{45}{section*.38}
+\contentsline {subsubsection}{Communities richness and evenness}{47}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functional redundancy}{48}{section*.39}
+\contentsline {subsubsection}{Functional redundancy}{50}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Discussion}{48}{section*.40}
+\contentsline {subsection}{Discussion}{50}{section*.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A cyclic recovery of community composition}{48}{section*.41}
+\contentsline {subsubsection}{A cyclic recovery of community composition}{50}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Another perspective on the intermediate disturbance hypothesis}{49}{section*.42}
+\contentsline {subsubsection}{Another perspective on the intermediate disturbance hypothesis}{51}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The functional redundancy, key of community resilience}{50}{section*.43}
+\contentsline {subsubsection}{The functional redundancy, key of community resilience}{52}{section*.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Conclusions}{51}{section*.44}
+\contentsline {subsection}{Conclusions}{53}{section*.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Acknowledgement}{51}{section*.45}
+\contentsline {subsection}{Acknowledgement}{53}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Author's contributions}{51}{section*.46}
+\contentsline {subsection}{Author's contributions}{53}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Data availability}{52}{section*.47}
+\contentsline {subsection}{Data availability}{54}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {4}Analyse du recrutement, support de la trajectoire des communautés}{53}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}Analyse du recrutement, support de la trajectoire des communautés}{55}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}30 Years of Post-disturbance Recruitment in a Neotropical Forest}{55}{section.4.1}
+\contentsline {section}{\numberline {4.1}30 Years of Post-disturbance Recruitment in a Neotropical Forest}{57}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Introduction}{56}{section*.48}
+\contentsline {subsection}{Introduction}{58}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Material and Methods}{58}{section*.49}
+\contentsline {subsection}{Material and Methods}{60}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Study Site}{58}{section*.50}
+\contentsline {subsubsection}{Study Site}{60}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Inventories Protocol and Dataset Collection}{58}{section*.51}
+\contentsline {subsubsection}{Inventories Protocol and Dataset Collection}{60}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Recruitment trajectories}{59}{section*.52}
+\contentsline {subsubsection}{Recruitment trajectories}{61}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Results}{60}{section*.53}
+\contentsline {subsection}{Results}{62}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Taxonomic richness and evenness and functional diversity}{60}{section*.54}
+\contentsline {subsubsection}{Taxonomic richness and evenness and functional diversity}{62}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functional composition}{60}{section*.55}
+\contentsline {subsubsection}{Functional composition}{62}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Recruitment Turnover}{62}{section*.56}
+\contentsline {subsubsection}{Recruitment Turnover}{64}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Discussion}{62}{section*.57}
+\contentsline {subsection}{Discussion}{64}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A three-phased deterministic successional pathway}{62}{section*.58}
+\contentsline {subsubsection}{A three-phased deterministic successional pathway}{64}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The achievement of communities recovery}{63}{section*.59}
+\contentsline {subsubsection}{The achievement of communities recovery}{65}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Conclusion}{64}{section*.60}
+\contentsline {subsection}{Conclusion}{66}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Acknowledgement}{64}{section*.61}
+\contentsline {subsection}{Acknowledgement}{66}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Data availability}{65}{section*.62}
+\contentsline {subsection}{Data availability}{67}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{67}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{69}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Des communautés régies entre déterminisme et stochasticité}{68}{section.5.1}
+\contentsline {section}{\numberline {5.1}Des communautés régies entre déterminisme et stochasticité}{70}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Un modèle de succession défini}{68}{section*.63}
+\contentsline {subsection}{Un modèle de succession défini}{70}{section*.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Une succession fonctionnelle déterministe}{69}{section*.64}
+\contentsline {subsection}{Une succession fonctionnelle déterministe}{71}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les trajectoires taxonomique}{70}{section*.65}
+\contentsline {subsection}{Les trajectoires taxonomique}{72}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Vers une gestion durable intégrant la préservation de la biodiversité}{71}{section.5.2}
+\contentsline {section}{\numberline {5.2}Vers une gestion durable intégrant la préservation de la biodiversité}{73}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Quels critères de restauration?}{72}{section*.66}
+\contentsline {subsection}{Quels critères de restauration?}{74}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{73}{section*.67}
+\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{75}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{73}{section.5.3}
+\contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{75}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{74}{section*.68}
+\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{76}{section*.68}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
