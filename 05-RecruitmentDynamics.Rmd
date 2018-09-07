@@ -25,11 +25,7 @@ source("P:/Private/Taff/These/Redaction/3_RecruitmentTrajectories/Scripts/Drawin
 ```
 
 
-Ariane MIRABEL ^1^ ^\*^
-
-Eric Marcon ^1^
-
-Bruno Hérault ^2^ \newline
+Ariane MIRABEL ^1^ ^\*^, Eric Marcon ^1^, Bruno Hérault ^2^ \newline
 
 ^1^ UMR EcoFoG, AgroParistech, CNRS, Cirad, INRA, Université des Antilles, Université de Guyane.
     Campus Agronomique,
@@ -43,7 +39,8 @@ Bruno Hérault ^2^ \newline
 
 \* 
 E-mail: ariane.mirabel@ecofog.gf, 
-url: https://github.com/ArianeMirabel
+url: https://github.com/ArianeMirabel 
+
 ### Abstract
 
  The role of tree diversity for tropical forests functioning and services makes it crucial tree diversity and composition fate in the global changing context.
@@ -121,8 +118,9 @@ Intervention <- data.frame(
   AGBLost=c(0, "$[12-33]$", "$[33-56]$", "$[35-56]$")
 )
 names(Intervention)[5] <- "\\%AGB lost"
-knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = TRUE, booktabs = FALSE, escape = FALSE,format="latex") %>%
-  kableExtra::kable_styling(bootstrap_options = "striped")
+knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = TRUE, booktabs = FALSE, escape = FALSE, format="latex") %>%
+  kableExtra::kable_styling(bootstrap_options = "striped",font_size=7) %>%
+  column_spec(1,width="5em") %>% column_spec(c(2,3),width="8em") %>% column_spec(4,width="11em") %>% column_spec(5,width="4em")
 ```
 
 #### Inventories Protocol and Dataset Collection 

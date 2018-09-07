@@ -15,7 +15,7 @@ Les noms vernaculaires correspondent en effet à plusieurs noms botaniques et ce
 De plus, ces correspondances vernaculaires/botaniques multiples ne permettent pas des mesures directes de la diversité fonctionnelle, les bases de données fonctionnelles fournissant des informations à l'échelle des noms botaniques.
 Pour pallier ces difficultés, nous proposons ici un estimateur de la diversité permettant de transcrire les inventaires vernaculaires en inventaires botaniques et d'intégrer les incertitudes taxonomiques aux mesures de diversité.
 Une fois calibré cet estimateur a été employé pour l'ensemble des mesures de diversité taxonomique et fonctionnelle développées dans la suite de ce travail.
-Par ailleurs l'estimateur de diversité a été appliqué au contexte des inventaires pré-exploitation qui, nombreux et réalisés sur de grandes surfaces, sont une source d'information incontournable [@terSteege2000;@Guitet2014] pour l'étude et la gestion de la biodiversité en forêt tropicale. 
+Par ailleurs l'estimateur de diversité a été appliqué au contexte des inventaires pré-exploitation qui, nombreux et réalisés sur de grandes surfaces, sont une source d'information incontournable [@TerSteege2000;@Guitet2014] pour l'étude et la gestion de la biodiversité en forêt tropicale. 
 Dans ce contexte, l'analyse de la performance de l'estimateur a permis de proposer une méthode d'inventaire optimisant les coût et la précision des inventaires.
 
 L'estimateur se base sur la reconstitution d'inventaires complets en noms botaniques, générés à partir des probabilités d'association entre noms vernaculaires et botaniques.
@@ -64,7 +64,7 @@ Au moment de travail, dans les parcelles contrôle et du traitement 3 moins de 5
 Les trajectoires de diversité seront donc étudiées en termes de différence à l'état initial de chaque parcelle.
 Pour l'état initial nous prendrons comme référence les inventaires 5 ans après exploitation, date à partir de laquelle l'incertitude des inventaires reste stable.
 
-```{r FigTreesGenus, out.width='60%', fig.asp=1/2, fig.cap="Biais de l'estimateur pour les diversité en genre botanique de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
+```{r FigTreesGenus, out.width='100%', fig.asp=1/2, fig.cap="Biais de l'estimateur pour les diversité en genre botanique de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
 load("ExternalFig/Uncertaintypropagation_Genus_noCorrection")
 
 par(mfrow=c(1,3),no.readonly=TRUE)
@@ -334,6 +334,7 @@ La première étape donne une matrice alpha d'association vernaculaire/botanique
 ``` {r , echo=TRUE}
 alpha_construct<-  function(Plot){
   mat_eff<-as.data.frame.matrix(
+    
     with(Plot, xtabs(~name+Vernacular)))
   
   alpha <- apply(mat_eff,2,function(v){v/sum(v)})
@@ -360,11 +361,13 @@ Pour tenir compte de toute les informations phylogénétiques disponibles, on li
 
 ``` {r , echo=TRUE}
 Correspondences<-function(Plot){
-  bota<-Plot[order(
-    Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]
-    ),]
+  
+  bota<-Plot[order(Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]),]
+  
   bota<-bota[which(!duplicated(bota)),]
+  
   return(bota)
+  
 } 
 ```
 
@@ -501,8 +504,6 @@ Est_Entropy<-function(Plot,Q,Nrep){
   
   return(Entrop)
 }
-
-Est_Entropy(Plot,1,3)
 
 ```
 

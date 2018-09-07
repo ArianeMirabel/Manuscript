@@ -133,7 +133,7 @@ knitr::include_graphics("ExternalFig/SpeciesAbdDist.jpg")
 
 Cette uniformité des distributions d'abondance a motivé le développement de modèles proposant des relations mathématiques entre le nombre d'espèces et leur abondance.
 Ces modèles reflètent le lien entre l'importance d'une espèce dans la communauté et la quantité de ressources qu'elle mobilise pour son développement: plus une espèce est compétitive, plus elle sera abondante.
-Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau, les nutriments, l'espace, etc. [@Silvertown2004;@terSteege2006]. 
+Ce lien s'établit vis à vis de la ressource limitante, qui peut être la lumière, l'eau, les nutriments, l'espace, etc. [@Silvertown2004;@TerSteege2006]. 
 Prédire une distribution d'abondance revient à prédire la répartition de la ressource limitante entre espèces de la communauté.
 De nombreux modèles prédictifs ont été proposés: des modèles statistiques divisant aléatoirement la ressource selon une loi de probabilité donnant les effectifs de chaque espèce, aux modèles mécanistes divisant la ressource selon une formule prédéterminée comme par exemple selon une division systématique de la ressource restante [@Fisher1943; @Motomura1932; @Tokeshi1993; @Magurran1988].
 
@@ -289,7 +289,8 @@ Intervention <- data.frame(
 )
 names(Intervention)[5] <- "\\%AGB lost"
 knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = TRUE, booktabs = FALSE, escape = FALSE, format="latex") %>%
-  kableExtra::kable_styling(bootstrap_options = "striped")
+  kableExtra::kable_styling(bootstrap_options = "striped",font_size=7) %>%
+  column_spec(1,width="5em") %>% column_spec(c(2,3),width="8em") %>% column_spec(4,width="11em") %>% column_spec(5,width="4em")
 ```
 
 En 1990, trois parcelles de 6.25ha et une parcelle de 25ha (respectivement parcelles 13, 14, 15 et 16) ont été ajoutées au dispositif pour l'étude et le suivi de la diversité en forêt non perturbée \@ref(fig:ParacouDesign).

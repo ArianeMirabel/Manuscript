@@ -64,7 +64,7 @@ biblatexoptions:
 - giveninits=true
 - uniquename=init
 - maxcitenames=2
-- maxbibnames=150
+- maxbibnames=20
 - sorting=nyt
 - sortcites=false
 link-citations: yes
@@ -82,7 +82,7 @@ resume: |
   Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
   
   Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation au-delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taxonomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbations et faisant office de paramètre cinétiquement déterminant de la restauration des commuanautés après perturbation.
-  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitation durable des forêts et de nouvelles perspectives de modélisation de la diversité.
+  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitation durable des forêts et de nouvelles perspectives de modélisation de la diversité.\newline
 mots-cles:
 - Biodiversite
 - Forêts Néotropicales

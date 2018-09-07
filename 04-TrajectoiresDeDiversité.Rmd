@@ -21,11 +21,7 @@ Bien qu'effective, la restauration des caractéristiques taxonomiques et fonctio
 source("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/Scripts/DrawingTools.R")
 ```
 
-Ariane MIRABEL ^1^ ^\*^
-
-Bruno Hérault ^2^
-
-Eric Marcon ^1^
+Ariane MIRABEL ^1^ ^\*^, Bruno Hérault ^2^, Eric Marcon ^1^
 \newline
 
 ^1^ UMR EcoFoG, AgroParistech, CNRS, Cirad, INRA, Université des Antilles, Université de Guyane.
@@ -105,8 +101,9 @@ Intervention <- data.frame(
   AGBLost=c(0, "$[12-33]$", "$[33-56]$", "$[35-56]$")
 )
 names(Intervention)[5] <- "\\%AGB lost"
-knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = TRUE, booktabs = FALSE, escape = FALSE,format="latex") %>%
-  kableExtra::kable_styling(bootstrap_options = "striped")
+knitr::kable(Intervention, caption="Intervention table, summary of the disturbance intensity for the 4 plot treatments in Paracou.", longtable = TRUE, booktabs = FALSE, escape = FALSE, format="latex") %>%
+  kableExtra::kable_styling(bootstrap_options = "striped",font_size=7) %>%
+  column_spec(1,width="5em") %>% column_spec(c(2,3),width="8em") %>% column_spec(4,width="11em") %>% column_spec(5,width="4em")
 ```
 
 #### Inventories protocol and dataset collection
@@ -255,7 +252,7 @@ legend("right",inset=-0.5,xpd=NA,legend=c("10","20","30"),col=colyear,lwd=2.5,bt
 
 All disturbed plots had lower functional redundancy than control plots and followed similar hump-shaped trajectories (\@ref(fig:RedFunRest)). The maximum redundancy loss was positively correlated with the disturbance intensity ($\rho_{spearman}=0.47$) and the initial value had not recovered for any disturbed communities after 30 years.
 
-```{r RedFunRest, out.width = '80%', echo=FALSE, fig.cap="Trajectories of the functional redundancy within the initial functional space over 30 years after disturbance. Shaded areas are the credibility intervals.", fig.env="figure"}
+```{r RedFunRest, out.width = '60%', echo=FALSE, fig.cap="Trajectories of the functional redundancy within the initial functional space over 30 years after disturbance. Shaded areas are the credibility intervals.", fig.env="figure"}
 load("P:/Private/Taff/These/Redaction/2_WholePlotTrajectories/DB/Redundancy_restricted")
 
 par(mar=c(3,2,3,2))

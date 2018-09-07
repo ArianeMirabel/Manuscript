@@ -8,7 +8,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introduction générale}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Les forêts tropicales, au coeur des enjeux actuels}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Les forêts tropicales, au cœur des enjeux actuels}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Exploitation et conservation des forêts tropicales}{5}{section.1.2}
 \defcounter {refsection}{0}\relax 
@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Méthodes d'inventaires}{17}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{18}{section.1.6}
+\contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{19}{section.1.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {2}Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude}{21}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -68,7 +68,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Results}{29}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The reponse to determination effort, and the design of an ideal framework}{29}{section*.23}
+\contentsline {subsubsection}{The response to determination effort, and the design of an ideal framework}{29}{section*.23}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Calibrating the sampling effort}{30}{section*.24}
 \defcounter {refsection}{0}\relax 
@@ -104,7 +104,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Communities richness and evenness}{47}{section*.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functional redundancy}{50}{section*.39}
+\contentsline {subsubsection}{Functional redundancy}{49}{section*.39}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Discussion}{50}{section*.40}
 \defcounter {refsection}{0}\relax 
@@ -120,61 +120,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Author's contributions}{53}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Data availability}{54}{section*.47}
+\contentsline {subsection}{Data availability}{53}{section*.47}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {4}Analyse du recrutement, support de la trajectoire des communautés}{55}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}30 Years of Post-disturbance Recruitment in a Neotropical Forest}{57}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Introduction}{58}{section*.48}
+\contentsline {subsection}{Abstract}{57}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Material and Methods}{60}{section*.49}
+\contentsline {subsection}{Introduction}{58}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Study Site}{60}{section*.50}
+\contentsline {subsection}{Material and Methods}{60}{section*.50}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Inventories Protocol and Dataset Collection}{60}{section*.51}
+\contentsline {subsubsection}{Study Site}{60}{section*.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Recruitment trajectories}{61}{section*.52}
+\contentsline {subsubsection}{Inventories Protocol and Dataset Collection}{60}{section*.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Results}{62}{section*.53}
+\contentsline {subsubsection}{Recruitment trajectories}{61}{section*.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Taxonomic richness and evenness and functional diversity}{62}{section*.54}
+\contentsline {subsection}{Results}{62}{section*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Functional composition}{62}{section*.55}
+\contentsline {subsubsection}{Taxonomic richness and evenness and functional diversity}{62}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Recruitment Turnover}{64}{section*.56}
+\contentsline {subsubsection}{Functional composition}{63}{section*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Discussion}{64}{section*.57}
+\contentsline {subsubsection}{Recruitment Turnover}{63}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{A three-phased deterministic successional pathway}{64}{section*.58}
+\contentsline {subsection}{Discussion}{63}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The achievement of communities recovery}{65}{section*.59}
+\contentsline {subsubsection}{A three-phased deterministic successional pathway}{63}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Conclusion}{66}{section*.60}
+\contentsline {subsubsection}{The achievement of community recovery}{65}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Acknowledgement}{66}{section*.61}
+\contentsline {subsection}{Conclusion}{66}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Data availability}{67}{section*.62}
+\contentsline {subsection}{Acknowledgement}{67}{section*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Data availability}{67}{section*.63}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{69}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Des communautés régies entre déterminisme et stochasticité}{70}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Un modèle de succession défini}{70}{section*.63}
+\contentsline {subsection}{Un modèle de succession défini}{70}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Une succession fonctionnelle déterministe}{71}{section*.64}
+\contentsline {subsection}{Une succession fonctionnelle déterministe}{71}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les trajectoires taxonomique}{72}{section*.65}
+\contentsline {subsection}{Les trajectoires taxonomique}{72}{section*.66}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Vers une gestion durable intégrant la préservation de la biodiversité}{73}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Quels critères de restauration?}{74}{section*.66}
+\contentsline {subsection}{Quels critères de restauration?}{74}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{75}{section*.67}
+\contentsline {subsection}{Choix des traits et limites de l'approche fonctionnelle}{75}{section*.68}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{75}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{76}{section*.68}
+\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{76}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Modèle mécaniste: simuler les trajectoires après perturbation}{77}{section*.70}
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 

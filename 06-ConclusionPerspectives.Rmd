@@ -148,7 +148,7 @@ Les modèles mixtes sont largement utilisés dans l'étude de données "longitud
 Ces modèles associent un effet aléatoire commun aux mesures d'une même communauté et permettent ainsi de prendre en compte les corrélations entre mesures successives
 
 Formaliser une telle relation entre intensité d'exploitation et diversité au cours du temps permettrait de mieux planifier la gestion forestière en fonction des niveaux de diversité attendus.
-.
+
 ### Modèle mécaniste: simuler les trajectoires après perturbation
 
 Les trajectoires de Paracou ont mis en évidence les processus de recrutement déterministes définissant la réponse au cours du temps des communautés aux perturbations.
