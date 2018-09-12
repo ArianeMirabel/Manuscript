@@ -43,7 +43,7 @@ invisible(lapply(Matvalidation,function(ind){
   points(colnames(ind), ind["0.5",], col = "black",pch = 3)
   abline(h=ind["0.5",1],col="red",lty=2)
 }))
-mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
+mtext("Indétermination (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
 mtext("Diversité équivalente (Espèces)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
 mtext("(a) Richness",at=0.1,line=-1.5,outer=TRUE);mtext("(b) Shannon",at=0.44,line=-1.5,outer=TRUE)
 mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
@@ -75,7 +75,7 @@ invisible(lapply(Profile_Genus,function(ind){
   points(colnames(ind), ind["0.5",], col = "black",pch = 3)
   abline(h=ind["0.5",1],col="red",lty=2)
 }))
-mtext("Incertitude (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
+mtext("Indétermination (%)",side=1,cex=0.8,outer=TRUE,line=-2,adj=1)
 mtext("Diversité équivalente (Genre)",side=2,padj=1,cex=0.8,line=-0.5,outer=TRUE)
 mtext("(a) Richness",at=0.1,line=-1.5,outer=TRUE);mtext("(b) Shannon",at=0.44,line=-1.5,outer=TRUE)
 mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
@@ -249,7 +249,6 @@ mtext("Determination effort (%)",side=1,adj=1,cex=0.9,line=0.5,outer=TRUE)
 
 Along the sampling effort gradient from 500 to 22 000 trees, the richness estimator remained negatively biased but the confidence interval did not exceed 7%.
 The Shannon and Simpson were less biased, for 3 000 trees inventoried the Shannon diversity bias fell to 15% while the bias of Simpson estimator fell to 6% (Fig. \@ref(fig:SEgradient)).
-
  
 ```{r SEgradient, echo=FALSE, out.width='100%', fig.asp=1.3/3, fig.cap="Richness, Shannon and Simpson estimation (upper panels) and bias compared to real diversity (lower panels) along a sampling effort gradient. Shaded areas are the 95\\% confidence intervals, vertical plain line stands for the points at 3 000 trees.", fig.env="figure*"}
 load("P:/Private/Taff/These/Redaction/1_TaxonomicUncertainties/DB/SampEffGrad")
@@ -295,7 +294,7 @@ The performance of the estimator, regarding its bias and variability, along the 
 Whatever the inventory protocol the richness indeed remained significantly biased, as already suggested in previous analysis comparing several inventory methods [@Higgins2004].
 
 Conversely, the Shannon and Simpson diversity estimations proved less biased, thus allowing the estimator to detect small variation of community equitability.
-This would be a key to value existing inventories and ease future protocols as subtle time and spatial diversity variations often involve changes in community abundance distribution rather than richness [@Baraloto2012a;@Berry2008a;@Cannon1998;@Plumptre1996].
+This would be a key to value existing inventories and ease future protocols as subtle time and spatial diversity variations often involve changes in community abundance distribution rather than richness [@Baraloto2012;@Berry2008a;@Cannon1998;@Plumptre1996].
 
 An optimized protocol maximizing the estimator performance on the one hand and minimizing the determination and sampling efforts on the other hand corresponding to the pre-inventory of at least 3 000 trees and the determination of 80% of the botanical species.
 

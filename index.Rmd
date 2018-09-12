@@ -1,5 +1,5 @@
 --- 
-title: "Réponse et résilience de la biodiversité des forêts tropicales après perturbation"
+title: "Réponse et Résilience de la Biodiversité d'une Forêt Tropicale après Perturbation"
 author: "Ariane Mirabel"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -15,28 +15,38 @@ PhD-HDR:
   Ets: UG
   DIS: ST
   speciality: Écologie
-  defence-date: Novembre 2018
+  defence-date: 26 Octobre 2018
   lab: UMR EcoFoG, Écologie des Forêts de Guyane
   njudge: 6
   jury1:
     category: judge
     name: Olivier Hardy
     other: Rapporteur
-    status: Professeur d'Université
+    status: Maître de recherche
   jury2:
     category: judge
-    name: Prenom NomJury2
-    other: Membre du Jury
-    status: Professeur d'Universite
+    name: Pierre Couteron
+    other: Rapporteur
+    status: Directeur de recherche
   jury3:
     category: judge
-    name: Eric Marcon
-    other: Directeur de thèse
-    status: Chercheur
+    name: Stéphane Traissac
+    other: Membre du jury
+    status: Enseignant-Chercheur
   jury4:
+    category: judge
+    name: Jean-Christophe Roggy
+    other: Membre du jury
+    status: Chercheur
+  jury5:
     category: judge
     name: Bruno Hérault
     other: Co-directeur de thèse
+    status: Chercheur
+  jury6:
+    category: judge
+    name: Eric Marcon
+    other: Directeur de thèse
     status: Chercheur
 documentclass: memoir
 classoption:
@@ -73,49 +83,56 @@ graphics: yes
 fig_crop: yes
 
 resume: |
-  Le fonctionnement, le maintien et la résilience des forêts repose sur la diversité des communautés d'arbres qui les constituent. Clarifier la réponse de la biodiversité forestière aux perturbations est primordial dans le contexte des changements actuels pour préserver et gérer les forêts et les biens et services qu'elles rendent, spécifiquement en forêt tropicale où la diversité est à la fois la plus élevée et la plus menacée au monde.
-  Dans ce contexte cette thèse cherche à décrire la réponse aux perturbations de la diversité des communautés forestières, à identifier les processus écologiques sous-jacents, et à discuter des perspectives pour la gestion et la conservation des forêts. 
-  
-  Le suivi de la station de Paracou permet d'examiner de façon exhaustive sur 30 années la réponse des communautés tropicales après un gradient de perturbation.
-  Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. Non seulement appliqué dans le cadre de cette thèse aux données de Paracou, cet estimateur a été appliqué au contexte de l'exploitation forestière pour proposer une méthode d'inventaire forestier optimisant le coût et la précision des inventaires.
-  Dans un deuxième temps nous avons analysé les trajectoires après perturbation de la diversité et de la composition taxonomique et fonctionnelle des communautés, à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
-  Enfin, dans un troisième temps nous avons clarifié les mécanismes sous-jacents la trajectoire des communautés en analysant spécifiquement la diversité et la composition des communautés recrutées après perturbation.
-  
-  Nous avons pu montrer que la réponse des communautés aux perturbations correspondait à l'émergence de processus déterministes, correspondant au recrutement d'un pool de pionnières défini et commun à toutes les communautés, puis au retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus correspondent à une modification cyclique de la composition taxonomique et au maintien des différences entre communautés. Ils augmentent la richesse et l'équitabilité taxonomiques jusqu'à une certaine intensité de perturbation au-delà de laquelle, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec la convergence de la composition fonctionnelle malgré leur divergence taxonomique et l'homogénéité des trajectoires de diversité quelle que soit l'intensité de la perturbation. Nous avons pu expliquer ce découplage entre trajectoires taxonomiques et fonctionnelles par les modifications de la redondance fonctionnelle, élevée en forêt tropicale, atténuant l'impact fonctionnel des perturbations et faisant office de paramètre cinétiquement déterminant de la restauration des commuanautés après perturbation.
-  Nos résultats ont montré la résilience taxonomique et fonctionnelle des communautés tropicales et ont mis en évidence les éléments clés de la restauration après perturbation et permis de discuter de la possibilité d'une exploitation durable des forêts et de nouvelles perspectives de modélisation de la diversité.\newline
+ Les forêts sont aujourd’hui menacées par le contexte de changements globaux actuel. Préserver les biens et services qu’elles rendent nécessite de clarifier la réponse de la diversité des communautés d’arbres aux perturbations, dont dépend le fonctionnement, le maintien et la résilience des forêts. Cela s’impose spécifiquement en forêt tropicale, qui sont les régions à la fois les plus menacées et celles aux enjeux économiques, sociaux et environnementaux les plus importants.
+ Dans ce contexte, cette thèse étudie la réponse aux perturbations de la diversité taxonomique et fonctionnelle d’une communauté en forêt Néotropicale. Par l’étude des trajectoires de diversité sur le long terme nous avons cherché à déterminer les processus écologiques sous-jacents la réponse des communautés après perturbation, à expliciter les aspects taxonomiques et fonctionnels de la restauration, et enfin à discuter de perspectives de gestion et de modélisation de la dynamique forestière.
+ 
+ Le suivi de la station de Paracou en Guyane Française a permis d'examiner la réponse des communautés tropicales de façon exhaustive sur 30 années après un gradient de perturbation.
+ Dans un premier temps nous avons établi et validé un estimateur de diversité fiable, permettant de pallier les incertitudes de détermination inhérentes aux inventaires forestiers et aux bases de données fonctionnelles. L'estimateur se base sur les probabilités d'associations entre noms vernaculaires et noms botaniques pour propager les incertitudes taxonomiques aux mesures de diversité. L’estimateur de diversité, employé dans la suite de ce travail, a tout d'abord été calibré pour obtenir une estimation de la diversité la plus précise possible en fonction des données disponibles. Par ailleurs l'estimateur a été appliqué au cas des inventaires forestiers pré-exploitation pour tester la validité de la méthode et proposer un protocole d'inventaire optimisant le coût et la précision de ces inventaires.
+ Dans un deuxième temps nous avons analysé les trajectoires après perturbation de diversité, de composition, et de redondance taxonomique et fonctionnelle des communautés. Ces analyses ont été conduites à partir des inventaires botaniques et d'un large jeu de données fonctionnel comprenant des traits des feuilles, du bois et des traits d'histoire de vie. 
+ Nous avons enfin étudié spécifiquement les trajectoires de diversité et de composition des communautés recrutées après perturbation, et leurs similarités par rapport aux communautés initiales.
+
+ Notre étude a montré l'émergence après perturbation de processus déterministes régissant la réponse taxonomique et fonctionnelle des communautés. Ces processus favorisent le recrutement d'un pool restreint de pionnières, identique pour toutes les communautés et les intensités de perturbation. Une quinzaine d’années après perturbation, la restauration des communautés initiales s’est engagée avec le retour des processus stochastiques régissant la diversité des forêts non perturbées. A l'échelle de la communauté, ces processus se sont traduits par une modification cyclique de la composition taxonomique avec un retour à la composition et à la diversité initiales et avec le maintien des différences entre communautés. La richesse et l'équitabilité taxonomiques ont augmenté après perturbation jusqu’à un seuil d’intensité au-delà duquel, conformément à la théorie des perturbations intermédiaires, la richesse taxonomique diminue et la dominance des pionnières augmente de façon persistante. Les trajectoires fonctionnelles en revanches se sont montrées décorrélées des trajectoires taxonomiques, avec une augmentation de la diversité quelle que soit la perturbation sans seuil d’intensité et convergentes dans l’espace fonctionnel sans différence marquée entre les communautés. Ce découplage entre les trajectoires taxonomiques et fonctionnelles a pu s’expliquer par la redondance fonctionnelle des communautés, atténuant l’impact fonctionnel des perturbations.
+ 
+ Nos résultats ont montré une restauration taxonomique et fonctionnelle tangible des communautés, mais d’une durée de plusieurs décennies. A la lumière de ces résultats nous proposons une discussion sur la possibilité d'une exploitation durable des forêts et de nouvelles perspectives de modélisation de la diversité.\newline
 mots-cles:
-- Biodiversite
+- Biodiversité
 - Forêts Néotropicales
 - Perturbation
 - Ecologie des Communautés
 - Trajectoires
 - Résilience
 abstract: |
- The functioning, the maintenance and the resilience of tropical forests largely rely on tree community diversity. 
- In the current changing context, it is crucial to clarify community diversity response to disturbance in order to maintain forests goods and services, specifically in tropical forests that are as diverse and crucial as they are currently threatened.
+ Forest are currently threatened by the global changing context.
+ Maintain the goods and services they provide require clarifying tree community diversity response to disturbance, that determine forest functoining, maintenance and resilience.
+ This is specifically crucial in tropical forests that are both the most threatened regions and those with the highest environmental, social and economic stakes.
+ In this contexte, this work studies the taxonomic and functional response to disturbance of a Neotropical community.
+ Through post-disturbance diversity trajectories in the long term we examined the ecological processes underlying community response to disturbance, explicit the taxonomic and functoinal aspects of community recovery, and eventually discussed some perspectives for forest management and modeling.\newline
  
- In this context, this work aims to define Neotropical forests response to disturbance, identify the underlying ecological mechanisms and discuss the perspectives for tropical forests conservation and management.
- The dataset from the Paracou experimental station in French Guiana provides an exhaustive monitoring of Neotropical tree communities response to a disturbance gradient over 30 years.
- 
+  From the monitoring dataset of the Paracou experimental station in French Guiana we examined tree community response to disturbance over the thirty years following a disturbance gradient. 
   First, we developed and tested a diversity estimator tackling the taxonomic uncertainties of forest inventories and improving the accuracy of biodiversity surveys. 
-  Not only used in the experimental dataset analyzed here, the diversity estimator was applied in the context of pre-logging inventories to propose an inventory protocol optimizing the costs of the inventories and the accuracy of the diversity estimation.
-  Second, we analyzed the post-disturbance taxonomic and functional trajectories at the scale of the whole community. 
+  The estimator based on botanical/vernacular association probability to account of taxonomic uncertainties in various diversity measurement framework.
+  The estimator, further used in this worked, was first calibrated to imrove the estimation accuracy and was then validated with real forest inventories.
+  The results allowed designing an inventory protocol optimizing the cost of inventories and the accuracy of the diversity measure.
+  Second, we analyzed the post-disturbance taxonomic and functional trajectories of diversity, composition and redundanct at the scale of the whole community. 
   We combined the 30 years of botanical inventories with a large functional dataset encompassing key leaf, root, wood and life-history functional traits.
-  Eventually, we specifically analyzed the post-disturbance recruitment processes and the diversity and composition succession.
+  Eventually, we specifically analyzed the post-disturbance recruitment processes and the diversity and composition succession.\newline
   
-  We highlighted the emergence of deterministic processes driving community responses to disturbance first through the recruitment of a restricted pool of pioneers, common to all communities, and then through the recovery of pre-disturbance stochastic processes.
-  At the whole-community scale, this succession translated into a cyclic taxonomic composition trajectory maintaining the initial differences among communities.
-  It also increased the taxonomic richness and evenness until a perturbation intensity threshold above which, in accordance with the Intermediate Disturbance Hypothesis, the taxonomic richness decreased and the pioneers became persistently dominant.
-  On the other hand, the functional trajectories proved decoupled from taxonomic trajectories and highlighted communities functional convergence and the uniformity of the functional trajectories whatever the disturbance intensity.
-  The taxonomic and functional decoupling was explained by the functional redundancy that mitigated the disturbance functional impact and proved to be the slow parameter of tropical forest recovery.
-  This study demonstrated the taxonomic and functional resilience of Neotropical communities and highlighted the key parameters of forest recovery. 
+  We highlighted the emergence after disturbance of deterministic processes driving community taxonomic and functoinal response to disturbance. 
+  Deterministic processes favored the recruitment of a restricted pool of pioneer species, similar for to all communities and disturbance intensity.
+  Around fifteen years after disturbance, the recovery of community initial characteristics started with the recovery of stochastic processes driving non-disturbed communities.
+  At the whole-community scale, this succession translated into a cyclic trajectory of taxonomic composition leading to a recovery of the pre-disturbance composition and a maintenance of differences among communities.
+  Disturbance increased both taxonomic richness and evenness until an intensity threshold above which, in accordance with the Intermediate Disturbance Hypothesis, the taxonomic richness decreased and the pioneers became persistently dominant.
+  The functional trajectories however proved decoupled from taxonomic trajectories. 
+  Functional diversity increased whatever the disturbance, without any intensity threshold, and functional composition trajectories converged in the functional space without marked differences among communities. 
+  This decoupling was explained by the functional redundancy that mitigated the functional impact of disturbance and proved to be the slow parameter of tropical forest recovery.\newline
   
-  It allowed discussing the sustainability of tropical forest management practices and some perspectives for the modeling of community diversity.
+  Our results showed a tangible taxonomic and functional recovery of communities after the gradient of disturbance but this recovery proved decades-long. 
+  In the light of those results, we discussed the practices of sustainable forest management and several perspectives of forest diversity modeling.
 keywords:
 - Biodiversity
 - Neotropical forests
 - Perturbation
-- Communities Ecology
+- Community Ecology
 - Dynamic trajectories
 - Resilience
 

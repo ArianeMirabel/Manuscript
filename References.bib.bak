@@ -1,4 +1,79 @@
-% Encoding: UTF-8
+@article{Marechaux2017,
+  title={An individual-based forest model to jointly simulate carbon and tree diversity in Amazonia: description and applications},
+  author={Mar{\'e}chaux, Isabelle and Chave, J{\'e}r{\^o}me},
+  journal={Ecological Monographs},
+  volume={87},
+  number={4},
+  pages={632--664},
+  year={2017},
+  publisher={Wiley Online Library}
+}
+
+@article{Bugmann2001,
+  title={A review of forest gap models},
+  author={Bugmann, Harald},
+  journal={Climatic Change},
+  volume={51},
+  number={3-4},
+  pages={259--305},
+  year={2001},
+  publisher={Springer}
+}
+
+@article{Purves2008,
+  title={Predictive models of forest dynamics},
+  author={Purves, Drew and Pacala, Stephen},
+  journal={Science},
+  volume={320},
+  number={5882},
+  pages={1452--1453},
+  year={2008},
+  publisher={American Association for the Advancement of Science}
+}
+
+@incollection{Prentice2007,
+  title={Dynamic global vegetation modeling: quantifying terrestrial ecosystem responses to large-scale environmental change},
+  author={Prentice, I Colin and Bondeau, Alberte and Cramer, Wolfgang and Harrison, Sandy P and Hickler, Thomas and Lucht, Wolfgang and Sitch, Stephen and Smith, Ben and Sykes, Martin T},
+  booktitle={Terrestrial ecosystems in a changing world},
+  pages={175--192},
+  year={2007},
+  publisher={Springer}
+}
+
+@article{Griscom2018,
+  title={Carbon and biodiversity impacts of intensive versus extensive tropical forestry},
+  author={Griscom, Bronson W and Goodman, Rosa C and Burivalova, Zuzana and Putz, Francis E},
+  journal={Conservation Letters},
+  volume={11},
+  number={1},
+  pages={e12362},
+  year={2018},
+  publisher={Wiley Online Library},
+  doi=10.1111/conl.12362
+}
+
+@article{Liang2016,
+  title={Positive biodiversity-productivity relationship predominant in global forests},
+  author={Liang, Jingjing and Crowther, Thomas W and Picard, Nicolas and Wiser, Susan and Zhou, Mo and Alberti, Giorgio and Schulze, Ernst-Detlef and McGuire, A David and Bozzato, Fabio and Pretzsch, Hans and others},
+  journal={Science},
+  volume={354},
+  number={6309},
+  pages={aaf8957},
+  year={2016},
+  publisher={American Association for the Advancement of Science},
+  doi=10.1126/science.aaf8957 
+}
+
+@article{Brienen2015,
+  title={Long-term decline of the Amazon carbon sink},
+  author={Brienen, Roel JW and Phillips, Oliver L and Feldpausch, Ted R and Gloor, Emanuel and Baker, Tim R and Lloyd, Jon and Lopez-Gonzalez, Gabriela and Monteagudo-Mendoza, Abel and Malhi, Yadvinder and Lewis, Simon L and others},
+  journal={Nature},
+  volume={519},
+  number={7543},
+  pages={344},
+  year={2015},
+  publisher={Nature Publishing Group}
+}
 
 @Article{Barlow2018,
   author  = {Barlow, J. and Fran{\c{c}}a, F. and Gardner, T. and Hicks, C. and Lennox, G. and Berenguer, E. and Castello, L. and Economo, E. and Ferreira, J. and Gu{\'{e}}nard, B. and Leal, C. and Isaac, V. and Lees, A. and Paar, C. and Wilson, S. and Young, P. and Graham, N.},
@@ -565,11 +640,7 @@ year = {2017}
 @article{Adler2007,
 author = {Adler, Peter B. and HilleRislambers, Janneke and Levine, Jonathan M.},
 doi = {10.1111/j.1461-0248.2006.00996.x},
-file = {:/roucou/Ariane.Mirabel{\$}/Private/Taff/These/Biblio/Concepts/2007-Adler-A{\_}niche{\_}for{\_}neutrality.pdf:pdf},
-isbn = {1461-023X},
-issn = {1461023X},
 journal = {Ecology Letters},
-keywords = {Coexistence,Frequency dependence,Neutral theory,Niche,Plant community,Species diversity},
 number = {2},
 pages = {95--104},
 pmid = {17257097},
@@ -794,10 +865,8 @@ year = {2009}
 }
 
 @article{TerSteege2001,
-author = {TerSteege, Hans and Hammond, David S},
-file = {:P$\backslash$:/Private/Taff/These/Biblio/ForestDynamics/2001-terSteege-Character{\_}convergence{\_}diersity{\_}and{\_}disturbance{\_}in{\_}tropical{\_}rain{\_}forest{\_}in{\_}Guyana.pdf:pdf},
+author = {Ter Steege, Hans and Hammond, David S},
 journal = {Ecology},
-keywords = {alpha diversity,competitive exclusion,dispersal,disturbance,guyana,rain forest,seed mass,soil heterogeneity,the most,tropical,under low disturbance regimes,will prevail,wood density},
 number = {11},
 pages = {3197--3212},
 title = {{Character Convergence , Diversity , and Disturbance in Tropical Rain Forest in Guyana}},
@@ -1654,17 +1723,6 @@ year = {2012}
   publisher={Elsevier}
 }
 
-@article{terSteege2006,
-  title={Continental-scale patterns of canopy tree composition and function across Amazonia},
-  author={Ter Steege, Hans and Pitman, Nigel CA and Phillips, Oliver L and Chave, Jerome and Sabatier, Daniel and Duque, Alvaro and Molino, Jean-Fran{\c{c}}ois and Pr{\'e}vost, Marie-Fran{\c{c}}oise and Spichiger, Rodolphe and Castellanos, Hern{\'a}n and others},
-  journal={Nature},
-  volume={443},
-  number={7110},
-  pages={444},
-  year={2006},
-  publisher={Nature Publishing Group}
-}
-
 @techreport{DeNoter2008,
 author = {de Noter, C.},
 institution = {DRRT Guyane},
@@ -1765,10 +1823,7 @@ year = {2003}
 @article{Guitet2015,
 author = {Guitet, St{\'{e}}phane and P{\'{e}}lissier, Rapha{\"{e}}l and Brunaux, Olivier and Jaouen, Ga{\"{e}}lle and Sabatier, Daniel},
 doi = {10.1007/s10531-014-0854-8},
-file = {:P$\backslash$:/Private/Taff/These/Biblio/GuyaneseForest/2015-Guitet-Geomorphological{\_}landscape{\_}features{\_}explain{\_}floritic{\_}patterns{\_}in{\_}French{\_}Guiana{\_}rainforest.pdf:pdf},
-issn = {15729710},
 journal = {Biodiversity and Conservation},
-keywords = {Geodiversity,Geomorphology,Landscapes,Species distribution,Tree community},
 number = {5},
 pages = {1215--1237},
 title = {{Geomorphological landscape features explain floristic patterns in French Guiana rainforest}},
@@ -1916,7 +1971,7 @@ year = {2013}
 }
 
 @article{Kattge2011,
-author = {Kattge, J. and D{\'{i}}az, S. and Lavorel, S. and Prentice, I. C. and Leadley, P. and B{\"{o}}nisch, G. and Garnier, E. and Westoby, M. and Reich, P. B. and Wright, I. J. and Cornelissen, J. H C and Violle, C. and Harrison, S. P. and {Van Bodegom}, P. M. and Reichstein, M. and Enquist, B. J. and Soudzilovskaia, N. A. and Ackerly, D. D. ... and Wirth, C.},
+author = {Kattge, J. and D{\'{i}}az, S. and Lavorel, S. and Prentice, I. C. and Leadley, P. and B{\"{o}}nisch, G. and Garnier, E. and Westoby, M. and Reich, P. B. and Wright, I. J. and Cornelissen, J. H C and Violle, C. and Harrison, S. P. and {Van Bodegom}, P. M. and Reichstein, M. and Enquist, B. J. and Soudzilovskaia, N. A. and Ackerly, D. D. and Wirth, C.},
 doi = {10.1111/j.1365-2486.2011.02451.x},
 journal = {Global Change Biology},
 number = {9},
@@ -2120,8 +2175,7 @@ year = {2007}
   year={1994},
   publisher={Springer}
 }
-
-@article{Mittermeier2003,
+{Mittermeier2003,
 author = {Mittermeier, R. A. and Mittermeier, C. G. and Brooks, T. M. and Pilgrim, J. D. and Konstant, W. R. and da Fonseca, G. A. B. and Kormos, C.},
 doi = {10.1073/pnas.1732458100},
 journal = {Proceedings of the National Academy of Sciences},
@@ -2548,7 +2602,7 @@ volume = {131},
 year = {2000}
 }
 
-@Article{Gotelli2001a,
+@Article{Gotelli2001,
   author    = {Gotelli, Nicholas J and Colwell, Robert K},
   title     = {Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness},
   journal   = {Ecology letters},

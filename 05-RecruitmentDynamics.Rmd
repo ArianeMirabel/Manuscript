@@ -14,7 +14,7 @@ La troisième et dernière phase correspond à la restauration des processus de 
 Malgré la rapide restauration des processus de recrutement, la restauration de la composition et de la diversité du recrutement s'est montrée longue de plusieurs décennies. 
 
 La trajectoire des communautés après perturbation est déterminée par l'émergence de processus de recrutement déterministes favorisant les espèces héliophiles, remplaçant temporairement le recrutement stochastique propre aux communautés matures. 
-Bien que résilientes les caractéristiques taxonomiques et fonctionnelles du recrutement se sont montrée impactées sur plusieurs décennies, incitant à la prudence quantd au maintien des caractéristiques initiales.
+Bien que résilientes les caractéristiques taxonomiques et fonctionnelles du recrutement se sont montrée impactées sur plusieurs décennies, incitant à la prudence quant au maintien des caractéristiques initiales.
   
 \newpage
 
@@ -25,7 +25,7 @@ source("P:/Private/Taff/These/Redaction/3_RecruitmentTrajectories/Scripts/Drawin
 ```
 
 
-Ariane MIRABEL ^1^ ^\*^, Eric Marcon ^1^, Bruno Hérault ^2^ \newline
+Ariane MIRABEL ^1^ ^\*^, Eric MARCON ^1^, Bruno HERAULT ^2^ \newline
 
 ^1^ UMR EcoFoG, AgroParistech, CNRS, Cirad, INRA, Université des Antilles, Université de Guyane.
     Campus Agronomique,
@@ -60,7 +60,7 @@ url: https://github.com/ArianeMirabel
 ### Introduction
 
 Determining the response of tropical forests to disturbance is key to predict their fate in the global changing context.
-In the last decades, tropical forests experienced a wide range of disturbance, from radical land-use changes for agriculture or mining [@Dezecache2017a;@Dezecache2017b] to more insidious changes of communities structure, diversity and functioning following climatic changes [@Aubry-Kientz2015] or anthropogenic activities like selective logging [@Baraloto2012a]. 
+In the last decades, tropical forests experienced a wide range of disturbance, from radical land-use changes for agriculture or mining [@Dezecache2017a;@Dezecache2017b] to more insidious changes of communities structure, diversity and functioning following climatic changes [@Aubry-Kientz2015] or anthropogenic activities like selective logging [@Baraloto2012]. 
 In that respect a vast literature successfully modeled community response to disturbance in terms of tree growth, tree height and fluxes of carbon, water and nutrients [@Gourlet-Fleury2000;@Putz2012;@Piponiot2016;@Rutishauser2016].
 Similar modeling approaches regarding forest diversity and composition remain hindered by the scarcity of long-term monitoring and by studies' restriction to common or commercial species imposed by forest huge biological diversity [@Sebbenn2008;@Vinson2015].
 The template of community response to disturbance is set by recruitment processes that determine the new species joining the community.
@@ -162,7 +162,7 @@ Functional diversity trajectories were assessed through the Rao index of quadrat
 Functional composition trajectories were assessed through the functional traits community weighted means (CWM), representing the average trait value in a community weighted by species relative abundance [@Diaz2007].
 Seed mass trajectories were reported by the proportion of each class recorded in the inventories.
 
-The taxonomic similarity between recruited trees and pre-disturbance forest was measured with the turnover metrics detailed in @Podani2013a.
+The taxonomic similarity between recruited trees and pre-disturbance forest was measured with the turnover metrics detailed in @Podani2013.
 
 The taxonomic and functional recruitment trajectories were compared to null trajectories obtained after 50 iterations of the null models.
 The taxonomic null model was a random sampling of recruited trees within the living communities, with the maintenance of species abundance and tree density.
@@ -255,7 +255,7 @@ The deterministic recruitment processes then gradually left room to stochastic r
 #### The achievement of community recovery
 
 After disturbance the stochastic recruitment specific to undisturbed communities was progressively restored and drove community taxonomic and functional recovery. 
-This confirmed previous results from the Paracou experiment, conducted 10 years [@Molino2001] and 20 years [@Baraloto2012a] after disturbance, where the early signs of the resilience of pre-disturbance taxonomic and functional composition recovery had been detected. 
+This confirmed previous results from the Paracou experiment, conducted 10 years [@Molino2001] and 20 years [@Baraloto2012] after disturbance, where the early signs of the resilience of pre-disturbance taxonomic and functional composition recovery had been detected. 
 
 Recruitment taxonomic richness and evenness recovered pre-disturbance values and the taxonomic composition converged towards the pre-disturbance community, thus maintaining the initial differences among communities for all disturbance intensity.
 Community taxonomic convergence to the local pre-disturbance recruitment composition revealed the scarce recruitment of species that did not belong to pre-disturbance community, due to the commonness of dispersal limitation among tropical tree species [@Svenning2005]. 

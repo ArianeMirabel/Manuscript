@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Comment mesurer la diversité biologique ?}{8}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Composition et dissimilarité}{8}{section*.5}
+\contentsline {subsection}{Composition et dissimilarité}{9}{section*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Assemblage et structure des communautés}{9}{section*.6}
 \defcounter {refsection}{0}\relax 
@@ -30,13 +30,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Diversité fonctionnelle}{12}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}La Guyane Française et l'exemple de la station de Paracou}{16}{section.1.5}
+\contentsline {section}{\numberline {1.5}La Guyane Française et l'exemple de la station de Paracou}{15}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Le contexte Guyanais}{16}{section*.10}
+\contentsline {subsection}{Le contexte Guyanais}{15}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Paracou, plus de 30 de suivi de la forêt Amazonienne}{17}{section*.11}
+\contentsline {subsection}{Paracou, plus de 30 ans de suivi de la forêt Amazonienne}{17}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Méthodes d'inventaires}{17}{section*.12}
+\contentsline {subsection}{Méthodes d'inventaires}{18}{section*.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{19}{section.1.6}
 \defcounter {refsection}{0}\relax 
@@ -160,13 +160,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {5}Conclusion et perspectives}{69}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Des communautés régies entre déterminisme et stochasticité}{70}{section.5.1}
+\contentsline {section}{\numberline {5.1}Des trajectoires entre déterminisme et stochasticité}{70}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Un modèle de succession défini}{70}{section*.64}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Une succession fonctionnelle déterministe}{71}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les trajectoires taxonomique}{72}{section*.66}
+\contentsline {subsection}{Les trajectoires taxonomiques}{72}{section*.66}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Vers une gestion durable intégrant la préservation de la biodiversité}{73}{section.5.2}
 \defcounter {refsection}{0}\relax 
