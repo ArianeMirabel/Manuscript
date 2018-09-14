@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Problématique et plan de la thèse}{19}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {2}Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude}{21}{chapter.2}
+\contentsline {chapter}{\chapternumberline {2}Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude}{21}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Noms vernaculaires et propagation des incertitudes taxonomiques}{21}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -166,7 +166,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Une succession fonctionnelle déterministe}{71}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Les trajectoires taxonomiques}{72}{section*.66}
+\contentsline {subsection}{Une succession taxonomique stochastique}{72}{section*.66}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}Vers une gestion durable intégrant la préservation de la biodiversité}{73}{section.5.2}
 \defcounter {refsection}{0}\relax 
@@ -176,7 +176,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière}{75}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{76}{section*.69}
+\contentsline {subsection}{Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation}{77}{section*.69}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Modèle mécaniste: simuler les trajectoires après perturbation}{77}{section*.70}
 \defcounter {refsection}{0}\relax 

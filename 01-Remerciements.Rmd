@@ -1,7 +1,7 @@
 #Remerciements {-}
 
 Pour ce travail et tout ce qu'il a apporté de connaissances, d'expériences et de rencontres je remercie mes directeurs de thèse Eric Marcon et Bruno Hérault. 
-Je suis consciente de la chance que j'ai eu d'avoir été leur étudiante, merci pour vos conseils avisés, votre patience inébranlable et tout votre soutien. 
+Je suis consciente de la chance que j'ai eue d'avoir été leur étudiante, merci pour vos conseils avisés, votre patience inébranlable et tout votre soutien. 
 Merci surtout de m'avoir accordé votre confiance de offert ces trois belles années.
 
 Merci au Labex Ceba qui a financé ma thèse et largement contribué au cadre scientifique qui l'a accompagnée.
@@ -13,4 +13,4 @@ Merci également aux membres de mon comité de thèse, Adeline Fayolle, Sandrine
 
 Merci aux rapporteurs de ce travail et aux membres du jury d'avoir accepté de consacrer leur temps à la relecture et à l'évaluation de mon travail.
 
-Enfin, à tous ceux qui ont rendu ces trois années aussi incroyables, les mots sont difficiles à trouver mais les faits parlent d'eux-mêmes: je suis venue en Guyane, j'y suis restée et je ne veux plus partir. Pa Moli!
+Enfin, à tous ceux qui ont rendu ces trois années aussi incroyables, les mots sont difficiles à trouver mais les faits parlent d'eux-mêmes: je suis venue en Guyane, j'y suis restée et je ne veux plus en partir. Pa Moli!

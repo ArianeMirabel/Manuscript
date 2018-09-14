@@ -1,8 +1,8 @@
 
-#Des inventaires forestiers aux trajectoires de diversité, le problème universel de l'incertitude
+#Des inventaires forestiers aux trajectoires de diversité: le problème universel de l'incertitude
 
 La biodiversité des forêts tropicales reste largement méconnue malgré son importance pour le fonctionnement des écosystèmes et le maintien des biens et les services qu'ils rendent.
-Parmi les espèces tropicales inventoriée en milieu tropical un grand nombre ne correspond qu'à l'observation d'un unique individu [@Feeley2011], et la précision des inventaires reste fortement contrainte par le coût financier et la main d'œuvre qu'ils représentent.
+Parmi les espèces tropicales inventoriées en milieu tropical, un grand nombre ne correspond qu'à l'observation d'un unique individu [@Feeley2011], et la précision des inventaires reste fortement contrainte par le coût financier et la main d'œuvre qu'ils représentent.
 Ceci limite la précision des mesures et l'importance des suivis de biodiversité et restreint en particulier l'étude de la distribution des espèces et de la dynamique des communautés dans le temps.
 Dans ce contexte il est indispensable de développer des méthodes pour améliorer la précision des inventaires et la valorisation des données disponibles [@Baraloto2012].
 
@@ -30,7 +30,7 @@ D'autre part l'étude a permis de proposer une méthode d'inventaire optimisant 
 ### Profils d'incertitude taxonomique
 
 Dans le cas de dispositifs expérimentaux tels que Paracou le degré d'indétermination taxonomique correspond à un pourcentage d'arbres, toutes espèces confondues, n'ayant pas été identifiés en nom botanique. 
-La fiabilité de l'estimateur de diversité a été évaluée en simulant un gradient d'indétermination taxonomique à partir d'inventaires botaniques complets \@ref(fig:FigTreesSp).
+La fiabilité de l'estimateur de diversité a été évaluée en simulant un gradient d'indétermination taxonomique à partir d'inventaires botaniques complets (fig.\@ref(fig:FigTreesSp)).
 
 ```{r FigTreesSp, fig.asp=1/2, out.width='100%', fig.cap="Biais de l'estimateur pour les diversité de (ref:Bolda) Richesse, (ref:Boldb) Shannon et (ref:Boldc) Simpson selon un gradient d'indétermination taxonomique. L'envelope grise représente l'intervalle de confiance à 95\\% de l'estimateur."}
 load("ExternalFig/Uncertaintypropagation_Species_noCorrection")
@@ -57,7 +57,7 @@ Ce biais de l'estimateur semble difficile à formaliser car il dépend de la rel
 
 Dans la suite de ce travail nous avons choisi de pallier ce biais de l'estimateur en nous rapportant au niveau taxonomique supérieur et en étudiant la diversité au niveau du genre botanique.
 Dans le cas d'une mesure rapportée au genre, l'estimateur de la richesse reste peu biaisé jusqu'à un seuil d'indétermination de 80% au-delà duquel la richesse est trop sous-estimée.
-L'équitabilité est surestimée, d'autant plus que le degré d'indétermination est élevé (diversités de Shannon et de Simpson), mais le biais ne dépasse pas 10% de la diversité réelle \@ref(fig:FigTreesGenus).
+L'équitabilité est surestimée, d'autant plus que le degré d'indétermination est élevé (diversités de Shannon et de Simpson), mais le biais ne dépasse pas 10% de la diversité réelle (fig.\@ref(fig:FigTreesGenus)).
 
 Dans le cas de Paracou, la détermination des parcelles est variable au cours du temps et entre les parcelles.
 Au moment de travail, dans les parcelles contrôle et du traitement 3 moins de 5% des arbres n'ont pas d'identification botanique, tandis que les parcelles du traitement 1 ou 2 restent mal déterminées (30% d'indétermination pour certaines parcelles).
@@ -85,7 +85,7 @@ mtext("(c) Simpson",at=0.76,line=-1.5,outer=TRUE)
 ## Application de l'estimateur au cas des inventaires pré-exploitation
 
 Comprendre et anticiper le devenir des forêts tropicales dans le contexte actuel requiert un suivi temporel des communautés et des mesures de diversité précis. 
-Le coût des inventaires forestiers conduit cependant la majorité à être réalisés en noms vernaculaires, malgré que ceux-ci impliquent d'importances incertitudes taxonomiques.
+Le coût des inventaires forestiers conduit cependant la majorité à être réalisés en noms vernaculaires, bien que ceux-ci impliquent d'importances incertitudes taxonomiques.
 Plusieurs méthodes ont été proposées pour pallier ces incertitudes mais aucune n'est encore adaptée à des suivis de diversité fonctionnelle ou à petite échelle spatiale.
 Nous proposons ici un estimateur de diversité adaptable à chaque inventaire particulier et intégrant les incertitudes botaniques inhérentes aux inventaires forestiers.
 Nous avons calibré l'estimateur de diversité à partir d'un large inventaire en forêt Néotropicale et la simulation de gradients d'incertitude taxonomique et d'effort d'échantillonnage ont permis de déterminer un protocole d'inventaire idéal optimisant le coût des inventaires et la précision de l'estimateur.
@@ -102,7 +102,7 @@ source("P:/Private/Taff/These/Redaction/1_TaxonomicUncertainties/Scripts/Drawing
 
 ### Abstract
 
-Assess the fate of Neotropical forests requires to accurately measures forest diversity and reliably monitor forest communities.
+Assessing the fate of Neotropical forests requires to accurately measures forest diversity and reliably monitor forest communities.
   The costs of botanical inventories and the taxonomic complexity of Neotropical forests make forest inventories in vernacular names the most efficient approach today, although these hold high botanical uncertainty and limit the accuracy of diversity measures. 
   Several methods were proposed to compensate these botanical uncertainties but none reliably assessed functional and fine-scale diversity surveys.
   We developed a polyvalent diversity estimator workable in numerous specific cases based on the propagation of botanical uncertainties. The estimator was calibrated with a large Neotropical inventory and the simulations of uncertainty and sampling effort gradients allowed to determine an ideal inventory protocol optimizing the costs and the accuracy of forest inventories.  
@@ -113,13 +113,13 @@ Assess the fate of Neotropical forests requires to accurately measures forest di
 
 The variety of tree species, their assemblages in space and their dynamics in time are determinant of forests productivity and functioning [@Cardinale2012].
 Preserve tree diversity is crucial to maintain forests functioning and services, specifically in hyper-diverse tropical forests where the biodiversity is as threatened as it is valuable and unexplored [@Barlow2018].
-Handling the conservation and management of tree diversity requires setting sensible protection areas and sustainable forest management calibrated according to diversity patterns in space and time and their determinants [@Margules2000;@Purvis2000;@Gibson2011a;@FAO2014;@Sist2015].
+Handling the conservation and management of tree diversity requires setting sensible protection areas and sustainable forest management calibrated according to diversity patterns in space and time and their determinants [@Gibson2011;@Sist2015].
 
 Correctly measure, map and manage forests biodiversity require accurate and large forest monitoring.
 The precision of forest inventories, though, is often limited by their significant cost in terms of time, money, and logistic [@Feeley2011;@Baraloto2013].
 Sampling methods were optimized to minimize these costs and maximize inventory accuracy. Some approaches would restrict inventories to some DBH or height classes, to specific taxa, or would opt for inventories at family or genus level.
-These methods efficiently translated biodiversity patterns at regional scales and along wide ecological gradients [@Steege2000;@Higgins2004;@Rejou-Mechain2011;@Pos2014].
-However, these methods were either limited to small areas (under 1ha), sometimes remained biased or holding significant uncertainty, and usually proved limited to detect subtle diversity aspects and to disentangle richness from equitability parameters [@Phillips2003a;@Baraloto2013;@Guitet2014b ;@Vellend2008;@Prance1994].
+These methods efficiently translated biodiversity patterns at regional scales and along wide ecological gradients [@Higgins2004;@Pos2014].
+However, these methods were either limited to small areas (under 1ha), sometimes remained biased or holding significant uncertainty, and usually proved limited to detect subtle diversity aspects and to disentangle richness from equitability parameters [@Vellend2008;@Prance1994].
 Another approach proposed to use inventories in vernacular names instead of botanical species.
 Vernacular names indeed are easier to attribute, more common and usually do not require vouchers collection or posterior botanical identification. 
 The reliability of vernacular names may be high at genus level, but this proved highly variable across tropical regions: while this reliability was estimated around 60-70% in French Guiana [@Hawes2012;@Guitet2014b] to ranges from 32% to 67% in Central Africa [@Rejou-Mechain2011].
@@ -127,7 +127,7 @@ The multiple and variable associations between botanical and vernacular names th
 Besides, rough vernacular inventories would not allow functional and phylogenetic approaches that require identification at the botanical species to comply with phylogenetic and functional database.
 However, the approach through vernacular names deserves further attention.
 First, it gives the opportunity to analyze pre-logging inventories conducted in large areas by logging companies.
-Second, as exhaustive inventories, they allow some post-process based on vernacular/botanical names association and allow the building of reliable diversity estimators [@TerSteege2006;@Feldpausch2006;@Rejou-Mechain2008;@Rejou-Mechain2011].
+Second, as exhaustive inventories, they allow some post-process based on vernacular/botanical names association and allow the building of reliable diversity estimators [@TerSteege2006;@Feldpausch2006;@Rejou-Mechain2008].
 Following this idea @Guitet2014b proposed a framework propagating vernacular names taxonomic uncertainties in diversity measures.
 The propagation framework was based on Monte-Carlo processes estimating forest diversity from the vernacular-botanical name association.
 These associations combined prior information from both general taxa-abundance correspondence table [@Molino2009] and reference field inventories.
@@ -149,7 +149,7 @@ In this study we *(i)* redesigned a diversity estimator based on a Bayesian fram
 
 We based our analyses on the inventory of a Neotropical rainforest, from the Paracou Research Station in French Guiana (5°18'N and 52°53'W).
 The experimental site stands in a lowland tropical rainforest with a flora dominated by *Fabaceae*, *Chrysobalanaceae*, *Lecythidaceae* and *Sapotaceae* families.
-Mean annual temperature is 26°C and the mean annual precipitations average $2980 mm.y^-1$ (30-y period) with a 3-months dry season ($< 100 mm.months-1$) from mid-August to mid-November and a one-month dry season in March [@Wagner2011].
+Mean annual temperature is 26°C and the mean annual precipitations average 2980 mm.y^-1^ (30-y period) with a 3-months dry season (< 100 mm.month^-1^) from mid-August to mid-November and a one-month dry season in March [@Wagner2011].
 Elevation ranges between 5 and 50 m and soils correspond to thin acrisols over a layer of transformed saprolite with low permeability, generating lateral drainage during heavy rains [@IUSSWorkingGroupWRB2015]. 
 We used the 2015 inventory of six permanent plots of undisturbed forest (6.25ha each, 37.5ha inventoried in total).
 During inventories, trees are identified first with a vernacular name assigned by the forest worker team, and afterward with a scientific name assigned by botanists during regular botanical campaigns. 
@@ -322,7 +322,7 @@ Plot["name"]<-paste(Plot$Genus, Plot$Species)
 Le script retourne la moyenne et l'intervalle de confiance à 95% du profil de diversité d'un inventaire. 
 L'inventaire est une matrice Plot (individu * données botaniques), les données manquantes sont notées "Indet."
 
-``` {r , echo=FALSE}
+``` {r , echo=FALSE, tidy=FALSE}
 
 head(Plot[,1:4],5)
 
@@ -330,7 +330,7 @@ head(Plot[,1:4],5)
 
 La première étape donne une matrice alpha d'association vernaculaire/botanique qui liste les fréquences d'association observées dans l'inventaire de référence.
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
 alpha_construct<-  function(Plot){
   mat_eff<-as.data.frame.matrix(
     
@@ -344,7 +344,7 @@ alpha_construct<-  function(Plot){
 
 A partir d'un vecteur d'association, un processus Dirichlet/Multinomial permet de tirer au hasard un nom botanique
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
  
 Dirichlet_draw<-function(V){
   Vdir<-gtools::rdirichlet(1,V)
@@ -358,7 +358,7 @@ Dirichlet_draw<-function(V){
 
 Pour tenir compte de toute les informations phylogénétiques disponibles, on liste les associations possibles nom vernaculaire / Famille / genre / espèce  
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
 Correspondences<-function(Plot){
   
   bota<-Plot[order(Plot[,"Family"],Plot[,"Genus"],Plot[,"Species"]),]
@@ -372,7 +372,7 @@ Correspondences<-function(Plot){
 
 On peut alors attribuer un nom botanique à tout nom vernaculaire:
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
 tirage <- function(alpha,bota,name,eps=0.05){ 
   
   if(name["Vernacular"]=="-"){
@@ -448,7 +448,7 @@ tirage <- function(alpha,bota,name,eps=0.05){
 
 On peut alors générer un inventaire théorique complet à partir de l'inventaire réel 
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
 Replacement<-function(Plot,Alpha,Bota){
   Determ<-
     Plot[which(!Plot["Species"]=="Indet."),]
@@ -474,9 +474,9 @@ Replacement<-function(Plot,Alpha,Bota){
 }
 ```
 
-L'algorithme final retourne la médiane et l'intervalle de confiance de l'estimateur de diversité pour tout ordre *Q*, après *Nrep* simulations.
+L'algorithme final retourne la médiane et l'intervalle de confiance de l'estimateur de diversité pour tout *Q* l'ordre q de la diversité, après *Nrep* simulations.
 
-``` {r , echo=TRUE}
+``` {r , echo=TRUE, tidy=FALSE}
 Est_Entropy<-function(Plot,Q,Nrep){
   
   alpha<-alpha_construct(Plot)
