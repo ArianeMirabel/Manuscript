@@ -1,33 +1,38 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Conclusion et perspectives
 
 La diversité des communautés d'arbres a un rôle central pour le fonctionnement et le maintien des écosystèmes forestiers et des services qu'ils rendent [@Liang2016].
 Expliciter la réponse de cette diversité et en comprendre les mécanismes et les déterminants est incontournable pour anticiper le devenir des forêts dans le contexte actuel et adapter leur gestion et leur conservation [@Barlow2018]. 
-Nous examinons dans cette thèse la réponse taxonomique et fonctionnelle d'une communauté d'arbres de forêt néotropicale après un gradient de perturbation.
+Nous examinons dans cette thèse la réponse taxonomique et fonctionnelle d'une communauté d'arbres de forêt Néotropicale après un gradient de perturbation.
 
 Le premier travail de cette thèse a été la mise au point d'une méthode d'estimation fiable de la diversité des communautés à partir des inventaires forestiers.
 L'étude de la diversité des forêts tropicales est souvent compromise par le coût des inventaires botaniques et des bases de données fonctionnelles qui limite leur précision.
 Pour pallier ces incertitudes inhérentes aux inventaires et aux bases de données nous avons développé un estimateur de diversité taxonomique et fonctionnelle puis validé à partir d'inventaires réels.
-Cet estimateur a ensuite permis de tracer les trajectoires fiables de diversité taxonomiques et fonctionnelles d'une forêt néotropicale sur 30 ans après un gradient de perturbation. 
-En étudiant d'abord les trajectoires à l'échelle de la communauté dans son ensemble en s'intéressant plus particulièrement au recrutement recrutement après exploitation nous avons pu expliciter les changements de diversité et de composition et les processus écologiques émergents après perturbation.
-Conformément à la théorie des perturbations intermédiaires le recrutement des pionnières induit, au-delà d'un seuil d'intensité, une augmentation persistante de l'équitabilité des communautés au détriment des espèces rares de forêt mature.
-Par ailleurs les trajectoires taxonomiques et fonctionnelles se sont avérées découplées, du fait de l'importante redondance taxonomique des communautés atténuant l'impact fonctionnel des perturbations.
-La redondance fonctionnelle conditionnait la restauration de la résilience des communautés, en tant que paramètre le plus lent à retrouver une valeur initiale.
-Trente ans après perturbation, la restauration des processus de recrutement, de la composition et de la diversité des communautés reste inachevée mais est visible quelle que soit l'intensité de la perturbation initiale.
+Cet estimateur a ensuite permis de tracer les trajectoires fiables de diversité taxonomiques et fonctionnelles d'une forêt Néotropicale sur 30 ans après un gradient de perturbation. 
+En étudiant d'abord les trajectoires à l'échelle de la communauté dans son ensemble, avec en particulier une étude du recrutement après exploitation, nous avons pu expliciter les changements de diversité et de composition et les processus écologiques émergents après perturbation.
+Conformément à la théorie des perturbations intermédiaires le recrutement des pionnières induit, au-delà d'un seuil d'intensité, une augmentation persistante de l'équitabilité des communautés au détriment des espèces rares typiques de forêt mature.
+Par ailleurs les trajectoires taxonomiques et fonctionnelles se sont avérées découplées, l'impact des perturbations sur les trajectoires fonctionnelles étant atténuées par l'importante redondance fonctionnelle des communautés.
+Nous avons ainsi pu mettre en avant l'importance dela redondance fonctionnelle en tant que déterminant de la résilience et de la restauration des communautés.
+Trente ans après perturbation, la restauration de la composition, de la diversité, et des processus de recrutement des communautés était en cours mais restait inachevée quelle que soit l'intensité de la perturbation initiale.
 
 Ces résultats conduisent à différentes perspectives vis à vis (i) des processus régissant l'assemblage des espèces en communautés et leurs dynamiques, (ii) des modes de gestion et de conservation durables des forêts tropicales, et (iii) de la modélisation de la diversité des communautés.
 
-## Des trajectoires entre déterminisme et stochasticité
+## La réponse aux perturbations: le jeu du déterminisme et du hasard
 
 Comprendre la réponse des communautés aux perturbations revient à identifier les processus régissant la coexistence et l'assemblage des espèces.
-En forêt tropicale, ces processus sont encore débattus, spécifiquement en ce qui concerne la prépondérance des processus stochastiques par rapport aux processus déterministes.
+En forêt tropicale, ces processus sont encore débattus, spécifiquement à propos de la prépondérance des processus stochastiques par rapport aux processus déterministes.
 Bien que débattues les deux théories neutres et déterministes ne se sont pas incompatibles et peuvent être pertinentes dans différents cas de figure.
-Ainsi, des théories intégratives expliquent-elle la diversité et la composition des communautés par une combinaison des processus stochastiques et déterministes variable dans le temps et l'espace [@Gravel2006;@Chase2011].
+Ainsi, des théories intégratives expliquent-elles la diversité et la composition des communautés par une combinaison variable dans le temps et l'espace de processus stochastiques et déterministes [@Gravel2006;@Chase2011].
 
 ### Un modèle de succession défini
 
-La perturbation, matérialisée par la mortalité d'une partie de la communauté, modifie en elle-même la distribution d'âge des arbres, la structure de hauteur et de diamètre des communautés et leur environnement abiotique (lumière, flux d'eau et de nutriments) [@Gourlet-Fleury2000;@Putz2012;@Piponiot2016;@Rutishauser2016].
-Nous nous intéressons ici à des perturbations où la mortalité des espèces est en grande partie aléatoire (mortalité accidentelle après exploitation, tempâte, etc.) et où la composition et la diversité des arbres survivants reflète la communauté initiale [@Herault2018].
-Les processus de recrutement en revanche étaient en revanche très différents après perturbations.
+La perturbation, matérialisée par la mortalité d'une partie de la communauté, modifie en elle-même la distribution d'âge des arbres, la structure de hauteur et de diamètre des communautés, et leur environnement abiotique (lumière, flux d'eau et de nutriments) [@Gourlet-Fleury2000;@Putz2012;@Piponiot2016;@Rutishauser2016].
+Nous nous intéressons ici à des perturbations où la mortalité des espèces est en grande partie aléatoire (mortalité accidentelle après exploitation, tempête, etc.) et où la composition et la diversité des arbres survivants reflète la communauté initiale [@Herault2018].
+Les processus de recrutement, en revanche, se sont avérés très différents après perturbation.
 
 Les trajectoires de diversité du recrutement ont permis de distinguer trois phases de succession après perturbation, correspondant à différents processus écologiques déterministes et stochastiques.
 La réponse des communautés aux perturbations est ainsi déterminée tout d'abord par le recrutement de plantules déjà établies, bénéficiant en premier de l'espace environnemental rendu disponible par la perturbation, puis par le recrutement de pionnières et d'héliophiles favorisées par leurs stratégies d'acquisition de la lumière efficaces, et enfin par le retour progressif aux processus de recrutement initiaux [@Denslow2000;@Herault2010].
@@ -46,7 +51,7 @@ Dans un premier temps, le recrutement des juvéniles déjà en place avant pertu
 Dans un deuxième temps, les arbres recrutés sont issus de la germination des graines de la banque du sol et consituent l'essentiel du recrutement après perturbation [@Lawton1988].
 Les espèces pionnières et héliophiles sont alors favorisées au détriment des espèces tolérantes à l'ombre inféodées aux forêts non perturbées.
 Ces espèces héliophiles, auparavant rares ou peu fréquentes, deviennent alors communes et leur recrutement augmente la diversité fonctionnelle.
-Au-delà d'un seuil d'intensité de perturbation (plus de 25% de biomasse initiale perdue), le recrutement est dominé par quelques espèces très pionnières (par exemple *Cecropia spp*, *Pourouma spp.* ou *Vismia spp.*) [@Guitet2018].
+Au-delà d'un seuil d'intensité de perturbation (plus de 25% de biomasse initiale perdue), le recrutement est dominé par quelques espèces très pionnières (par exemple *Cecropia* spp., *Pourouma* spp. ou *Vismia* spp.) [@Guitet2018].
 Il existe cependant un compromis fonctionnel entre les stratégies "acquisitives" et "conservatives" des ressources: les espèces héliophiles présentent une capacité d'acquisition et d'utilisation rapide des ressources mais ont une durée de vie courte [@Falster2011].
 La croissance des héliophiles modifie de plus la structure et l'environnement abiotique de la communauté (fermeture de la canopée, rétablissement de la compétition, etc.), si bien que les espèces tolérantes à l'ombre plus communes avant perturbation remplacent les héliophiles après une dizaine d'années [@Denslow2000].
 Les caractéristiques fonctionnelles initiales sont donc restaurées dans un troisième temps.
@@ -54,16 +59,16 @@ Les caractéristiques fonctionnelles initiales sont donc restaurées dans un tro
 Après perturbation les communautés suivent des trajectoires fonctionnelles cycliques et convergentes.
 Ces trajectoires correspondent aux mêmes variations après perturbations, d'abord déterminées par les caractéristiques fonctionnelles des pionnières et des héliophiles recrutées, puis tendant à restaurer la composition initiale propre aux communautés non perturbées [@Buzzard2016].
 
-La réponse fonctionnelle des communautés, bien que très informative du fonctionnement des communautés après perturbation, n'est cependant pas le miroir de la réponse taxonomique.
-Diversité et composition fonctionnelle ne tiennent en effet pas compte de l'identité des espèces et sont déterminées par les espèces dominantes [@Grime1998;@Lavorel2002].
+La réponse fonctionnelle des communautés, bien que très informative de leur fonctionnement après perturbation, n'est cependant pas le miroir de la réponse taxonomique.
+Diversité et composition fonctionnelle ne tiennent en effet pas compte de l'identité des espèces et sont essentiellement déterminées par les espèces dominantes [@Grime1998;@Lavorel2002].
 
 ### Une succession taxonomique stochastique
 
 Les trajectoires taxonomiques étaient décorrélées des trajectoires fonctionnelles, et dépendantes de l'intensité de perturbation et de la composition de la communauté.
 Bien que la composition des communautés soit initialement différente, les espèces pionnières et héliophiles recrutées après perturbation sont identiques pour toutes les communautés et quelle que soit l'intensité de perturbation.
 La divergence taxonomique des communautés n'est pas affectée et n'affecte pas le recrutement du pool de pionnières et héliophiles.
-Peu d'espèces de succession tardive initialement absentes s'installent après perturbation malgré l'espace libéré, du fait probablement des limites de dispersion identifiées pour beaucoup d'espèces de forêt tropicale [@Svenning2005].
-Conformément à l'esprit de la théorie neutre la composition taxonomique des communautés relève donc de la contingence historique, *i.e.* du hasard de l'arrivée et de l'installation des espèces [@Hubbell2001].
+Peu d'espèces de succession tardive initialement absentes s'installent après perturbation, malgré l'espace libéré, du fait probablement des limites de dispersion identifiées pour beaucoup d'espèces de forêt tropicale [@Svenning2005].
+Conformément à l'esprit de la théorie neutre, la composition taxonomique des communautés relève donc de la contingence historique, *i.e.* du hasard de l'arrivée et de l'installation des espèces [@Hubbell2001].
 Les processus déterministes (facilitation ou inhibition) qui peuvent expliquer la divergence taxonomique d'autres communautés [@Fukami2005] s'avèrent ainsi négligeables en forêt tropicale, à l'échelle de temps considérée.
 
 Par ailleurs, conformément aux hypothèses de @Connell1978, le recrutement de pionnières et d'héliophiles augmente la richesse et l'équitabilité des communautés jusqu'à un seuil d'intensité de perturbation (environ 25% de biomasse initiale perdue).
@@ -72,10 +77,10 @@ Au-delà d'un seuil d'intensité, en revanche, la favorisation d'espèces nouvel
 Les espèces pionnières sont alors dominantes, la richesse taxonomique est diminuée puis restaurée sans dépasser la richesse initiale, et l'équitabilité est durablement augmentée.
 
 D'après les trajectoires de Paracou, bien que les communautés convergent dans l'espace fonctionnel, leurs différences de composition taxonomique sont maintenues.
-Ce découplage entre trajectoires taxonomiques et fonctionnelles s'explique par les variations de la redondance fonctionnelle des communautés, qui mesure le nombre d'espèces partageant les mêmes valeurs de traits et qui ont le même rôle dans l'écosystème [@Bellwood2006].
+Ce découplage entre trajectoires taxonomiques et fonctionnelles s'explique par les variations de la redondance fonctionnelle des communautés, qui mesure le nombre d'espèces partageant les mêmes valeurs de traits et ayant le même rôle dans l'écosystème [@Bellwood2006].
 En forêt tropicale où la redondance fonctionnelle est élevée, la composition fonctionnelle des communautés peut être identique malgré leurs différences taxonomiques.
-La redondance fonctionnelle explique la convergence fonctionnelle des communautés malgré leur divergence taxonomique et donc l'homogénéité des trajectoires après perturbation quelle que soit la composition taxonomique initiale.
-D'autre part, une redondance fonctionnelle élevée assure le remplacement des espèce squi disparaissent par d'autres à la stratégie fonctionnelle similaire [@Carmona2016], ce qui atténue l'impact des perturbations sur la composition et la diversité fonctionnelle.
+Ceci explique la convergence fonctionnelle des communautés malgré leur divergence taxonomique et donc l'homogénéité des trajectoires après perturbation quelle que soit la composition taxonomique initiale.
+D'autre part, une redondance fonctionnelle élevée assure le remplacement des espèces disparues de la communauté par d'autres à la stratégie fonctionnelle similaire [@Carmona2016], ce qui atténue l'impact des perturbations sur la composition et la diversité fonctionnelle.
 Les trajectoires de redondance sont ainsi complémentaires des trajectoires taxonomiques et fonctionnelles et expliquent leur découplage.
 La restauration de la redondance dépend des trajectoires taxonomiques, et donc des processus stochastiques sous-jacents.
 Les trajectoires de redondance, de composition et de diversité taxonomique dépendent du principe de "lottery recruitment": tandis que les espèces recrutées en premier s'établissent rapidement dans la communauté, les suivantes, redondantes fonctionnellement, subissent la compétition avec les premières et s'établissent plus difficilement [@Busing2002].
@@ -98,15 +103,23 @@ Le recul des 30 ans de suivi de Paracou donne une vision à long terme de la ré
 Dans la perspective d'une exploitation soutenable à long terme, les critères d'évaluation de la durabilité doivent être discutés selon les objectifs de l'exploitation.
 Pour préserver le fonctionnement et les services écosystémiques rendus par les forêts tropicales, le maintien de la diversité et de la composition du peuplement doivent être considérés en plus du maintien du stock exploitable [@ITTO2005;@Barlow2018].
 
-Bien que tangible, la résilience taxonomique et fonctionnelle des communautés de Paracou nécessitait plusieurs décennies.
-Cette durée impose des cycles de rotation de plusieurs décennies pour assurer la restauration complète des communautés.
+Bien que tangible, la résilience taxonomique et fonctionnelle des communautés de Paracou nécessiterait bien plus que les 30 ans suivis jusqu'à aujourd'hui.
+Au vu des trajectoires, on peut supposer qu'une centaine d'années serait nécessaire pour observer une restauration de la composition et de la diversité de communautés telles que celles d'avant exploitation.
 Des cycles de rotations éprouvés et validés pour d'autres régions tropicales, notamment en Afrique, seraient ainsi trop court pour des forêts telles que Paracou [@Durrieu1998].
 
-Par ailleurs, d'après les trajectoires de diversité et de composition la réponse taxonomique des communautés était complexeet et relevant de processus aléatoires.
-Les trajectoires de composition taxonomique se sont avérées difficiles à extrapoler, et susceptibles d'entraîner la disparition locale ou au contraire la dominance persistante de certaines espèces de façon visibles uniquement à long terme.
-De tels changements de composition peuvent avoir des conséquences significatives sur l'écosystèmes, comme la disparition d'espèce-clés pour la faune ou la flore ou un blocage de succession modifiant durablement l'écosystème [@Diaz2005].
+Par ailleurs, d'après les trajectoires de diversité et de composition, la réponse taxonomique des communautés s'avère complexe et relevant de processus aléatoires.
+Les trajectoires de composition taxonomique sont ainsi difficiles à extrapoler.
+La réponse taxonomique serait susceptible d'entraîner soit une disparition locale, soit une dominance persistante de certaines espèces, qui seraient détectables uniquement à long terme.
+De tels changements de composition peuvent avoir des conséquences significatives sur l'écosystèmes, telles que la disparition d'espèce-clé pour la faune ou la flore, ou un blocage de succession modifiant durablement l'écosystème [@Diaz2005].
 De surcroît, les espèces favorisées après exploitation présentent en moyenne une hauteur maximale et une densité du bois plus faibles, ce qui amplifie les changements de structure générés par les perturbations et modifie la valeur économique du peuplement [@Reich2014].
 La complexité de la réponse taxonomique implique donc, à mon sens, de garder à l'esprit la possibilité de conséquences inattendues de l'exploitation et d'adopter un principe de précaution en visant par défaut le maintien de la composition et de la diversité initiales.
+
+En Guyane française, l'exploitation forestière appliquée aujourd'hui suit les directives des chartes d'exploitation à faible impact.
+Les directives appliquées préconisent une intensité d'exploitation de 5 à 7 arbres.ha^-1^, ce qui correspond dans notre cas à une perturbation de l'ordre du traitement 1 [@Guitet2005].
+Bien qu'assez homogène, la réponse des communautés à de telles intensités de perturbation restait variable entre les parcelles.
+Spécifiquement, tandis que pour deux des parcelles la richesse taxonomique augmentait significativement, elle n'augmentait quasiment pas pour la troisième.
+D'après l'analyse des trajectoires de composition, la réponse taxonomique des communautés dépend de la composition initiale.
+Dans le cas de l'exploitation Guyanaise, on s'attend ainsi à une réponse homogène en termes d'équitabilité taxonomique et de diversité foncitonnelle, mais variable selon la composition initiale en termes de richesse taxonomique et de risques d'extinction ou d'impacts persistants variables. 
 
 D'après l'analyse des trajectoires, la redondance fonctionnelle joue un rôle central pour évaluer la résilience de la communauté.
 Les trajectoires de redondance fonctionnelle permettent de combiner les aspects taxonomiques et fonctionnels de la restauration, les paramètres les plus lents de la restauration après perturbation.
@@ -120,7 +133,7 @@ Les résultats obtenus dans ce travail sont basés sur des traits fonctionnels c
 Comme pour toute analyse fonctionnelle, ce choix n'est cependant pas exhaustif et les traits ont été retenus surtout vis à vis de la productivité des espèces et de leur stratégie d'acquisition et d'utilisation des ressources [@Reich2014;@Kunstler2016].
 Nous avons cependant pu souligner l'importance de la banque de graines pour la réponse des communautés et le rôle de sa diversité et de sa composition pour l'établissement de la communauté après perturbation.
 La constitution de la banque de graines dépend largement des traits de dispersion, de dormance et de germination des espèces.
-Pour mieux anticiper la réponse des communautés aux perturbations, notamment en terme de diversité et de composition du recrutement, il serait ainsi judicieux de considérer plus de traits de dispersion et de durée de vie des graines [@Verdu2005;@Schleuning2016].
+Pour mieux anticiper la réponse des communautés aux perturbations, notamment en termes de diversité et de composition du recrutement, il serait ainsi judicieux de considérer plus de traits de dispersion et de durée de vie des graines [@Verdu2005;@Schleuning2016].
 
 ## Vers l'intégration des trajectoires de biodiversité aux modèles de dynamique forestière
 
@@ -142,41 +155,47 @@ Ils permettent ainsi une interprétation en termes de caractéristiques écosyst
 
 Dans cette thèse, nous avons synthétisé les informations des 30 ans de suivi de la réponse des communautés de Paracou après perturbation et avons proposé une interprétation des processus écologiques sous-jacents.
 Ce travail ouvre la voie à la modélisation de la biodiversité, que nous proposons de détailler ici selon deux perspectives empirique et mécaniste. 
-L'approche empirique, basée sur l'analyse statistique des trajectoires par des modèles mixtes, permettrait de représenter les lois régissant la réponse de la diversité aux perturbations sans y expliciter les processus sous-jacents.
-L'approche mécaniste, basée sur des processus identifiés (spécifiquement le recrutement et la mortalité), permettrait une simulation individu-centrée de la dynamique des communautés.
+L'approche empirique est basée sur l'analyse statistique des trajectoires par des modèles mixtes.
+Ces modèles permettraient d'inférer puis extrapoler les lois régissant la réponse de la diversité aux perturbations, sans y expliciter les processus sous-jacents.
+L'approche mécaniste est basée sur des processus identifiés (spécifiquement le recrutement et la mortalité) qui permettraient une simulation individu-centrée de la dynamique des communautés.
 
 ### Modèle empirique: prédire la diversité en fonction de l'intensité d'exploitation
 
 Les trajectoires de Paracou ont mis en évidence les trajectoires taxonomique et fonctionnelle non-aléatoires après perturbation et leur corrélation avec l'intensité de perturbation.
 Ces trajectoires pourraient être formalisées grâce à des méthodes statistiques empiriques de façon à prédire les variations de diversité en fonction du temps écoulé et de l'intensité de la perturbation (en % de biomasse perdue). 
+Une telle formalisation de la relation entre intensité d'exploitation et diversité au cours du temps permettrait de mieux planifier la gestion forestière en fonction des niveaux de diversité attendus.
+
 Spécifiquement, nous avons pensé ajuster des modèles mixtes aux trajectoires de diversité et de composition taxonomique et fonctionnelle.
 Les modèles mixtes sont largement utilisés dans l'étude de données "longitudinales", *i.e.* des mesures répétées dans le temps sur un même objet, comme c'est le cas des mesures de dynamique étudiées ici.
-Ces modèles associent un effet aléatoire commun aux mesures d'une même communauté et permettent ainsi de prendre en compte les corrélations entre mesures successives
+Ces modèles permettent de prendre en compte les corrélations entre mesures successives en associant un effet aléatoire commun aux mesures d'une même communauté.
 
-Formaliser une telle relation entre intensité d'exploitation et diversité au cours du temps permettrait de mieux planifier la gestion forestière en fonction des niveaux de diversité attendus.
+Cependant, prédire ainsi de façon empirique à long terme la trajectoire de diversité à partir d'observations sur quelques décennies suppose que processus impliqués soient les mêmes au cours du temps.
+Or, nous avons précisément montré dans ce travail que les processus déterminant la réponse aux perturbations variaient au cours du temps.
+Le recours à des modèles mécanistes semble ainsi plus judicieux.
 
 ### Modèle mécaniste: simuler les trajectoires après perturbation
 
-Les trajectoires de Paracou ont mis en évidence les processus de recrutement déterministes qui définissent la réponse au cours du temps des communautés aux perturbations.
+Les trajectoires de Paracou ont mis en évidence les processus de recrutement déterministes qui définissent la réponse des communautés aux perturbations au cours du temps.
 La connaissance de ces processus inspire la construction de modèles mécanismes simulant explicitement les trajectoires de diversité après perturbation.
 
 Dans un premier temps, nous avons abordé la modélisation mécaniste en assimilant l'évolution au cours du temps de la richesse des recrutés à des courbes d'accumulation.
 Les courbes d'accumulation représentent usuellement le nombre d'espèces découvertes en fonction de l'effort d'échantillonnage dans l'espace [@Gotelli2001].
 Ces courbes se déclinent en courbes de raréfaction lissées, représentant le nombre moyen d'espèces rencontrées pour chaque sous-échantillonnage d'une communauté donnée selon des effectifs de taille variable [@Ugland2003].
 Les courbes de raréfaction sont construites en considérant la richesse comme une variable aléatoire, dont l'espérance est estimée théoriquement à partir de la taille de la communauté initiale et la probabilité de tirage de chaque espèce.
-D'après nos essais, les trajectoires du recrutement observées ne correspondaient à des courbes d'accumulation.
+D'après nos essais, les trajectoires du recrutement observées ne correspondaient pas à des courbes d'accumulation.
 Dans le cas de perturbations peu intenses comme à Paracou, les communautés sont constituées après exploitation d'arbres survivants d'avant perturbation et d'arbres recrutés par la suite.
-La communauté des recrutés combine de même les recrutés issus des processus de forêt mature (correspondant à un recrutement aléatoire dans la communauté initiale) et les recrutés issus des processus émergeant après perturbation (correspondant à un recrutement favorisant les espèces pionnières).
+La communauté des recrutés comprend elle-même des recrutés issus des processus de forêt mature (correspondant à un recrutement aléatoire dans la communauté initiale) et les recrutés issus des processus émergeant après perturbation (correspondant à un recrutement favorisant les espèces pionnières).
 Les trajectoires du recrutement combinent ainsi deux communautés de survivants et de pionnières, et ne peuvent s'apparenter à une courbe de raréfaction qui elle correspondrait au sous-échantillonnage d'une communauté unique.
 
-Notre étude a mis en évidence le lien entre l'intensité de perturbation et la balance entre recrutés issus d'un recrutement dans la communauté de survivants d'avant exploitation et recrutés issus d'un recrutement déterministe d'espèces pionnières.
-La réponse du recrutement aux perturbations pourrait alors correspondre à un modèle de mélange.
-Ces modèles représentent la distribution de probabilité pour une population issue de deux groupes (ou plus).
-Dans notre cas la population recrutée serait le résultat d'un échantillonnage parmis la population pré-exploitation et parmis la population des espèces pionnières.
-La communauté recrutée suivrait une loi de mélange des deux populations, elle-mêmes suivant une distribution catégorielle de taille *N_s* et *N_p*(le nombre d'espèces avant exploitation et le nombre de pionnières, respectivement).
-Les différences entre trajectoires de diversité seraient formalisées via les paramètres du mélange entre les deux populations (par exemple leurs poids respectif).
-Les "topic models" habituellement utilisés pour détecter les structures de textes ou de bases de données pourraient être un point de départ dans cette réflexion [@Mclachlan2000;@Blei2012].
+Notre étude a mis en évidence le lien entre l'intensité de perturbation, et la balance entre recrutés issus d'un recrutement dans la communauté de survivants d'avant exploitation et recrutés issus d'un recrutement déterministe d'espèces pionnières.
+Pour pallier la complexité des forêts tropicales hyper-diverses, des modèles de mélange ont déjà été adoptés pour modéliser la dynamique et la croissance des communautés [@Mortier2013]. 
+Ces modèles permettent de représenter la loi de probabilité d'une population en la représentant comme un mélange de plusieurs groupes distincts.
+Dans notre cas, le recrutement pourrait être modélisé comme le mélange de deux échantillonnages, l'un parmis la population pré-exploitation et l'autre parmis la population des espèces pionnières.
+Le recrutement après perturbation suivrait une loi de mélange de deux distributions catégorielles, multinomiale par exemple, de taille $N_s$ (le nombre d'espèces avant exploitation) et $N_p$ (le nombre de pionnières).
+Les différences entre trajectoires de diversité correspondraient aux paramètres du mélange des deux populations (leurs poids respectifs, par exemple), et pourraient être estimés de façon fiable par des processus Bayesiens [@Mortier2013].
+Les "topic models" habituellement utilisés pour détecter les structures et les sujets de textes maunscrits pourraient être un point de départ dans cette réflexion [@Mclachlan2000;@Blei2012].
+Ces modèles permettent de retrouver le sujet traité dans un texte en fonction de l'occurence des mots de différents champs lexicaux: le texte est modélisé comme le mélange de tirages aléatoires dans les différents champs lexicaux.
 
-De tels modèles pourraient d'une part être intégrés aux modèles de dynamique forestière existants et d'autre part permettre de simuler des perturbations répétées et ainsi élucider à bien plus long terme la réponse des communautés à l'exploitation forestière [@Dufour2012].
-
-
+De tels modèles pourraient, dans un premier temps, être intégrés aux modèles de dynamique forestière existants pour y ajouter le paramètre de diversité et de composition des communautés.
+D'autre part, ils pourraient permettre de simuler des perturbations répétées, et examiner la réponse des communautés à l'exploitation forestière à plus long terme [@Dufour2012].
+Enfin, ils pourraient permettre d'évaluer les risques d'extinction locales d'espèces selon l'intensité de perturbation et la durée de restauration, en simulant leur disparition puis leur recrutement selon les processus identifiés.

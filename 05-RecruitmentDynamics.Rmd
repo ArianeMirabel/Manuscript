@@ -62,10 +62,10 @@ url: https://github.com/ArianeMirabel
 
 Determining the response of tropical forests to disturbance is key to predict their fate in the global changing context.
 In the last decades, tropical forests experienced a wide range of disturbance, from radical land-use changes for agriculture or mining [@Dezecache2017a;@Dezecache2017b] to more insidious changes of communities structure, diversity and functioning following climatic changes [@Aubry-Kientz2015] or anthropogenic activities like selective logging [@Baraloto2012]. 
-In that respect a vast literature successfully modeled community response to disturbance in terms of tree growth, tree height and fluxes of carbon, water and nutrients [@Gourlet-Fleury2000;@Piponiot2016;@Rutishauser2016].
-Similar modeling approaches regarding forest diversity and composition remain hindered by the scarcity of long-term monitoring and by studies' restriction to common or commercial species imposed by forest huge biological diversity [@Sebbenn2008].
+In that respect a vast literature successfully modeled community response to disturbance in terms of tree growth, tree height and fluxes of carbon, water and nutrients [@Gourlet-Fleury2000;@Putz2012;@Piponiot2016;@Rutishauser2016].
+Similar modeling approaches regarding forest diversity and composition remain hindered by the scarcity of long-term monitoring and by studies' restriction to common or commercial species imposed by forest huge biological diversity [@Sebbenn2008;@Vinson2015].
 The template of community response to disturbance is set by recruitment processes that determine the new species joining the community.
-Focusing on long-term recruitment trajectories therefore give valuable insight into post-disturbance recovery and hence into the adjustment of exploitation and conservation guidelines [@Schwartz2017].
+Focusing on long-term recruitment trajectories therefore give valuable insight into post-disturbance recovery and hence into the adjustment of exploitation and conservation guidelines [@Diaz2005;@Schwartz2017].
 
 The traditional view of community response to disturbance relies on successional vegetation models [@Clements1916] based on changes in resources availability and interactions among species. 
 Adapted to forest ecosystems the successional framework translates into [@Denslow2000] (i) the recruitment of pre-disturbance surviving saplings benefiting from the high resources availability and low competition, (ii) the progressive exclusion of species with low competitive ability because of increased competition for resources following stand maturation and (iii) the recovery of pre-disturbance composition and diversity due to the senescence of early-successional pioneers and the emergence of late-successional species.
@@ -73,7 +73,7 @@ This highly-deterministic successional pathway proved relevant in temperate fore
 Indeed, the classical successional pathway may be altered by the huge biological diversity of tropical rainforests and their high functional redundancy that lead up to more stochastic processes. 
 Moreover, the successional pathway proved well-adapted to system trajectories following clear cutting or very intense disturbance, but might be less robust following more insidious global changes. 
 In those cases, community trajectories would depend on the interplay between the stochastic processes, driven by recruitment and dispersal limitations [@Hubbell2001], and deterministic processes, driven by niche-based competition and biotic interactions [@Adler2007]. 
-Stochastic processes, in the neutral theory spirit, build recruited communities as random samples of the surrounding communities [@Chave2004]. 
+Stochastic processes, in the neutral theory spirit, build recruited communities as random samples of the surrounding communities [@Hubbell2001;@Chave2004]. 
 In contrast under deterministic processes, species are selected with respect to their ecological strategies and competitive ability. 
 The relative importance of stochastic and deterministic processes in shaping the post-disturbance trajectories would also change with time, along with the recovery of pre-disturbance environmental conditions.
 
@@ -163,7 +163,15 @@ Functional diversity trajectories were assessed through the Rao index of quadrat
 Functional composition trajectories were assessed through the functional traits community weighted means (CWM), representing the average trait value in a community weighted by species relative abundance [@Diaz2007].
 Seed mass trajectories were reported by the proportion of each class recorded in the inventories.
 
-The taxonomic similarity between recruited trees and pre-disturbance forest was measured with the turnover metrics detailed in @Podani2013.
+The taxonomic similarity between recruited trees and pre-disturbance forest was measured with the relitivized abundance replacement between communities [@Podani2013].
+This metric measures the sum of abundances in a community that are replaced by a completely different species in the other, divided by the maximum possible similarity between the two communities \@ref(eq:formNestedness).
+
+\begin{equation}
+T_{ab}=\frac{\sum_{i=1}^{n}|x_i^a - x_i^b| - \bigg| \sum_{i=1}^{n}{x_i^a} - \sum_{i=1}^{n}{x_i^b} \bigg|}{\sum_{i=1}^{n}\max{\left( x_i^a;x_i^b \right)}}
+(\#eq:formNestedness)
+\end{equation}
+
+With $T_{ab}$ the turnover between communities a and b $a$ et $b$, $n$ the total number of species in the two communities, $x_i^j$ the abundance of species $i$ in the community j $j$.
 
 The taxonomic and functional recruitment trajectories were compared to null trajectories obtained after 50 iterations of the null models.
 The taxonomic null model was a random sampling of recruited trees within the living communities, with the maintenance of species abundance and tree density.

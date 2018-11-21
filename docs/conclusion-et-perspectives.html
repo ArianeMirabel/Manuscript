@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html  lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Réponse et Résilience de la Biodiversité d’une Forêt Tropicale après Perturbation</title>
+  <meta name="description" content="Manuscrit de thèse">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Réponse et Résilience de la Biodiversité d’une Forêt Tropicale après Perturbation" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Manuscrit de thèse" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Réponse et Résilience de la Biodiversité d’une Forêt Tropicale après Perturbation" />
+  
+  <meta name="twitter:description" content="Manuscrit de thèse" />
+  
+
+<meta name="author" content="Ariane Mirabel">
+
+
+<meta name="date" content="2018-10-11">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html">
+<link rel="next" href="references.html">
+<style type="text/css">
+p.abstract{
+  text-align: center;
+  font-weight: bold;
+}
+div.abstract{
+  margin: auto;
+  width: 90%;
+}
+</style>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Ouvrage Bookdown</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Installation of packages if necessary and loading</a></li>
+<li class="chapter" data-level="" data-path="remerciements.html"><a href="remerciements.html"><i class="fa fa-check"></i>Remerciements</a></li>
+<li class="chapter" data-level="2" data-path="introduction-generale.html"><a href="introduction-generale.html"><i class="fa fa-check"></i><b>2</b> Introduction générale</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction-generale.html"><a href="introduction-generale.html#les-forets-tropicales-au-cur-des-enjeux-actuels"><i class="fa fa-check"></i><b>2.1</b> Les forêts tropicales, au cœur des enjeux actuels</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-generale.html"><a href="introduction-generale.html#exploitation-et-conservation-des-forets-tropicales"><i class="fa fa-check"></i><b>2.2</b> Exploitation et conservation des forêts tropicales</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-generale.html"><a href="introduction-generale.html#diversite-et-assemblage-des-communautes"><i class="fa fa-check"></i><b>2.3</b> Diversité et assemblage des communautés</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="introduction-generale.html"><a href="introduction-generale.html#succession-mortalite-et-recrutement-supports-de-la-trajectoire-des-communautes"><i class="fa fa-check"></i><b>2.3.1</b> Succession, mortalité et recrutement: supports de la trajectoire des communautés</a></li>
+<li class="chapter" data-level="2.3.2" data-path="introduction-generale.html"><a href="introduction-generale.html#les-regles-dassemblage-des-communautes"><i class="fa fa-check"></i><b>2.3.2</b> Les règles d’assemblage des communautés</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="introduction-generale.html"><a href="introduction-generale.html#comment-mesurer-la-diversite-biologique"><i class="fa fa-check"></i><b>2.4</b> Comment mesurer la diversité biologique ?</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="introduction-generale.html"><a href="introduction-generale.html#composition-et-dissimilarite"><i class="fa fa-check"></i><b>2.4.1</b> Composition et dissimilarité</a></li>
+<li class="chapter" data-level="2.4.2" data-path="introduction-generale.html"><a href="introduction-generale.html#assemblage-et-structure-des-communautes"><i class="fa fa-check"></i><b>2.4.2</b> Assemblage et structure des communautés</a></li>
+<li class="chapter" data-level="2.4.3" data-path="introduction-generale.html"><a href="introduction-generale.html#les-composantes-de-la-diversite"><i class="fa fa-check"></i><b>2.4.3</b> Les composantes de la diversité</a></li>
+<li class="chapter" data-level="2.4.4" data-path="introduction-generale.html"><a href="introduction-generale.html#resolution-du-biais-dechantillonnage"><i class="fa fa-check"></i><b>2.4.4</b> Résolution du biais d’échantillonnage</a></li>
+<li class="chapter" data-level="2.4.5" data-path="introduction-generale.html"><a href="introduction-generale.html#diversite-fonctionnelle"><i class="fa fa-check"></i><b>2.4.5</b> Diversité fonctionnelle</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="introduction-generale.html"><a href="introduction-generale.html#la-guyane-francaise-et-lexemple-de-la-station-de-paracou"><i class="fa fa-check"></i><b>2.5</b> La Guyane Française et l’exemple de la station de Paracou</a><ul>
+<li class="chapter" data-level="2.5.1" data-path="introduction-generale.html"><a href="introduction-generale.html#le-contexte-guyanais"><i class="fa fa-check"></i><b>2.5.1</b> Le contexte Guyanais</a></li>
+<li class="chapter" data-level="2.5.2" data-path="introduction-generale.html"><a href="introduction-generale.html#paracou-plus-de-30-ans-de-suivi-de-la-foret-amazonienne"><i class="fa fa-check"></i><b>2.5.2</b> Paracou, plus de 30 ans de suivi de la forêt Amazonienne</a></li>
+<li class="chapter" data-level="2.5.3" data-path="introduction-generale.html"><a href="introduction-generale.html#methodes-dinventaires"><i class="fa fa-check"></i><b>2.5.3</b> Méthodes d’inventaires</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="introduction-generale.html"><a href="introduction-generale.html#problematique-et-plan-de-la-these"><i class="fa fa-check"></i><b>2.6</b> Problématique et plan de la thèse</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html"><i class="fa fa-check"></i><b>3</b> Seuls les noms botaniques correspondant</a><ul>
+<li class="chapter" data-level="3.1" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#noms-vernaculaires-et-propagation-des-incertitudes-taxonomiques"><i class="fa fa-check"></i><b>3.1</b> Noms vernaculaires et propagation des incertitudes taxonomiques</a></li>
+<li class="chapter" data-level="3.2" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#application-de-lestimateur-aux-inventaires-de-paracou"><i class="fa fa-check"></i><b>3.2</b> Application de l’estimateur aux inventaires de Paracou</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#profils-dincertitude-taxonomique"><i class="fa fa-check"></i><b>3.2.1</b> Profils d’incertitude taxonomique</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#application-de-lestimateur-au-cas-des-inventaires-pre-exploitation"><i class="fa fa-check"></i><b>3.3</b> Application de l’estimateur au cas des inventaires pré-exploitation</a></li>
+<li class="chapter" data-level="" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#inescapable-taxonomists-workable-biodiversity-management-based-on-a-minimum-field-work"><i class="fa fa-check"></i>Inescapable Taxonomists: Workable Biodiversity Management Based on a Minimum Field Work</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#abstract"><i class="fa fa-check"></i><b>3.3.1</b> Abstract</a></li>
+<li class="chapter" data-level="3.3.2" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#introduction"><i class="fa fa-check"></i><b>3.3.2</b> Introduction</a></li>
+<li class="chapter" data-level="3.3.3" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#methods"><i class="fa fa-check"></i><b>3.3.3</b> Methods</a></li>
+<li class="chapter" data-level="3.3.4" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#results"><i class="fa fa-check"></i><b>3.3.4</b> Results</a></li>
+<li class="chapter" data-level="3.3.5" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#discussion"><i class="fa fa-check"></i><b>3.3.5</b> Discussion</a></li>
+<li class="chapter" data-level="3.3.6" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#conclusion"><i class="fa fa-check"></i><b>3.3.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="seuls-les-noms-botaniques-correspondant.html"><a href="seuls-les-noms-botaniques-correspondant.html#script-r-estimateur-de-diversite"><i class="fa fa-check"></i><b>3.4</b> Script R, estimateur de diversité</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html"><i class="fa fa-check"></i><b>4</b> Trajectoires de diversité à l’échelle des communautés</a><ul>
+<li class="chapter" data-level="" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#post-disturbance-tree-community-trajectories-in-a-neotropical-forest"><i class="fa fa-check"></i>Post-Disturbance Tree Community Trajectories in a Neotropical Forest</a><ul>
+<li class="chapter" data-level="4.0.1" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#abstract-1"><i class="fa fa-check"></i><b>4.0.1</b> Abstract</a></li>
+<li class="chapter" data-level="4.0.2" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#introduction-1"><i class="fa fa-check"></i><b>4.0.2</b> Introduction</a></li>
+<li class="chapter" data-level="4.0.3" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#material-and-methods"><i class="fa fa-check"></i><b>4.0.3</b> Material and Methods</a></li>
+<li class="chapter" data-level="4.0.4" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#results-1"><i class="fa fa-check"></i><b>4.0.4</b> Results</a></li>
+<li class="chapter" data-level="4.0.5" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#discussion-1"><i class="fa fa-check"></i><b>4.0.5</b> Discussion</a></li>
+<li class="chapter" data-level="4.0.6" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#conclusions"><i class="fa fa-check"></i><b>4.0.6</b> Conclusions</a></li>
+<li class="chapter" data-level="4.0.7" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#acknowledgement"><i class="fa fa-check"></i><b>4.0.7</b> Acknowledgement</a></li>
+<li class="chapter" data-level="4.0.8" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#authors-contributions"><i class="fa fa-check"></i><b>4.0.8</b> Author’s contributions</a></li>
+<li class="chapter" data-level="4.0.9" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#data-availability"><i class="fa fa-check"></i><b>4.0.9</b> Data availability</a></li>
+<li class="chapter" data-level="4.0.10" data-path="trajectoires-de-diversite-a-lechelle-des-communautes.html"><a href="trajectoires-de-diversite-a-lechelle-des-communautes.html#supplementary-materials"><i class="fa fa-check"></i><b>4.0.10</b> Supplementary materials</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><i class="fa fa-check"></i><b>5</b> Analyse du recrutement, support de la trajectoire des communautés</a><ul>
+<li class="chapter" data-level="5.1" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#years-of-post-disturbance-recruitment-in-a-neotropical-forest"><i class="fa fa-check"></i><b>5.1</b> 30 Years of Post-disturbance Recruitment in a Neotropical Forest</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#abstract-2"><i class="fa fa-check"></i><b>5.1.1</b> Abstract</a></li>
+<li class="chapter" data-level="5.1.2" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#introduction-2"><i class="fa fa-check"></i><b>5.1.2</b> Introduction</a></li>
+<li class="chapter" data-level="5.1.3" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#material-and-methods-1"><i class="fa fa-check"></i><b>5.1.3</b> Material and Methods</a></li>
+<li class="chapter" data-level="5.1.4" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#results-2"><i class="fa fa-check"></i><b>5.1.4</b> Results</a></li>
+<li class="chapter" data-level="5.1.5" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#discussion-2"><i class="fa fa-check"></i><b>5.1.5</b> Discussion</a></li>
+<li class="chapter" data-level="5.1.6" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#conclusion-1"><i class="fa fa-check"></i><b>5.1.6</b> Conclusion</a></li>
+<li class="chapter" data-level="5.1.7" data-path="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html"><a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html#acknowledgement-1"><i class="fa fa-check"></i><b>5.1.7</b> Acknowledgement</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html"><i class="fa fa-check"></i><b>6</b> Conclusion et perspectives</a><ul>
+<li class="chapter" data-level="6.1" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#des-trajectoires-entre-determinisme-et-stochasticite"><i class="fa fa-check"></i><b>6.1</b> Des trajectoires entre déterminisme et stochasticité</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#un-modele-de-succession-defini"><i class="fa fa-check"></i><b>6.1.1</b> Un modèle de succession défini</a></li>
+<li class="chapter" data-level="6.1.2" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#une-succession-fonctionnelle-deterministe"><i class="fa fa-check"></i><b>6.1.2</b> Une succession fonctionnelle déterministe</a></li>
+<li class="chapter" data-level="6.1.3" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#une-succession-taxonomique-stochastique"><i class="fa fa-check"></i><b>6.1.3</b> Une succession taxonomique stochastique</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#vers-une-gestion-durable-integrant-la-preservation-de-la-biodiversite"><i class="fa fa-check"></i><b>6.2</b> Vers une gestion durable intégrant la préservation de la biodiversité</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#quels-criteres-de-restauration"><i class="fa fa-check"></i><b>6.2.1</b> Quels critères de restauration?</a></li>
+<li class="chapter" data-level="6.2.2" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#choix-des-traits-et-limites-de-lapproche-fonctionnelle"><i class="fa fa-check"></i><b>6.2.2</b> Choix des traits et limites de l’approche fonctionnelle</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#vers-lintegration-des-trajectoires-de-biodiversite-aux-modeles-de-dynamique-forestiere"><i class="fa fa-check"></i><b>6.3</b> Vers l’intégration des trajectoires de biodiversité aux modèles de dynamique forestière</a><ul>
+<li class="chapter" data-level="6.3.1" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#modele-empirique-predire-la-diversite-en-fonction-de-lintensite-dexploitation"><i class="fa fa-check"></i><b>6.3.1</b> Modèle empirique: prédire la diversité en fonction de l’intensité d’exploitation</a></li>
+<li class="chapter" data-level="6.3.2" data-path="conclusion-et-perspectives.html"><a href="conclusion-et-perspectives.html#modele-mecaniste-simuler-les-trajectoires-apres-perturbation"><i class="fa fa-check"></i><b>6.3.2</b> Modèle mécaniste: simuler les trajectoires après perturbation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/EcoFoG/EcofoG" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Réponse et Résilience de la Biodiversité d’une Forêt Tropicale après Perturbation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="conclusion-et-perspectives" class="section level1">
+<h1><span class="header-section-number">6</span> Conclusion et perspectives</h1>
+<p>La diversité des communautés d’arbres a un rôle central pour le fonctionnement et le maintien des écosystèmes forestiers et des services qu’ils rendent <span class="citation">(Liang et al. <a href="#ref-Liang2016">2016</a>)</span>. Expliciter la réponse de cette diversité et en comprendre les mécanismes et les déterminants est incontournable pour anticiper le devenir des forêts dans le contexte actuel et adapter leur gestion et leur conservation <span class="citation">(Barlow et al. <a href="#ref-Barlow2018">2018</a>)</span>. Nous examinons dans cette thèse la réponse taxonomique et fonctionnelle d’une communauté d’arbres de forêt néotropicale après un gradient de perturbation.</p>
+<p>Le premier travail de cette thèse a été la mise au point d’une méthode d’estimation fiable de la diversité des communautés à partir des inventaires forestiers. L’étude de la diversité des forêts tropicales est souvent compromise par le coût des inventaires botaniques et des bases de données fonctionnelles qui limite leur précision. Pour pallier ces incertitudes inhérentes aux inventaires et aux bases de données nous avons développé un estimateur de diversité taxonomique et fonctionnelle puis validé à partir d’inventaires réels. Cet estimateur a ensuite permis de tracer les trajectoires fiables de diversité taxonomiques et fonctionnelles d’une forêt néotropicale sur 30 ans après un gradient de perturbation. En étudiant d’abord les trajectoires à l’échelle de la communauté dans son ensemble en s’intéressant plus particulièrement au recrutement recrutement après exploitation nous avons pu expliciter les changements de diversité et de composition et les processus écologiques émergents après perturbation. Conformément à la théorie des perturbations intermédiaires le recrutement des pionnières induit, au-delà d’un seuil d’intensité, une augmentation persistante de l’équitabilité des communautés au détriment des espèces rares de forêt mature. Par ailleurs les trajectoires taxonomiques et fonctionnelles se sont avérées découplées, du fait de l’importante redondance taxonomique des communautés atténuant l’impact fonctionnel des perturbations. La redondance fonctionnelle conditionnait la restauration de la résilience des communautés, en tant que paramètre le plus lent à retrouver une valeur initiale. Trente ans après perturbation, la restauration des processus de recrutement, de la composition et de la diversité des communautés reste inachevée mais est visible quelle que soit l’intensité de la perturbation initiale.</p>
+<p>Ces résultats conduisent à différentes perspectives vis à vis (i) des processus régissant l’assemblage des espèces en communautés et leurs dynamiques, (ii) des modes de gestion et de conservation durables des forêts tropicales, et (iii) de la modélisation de la diversité des communautés.</p>
+<div id="des-trajectoires-entre-determinisme-et-stochasticite" class="section level2">
+<h2><span class="header-section-number">6.1</span> Des trajectoires entre déterminisme et stochasticité</h2>
+<p>Comprendre la réponse des communautés aux perturbations revient à identifier les processus régissant la coexistence et l’assemblage des espèces. En forêt tropicale, ces processus sont encore débattus, spécifiquement en ce qui concerne la prépondérance des processus stochastiques par rapport aux processus déterministes. Bien que débattues les deux théories neutres et déterministes ne se sont pas incompatibles et peuvent être pertinentes dans différents cas de figure. Ainsi, des théories intégratives expliquent-elle la diversité et la composition des communautés par une combinaison des processus stochastiques et déterministes variable dans le temps et l’espace <span class="citation">(Gravel et al. <a href="#ref-Gravel2006">2006</a>; Chase et Myers <a href="#ref-Chase2011">2011</a>)</span>.</p>
+<div id="un-modele-de-succession-defini" class="section level3">
+<h3><span class="header-section-number">6.1.1</span> Un modèle de succession défini</h3>
+<p>La perturbation, matérialisée par la mortalité d’une partie de la communauté, modifie en elle-même la distribution d’âge des arbres, la structure de hauteur et de diamètre des communautés et leur environnement abiotique (lumière, flux d’eau et de nutriments) <span class="citation">(Gourlet-Fleury et Houllier <a href="#ref-Gourlet-Fleury2000">2000</a>; F. E. Putz et al. <a href="#ref-Putz2012">2012</a>; Piponiot et al. <a href="#ref-Piponiot2016">2016</a>; Rutishauser et al. <a href="#ref-Rutishauser2016">2016</a>)</span>. Nous nous intéressons ici à des perturbations où la mortalité des espèces est en grande partie aléatoire (mortalité accidentelle après exploitation, tempâte, etc.) et où la composition et la diversité des arbres survivants reflète la communauté initiale <span class="citation">(Hérault et Piponiot <a href="#ref-Herault2018">2018</a>)</span>. Les processus de recrutement en revanche étaient en revanche très différents après perturbations.</p>
+<p>Les trajectoires de diversité du recrutement ont permis de distinguer trois phases de succession après perturbation, correspondant à différents processus écologiques déterministes et stochastiques. La réponse des communautés aux perturbations est ainsi déterminée tout d’abord par le recrutement de plantules déjà établies, bénéficiant en premier de l’espace environnemental rendu disponible par la perturbation, puis par le recrutement de pionnières et d’héliophiles favorisées par leurs stratégies d’acquisition de la lumière efficaces, et enfin par le retour progressif aux processus de recrutement initiaux <span class="citation">(Denslow et Guzman <a href="#ref-Denslow2000">2000</a>; Herault et al. <a href="#ref-Herault2010">2010</a>)</span>.</p>
+<p>Cette succession est déterminée par l’émergence après perturbation de processus déterministes éclipsant les processus stochastiques, neutres, qui maintiennent la diversité des communautés en forêt non perturbée. Ces processus déterministes changent la diversité et la composition des individus recrutés et, bien qu’eux-mêmes rapidement restaurés, impactent l’ensemble de la communauté sur plusieurs décennies et dépendent largement de l’intensité de la perturbation et de la composition initiale.</p>
+<p>La réponse des communautés aux perturbations est donc définie par une succession de processus déterministes, mais l’impact sur les trajectoires taxonomiques et fonctionnelles à l’échelle de toute la communauté est plus variable.</p>
+</div>
+<div id="une-succession-fonctionnelle-deterministe" class="section level3">
+<h3><span class="header-section-number">6.1.2</span> Une succession fonctionnelle déterministe</h3>
+<p>La réponse des communautés aux perturbations dépend des changements biotiques et abiotiques augmentant la croissance des arbres survivants et le nombre de recrutés <span class="citation">(Piponiot et al. <a href="#ref-Piponiot2016">2016</a>)</span>. Après perturbation l’émergence de processus déterministes favorisant les espèces pionnières et héliophiles entraîne une augmentation de la diversité fonctionnelle et un déplacement de la composition fonctionnelle vers des stratégies fonctionnelles d’acquisition et d’utilisation efficaces de la lumière <span class="citation">(Violle et al. <a href="#ref-Violle2007b">2007</a>; Baraloto et al. <a href="#ref-Baraloto2012">2012</a>)</span>.</p>
+<p>Dans un premier temps, le recrutement des juvéniles déjà en place avant perturbation ne modifie pas la diversité et la composition fonctionnelles de la communauté. Dans un deuxième temps, les arbres recrutés sont issus de la germination des graines de la banque du sol et consituent l’essentiel du recrutement après perturbation <span class="citation">(Lawton et Putz <a href="#ref-Lawton1988">1988</a>)</span>. Les espèces pionnières et héliophiles sont alors favorisées au détriment des espèces tolérantes à l’ombre inféodées aux forêts non perturbées. Ces espèces héliophiles, auparavant rares ou peu fréquentes, deviennent alors communes et leur recrutement augmente la diversité fonctionnelle. Au-delà d’un seuil d’intensité de perturbation (plus de 25% de biomasse initiale perdue), le recrutement est dominé par quelques espèces très pionnières (par exemple <em>Cecropia spp</em>, <em>Pourouma spp.</em> ou <em>Vismia spp.</em>) <span class="citation">(Guitet et al. <a href="#ref-Guitet2018">2018</a>)</span>. Il existe cependant un compromis fonctionnel entre les stratégies “acquisitives” et “conservatives” des ressources: les espèces héliophiles présentent une capacité d’acquisition et d’utilisation rapide des ressources mais ont une durée de vie courte <span class="citation">(D. S. Falster et al. <a href="#ref-Falster2011">2011</a>)</span>. La croissance des héliophiles modifie de plus la structure et l’environnement abiotique de la communauté (fermeture de la canopée, rétablissement de la compétition, etc.), si bien que les espèces tolérantes à l’ombre plus communes avant perturbation remplacent les héliophiles après une dizaine d’années <span class="citation">(Denslow et Guzman <a href="#ref-Denslow2000">2000</a>)</span>. Les caractéristiques fonctionnelles initiales sont donc restaurées dans un troisième temps.</p>
+<p>Après perturbation les communautés suivent des trajectoires fonctionnelles cycliques et convergentes. Ces trajectoires correspondent aux mêmes variations après perturbations, d’abord déterminées par les caractéristiques fonctionnelles des pionnières et des héliophiles recrutées, puis tendant à restaurer la composition initiale propre aux communautés non perturbées <span class="citation">(Buzzard et al. <a href="#ref-Buzzard2016">2016</a>)</span>.</p>
+<p>La réponse fonctionnelle des communautés, bien que très informative du fonctionnement des communautés après perturbation, n’est cependant pas le miroir de la réponse taxonomique. Diversité et composition fonctionnelle ne tiennent en effet pas compte de l’identité des espèces et sont déterminées par les espèces dominantes <span class="citation">(Grime <a href="#ref-Grime1998">1998</a>; Lavorel et Garnier <a href="#ref-Lavorel2002">2002</a>)</span>.</p>
+</div>
+<div id="une-succession-taxonomique-stochastique" class="section level3">
+<h3><span class="header-section-number">6.1.3</span> Une succession taxonomique stochastique</h3>
+<p>Les trajectoires taxonomiques étaient décorrélées des trajectoires fonctionnelles, et dépendantes de l’intensité de perturbation et de la composition de la communauté. Bien que la composition des communautés soit initialement différente, les espèces pionnières et héliophiles recrutées après perturbation sont identiques pour toutes les communautés et quelle que soit l’intensité de perturbation. La divergence taxonomique des communautés n’est pas affectée et n’affecte pas le recrutement du pool de pionnières et héliophiles. Peu d’espèces de succession tardive initialement absentes s’installent après perturbation malgré l’espace libéré, du fait probablement des limites de dispersion identifiées pour beaucoup d’espèces de forêt tropicale <span class="citation">(Svenning et Wright <a href="#ref-Svenning2005">2005</a>)</span>. Conformément à l’esprit de la théorie neutre la composition taxonomique des communautés relève donc de la contingence historique, <em>i.e.</em> du hasard de l’arrivée et de l’installation des espèces <span class="citation">(Hubbell <a href="#ref-Hubbell2001">2001</a>)</span>. Les processus déterministes (facilitation ou inhibition) qui peuvent expliquer la divergence taxonomique d’autres communautés <span class="citation">(Fukami et al. <a href="#ref-Fukami2005">2005</a>)</span> s’avèrent ainsi négligeables en forêt tropicale, à l’échelle de temps considérée.</p>
+<p>Par ailleurs, conformément aux hypothèses de <span class="citation">Connell (<a href="#ref-Connell1978">1978</a>)</span>, le recrutement de pionnières et d’héliophiles augmente la richesse et l’équitabilité des communautés jusqu’à un seuil d’intensité de perturbation (environ 25% de biomasse initiale perdue). La diversité taxonomique augmente pendant les deux premières phases de la succession, jusqu’à la restauration des processus de recrutement stochastiques: la diversité est maximale quelques temps après une perturbation d’intensité moyenne <span class="citation">(J. F. Molino et Sabatier <a href="#ref-Molino2001">2001</a>; Guitet et al. <a href="#ref-Guitet2018">2018</a>)</span>. Au-delà d’un seuil d’intensité, en revanche, la favorisation d’espèces nouvelles ou peu communes ne compense pas les disparitions dues à la perturbation. Les espèces pionnières sont alors dominantes, la richesse taxonomique est diminuée puis restaurée sans dépasser la richesse initiale, et l’équitabilité est durablement augmentée.</p>
+<p>D’après les trajectoires de Paracou, bien que les communautés convergent dans l’espace fonctionnel, leurs différences de composition taxonomique sont maintenues. Ce découplage entre trajectoires taxonomiques et fonctionnelles s’explique par les variations de la redondance fonctionnelle des communautés, qui mesure le nombre d’espèces partageant les mêmes valeurs de traits et qui ont le même rôle dans l’écosystème <span class="citation">(Bellwood et al. <a href="#ref-Bellwood2006">2006</a>)</span>. En forêt tropicale où la redondance fonctionnelle est élevée, la composition fonctionnelle des communautés peut être identique malgré leurs différences taxonomiques. La redondance fonctionnelle explique la convergence fonctionnelle des communautés malgré leur divergence taxonomique et donc l’homogénéité des trajectoires après perturbation quelle que soit la composition taxonomique initiale. D’autre part, une redondance fonctionnelle élevée assure le remplacement des espèce squi disparaissent par d’autres à la stratégie fonctionnelle similaire <span class="citation">(Carmona et al. <a href="#ref-Carmona2016">2016</a>)</span>, ce qui atténue l’impact des perturbations sur la composition et la diversité fonctionnelle. Les trajectoires de redondance sont ainsi complémentaires des trajectoires taxonomiques et fonctionnelles et expliquent leur découplage. La restauration de la redondance dépend des trajectoires taxonomiques, et donc des processus stochastiques sous-jacents. Les trajectoires de redondance, de composition et de diversité taxonomique dépendent du principe de “lottery recruitment”: tandis que les espèces recrutées en premier s’établissent rapidement dans la communauté, les suivantes, redondantes fonctionnellement, subissent la compétition avec les premières et s’établissent plus difficilement <span class="citation">(Busing et Brokaw <a href="#ref-Busing2002">2002</a>)</span>. La restauration de la redondance, de la diversité et de la composition taxonomiques sont donc lentes, aléatoires et difficiles à anticiper. Malgré tout, ce sont les éléments clé de la restauration. Une diminution persistante de la redondance implique des réponses taxonomique et fonctionnelle différentes après de nouvelles perturbations et accroît le risque de voir certaines espèces disparaître localement et la richesse taxonomique décliner petit à petit.</p>
+</div>
+</div>
+<div id="vers-une-gestion-durable-integrant-la-preservation-de-la-biodiversite" class="section level2">
+<h2><span class="header-section-number">6.2</span> Vers une gestion durable intégrant la préservation de la biodiversité</h2>
+<p>L’exploitation sélective est considérée comme étant l’une des activités anthropiques les moins néfastes pour le fonctionnement et le maintien des forêts <span class="citation">(Edwards et al. <a href="#ref-Edwards2014">2014</a>)</span>. C’est une perspective de développement incontournable aujourd’hui car elle permet un développement économique et social tout en préservant les forêts <span class="citation">(Chaudhary et al. <a href="#ref-Chaudhary2016">2016</a>)</span>. Par la réorganisation des économies locales, l’exploitation sélective a été adoptée dernièrement par de nombreux pays en réponse aux besoins de limitation des <em>GES</em>, et en reconnaissance du rôle de la diversité, de la composition et de la structure forestière pour la productivité et le fonctionnement de l’écosystème <span class="citation">(Begon, Townsend, et Harper <a href="#ref-Begon2006">2006</a>)</span>. Les pratiques de gestion sylvicoles durables sont aujourd’hui calibrées pour maintenir un couvert forestier et un stock de biomasse déterminés <span class="citation">(ITTO <a href="#ref-ITTO2005">2005</a>)</span>. L’impact de l’exploitation sélective sur la composition et la diversité des communautés reste cependant indéterminé et questionne la durabilité de l’exploitation, spécifiquement sur le long terme.</p>
+<p>Le recul des 30 ans de suivi de Paracou donne une vision à long terme de la réponse des communautés à l’exploitation et permettent de discuter de points d’amélioration pour les pratiques d’exploitation sélective durable.</p>
+<div id="quels-criteres-de-restauration" class="section level3">
+<h3><span class="header-section-number">6.2.1</span> Quels critères de restauration?</h3>
+<p>Dans la perspective d’une exploitation soutenable à long terme, les critères d’évaluation de la durabilité doivent être discutés selon les objectifs de l’exploitation. Pour préserver le fonctionnement et les services écosystémiques rendus par les forêts tropicales, le maintien de la diversité et de la composition du peuplement doivent être considérés en plus du maintien du stock exploitable <span class="citation">(ITTO <a href="#ref-ITTO2005">2005</a>; Barlow et al. <a href="#ref-Barlow2018">2018</a>)</span>.</p>
+<p>Bien que tangible, la résilience taxonomique et fonctionnelle des communautés de Paracou nécessitait plusieurs décennies. Cette durée impose des cycles de rotation de plusieurs décennies pour assurer la restauration complète des communautés. Des cycles de rotations éprouvés et validés pour d’autres régions tropicales, notamment en Afrique, seraient ainsi trop court pour des forêts telles que Paracou <span class="citation">(Durrieu De Madron et al. <a href="#ref-Durrieu1998">1998</a>)</span>.</p>
+<p>Par ailleurs, d’après les trajectoires de diversité et de composition la réponse taxonomique des communautés était complexeet et relevant de processus aléatoires. Les trajectoires de composition taxonomique se sont avérées difficiles à extrapoler, et susceptibles d’entraîner la disparition locale ou au contraire la dominance persistante de certaines espèces de façon visibles uniquement à long terme. De tels changements de composition peuvent avoir des conséquences significatives sur l’écosystèmes, comme la disparition d’espèce-clés pour la faune ou la flore ou un blocage de succession modifiant durablement l’écosystème <span class="citation">(Díaz et al. <a href="#ref-Diaz2005">2005</a>)</span>. De surcroît, les espèces favorisées après exploitation présentent en moyenne une hauteur maximale et une densité du bois plus faibles, ce qui amplifie les changements de structure générés par les perturbations et modifie la valeur économique du peuplement <span class="citation">(Reich <a href="#ref-Reich2014">2014</a>)</span>. La complexité de la réponse taxonomique implique donc, à mon sens, de garder à l’esprit la possibilité de conséquences inattendues de l’exploitation et d’adopter un principe de précaution en visant par défaut le maintien de la composition et de la diversité initiales.</p>
+<p>D’après l’analyse des trajectoires, la redondance fonctionnelle joue un rôle central pour évaluer la résilience de la communauté. Les trajectoires de redondance fonctionnelle permettent de combiner les aspects taxonomiques et fonctionnels de la restauration, les paramètres les plus lents de la restauration après perturbation. De plus, elle permet d’appréhender la restauration de la capacité de résilience en elle-même de la communauté. Il me semble ainsi approprié de considérer la redondance fonctionnelle comme critère pour évaluer la restauration post-exploitation, en complément des indicateurs fonctionnels actuels (<em>i.e.</em> la hauteur maximale, la vitesse de croissance ou la biomasse aérienne totale, etc.) <span class="citation">(Sist et al. <a href="#ref-Sist2015">2015</a>)</span>. Il pourrait également être utile d’éprouver, comme nous l’avons fait pour l’analyse de la redondance fonctionnelle, de nouvelles méthodes de mesure, de suivi et de modélisation pour améliorer les critères de restauration.</p>
+</div>
+<div id="choix-des-traits-et-limites-de-lapproche-fonctionnelle" class="section level3">
+<h3><span class="header-section-number">6.2.2</span> Choix des traits et limites de l’approche fonctionnelle</h3>
+<p>Les résultats obtenus dans ce travail sont basés sur des traits fonctionnels clés représentatifs de l’écologie, de la croissance et des performances de reproduction des espèces. Comme pour toute analyse fonctionnelle, ce choix n’est cependant pas exhaustif et les traits ont été retenus surtout vis à vis de la productivité des espèces et de leur stratégie d’acquisition et d’utilisation des ressources <span class="citation">(Reich <a href="#ref-Reich2014">2014</a>; Kunstler et al. <a href="#ref-Kunstler2016">2016</a>)</span>. Nous avons cependant pu souligner l’importance de la banque de graines pour la réponse des communautés et le rôle de sa diversité et de sa composition pour l’établissement de la communauté après perturbation. La constitution de la banque de graines dépend largement des traits de dispersion, de dormance et de germination des espèces. Pour mieux anticiper la réponse des communautés aux perturbations, notamment en terme de diversité et de composition du recrutement, il serait ainsi judicieux de considérer plus de traits de dispersion et de durée de vie des graines <span class="citation">(Verdú et Traveset <a href="#ref-Verdu2005">2005</a>; Schleuning et al. <a href="#ref-Schleuning2016">2016</a>)</span>.</p>
+</div>
+</div>
+<div id="vers-lintegration-des-trajectoires-de-biodiversite-aux-modeles-de-dynamique-forestiere" class="section level2">
+<h2><span class="header-section-number">6.3</span> Vers l’intégration des trajectoires de biodiversité aux modèles de dynamique forestière</h2>
+<p>La modélisation est un outil de simplification des systèmes complexes qui les limite aux processus étudiés. La modélisation consiste d’une part à synthétiser les données et les connaissances disponibles puis à les extrapoler à des systèmes différents ou à d’autres échelles spatiales ou temporelles. La modélisation est largement utilisée en écologie des forêts tropicales d’une part pour comprendre les processus, les lois et les paramètres déterminant la dynamique forestière, et d’autre part pour prédire l’évolution des communautés et leur réponse aux perturbations. Spécifiquement, les modèles de dynamique forestière sont largement utilisés pour anticiper la réponse des forêts aux changements globaux, et pour calibrer la gestion forestière <span class="citation">(Gourlet-Fleury et al. <a href="#ref-Gourlet-Fleury2005">2005</a>)</span>. Spécifiquement, l’approche par la modélisation a été largement adoptée pour l’étude de la structure forestière (hauteur et diamètre des arbres, densité du peuplement, biomasse, etc), des flux d’eau, de gaz ou de nutriments, ou encore de la distribution spatiale des espèces <span class="citation">(Piponiot et al. <a href="#ref-Piponiot2016">2016</a>; Rutishauser et al. <a href="#ref-Rutishauser2016">2016</a>; Grimm, Ayllón, et Railsback <a href="#ref-Grimm2017">2017</a>)</span>.</p>
+<p>La diversité des communautés en revanche n’est pas toujours intégrée aux modèles de dynamique forestière bien que cela soit indispensable pour améliorer la précision des modèles et rendre compte de certains aspects tels que la productivité, la biomasse et la stabilité des écosystèmes <span class="citation">(Purves et Pacala <a href="#ref-Purves2008">2008</a>)</span>. Une première approche pour modéliser la diversité se place à l’échelle des communautés. De cette façon, les modèles matriciels représentent les forêts par leur distribution en classe d’âge, de diamètre, de biomasse, etc. L’évolution des forêt est alors simulée par un calcul matriciel faisant évoluer le vecteur de distribution <span class="citation">(Gourlet-Fleury et al. <a href="#ref-Gourlet-Fleury2005">2005</a>)</span>. De façon plus fine, les “gaps-models” assimilent les forêts à une mosaïque de patchs aux caractéristiques environnementales biotiques et abiotiques déterminées (richesse spécifique, traits fonctionnels moyens, densité d’arbres, intensité de la perturbation et temps écoulé, etc.) <span class="citation">(Porté et Bartelink <a href="#ref-Porte2002">2002</a>)</span>. Les patchs évoluent indépendemment, selon des paramètres de croissance, de mortalité et de recrutement calculés de façon plus ou moins complexe en fonction des caractéristiques de chaque patch <span class="citation">(Fischer et al. <a href="#ref-Fischer2016">2016</a>)</span>. Une seconde approche plus précise correspond aux modèles individu-centrés, permis par l’augmentation des capacités de calcul et l’avancée des connaissances en écologie et en physiologie végétale. Ces modèles peuvent intégrer des processus physiologiques en tenant compte des caractéristiques fonctionnelles des espèces et des interactions entre individus (compétition ou processus de densité-dépendence). Ils permettent ainsi une interprétation en termes de caractéristiques écosystémiques <span class="citation">(@ Maréchaux et Chave <a href="#ref-Marechaux2017">2017</a>)</span>, mais requièrent d’énormes capacités de calcul et demandent un approfondissement important des données physiologiques et fonctionnelles.</p>
+<p>Dans cette thèse, nous avons synthétisé les informations des 30 ans de suivi de la réponse des communautés de Paracou après perturbation et avons proposé une interprétation des processus écologiques sous-jacents. Ce travail ouvre la voie à la modélisation de la biodiversité, que nous proposons de détailler ici selon deux perspectives empirique et mécaniste. L’approche empirique, basée sur l’analyse statistique des trajectoires par des modèles mixtes, permettrait de représenter les lois régissant la réponse de la diversité aux perturbations sans y expliciter les processus sous-jacents. L’approche mécaniste, basée sur des processus identifiés (spécifiquement le recrutement et la mortalité), permettrait une simulation individu-centrée de la dynamique des communautés.</p>
+<div id="modele-empirique-predire-la-diversite-en-fonction-de-lintensite-dexploitation" class="section level3">
+<h3><span class="header-section-number">6.3.1</span> Modèle empirique: prédire la diversité en fonction de l’intensité d’exploitation</h3>
+<p>Les trajectoires de Paracou ont mis en évidence les trajectoires taxonomique et fonctionnelle non-aléatoires après perturbation et leur corrélation avec l’intensité de perturbation. Ces trajectoires pourraient être formalisées grâce à des méthodes statistiques empiriques de façon à prédire les variations de diversité en fonction du temps écoulé et de l’intensité de la perturbation (en % de biomasse perdue). Spécifiquement, nous avons pensé ajuster des modèles mixtes aux trajectoires de diversité et de composition taxonomique et fonctionnelle. Les modèles mixtes sont largement utilisés dans l’étude de données “longitudinales”, <em>i.e.</em> des mesures répétées dans le temps sur un même objet, comme c’est le cas des mesures de dynamique étudiées ici. Ces modèles associent un effet aléatoire commun aux mesures d’une même communauté et permettent ainsi de prendre en compte les corrélations entre mesures successives</p>
+<p>Formaliser une telle relation entre intensité d’exploitation et diversité au cours du temps permettrait de mieux planifier la gestion forestière en fonction des niveaux de diversité attendus.</p>
+</div>
+<div id="modele-mecaniste-simuler-les-trajectoires-apres-perturbation" class="section level3">
+<h3><span class="header-section-number">6.3.2</span> Modèle mécaniste: simuler les trajectoires après perturbation</h3>
+<p>Les trajectoires de Paracou ont mis en évidence les processus de recrutement déterministes qui définissent la réponse au cours du temps des communautés aux perturbations. La connaissance de ces processus inspire la construction de modèles mécanismes simulant explicitement les trajectoires de diversité après perturbation.</p>
+<p>Dans un premier temps, nous avons abordé la modélisation mécaniste en assimilant l’évolution au cours du temps de la richesse des recrutés à des courbes d’accumulation. Les courbes d’accumulation représentent usuellement le nombre d’espèces découvertes en fonction de l’effort d’échantillonnage dans l’espace <span class="citation">(Gotelli et Colwell <a href="#ref-Gotelli2001">2001</a>)</span>. Ces courbes se déclinent en courbes de raréfaction lissées, représentant le nombre moyen d’espèces rencontrées pour chaque sous-échantillonnage d’une communauté donnée selon des effectifs de taille variable <span class="citation">(Ugland, Gray, et Ellingsen <a href="#ref-Ugland2003">2003</a>)</span>. Les courbes de raréfaction sont construites en considérant la richesse comme une variable aléatoire, dont l’espérance est estimée théoriquement à partir de la taille de la communauté initiale et la probabilité de tirage de chaque espèce. D’après nos essais, les trajectoires du recrutement observées ne correspondaient à des courbes d’accumulation. Dans le cas de perturbations peu intenses comme à Paracou, les communautés sont constituées après exploitation d’arbres survivants d’avant perturbation et d’arbres recrutés par la suite. La communauté des recrutés combine de même les recrutés issus des processus de forêt mature (correspondant à un recrutement aléatoire dans la communauté initiale) et les recrutés issus des processus émergeant après perturbation (correspondant à un recrutement favorisant les espèces pionnières). Les trajectoires du recrutement combinent ainsi deux communautés de survivants et de pionnières, et ne peuvent s’apparenter à une courbe de raréfaction qui elle correspondrait au sous-échantillonnage d’une communauté unique.</p>
+<p>Notre étude a mis en évidence le lien entre l’intensité de perturbation, et la balance entre recrutés issus d’un recrutement dans la communauté de survivants d’avant exploitation et recrutés issus d’un recrutement déterministe d’espèces pionnières. Pour pallier la complexité des forêts tropicales hyper-diverses, des modèles de mélange ont déjà été adoptés pour modéliser la dynamique et la croissance des communautés <span class="citation">(Mortier et al. <a href="#ref-Mortier2013">2013</a>)</span>. Ces modèles permettent de représenter la loi de probabilité d’une population en la représentant comme un mélange de plusieurs groupes distincts. Dans notre cas, le recrutement pourrait être modélisé comme le mélange de deux échantillonnages, l’un parmis la population pré-exploitation et l’autre parmis la population des espèces pionnières. Le recrutement après perturbation suivrait une loi de mélange de deux distributions catégorielles, multinomiale par exemple, de taille <span class="math inline">\(N_s\)</span> et <span class="math inline">\(N_p\)</span> (le nombre d’espèces avant exploitation et le nombre de pionnières, respectivement). Les différences entre trajectoires de diversité correspondraient aux paramètres du mélange des deux populations (leurs poids respectifs, par exemple), et pourraient être estimés de façon fiable par des processus Bayesiens <span class="citation">(Mortier et al. <a href="#ref-Mortier2013">2013</a>)</span>. Les “topic models” habituellement utilisés pour détecter les structures et les sujets de textes maunscrits pourraient être un point de départ dans cette réflexion <span class="citation">(McLachlan et Peel <a href="#ref-Mclachlan2000">2000</a>; Blei <a href="#ref-Blei2012">2012</a>)</span>. Ces modèles permettent de retrouver le sujet traité en fonction de l’occurence des mots de différents champs lexicaux: le texte est modélisé comme le mélange de tirages aléatoires dans les différents champs lexicaux.</p>
+<p>De tels modèles pourraient d’une part être intégrés aux modèles de dynamique forestière existants et d’autre part permettre de simuler des perturbations répétées et ainsi élucider à bien plus long terme la réponse des communautés à l’exploitation forestière <span class="citation">(Dufour-Kowalski et al. <a href="#ref-Dufour2012">2012</a>)</span>.</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Liang2016">
+<p>Liang, Jingjing, Thomas W Crowther, Nicolas Picard, Susan Wiser, Mo Zhou, Giorgio Alberti, Ernst-Detlef Schulze, et al. 2016. « Positive biodiversity-productivity relationship predominant in global forests ». <em>Science</em> 354 (6309). American Association for the Advancement of Science: aaf8957.</p>
+</div>
+<div id="ref-Barlow2018">
+<p>Barlow, J., F. França, T. Gardner, C. Hicks, G. Lennox, E. Berenguer, L. Castello, et al. 2018. « The Future of Hyperdiverse Tropical Ecosystems ». <em>Nature</em> 559 (7715): 517.</p>
+</div>
+<div id="ref-Gravel2006">
+<p>Gravel, Dominique, Charles D. Canham, Marilou Beaudet, et Christian Messier. 2006. « Reconciling niche and neutrality: The continuum hypothesis ». <em>Ecology Letters</em> 9 (4): 399‑409.</p>
+</div>
+<div id="ref-Chase2011">
+<p>Chase, Jonathan M, et Jonathan A Myers. 2011. « Disentangling the importance of ecological niches from stochastic processes across scales ». <em>Philosophical Transactions of the Royal Society of London B: Biological Sciences</em> 366 (1576). The Royal Society: 2351‑63.</p>
+</div>
+<div id="ref-Gourlet-Fleury2000">
+<p>Gourlet-Fleury, Sylvie, et François Houllier. 2000. « Modelling diameter increment in a lowland evergreen rain forest in French Guiana ». <em>Forest Ecology and Management</em> 131 (1-3): 269‑89.</p>
+</div>
+<div id="ref-Putz2012">
+<p>Putz, Francis E, Pieter A Zuidema, Timothy Synnott, Marielos Peña-Claros, Michelle A Pinard, Douglas Sheil, Jerome K Vanclay, et al. 2012. « Sustaining conservation values in selectively logged tropical forests: the attained and the attainable ». <em>Conservation Letters</em> 5 (4): 296‑303.</p>
+</div>
+<div id="ref-Piponiot2016">
+<p>Piponiot, Camille, Plinio Sist, Lucas Mazzei, Marielos Peña-Claros, Francis E. Putz, Ervan Rutishauser, Alexander Shenkin, et al. 2016. « Carbon recovery dynamics following disturbance by selective logging in amazonian forests ». <em>eLife</em> 5.</p>
+</div>
+<div id="ref-Rutishauser2016">
+<p>Rutishauser, Ervan, Bruno Hérault, Pascal Petronelli, et Plinio Sist. 2016. « Tree Height Reduction After Selective Logging in a Tropical Forest ». <em>Biotropica</em> 48 (3): 285‑89.</p>
+</div>
+<div id="ref-Herault2018">
+<p>Hérault, Bruno, et Camille Piponiot. 2018. « Key drivers of ecosystem recovery after disturbance in a neotropical forest ». <em>Forest Ecosystems</em> 5 (1). Forest Ecosystems: 2.</p>
+</div>
+<div id="ref-Denslow2000">
+<p>Denslow, Julie Sloan, et G Sandra Guzman. 2000. « Variation in stand structure, light and seedling abundance across a tropical moist forest chronosequence, Panama ». <em>Journal of Vegetation Science</em> 11 (2): 201‑212.</p>
+</div>
+<div id="ref-Herault2010">
+<p>Herault, Bruno, Julia Ouallet, Lilian Blanc, Fabien Wagner, et Christopher Baraloto. 2010. « Growth Responses of Neotropical Trees to Logging Gaps ». <em>Journal of Applied Ecology</em> 47 (4): 821‑31.</p>
+</div>
+<div id="ref-Violle2007b">
+<p>Violle, Cyrille, Marie-Laure Laure Navas, Denis Vile, Elena Kazakou, Claire Fortunel, Irène Hummel, et Eric Garnier. 2007. « Let the concept of trait be functional! » <em>Oikos</em> 116 (5): 882‑92.</p>
+</div>
+<div id="ref-Baraloto2012">
+<p>Baraloto, Christopher, Bruno Hérault, C. E. Timothy Paine, Hélène Massot, Lilian Blanc, Damien Bonal, Jean-François François Molino, Eric a. Nicolini, et Daniel Sabatier. 2012. « Contrasting Taxonomic and Functional Responses of a Tropical Tree Community to Selective Logging ». <em>Journal of Applied Ecology</em> 49 (4): 861‑70.</p>
+</div>
+<div id="ref-Lawton1988">
+<p>Lawton, Robert O, et Francis E Putz. 1988. « Natural disturbance and gap-phase regeneration in a wind-exposed tropical cloud forest ». <em>Ecology</em> 69 (3). Wiley Online Library: 764‑77.</p>
+</div>
+<div id="ref-Guitet2018">
+<p>Guitet, Stéphane, Daniel Sabatier, Olivier Brunaux, Pierre Couteron, Thomas Denis, Vincent Freycon, Sophie Gonzalez, et al. 2018. « Disturbance regimes drive the diversity of regional floristic pools across Guianan rainsforest landscapes ». <em>Scientific Reports</em> 8 (1): 3872.</p>
+</div>
+<div id="ref-Falster2011">
+<p>Falster, Daniel S., Åke Brännström, Ulf Dieckmann, et Mark Westoby. 2011. « Influence of four major plant traits on average height, leaf-area cover, net primary productivity, and biomass density in single-species forests: A theoretical investigation ». <em>Journal of Ecology</em> 99 (1): 148‑64.</p>
+</div>
+<div id="ref-Buzzard2016">
+<p>Buzzard, Vanessa, Catherine M Hulshof, Trevor Birt, Cyrille Violle, et Brian J Enquist. 2016. « Re-growing a tropical dry forest: functional plant trait composition and community assembly during succession ». <em>Functional Ecology</em> 30 (6). Wiley Online Library: 1006‑13.</p>
+</div>
+<div id="ref-Grime1998">
+<p>Grime, JP. 1998. « Benefits of plant diversity to ecosystems: immediate, filter and founder effects ». <em>Journal of Ecology</em> 86 (6). Wiley Online Library: 902‑10.</p>
+</div>
+<div id="ref-Lavorel2002">
+<p>Lavorel, S, et Éric Garnier. 2002. « Predicting changes in community composition and ecosystem functioning from plant traits: » <em>Functional Ecology</em> 16 (5): 545‑56.</p>
+</div>
+<div id="ref-Svenning2005">
+<p>Svenning, J.C., et S.J. Wright. 2005. « Seed Limitation in a Panamian Forest ». <em>Journal of Ecology</em> 93 (5): 853‑562.</p>
+</div>
+<div id="ref-Hubbell2001">
+<p>Hubbell, Stephen P. 2001. <em>The Unified Neutral Theory of Biodiversity and Biogeography</em>. Princeton University Press.</p>
+</div>
+<div id="ref-Fukami2005">
+<p>Fukami, Tadashi, T. Martijn Bezemer, Simon R. Mortimer, et Wim H. Van Der Putten. 2005. « Species divergence and trait convergence in experimental plant community assembly ». <em>Ecology Letters</em> 8 (12): 1283‑90.</p>
+</div>
+<div id="ref-Connell1978">
+<p>Connell, Joseph H. 1978. « Diversity in tropical rain forests and coral reefs ». <em>Science</em> 199 (4335). American Association for the Advancement of Science: 1302‑10.</p>
+</div>
+<div id="ref-Molino2001">
+<p>Molino, J F, et Daniel Sabatier. 2001. « Tree diversity in tropical rain forests: a validation of the intermediate disturbance hypothesis. » <em>Science (New York, N.Y.)</em> 294 (5547): 1702‑4.</p>
+</div>
+<div id="ref-Bellwood2006">
+<p>Bellwood, D.R, P.C Wainwright, C.J Fulton, et A.S Hoey. 2006. « Functional versatility supports coral reef biodiversity ». <em>Proceedings of the Royal Society B: Biological Sciences</em> 273 (1582): 101‑7.</p>
+</div>
+<div id="ref-Carmona2016">
+<p>Carmona, Carlos P., Francesco de Bello, Norman W.H. Mason, et Jan Lepš. 2016. « Traits Without Borders: Integrating Functional Diversity Across Scales ». <em>Trends in Ecology and Evolution</em> 31 (5): 382‑94.</p>
+</div>
+<div id="ref-Busing2002">
+<p>Busing, Richard T, et Nicholas Brokaw. 2002. « Tree species diversity in temperate and tropical forest gaps: the role of lottery recruitment ». <em>Folia geobotanica</em> 37 (1). Springer: 33‑43.</p>
+</div>
+<div id="ref-Edwards2014">
+<p>Edwards, David P, Joseph A Tobias, Douglas Sheil, Erik Meijaard, et William F Laurance. 2014. « Maintaining ecosystem function and services in logged tropical forests ». <em>Trends in ecology &amp; evolution</em> 29 (9). Elsevier: 511‑20.</p>
+</div>
+<div id="ref-Chaudhary2016">
+<p>Chaudhary, Abhishek, Zuzana Burivalova, Lian Pin Koh, et Stefanie Hellweg. 2016. « Impact of Forest Management on Species Richness: Global Meta-Analysis and Economic Trade-Offs ». <em>Scientific Reports</em> 6. Nature Publishing Group: 1‑10.</p>
+</div>
+<div id="ref-Begon2006">
+<p>Begon, Michael, Colin R Townsend, et John L Harper. 2006. <em>Ecology: from individuals to ecosystems</em>. Sirsi) i9781405111171.</p>
+</div>
+<div id="ref-ITTO2005">
+<p>ITTO. 2005. « Revised ITTO Criteria and indicators of the sustainable management of tropical forests including reporting format. » Yokohama, Japan: ITTO Policy Develpment Series No. 15.</p>
+</div>
+<div id="ref-Durrieu1998">
+<p>Durrieu De Madron, Luc, Eric Forni, Alain Karsenty, Martin Eric Loffeier, et Jean-Michel Pierre. 1998. « Le projet d’aménagement pilote intégré de Dimako, Cameroun ». CIRAD-Forêt.</p>
+</div>
+<div id="ref-Diaz2005">
+<p>Díaz, Sandra, D Tilman, J Fargione, F. Stuart Chapin III, Rodolfo Dirzo, T Kitzberger, B Gemmill, et al. 2005. « Biodiversity Regulation of Ecosystem Services ». <em>Trends and conditions</em>, 297‑329.</p>
+</div>
+<div id="ref-Reich2014">
+<p>Reich, Peter B. 2014. « The world-wide ’fast-slow’ plant economics spectrum: A traits manifesto ». <em>Journal of Ecology</em> 102: 275‑301.</p>
+</div>
+<div id="ref-Sist2015">
+<p>Sist, Plinio, Pablo Pacheco, Robert Nasi, et Jürgen Blaser. 2015. « Management of Natural Tropical Forests for the Future ». Vol. 32. IUFRO WFSE.</p>
+</div>
+<div id="ref-Kunstler2016">
+<p>Kunstler, Georges, Daniel Falster, David A. Coomes, Francis Hui, Robert M. Kooyman, Daniel C. Laughlin, Lourens Poorter, et al. 2016. « Plant functional traits have globally consistent effects on competition ». <em>Nature</em> 529 (7585). Nature Publishing Group: 204‑7.</p>
+</div>
+<div id="ref-Verdu2005">
+<p>Verdú, M., et A. Traveset. 2005. « Early emergence enhances plant fitness: A phylogenetically controlled meta-analysis ».</p>
+</div>
+<div id="ref-Schleuning2016">
+<p>Schleuning, Matthias, Jochen Fruend, Oliver Schweiger, Erik Welk, Joerg Albrecht, Matthias Albrecht, Marion Beil, et al. 2016. « Ecological networks are more sensitive to plant than to animal extinction under climate change ». <em>Nature communications</em> 7: 13965.</p>
+</div>
+<div id="ref-Gourlet-Fleury2005">
+<p>Gourlet-Fleury, Sylvie, Guillaume Cornu, Sébastien Jésel, Hélène Dessard, J. G. Jourget, Lilian Blanc, et Nicolas Picard. 2005. « Using models to predict recovery and assess tree species vulnerability in logged tropical forests: A case study from French Guiana ». <em>Forest Ecology and Management</em> 209 (1-2): 69‑85.</p>
+</div>
+<div id="ref-Grimm2017">
+<p>Grimm, Volker, Daniel Ayllón, et Steven F Railsback. 2017. « Next-generation individual-based models integrate biodiversity and ecosystems: yes we can, and yes we must ». <em>Ecosystems</em> 20 (2). Springer: 229‑36.</p>
+</div>
+<div id="ref-Purves2008">
+<p>Purves, Drew, et Stephen Pacala. 2008. « Predictive models of forest dynamics ». <em>Science</em> 320 (5882). American Association for the Advancement of Science: 1452‑3.</p>
+</div>
+<div id="ref-Porte2002">
+<p>Porté, A, et HH Bartelink. 2002. « Modelling mixed forest growth: a review of models for forest management ». <em>Ecological modelling</em> 150 (1-2). Elsevier: 141‑88.</p>
+</div>
+<div id="ref-Fischer2016">
+<p>Fischer, Rico, Friedrich Bohn, Mateus Dantas de Paula, Claudia Dislich, Jürgen Groeneveld, Alvaro G Gutiérrez, Martin Kazmierczak, et al. 2016. « Lessons learned from applying a forest gap model to understand ecosystem and carbon dynamics of complex tropical forests ». <em>Ecological Modelling</em> 326. Elsevier: 124‑33.</p>
+</div>
+<div id="ref-Marechaux2017">
+<p>Maréchaux, Isabelle, et Jérôme Chave. 2017. « An individual-based forest model to jointly simulate carbon and tree diversity in Amazonia: description and applications ». <em>Ecological Monographs</em> 87 (4). Wiley Online Library: 632‑64.</p>
+</div>
+<div id="ref-Gotelli2001">
+<p>Gotelli, Nicholas J, et Robert K Colwell. 2001. « Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness ». <em>Ecology letters</em> 4 (4). Wiley Online Library: 379‑91.</p>
+</div>
+<div id="ref-Ugland2003">
+<p>Ugland, Karl I, John S Gray, et Kari E Ellingsen. 2003. « The species–accumulation curve and estimation of species richness ». <em>Journal of Animal Ecology</em> 72 (5). Wiley Online Library: 888‑97.</p>
+</div>
+<div id="ref-Mortier2013">
+<p>Mortier, Frédéric, Vivien Rossi, Gilles Guillot, Sylvie Gourlet-Fleury, et Nicolas Picard. 2013. « Population dynamics of species-rich ecosystems: The mixture of matrix population models approach ». <em>Methods in Ecology and Evolution</em> 4 (4): 316‑26.</p>
+</div>
+<div id="ref-Mclachlan2000">
+<p>McLachlan, Geoffrey, et David Peel. 2000. « Finite mixture models, willey series in probability and statistics ». John Wiley &amp; Sons, New York.</p>
+</div>
+<div id="ref-Blei2012">
+<p>Blei, David M. 2012. « Probabilistic topic models ». <em>Communications of the ACM</em> 55 (4). ACM: 77‑84.</p>
+</div>
+<div id="ref-Dufour2012">
+<p>Dufour-Kowalski, Samuel, Benoît Courbaud, Philippe Dreyfus, Céline Meredieu, et François De Coligny. 2012. « Capsis: an open software framework and community for forest growth modelling ». <em>Annals of forest science</em> 69 (2). Springer: 221‑33.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="analyse-du-recrutement-support-de-la-trajectoire-des-communautes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="references.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["Manuscript.pdf", "Manuscript.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

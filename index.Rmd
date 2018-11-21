@@ -103,21 +103,21 @@ mots-cles:
 - Résilience
 abstract: |
  Forest are currently threatened by the global changing context.
- Maintain the goods and services they provide require clarifying tree community diversity response to disturbance, that determine forest functoining, maintenance and resilience.
+ Maintain the goods and services they provide require clarifying tree community diversity response to disturbance, that determine forest functioning, maintenance and resilience.
  This is specifically crucial in tropical forests that are both the most threatened regions and those with the highest environmental, social and economic stakes.
- In this contexte, this work studies the taxonomic and functional response to disturbance of a Neotropical community.
- Through post-disturbance diversity trajectories in the long term we examined the ecological processes underlying community response to disturbance, explicit the taxonomic and functoinal aspects of community recovery, and eventually discussed some perspectives for forest management and modeling.\newline
+ In this context, this work studies the taxonomic and functional response to disturbance of a Neotropical community.
+ Through post-disturbance diversity trajectories in the long term we examined the ecological processes underlying community response to disturbance, explicit the taxonomic and functional aspects of community recovery, and eventually discussed some perspectives for forest management and modeling.\newline
  
   From the monitoring dataset of the Paracou experimental station in French Guiana we examined tree community response to disturbance over the thirty years following a disturbance gradient. 
   First, we developed and tested a diversity estimator tackling the taxonomic uncertainties of forest inventories and improving the accuracy of biodiversity surveys. 
   The estimator based on botanical/vernacular association probability to account of taxonomic uncertainties in various diversity measurement framework.
-  The estimator, further used in this worked, was first calibrated to imrove the estimation accuracy and was then validated with real forest inventories.
+  The estimator, further used in this worked, was first calibrated to improve the estimation accuracy and was then validated with real forest inventories.
   The results allowed designing an inventory protocol optimizing the cost of inventories and the accuracy of the diversity measure.
-  Second, we analyzed the post-disturbance taxonomic and functional trajectories of diversity, composition and redundanct at the scale of the whole community. 
+  Second, we analyzed the post-disturbance taxonomic and functional trajectories of diversity, composition and redundant at the scale of the whole community. 
   We combined the 30 years of botanical inventories with a large functional dataset encompassing key leaf, root, wood and life-history functional traits.
   Eventually, we specifically analyzed the post-disturbance recruitment processes and the diversity and composition succession.\newline
   
-  We highlighted the emergence after disturbance of deterministic processes driving community taxonomic and functoinal response to disturbance. 
+  We highlighted the emergence after disturbance of deterministic processes driving community taxonomic and functional response to disturbance. 
   Deterministic processes favored the recruitment of a restricted pool of pioneer species, similar for to all communities and disturbance intensity.
   Around fifteen years after disturbance, the recovery of community initial characteristics started with the recovery of stochastic processes driving non-disturbed communities.
   At the whole-community scale, this succession translated into a cyclic trajectory of taxonomic composition leading to a recovery of the pre-disturbance composition and a maintenance of differences among communities.
@@ -175,7 +175,7 @@ preamble: >
 
 <!-- knitr and R options (packages, ...) --> 
 ```{r Options, echo=FALSE, warning=F, message=FALSE}
-knitr::opts_chunk$set(cache=T, echo=F, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='100%', fig.asp=.75, fig.align='center',echo=F)
+knitr::opts_chunk$set(cache=F, echo=F, warning=FALSE, tidy=TRUE, fig.env='figure*', out.width='100%', fig.asp=.75, fig.align='center',echo=F)
 # Installation of packages if necessary and loading
 Library <- function(Packages) {
   InstallAndLoad <- function(Package) {
@@ -185,7 +185,7 @@ Library <- function(Packages) {
   invisible(sapply(Packages, InstallAndLoad))
 }
 # Add necessary packages here
-Packages <- c("bookdown", "knitr", "rmarkdown", "kableExtra","entropart")
+Packages <- c("bookdown", "knitr", "rmarkdown", "kableExtra","entropart","shape")
 
 # Install them and create packages.bib file to reference them as @R-package
 Library(Packages)
